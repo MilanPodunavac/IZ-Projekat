@@ -7,6 +7,357 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://github.com/MilanPodunavac/IZ-Projekat"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#contains -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#contains">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_system"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#has_a_microphone -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#has_a_microphone">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Headphones"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_compatible_with -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_compatible_with">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#costs -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#costs">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#has_a_name -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#has_a_name">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_introduced -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_introduced">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_it_embedded -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_it_embedded">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_type_of -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_system"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#looks_like -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#looks_like">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_system"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#BIOS -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#BIOS">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Software_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Case_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Case_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Internal_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_system"/>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#External_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#External_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Headphones -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Headphones">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Internal_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Internal_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Joysticks -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Joysticks">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Keyboard -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Microphone -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Microphone">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Monitor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Monitor">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Motherboard -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mouse -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mouse">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Network_interface -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Network_interface">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Office_package -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Office_package">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Software_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Operating_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Software_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Printer -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Printer">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Processor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Processor">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Scanner -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Scanner">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Software_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Software_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Internal_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Sound_card -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Sound_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Sound_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Speakers -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Speakers">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_component"/>
+    </owl:Class>
 </rdf:RDF>
 
 
