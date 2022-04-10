@@ -24,11 +24,21 @@
                   rdfs:range :Microphone .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#is_compatible_with
-:is_compatible_with rdf:type owl:ObjectProperty ,
-                             owl:SymmetricProperty ;
-                    rdfs:domain :Component ;
-                    rdfs:range :Component .
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_from
+:is_from rdf:type owl:ObjectProperty ;
+         rdfs:domain :Producer ;
+         rdfs:range :Country .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_produced_by
+:is_produced_by rdf:type owl:ObjectProperty ;
+                owl:inverseOf :produces .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#produces
+:produces rdf:type owl:ObjectProperty ;
+          rdfs:domain :Producer ;
+          rdfs:range :Component .
 
 
 #################################################################
@@ -36,45 +46,66 @@
 #################################################################
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#costs
-:costs rdf:type owl:DatatypeProperty ;
+:costs rdf:type owl:DatatypeProperty ,
+                owl:FunctionalProperty ;
        rdfs:domain :Component ;
        rdfs:range xsd:double .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_name
-:has_a_name rdf:type owl:DatatypeProperty ;
+:has_a_name rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
             rdfs:domain owl:Thing ;
             rdfs:range xsd:string .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_introduced
-:is_introduced rdf:type owl:DatatypeProperty ;
+:is_introduced rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
                rdfs:domain :Component ;
                rdfs:range xsd:dateTime .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_it_embedded
-:is_it_embedded rdf:type owl:DatatypeProperty ;
+:is_it_embedded rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
                 rdfs:domain :Component ;
                 rdfs:range xsd:boolean .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by
-:is_manufactured_by rdf:type owl:DatatypeProperty ;
+:is_manufactured_by rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
                     rdfs:domain :Component ;
                     rdfs:range xsd:string .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_on_a_continent
+:is_on_a_continent rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain :Country ;
+                   rdfs:range xsd:string .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_type_of
-:is_type_of rdf:type owl:DatatypeProperty ;
+:is_type_of rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
             rdfs:domain :Computer_system ;
             rdfs:range xsd:string .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#looks_like
-:looks_like rdf:type owl:DatatypeProperty ;
+:looks_like rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
             rdfs:domain :Computer_system ;
             rdfs:range xsd:anyURI .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#was_founded
+:was_founded rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain :Producer ;
+             rdfs:range xsd:dateTime .
 
 
 #################################################################
@@ -109,6 +140,15 @@
                 rdfs:subClassOf :Case_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Country
+:Country rdf:type owl:Class .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system
+:Desktop_system rdf:type owl:Class ;
+                rdfs:subClassOf :Computer_system .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#External_component
 :External_component rdf:type owl:Class ;
                     rdfs:subClassOf :Component .
@@ -137,6 +177,11 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Keyboard
 :Keyboard rdf:type owl:Class ;
           rdfs:subClassOf :External_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Laptop_system
+:Laptop_system rdf:type owl:Class ;
+               rdfs:subClassOf :Computer_system .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive
@@ -194,6 +239,10 @@
            rdfs:subClassOf :Case_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Producer
+:Producer rdf:type owl:Class .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory
 :Random_access_memory rdf:type owl:Class ;
                       rdfs:subClassOf :Case_component .
@@ -222,14 +271,6 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Speakers
 :Speakers rdf:type owl:Class ;
           rdfs:subClassOf :Sound_component .
-
-
-#################################################################
-#    Individuals
-#################################################################
-
-###  https://github.com/MilanPodunavac/IZ-Projekat#aa
-:aa rdf:type owl:NamedIndividual .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
