@@ -45,6 +45,20 @@
 #    Data properties
 #################################################################
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#HDR
+:HDR rdf:type owl:DatatypeProperty ,
+              owl:FunctionalProperty ;
+     rdfs:domain :Monitor ;
+     rdfs:range xsd:boolean .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#aspect_ratio
+:aspect_ratio rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain :Monitor ;
+              rdfs:range xsd:string .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#costs
 :costs rdf:type owl:DatatypeProperty ,
                 owl:FunctionalProperty ;
@@ -52,11 +66,25 @@
        rdfs:range xsd:double .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type
+:display_panel_type rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain :Monitor ;
+                    rdfs:range xsd:string .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_name
 :has_a_name rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain owl:Thing ;
             rdfs:range xsd:string .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#horizontal_viewing_angle
+:horizontal_viewing_angle rdf:type owl:DatatypeProperty ,
+                                   owl:FunctionalProperty ;
+                          rdfs:domain :Monitor ;
+                          rdfs:range xsd:positiveInteger .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_introduced
@@ -101,6 +129,55 @@
             rdfs:range xsd:anyURI .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#refresh_rate
+:refresh_rate rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain :Monitor ;
+              rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#resolution_height
+:resolution_height rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain :Monitor ;
+                   rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#resolution_width
+:resolution_width rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain :Monitor ;
+                  rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#screen_height
+:screen_height rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain :Monitor ;
+               rdfs:range xsd:decimal .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#screen_width
+:screen_width rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain :Monitor ;
+              rdfs:range xsd:decimal .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#vertical_viewing_angle
+:vertical_viewing_angle rdf:type owl:DatatypeProperty ,
+                                 owl:FunctionalProperty ;
+                        rdfs:domain :Monitor ;
+                        rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#video_input_interface
+:video_input_interface rdf:type owl:DatatypeProperty ,
+                                owl:FunctionalProperty ;
+                       rdfs:domain :Monitor ;
+                       rdfs:range xsd:string .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#was_founded
 :was_founded rdf:type owl:DatatypeProperty ,
                       owl:FunctionalProperty ;
@@ -111,6 +188,15 @@
 #################################################################
 #    Classes
 #################################################################
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#AHVA_display_monitor
+:AHVA_display_monitor rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                            owl:onProperty :display_panel_type ;
+                                            owl:hasValue "AHVA"
+                                          ] ;
+                      rdfs:subClassOf :LCD_display_monitor .
+
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Camera
 :Camera rdf:type owl:Class ;
@@ -144,9 +230,32 @@
 :Country rdf:type owl:Class .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#DVI_input_monitor
+:DVI_input_monitor rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Restriction ;
+                                         owl:onProperty :video_input_interface ;
+                                         owl:hasValue "DVI"
+                                       ] ;
+                   rdfs:subClassOf :Monitor .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system
 :Desktop_system rdf:type owl:Class ;
-                rdfs:subClassOf :Computer_system .
+                owl:equivalentClass [ rdf:type owl:Restriction ;
+                                      owl:onProperty :is_type_of ;
+                                      owl:hasValue "Desktop"
+                                    ] ;
+                rdfs:subClassOf :Computer_system ;
+                owl:disjointWith :Laptop_system .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#DisplayPort_input_monitor
+:DisplayPort_input_monitor rdf:type owl:Class ;
+                           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :video_input_interface ;
+                                                 owl:hasValue "DisplayPort"
+                                               ] ;
+                           rdfs:subClassOf :Monitor .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#External_component
@@ -159,9 +268,27 @@
                rdfs:subClassOf :Case_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#HDMI_input_monitor
+:HDMI_input_monitor rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                          owl:onProperty :video_input_interface ;
+                                          owl:hasValue "HDMI"
+                                        ] ;
+                    rdfs:subClassOf :Monitor .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Headphones
 :Headphones rdf:type owl:Class ;
             rdfs:subClassOf :Sound_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#IPS_display_monitor
+:IPS_display_monitor rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                           owl:onProperty :display_panel_type ;
+                                           owl:hasValue "IPS"
+                                         ] ;
+                     rdfs:subClassOf :LCD_display_monitor .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Internal_component
@@ -179,8 +306,18 @@
           rdfs:subClassOf :External_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#LCD_display_monitor
+:LCD_display_monitor rdf:type owl:Class ;
+                     rdfs:subClassOf :Monitor ;
+                     owl:disjointWith :OLED_display_monitor .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Laptop_system
 :Laptop_system rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty :is_type_of ;
+                                     owl:hasValue "Laptop"
+                                   ] ;
                rdfs:subClassOf :Computer_system .
 
 
@@ -214,6 +351,15 @@
                    rdfs:subClassOf :Case_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#OLED_display_monitor
+:OLED_display_monitor rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                            owl:onProperty :display_panel_type ;
+                                            owl:hasValue "OLED"
+                                          ] ;
+                      rdfs:subClassOf :Monitor .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Office_package
 :Office_package rdf:type owl:Class ;
                 rdfs:subClassOf :Software_component .
@@ -222,6 +368,15 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system
 :Operating_system rdf:type owl:Class ;
                   rdfs:subClassOf :Software_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#PLS_display_monitor
+:PLS_display_monitor rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                           owl:onProperty :display_panel_type ;
+                                           owl:hasValue "PLS"
+                                         ] ;
+                     rdfs:subClassOf :LCD_display_monitor .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit
@@ -271,6 +426,66 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Speakers
 :Speakers rdf:type owl:Class ;
           rdfs:subClassOf :Sound_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#TN_display_monitor
+:TN_display_monitor rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                          owl:onProperty :display_panel_type ;
+                                          owl:hasValue "TN"
+                                        ] ;
+                    rdfs:subClassOf :LCD_display_monitor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Thunderbolt_input_monitor
+:Thunderbolt_input_monitor rdf:type owl:Class ;
+                           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :video_input_interface ;
+                                                 owl:hasValue "Thunderbolt"
+                                               ] ;
+                           rdfs:subClassOf :Monitor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#VA_display_monitor
+:VA_display_monitor rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                          owl:onProperty :display_panel_type ;
+                                          owl:hasValue "VA"
+                                        ] ;
+                    rdfs:subClassOf :LCD_display_monitor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#VGA_input_monitor
+:VGA_input_monitor rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Restriction ;
+                                         owl:onProperty :video_input_interface ;
+                                         owl:hasValue "VGA"
+                                       ] ;
+                   rdfs:subClassOf :Monitor .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :AHVA_display_monitor
+                :IPS_display_monitor
+                :PLS_display_monitor
+                :TN_display_monitor
+                :VA_display_monitor
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :DVI_input_monitor
+                :DisplayPort_input_monitor
+                :HDMI_input_monitor
+                :Thunderbolt_input_monitor
+                :VGA_input_monitor
+              )
+] .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
