@@ -184,6 +184,7 @@
                    owl:FunctionalProperty ;
           rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( :Camera
+                                      :Game_controller
                                       :Speakers
                                     )
                       ] ;
@@ -208,6 +209,12 @@
                      owl:FunctionalProperty ;
             rdfs:domain :Computer_system ;
             rdfs:range xsd:anyURI .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_buttons
+:number_of_buttons rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Game_controller ;
+                   rdfs:range xsd:positiveInteger .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_devices
@@ -284,7 +291,11 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#weight
 :weight rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
-        rdfs:domain :Speakers ;
+        rdfs:domain [ rdf:type owl:Class ;
+                      owl:unionOf ( :Game_controller
+                                    :Speakers
+                                  )
+                    ] ;
         rdfs:range xsd:decimal .
 
 
@@ -396,6 +407,11 @@
                      rdfs:subClassOf :Camera .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Game_controller
+:Game_controller rdf:type owl:Class ;
+                 rdfs:subClassOf :External_component .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Glass_lens_camera
 :Glass_lens_camera rdf:type owl:Class ;
                    owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -437,11 +453,6 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Internal_component
 :Internal_component rdf:type owl:Class ;
                     rdfs:subClassOf :Component .
-
-
-###  https://github.com/MilanPodunavac/IZ-Projekat#Joysticks
-:Joysticks rdf:type owl:Class ;
-           rdfs:subClassOf :External_component .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Keyboard
