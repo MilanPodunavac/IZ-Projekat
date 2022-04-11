@@ -73,6 +73,13 @@
                     rdfs:range xsd:string .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#frequency_response
+:frequency_response rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain :Speakers ;
+                    rdfs:range xsd:positiveInteger .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_name
 :has_a_name rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
@@ -115,6 +122,20 @@
                    rdfs:range xsd:string .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_speaker_water_resistant
+:is_speaker_water_resistant rdf:type owl:DatatypeProperty ,
+                                     owl:FunctionalProperty ;
+                            rdfs:domain :Speakers ;
+                            rdfs:range xsd:boolean .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_speaker_wired
+:is_speaker_wired rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain :Speakers ;
+                  rdfs:range xsd:boolean .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_type_of
 :is_type_of rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
@@ -127,6 +148,13 @@
                      owl:FunctionalProperty ;
             rdfs:domain :Computer_system ;
             rdfs:range xsd:anyURI .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_speaker_devices
+:number_of_speaker_devices rdf:type owl:DatatypeProperty ,
+                                    owl:FunctionalProperty ;
+                           rdfs:domain :Speakers ;
+                           rdfs:range xsd:positiveInteger .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#refresh_rate
@@ -162,6 +190,48 @@
                        owl:FunctionalProperty ;
               rdfs:domain :Monitor ;
               rdfs:range xsd:decimal .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#speaker_height
+:speaker_height rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :Speakers ;
+                rdfs:range xsd:decimal .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#speaker_length
+:speaker_length rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :Speakers ;
+                rdfs:range xsd:decimal .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#speaker_sensitivity
+:speaker_sensitivity rdf:type owl:DatatypeProperty ,
+                              owl:FunctionalProperty ;
+                     rdfs:domain :Speakers ;
+                     rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#speaker_weight
+:speaker_weight rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :Speakers ;
+                rdfs:range xsd:decimal .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#speaker_width
+:speaker_width rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain :Speakers ;
+               rdfs:range xsd:decimal .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#spreaker_power
+:spreaker_power rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :Speakers ;
+                rdfs:range xsd:positiveInteger .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#vertical_viewing_angle
