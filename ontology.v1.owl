@@ -179,18 +179,6 @@
                     rdfs:range xsd:boolean .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#is_wired
-:is_wired rdf:type owl:DatatypeProperty ,
-                   owl:FunctionalProperty ;
-          rdfs:domain [ rdf:type owl:Class ;
-                        owl:unionOf ( :Camera
-                                      :Game_controller
-                                      :Speakers
-                                    )
-                      ] ;
-          rdfs:range xsd:boolean .
-
-
 ###  https://github.com/MilanPodunavac/IZ-Projekat#length
 :length rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
@@ -209,6 +197,12 @@
                      owl:FunctionalProperty ;
             rdfs:domain :Computer_system ;
             rdfs:range xsd:anyURI .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port
+:needs_connection_port rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :External_component ;
+                       rdfs:range xsd:string .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_buttons
@@ -272,13 +266,6 @@
                                  owl:FunctionalProperty ;
                         rdfs:domain :Monitor ;
                         rdfs:range xsd:positiveInteger .
-
-
-###  https://github.com/MilanPodunavac/IZ-Projekat#video_input_interface
-:video_input_interface rdf:type owl:DatatypeProperty ,
-                                owl:FunctionalProperty ;
-                       rdfs:domain :Monitor ;
-                       rdfs:range xsd:string .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#was_founded
@@ -365,13 +352,13 @@
 :Country rdf:type owl:Class .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#DVI_input_monitor
-:DVI_input_monitor rdf:type owl:Class ;
-                   owl:equivalentClass [ rdf:type owl:Restriction ;
-                                         owl:onProperty :video_input_interface ;
-                                         owl:hasValue "DVI"
-                                       ] ;
-                   rdfs:subClassOf :Monitor .
+###  https://github.com/MilanPodunavac/IZ-Projekat#DVI_component
+:DVI_component rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty :needs_connection_port ;
+                                     owl:hasValue "DVI"
+                                   ] ;
+               rdfs:subClassOf :Wired_component .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system
@@ -384,13 +371,22 @@
                 owl:disjointWith :Laptop_system .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#DisplayPort_input_monitor
-:DisplayPort_input_monitor rdf:type owl:Class ;
-                           owl:equivalentClass [ rdf:type owl:Restriction ;
-                                                 owl:onProperty :video_input_interface ;
-                                                 owl:hasValue "DisplayPort"
-                                               ] ;
-                           rdfs:subClassOf :Monitor .
+###  https://github.com/MilanPodunavac/IZ-Projekat#Display_component
+:Display_component rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Restriction ;
+                                         owl:onProperty :needs_connection_port ;
+                                         owl:hasValue "Display"
+                                       ] ;
+                   rdfs:subClassOf :Wired_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Ethernet_component
+:Ethernet_component rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                          owl:onProperty :needs_connection_port ;
+                                          owl:hasValue "Ethernet"
+                                        ] ;
+                    rdfs:subClassOf :Wired_component .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#External_component
@@ -427,13 +423,13 @@
                rdfs:subClassOf :Case_component .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#HDMI_input_monitor
-:HDMI_input_monitor rdf:type owl:Class ;
-                    owl:equivalentClass [ rdf:type owl:Restriction ;
-                                          owl:onProperty :video_input_interface ;
-                                          owl:hasValue "HDMI"
-                                        ] ;
-                    rdfs:subClassOf :Monitor .
+###  https://github.com/MilanPodunavac/IZ-Projekat#HDMI_component
+:HDMI_component rdf:type owl:Class ;
+                owl:equivalentClass [ rdf:type owl:Restriction ;
+                                      owl:onProperty :needs_connection_port ;
+                                      owl:hasValue "HDMI"
+                                    ] ;
+                rdfs:subClassOf :Wired_component .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Headphones
@@ -600,13 +596,22 @@
                     rdfs:subClassOf :LCD_display_monitor .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#Thunderbolt_input_monitor
-:Thunderbolt_input_monitor rdf:type owl:Class ;
-                           owl:equivalentClass [ rdf:type owl:Restriction ;
-                                                 owl:onProperty :video_input_interface ;
-                                                 owl:hasValue "Thunderbolt"
-                                               ] ;
-                           rdfs:subClassOf :Monitor .
+###  https://github.com/MilanPodunavac/IZ-Projekat#ThunderBolt_component
+:ThunderBolt_component rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Restriction ;
+                                             owl:onProperty :needs_connection_port ;
+                                             owl:hasValue "ThunderBolt"
+                                           ] ;
+                       rdfs:subClassOf :Wired_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#USB_component
+:USB_component rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty :needs_connection_port ;
+                                     owl:hasValue "USB"
+                                   ] ;
+               rdfs:subClassOf :Wired_component .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#VA_display_monitor
@@ -618,13 +623,44 @@
                     rdfs:subClassOf :LCD_display_monitor .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#VGA_input_monitor
-:VGA_input_monitor rdf:type owl:Class ;
-                   owl:equivalentClass [ rdf:type owl:Restriction ;
-                                         owl:onProperty :video_input_interface ;
-                                         owl:hasValue "VGA"
-                                       ] ;
-                   rdfs:subClassOf :Monitor .
+###  https://github.com/MilanPodunavac/IZ-Projekat#VGA_component
+:VGA_component rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty :needs_connection_port ;
+                                     owl:hasValue "VGA"
+                                   ] ;
+               rdfs:subClassOf :Wired_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Wired_component
+:Wired_component rdf:type owl:Class ;
+                 rdfs:subClassOf :External_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Wireless_component
+:Wireless_component rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Class ;
+                                          owl:complementOf :Wired_component
+                                        ] ;
+                    rdfs:subClassOf :External_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#3.5mm_Audio_component
+<https://github.com/MilanPodunavac/IZ-Projekat#3.5mm_Audio_component> rdf:type owl:Class ;
+                                                                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty :needs_connection_port ;
+                                                                                            owl:hasValue "3.5mm Audio"
+                                                                                          ] ;
+                                                                      rdfs:subClassOf :Wired_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#PS/2_component
+<https://github.com/MilanPodunavac/IZ-Projekat#PS/2_component> rdf:type owl:Class ;
+                                                               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty :needs_connection_port ;
+                                                                                     owl:hasValue "PS/2"
+                                                                                   ] ;
+                                                               rdfs:subClassOf :Wired_component .
 
 
 #################################################################
@@ -637,16 +673,6 @@
                 :PLS_display_monitor
                 :TN_display_monitor
                 :VA_display_monitor
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :DVI_input_monitor
-                :DisplayPort_input_monitor
-                :HDMI_input_monitor
-                :Thunderbolt_input_monitor
-                :VGA_input_monitor
               )
 ] .
 
