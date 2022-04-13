@@ -96,6 +96,14 @@
                 rdfs:comment "Unit of measurement - gigaherz [GHz]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#buffer_size
+:buffer_size rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain :HDD ;
+             rdfs:range xsd:positiveInteger ;
+             rdfs:comment "Unit of measurement - megabytes [MB]" .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#camera_base_type
 :camera_base_type rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
@@ -125,12 +133,36 @@
             rdfs:range xsd:boolean .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#capacity
+:capacity rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain :Memory_drive ;
+          rdfs:range xsd:positiveInteger ;
+          rdfs:comment "Unit of measurement - gigabytes [GB]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#connection
+:connection rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain :Memory_drive ;
+            rdfs:range xsd:string ;
+            rdfs:comment "SATA3 or NVMA M.2" .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#costs
 :costs rdf:type owl:DatatypeProperty ,
                 owl:FunctionalProperty ;
        rdfs:domain :Component ;
        rdfs:range xsd:double ;
        rdfs:comment "Unit of measurement - euros [eur]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed
+:disc_rotation_speed rdf:type owl:DatatypeProperty ,
+                              owl:FunctionalProperty ;
+                     rdfs:domain :HDD ;
+                     rdfs:range xsd:positiveInteger ;
+                     rdfs:comment "Unit of measurement - rotations per minute [rpm]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type
@@ -219,9 +251,13 @@
             rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( :Computer_system
                                         :Cooling_system
+                                        :Memory_drive
                                       )
                         ] ;
-            rdfs:range xsd:string .
+            rdfs:range xsd:string ;
+            rdfs:comment "Computer system - Desktop or Laptop" ,
+                         "Cooling system - Air, Water, Phase change or Peltier" ,
+                         "Memory drive - HDD or SSD" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_water_resistant
@@ -277,6 +313,20 @@
              rdfs:comment "Unit of measurement - megabytes [MB]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#memory_format
+:memory_format rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain [ owl:intersectionOf ( :Memory_drive
+                                                  [ rdf:type owl:Class ;
+                                                    owl:complementOf :NVMA_M.2_drive
+                                                  ]
+                                                ) ;
+                             rdf:type owl:Class
+                           ] ;
+               rdfs:range xsd:string ;
+               rdfs:comment "2.5'' or 3.5''" .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#min_rotation_frequency
 :min_rotation_frequency rdf:type owl:DatatypeProperty ,
                                  owl:FunctionalProperty ;
@@ -293,7 +343,7 @@
 :needs_connection_port rdf:type owl:DatatypeProperty ;
                        rdfs:domain :External_component ;
                        rdfs:range xsd:string ;
-                       rdfs:comment "3.5mm Audio, Display, DVI, Ethernet, HDMI, PS/2, ThunderBolt, USB or VGA" .
+                       rdfs:comment "3.5mm Audio, Display, DVI, Ethernet, HDMI, PS/2, ThunderBolt, USB, VGA or None (when it can be wireless)" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#noise_estimate
@@ -359,6 +409,14 @@
                  rdfs:comment "Unit of measurement - nanometers [nm]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#read_speed
+:read_speed rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain :SSD ;
+            rdfs:range xsd:decimal ;
+            rdfs:comment "Unit of measurement - megabytes per second [MB/s]" .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#refresh_rate
 :refresh_rate rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
@@ -419,7 +477,11 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#total_draw_power
 :total_draw_power rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
-                  rdfs:domain :Processor ;
+                  rdfs:domain [ rdf:type owl:Class ;
+                                owl:unionOf ( :HDD
+                                              :Processor
+                                            )
+                              ] ;
                   rdfs:range xsd:decimal ;
                   rdfs:comment "Unit of measurement - watts [W]" .
 
@@ -476,6 +538,14 @@
                    ] ;
        rdfs:range xsd:decimal ;
        rdfs:comment "Unit of measurement - centimeters [cm]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#write_speed
+:write_speed rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain :SSD ;
+             rdfs:range xsd:decimal ;
+             rdfs:comment "Unit of measurement - megabytes per second [MB/s]" .
 
 
 #################################################################
@@ -622,6 +692,16 @@
                rdfs:subClassOf :Case_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#HDD
+:HDD rdf:type owl:Class ;
+     owl:equivalentClass [ rdf:type owl:Restriction ;
+                           owl:onProperty :is_type_of ;
+                           owl:hasValue "HDD"
+                         ] ;
+     rdfs:subClassOf :Memory_drive ;
+     owl:disjointWith :SSD .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#HDMI_component
 :HDMI_component rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -711,6 +791,16 @@
                                                 owl:hasValue "true"^^xsd:boolean
                                               ] ;
                           rdfs:subClassOf :Processor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#NVMA_M.2_drive
+:NVMA_M.2_drive rdf:type owl:Class ;
+                owl:equivalentClass [ rdf:type owl:Restriction ;
+                                      owl:onProperty :connection ;
+                                      owl:hasValue "NVMA M.2"
+                                    ] ;
+                rdfs:subClassOf :SSD ;
+                owl:disjointWith :SATA3_drive .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Network_interface
@@ -813,6 +903,24 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory
 :Random_access_memory rdf:type owl:Class ;
                       rdfs:subClassOf :Case_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#SATA3_drive
+:SATA3_drive rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :connection ;
+                                   owl:hasValue "SATA3"
+                                 ] ;
+             rdfs:subClassOf :Memory_drive .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#SSD
+:SSD rdf:type owl:Class ;
+     owl:equivalentClass [ rdf:type owl:Restriction ;
+                           owl:onProperty :is_type_of ;
+                           owl:hasValue "SSD"
+                         ] ;
+     rdfs:subClassOf :Memory_drive .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Scanner
