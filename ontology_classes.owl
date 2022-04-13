@@ -252,12 +252,14 @@
                           owl:unionOf ( :Computer_system
                                         :Cooling_system
                                         :Memory_drive
+                                        :Speakers
                                       )
                         ] ;
             rdfs:range xsd:string ;
             rdfs:comment "Computer system - Desktop or Laptop" ,
                          "Cooling system - Air, Water, Phase change or Peltier" ,
-                         "Memory drive - HDD or SSD" .
+                         "Memory drive - HDD or SSD" ,
+                         "Speakers - Multimedia, Surround sound or Soundbar" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_water_resistant
@@ -784,6 +786,15 @@
        rdfs:subClassOf :External_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Multimedia_speakers
+:Multimedia_speakers rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                           owl:onProperty :is_type_of ;
+                                           owl:hasValue "Multimedia"
+                                         ] ;
+                     rdfs:subClassOf :Speakers .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Multithreading_processor
 :Multithreading_processor rdf:type owl:Class ;
                           owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -952,9 +963,27 @@
                  rdfs:subClassOf :External_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Soundbar_speakers
+:Soundbar_speakers rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Restriction ;
+                                         owl:onProperty :is_type_of ;
+                                         owl:hasValue "Soundbar"
+                                       ] ;
+                   rdfs:subClassOf :Speakers .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Speakers
 :Speakers rdf:type owl:Class ;
           rdfs:subClassOf :Sound_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Surround_sound_speakers
+:Surround_sound_speakers rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Restriction ;
+                                               owl:onProperty :is_type_of ;
+                                               owl:hasValue "Surround sound"
+                                             ] ;
+                         rdfs:subClassOf :Speakers .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#TN_display_monitor
@@ -1109,6 +1138,14 @@
                 :Quad_core_processor
                 :Single_core_processor
                 <https://github.com/MilanPodunavac/IZ-Projekat#12_core_processor>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Multimedia_speakers
+                :Soundbar_speakers
+                :Surround_sound_speakers
               )
 ] .
 
