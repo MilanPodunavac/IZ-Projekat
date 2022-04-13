@@ -60,42 +60,48 @@
 :L1_cache rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
           rdfs:domain :Processor ;
-          rdfs:range xsd:string .
+          rdfs:range xsd:string ;
+          rdfs:comment "Unit of measurement - kilobytes [kB]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#L2_cache
 :L2_cache rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
           rdfs:domain :Processor ;
-          rdfs:range xsd:string .
+          rdfs:range xsd:string ;
+          rdfs:comment "Unit of measurement - kilobytes [kB]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#L3_cache
 :L3_cache rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
           rdfs:domain :Processor ;
-          rdfs:range xsd:string .
+          rdfs:range xsd:string ;
+          rdfs:comment "Unit of measurement - kilobytes [kB]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#aspect_ratio
 :aspect_ratio rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
               rdfs:domain :Monitor ;
-              rdfs:range xsd:string .
+              rdfs:range xsd:string ;
+              rdfs:comment "Two number separated by :" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#base_frequency
 :base_frequency rdf:type owl:DatatypeProperty ,
                          owl:FunctionalProperty ;
                 rdfs:domain :Processor ;
-                rdfs:range xsd:decimal .
+                rdfs:range xsd:decimal ;
+                rdfs:comment "Unit of measurement - gigaherz [GHz]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#camera_base_type
 :camera_base_type rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
                   rdfs:domain :Camera ;
-                  rdfs:range xsd:string .
+                  rdfs:range xsd:string ;
+                  rdfs:comment "Freestanding or Clip-On" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#can_autofocus
@@ -123,28 +129,32 @@
 :costs rdf:type owl:DatatypeProperty ,
                 owl:FunctionalProperty ;
        rdfs:domain :Component ;
-       rdfs:range xsd:double .
+       rdfs:range xsd:double ;
+       rdfs:comment "Unit of measurement - euros [eur]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type
 :display_panel_type rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
                     rdfs:domain :Monitor ;
-                    rdfs:range xsd:string .
+                    rdfs:range xsd:string ;
+                    rdfs:comment "AHVA, IPS, PLS, TN, VA or OLED" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#frame_rate
 :frame_rate rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :Camera ;
-            rdfs:range xsd:positiveInteger .
+            rdfs:range xsd:positiveInteger ;
+            rdfs:comment "Unit of measurement - frames per second [fps]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#frequency_response
 :frequency_response rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
                     rdfs:domain :Speakers ;
-                    rdfs:range xsd:positiveInteger .
+                    rdfs:range xsd:positiveInteger ;
+                    rdfs:comment "Unit of measurement - herz [Hz]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_name
@@ -163,14 +173,16 @@
                                     :Speakers
                                   )
                     ] ;
-        rdfs:range xsd:decimal .
+        rdfs:range xsd:decimal ;
+        rdfs:comment "Unit of measurement - centimeters [cm]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#horizontal_viewing_angle
 :horizontal_viewing_angle rdf:type owl:DatatypeProperty ,
                                    owl:FunctionalProperty ;
                           rdfs:domain :Monitor ;
-                          rdfs:range xsd:positiveInteger .
+                          rdfs:range xsd:positiveInteger ;
+                          rdfs:comment "" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_introduced
@@ -226,14 +238,16 @@
                       owl:unionOf ( :Cooling_system
                                     :Speakers
                                   )
-                    ] .
+                    ] ;
+        rdfs:comment "Unit of measurement - centimeters [cm]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#lens_type
 :lens_type rdf:type owl:DatatypeProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Camera ;
-           rdfs:range xsd:string .
+           rdfs:range xsd:string ;
+           rdfs:comment "Plastic or Glass" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#looks_like
@@ -251,14 +265,16 @@
                                                     :Water_cooling_system
                                                   )
                                     ] ;
-                        rdfs:range xsd:positiveInteger .
+                        rdfs:range xsd:positiveInteger ;
+                        rdfs:comment "Unit of measurement - rotations per minute [rpm]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM
 :maximum_RAM rdf:type owl:DatatypeProperty ,
                       owl:FunctionalProperty ;
              rdfs:domain :Processor ;
-             rdfs:range xsd:positiveInteger .
+             rdfs:range xsd:positiveInteger ;
+             rdfs:comment "Unit of measurement - megabytes [MB]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#min_rotation_frequency
@@ -269,19 +285,22 @@
                                                     :Water_cooling_system
                                                   )
                                     ] ;
-                        rdfs:range xsd:positiveInteger .
+                        rdfs:range xsd:positiveInteger ;
+                        rdfs:comment "Unit of measurement - rotations per minute [rpm]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port
 :needs_connection_port rdf:type owl:DatatypeProperty ;
                        rdfs:domain :External_component ;
-                       rdfs:range xsd:string .
+                       rdfs:range xsd:string ;
+                       rdfs:comment "3.5mm Audio, Display, DVI, Ethernet, HDMI, PS/2, ThunderBolt, USB or VGA" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#noise_estimate
 :noise_estimate rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Cooling_system ;
-                rdfs:range xsd:positiveInteger .
+                rdfs:range xsd:positiveInteger ;
+                rdfs:comment "Unit of measurement - decibels [dB]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_buttons
@@ -295,7 +314,8 @@
 :number_of_cores rdf:type owl:DatatypeProperty ,
                           owl:FunctionalProperty ;
                  rdfs:domain :Processor ;
-                 rdfs:range xsd:positiveInteger .
+                 rdfs:range xsd:positiveInteger ;
+                 rdfs:comment "1, 2, 4, 6, 8 or 12" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_devices
@@ -327,28 +347,32 @@
 :power_needed rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
               rdfs:domain :Speakers ;
-              rdfs:range xsd:decimal .
+              rdfs:range xsd:decimal ;
+              rdfs:comment "Unit of measurement - watts [W]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#process_microns
 :process_microns rdf:type owl:DatatypeProperty ,
                           owl:FunctionalProperty ;
                  rdfs:domain :Processor ;
-                 rdfs:range xsd:positiveInteger .
+                 rdfs:range xsd:positiveInteger ;
+                 rdfs:comment "Unit of measurement - nanometers [nm]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#refresh_rate
 :refresh_rate rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
               rdfs:domain :Monitor ;
-              rdfs:range xsd:positiveInteger .
+              rdfs:range xsd:positiveInteger ;
+              rdfs:comment "Unit of measurement - herz [Hz]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#register_type
 :register_type rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
                rdfs:domain :Processor ;
-               rdfs:range xsd:positiveInteger .
+               rdfs:range xsd:positiveInteger ;
+               rdfs:comment "Unit of measurement - bits (can be 16, 32 or 64)" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#resolution_height
@@ -376,7 +400,11 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#socket
 :socket rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
-        rdfs:domain :Processor ;
+        rdfs:domain [ rdf:type owl:Class ;
+                      owl:unionOf ( :Cooling_system
+                                    :Processor
+                                  )
+                    ] ;
         rdfs:range xsd:string .
 
 
@@ -384,20 +412,23 @@
 :sound_sensitivity rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain :Speakers ;
-                   rdfs:range xsd:positiveInteger .
+                   rdfs:range xsd:positiveInteger ;
+                   rdfs:comment "Unit of measurement - decibels [dB]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#total_draw_power
 :total_draw_power rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
                   rdfs:domain :Processor ;
-                  rdfs:range xsd:decimal .
+                  rdfs:range xsd:decimal ;
+                  rdfs:comment "Unit of measurement - watts [W]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#turbo_frequency
 :turbo_frequency rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Processor ;
-                 rdfs:range xsd:decimal .
+                 rdfs:range xsd:decimal ;
+                 rdfs:comment "Unit of measurement - gigaherz [GHz]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#vertical_viewing_angle
@@ -411,7 +442,8 @@
 :voltage rdf:type owl:DatatypeProperty ,
                   owl:FunctionalProperty ;
          rdfs:domain :Processor ;
-         rdfs:range xsd:decimal .
+         rdfs:range xsd:decimal ;
+         rdfs:comment "Unit of measurement - volts [V]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#was_founded
@@ -429,7 +461,8 @@
                                     :Speakers
                                   )
                     ] ;
-        rdfs:range xsd:decimal .
+        rdfs:range xsd:decimal ;
+        rdfs:comment "Unit of measurement - grams [g]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#width
@@ -441,7 +474,8 @@
                                    :Speakers
                                  )
                    ] ;
-       rdfs:range xsd:decimal .
+       rdfs:range xsd:decimal ;
+       rdfs:comment "Unit of measurement - centimeters [cm]" .
 
 
 #################################################################
