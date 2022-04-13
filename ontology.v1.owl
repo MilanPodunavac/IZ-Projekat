@@ -56,11 +56,39 @@
      rdfs:range xsd:boolean .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#L1_cache
+:L1_cache rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain :Processor ;
+          rdfs:range xsd:string .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#L2_cache
+:L2_cache rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain :Processor ;
+          rdfs:range xsd:string .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#L3_cache
+:L3_cache rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain :Processor ;
+          rdfs:range xsd:string .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#aspect_ratio
 :aspect_ratio rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
               rdfs:domain :Monitor ;
               rdfs:range xsd:string .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#base_frequency
+:base_frequency rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :Processor ;
+                rdfs:range xsd:decimal .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#camera_base_type
@@ -75,6 +103,13 @@
                         owl:FunctionalProperty ;
                rdfs:domain :Camera ;
                rdfs:range xsd:boolean .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#can_multithread
+:can_multithread rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain :Processor ;
+                 rdfs:range xsd:boolean .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#can_record
@@ -199,6 +234,13 @@
             rdfs:range xsd:anyURI .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM
+:maximum_RAM rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain :Processor ;
+             rdfs:range xsd:positiveInteger .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port
 :needs_connection_port rdf:type owl:DatatypeProperty ;
                        rdfs:domain :External_component ;
@@ -206,9 +248,17 @@
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_buttons
-:number_of_buttons rdf:type owl:DatatypeProperty ;
+:number_of_buttons rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
                    rdfs:domain :Game_controller ;
                    rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores
+:number_of_cores rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain :Processor ;
+                 rdfs:range xsd:positiveInteger .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_devices
@@ -218,6 +268,13 @@
                    rdfs:range xsd:positiveInteger .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_transistors
+:number_of_transistors rdf:type owl:DatatypeProperty ,
+                                owl:FunctionalProperty ;
+                       rdfs:domain :Processor ;
+                       rdfs:range xsd:positiveInteger .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#power_needed
 :power_needed rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
@@ -225,11 +282,25 @@
               rdfs:range xsd:decimal .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#process_microns
+:process_microns rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain :Processor ;
+                 rdfs:range xsd:positiveInteger .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#refresh_rate
 :refresh_rate rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
               rdfs:domain :Monitor ;
               rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#register_type
+:register_type rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain :Processor ;
+               rdfs:range xsd:positiveInteger .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#resolution_height
@@ -254,6 +325,13 @@
                   rdfs:range xsd:positiveInteger .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#socket
+:socket rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain :Processor ;
+        rdfs:range xsd:string .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#sound_sensitivity
 :sound_sensitivity rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
@@ -261,11 +339,31 @@
                    rdfs:range xsd:positiveInteger .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#total_draw_power
+:total_draw_power rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain :Processor ;
+                  rdfs:range xsd:decimal .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#turbo_frequency
+:turbo_frequency rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Processor ;
+                 rdfs:range xsd:decimal .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#vertical_viewing_angle
 :vertical_viewing_angle rdf:type owl:DatatypeProperty ,
                                  owl:FunctionalProperty ;
                         rdfs:domain :Monitor ;
                         rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#voltage
+:voltage rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain :Processor ;
+         rdfs:range xsd:decimal .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#was_founded
@@ -380,6 +478,15 @@
                    rdfs:subClassOf :Wired_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Dual_core_processor
+:Dual_core_processor rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                           owl:onProperty :number_of_cores ;
+                                           owl:hasValue 2
+                                         ] ;
+                     rdfs:subClassOf :Processor .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Ethernet_component
 :Ethernet_component rdf:type owl:Class ;
                     owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -435,6 +542,15 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Headphones
 :Headphones rdf:type owl:Class ;
             rdfs:subClassOf :Sound_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Hexa_core_processor
+:Hexa_core_processor rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                           owl:onProperty :number_of_cores ;
+                                           owl:hasValue 6
+                                         ] ;
+                     rdfs:subClassOf :Processor .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#IPS_display_monitor
@@ -496,6 +612,15 @@
        rdfs:subClassOf :External_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Multithreading_processor
+:Multithreading_processor rdf:type owl:Class ;
+                          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                owl:onProperty :can_multithread ;
+                                                owl:hasValue "true"^^xsd:boolean
+                                              ] ;
+                          rdfs:subClassOf :Processor .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Network_interface
 :Network_interface rdf:type owl:Class ;
                    rdfs:subClassOf :Case_component .
@@ -508,6 +633,15 @@
                                             owl:hasValue "OLED"
                                           ] ;
                       rdfs:subClassOf :Monitor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Octa_core_processor
+:Octa_core_processor rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                           owl:onProperty :number_of_cores ;
+                                           owl:hasValue 8
+                                         ] ;
+                     rdfs:subClassOf :Processor .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Office_package
@@ -557,6 +691,15 @@
 :Producer rdf:type owl:Class .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Quad_core_processor
+:Quad_core_processor rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                           owl:onProperty :number_of_cores ;
+                                           owl:hasValue 4
+                                         ] ;
+                     rdfs:subClassOf :Processor .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory
 :Random_access_memory rdf:type owl:Class ;
                       rdfs:subClassOf :Case_component .
@@ -565,6 +708,15 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Scanner
 :Scanner rdf:type owl:Class ;
          rdfs:subClassOf :External_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Single_core_processor
+:Single_core_processor rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Restriction ;
+                                             owl:onProperty :number_of_cores ;
+                                             owl:hasValue 1
+                                           ] ;
+                       rdfs:subClassOf :Processor .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Software_component
@@ -639,10 +791,29 @@
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Wireless_component
 :Wireless_component rdf:type owl:Class ;
-                    owl:equivalentClass [ rdf:type owl:Class ;
-                                          owl:complementOf :Wired_component
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                          owl:onProperty :needs_connection_port ;
+                                          owl:hasValue "None"
                                         ] ;
                     rdfs:subClassOf :External_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#12_core_processor
+<https://github.com/MilanPodunavac/IZ-Projekat#12_core_processor> rdf:type owl:Class ;
+                                                                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty :number_of_cores ;
+                                                                                        owl:hasValue 12
+                                                                                      ] ;
+                                                                  rdfs:subClassOf :Processor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#16_bit_processor
+<https://github.com/MilanPodunavac/IZ-Projekat#16_bit_processor> rdf:type owl:Class ;
+                                                                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty :register_type ;
+                                                                                       owl:hasValue 16
+                                                                                     ] ;
+                                                                 rdfs:subClassOf :Processor .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#3.5mm_Audio_component
@@ -652,6 +823,24 @@
                                                                                             owl:hasValue "3.5mm Audio"
                                                                                           ] ;
                                                                       rdfs:subClassOf :Wired_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#32_bit_processor
+<https://github.com/MilanPodunavac/IZ-Projekat#32_bit_processor> rdf:type owl:Class ;
+                                                                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty :register_type ;
+                                                                                       owl:hasValue 32
+                                                                                     ] ;
+                                                                 rdfs:subClassOf :Processor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#64_bit_processor
+<https://github.com/MilanPodunavac/IZ-Projekat#64_bit_processor> rdf:type owl:Class ;
+                                                                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty :register_type ;
+                                                                                       owl:hasValue 64
+                                                                                     ] ;
+                                                                 rdfs:subClassOf :Processor .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#PS/2_component
@@ -673,6 +862,25 @@
                 :PLS_display_monitor
                 :TN_display_monitor
                 :VA_display_monitor
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Dual_core_processor
+                :Hexa_core_processor
+                :Octa_core_processor
+                :Quad_core_processor
+                :Single_core_processor
+                <https://github.com/MilanPodunavac/IZ-Projekat#12_core_processor>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <https://github.com/MilanPodunavac/IZ-Projekat#16_bit_processor>
+                <https://github.com/MilanPodunavac/IZ-Projekat#32_bit_processor>
+                <https://github.com/MilanPodunavac/IZ-Projekat#64_bit_processor>
               )
 ] .
 
