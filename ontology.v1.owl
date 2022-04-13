@@ -158,7 +158,8 @@
 :height rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain [ rdf:type owl:Class ;
-                      owl:unionOf ( :Monitor
+                      owl:unionOf ( :Cooling_system
+                                    :Monitor
                                     :Speakers
                                   )
                     ] ;
@@ -203,7 +204,11 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_type_of
 :is_type_of rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
-            rdfs:domain :Computer_system ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Computer_system
+                                        :Cooling_system
+                                      )
+                        ] ;
             rdfs:range xsd:string .
 
 
@@ -217,7 +222,11 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#length
 :length rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
-        rdfs:domain :Speakers .
+        rdfs:domain [ rdf:type owl:Class ;
+                      owl:unionOf ( :Cooling_system
+                                    :Speakers
+                                  )
+                    ] .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#lens_type
@@ -234,6 +243,17 @@
             rdfs:range xsd:anyURI .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#max_rotation_frequency
+:max_rotation_frequency rdf:type owl:DatatypeProperty ,
+                                 owl:FunctionalProperty ;
+                        rdfs:domain [ rdf:type owl:Class ;
+                                      owl:unionOf ( :Air_cooling_system
+                                                    :Water_cooling_system
+                                                  )
+                                    ] ;
+                        rdfs:range xsd:positiveInteger .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM
 :maximum_RAM rdf:type owl:DatatypeProperty ,
                       owl:FunctionalProperty ;
@@ -241,10 +261,27 @@
              rdfs:range xsd:positiveInteger .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#min_rotation_frequency
+:min_rotation_frequency rdf:type owl:DatatypeProperty ,
+                                 owl:FunctionalProperty ;
+                        rdfs:domain [ rdf:type owl:Class ;
+                                      owl:unionOf ( :Air_cooling_system
+                                                    :Water_cooling_system
+                                                  )
+                                    ] ;
+                        rdfs:range xsd:positiveInteger .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port
 :needs_connection_port rdf:type owl:DatatypeProperty ;
                        rdfs:domain :External_component ;
                        rdfs:range xsd:string .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#noise_estimate
+:noise_estimate rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Cooling_system ;
+                rdfs:range xsd:positiveInteger .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_buttons
@@ -266,6 +303,17 @@
                             owl:FunctionalProperty ;
                    rdfs:domain :Speakers ;
                    rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_fans
+:number_of_fans rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( :Air_cooling_system
+                                            :Water_cooling_system
+                                          )
+                            ] ;
+                rdfs:range xsd:positiveInteger .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_transistors
@@ -388,7 +436,8 @@
 :width rdf:type owl:DatatypeProperty ,
                 owl:FunctionalProperty ;
        rdfs:domain [ rdf:type owl:Class ;
-                     owl:unionOf ( :Monitor
+                     owl:unionOf ( :Cooling_system
+                                   :Monitor
                                    :Speakers
                                  )
                    ] ;
@@ -406,6 +455,15 @@
                                             owl:hasValue "AHVA"
                                           ] ;
                       rdfs:subClassOf :LCD_display_monitor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Air_cooling_system
+:Air_cooling_system rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                          owl:onProperty :is_type_of ;
+                                          owl:hasValue "Air"
+                                        ] ;
+                    rdfs:subClassOf :Cooling_system .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Camera
@@ -663,6 +721,24 @@
                      rdfs:subClassOf :LCD_display_monitor .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Peltier_cooling_system
+:Peltier_cooling_system rdf:type owl:Class ;
+                        owl:equivalentClass [ rdf:type owl:Restriction ;
+                                              owl:onProperty :is_type_of ;
+                                              owl:hasValue "Peltier"
+                                            ] ;
+                        rdfs:subClassOf :Cooling_system .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Phase_change_cooling_system
+:Phase_change_cooling_system rdf:type owl:Class ;
+                             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :is_type_of ;
+                                                   owl:hasValue "Phase change"
+                                                 ] ;
+                             rdfs:subClassOf :Cooling_system .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Plastic_lens_camera
 :Plastic_lens_camera rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -784,6 +860,15 @@
                rdfs:subClassOf :Wired_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Water_cooling_system
+:Water_cooling_system rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                            owl:onProperty :is_type_of ;
+                                            owl:hasValue "Water"
+                                          ] ;
+                      rdfs:subClassOf :Cooling_system .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Wired_component
 :Wired_component rdf:type owl:Class ;
                  rdfs:subClassOf :External_component .
@@ -862,6 +947,15 @@
                 :PLS_display_monitor
                 :TN_display_monitor
                 :VA_display_monitor
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Air_cooling_system
+                :Peltier_cooling_system
+                :Phase_change_cooling_system
+                :Water_cooling_system
               )
 ] .
 
