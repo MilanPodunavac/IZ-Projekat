@@ -80,6 +80,28 @@
           rdfs:comment "Unit of measurement - kilobytes [kB]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency
+:RAM_maximum_frequency rdf:type owl:DatatypeProperty ;
+                       rdfs:domain [ rdf:type owl:Class ;
+                                     owl:unionOf ( :Motherboard
+                                                   :Processor
+                                                 )
+                                   ] ;
+                       rdfs:range xsd:integer ;
+                       rdfs:comment "Megaherz [MHz]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_type
+:RAM_type rdf:type owl:DatatypeProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :Motherboard
+                                      :Random_access_memory
+                                    )
+                      ] ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Double data rate -- DDR3, DDR4 or DDR 5" .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#aspect_ratio
 :aspect_ratio rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
@@ -310,9 +332,13 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM
 :maximum_RAM rdf:type owl:DatatypeProperty ,
                       owl:FunctionalProperty ;
-             rdfs:domain :Processor ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :Motherboard
+                                         :Processor
+                                       )
+                         ] ;
              rdfs:range xsd:positiveInteger ;
-             rdfs:comment "Unit of measurement - megabytes [MB]" .
+             rdfs:comment "Unit of measurement - megabytes [MB] - Probably useless data property. Measurement should be gigabytes" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#memory_format
@@ -339,6 +365,83 @@
                                     ] ;
                         rdfs:range xsd:positiveInteger ;
                         rdfs:comment "Unit of measurement - rotations per minute [rpm]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots
+:motherboard_DIMM_slots rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :Motherboard ;
+                        rdfs:range xsd:integer ;
+                        rdfs:comment """dual in-line memory module, number of ram slots on motherboard.
+2/4/6/8, usually 4 or 2""" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections
+:motherboard_M2_connections rdf:type owl:DatatypeProperty ;
+                            rdfs:domain :Motherboard ;
+                            rdfs:range xsd:integer .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots
+:motherboard_PCIex16_slots rdf:type owl:DatatypeProperty ;
+                           rdfs:domain :Motherboard ;
+                           rdfs:range xsd:integer ;
+                           rdfs:comment "Usually 1, 2 or 3" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots
+:motherboard_PCIex1_slots rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Motherboard ;
+                          rdfs:range xsd:integer .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots
+:motherboard_PCIex4_slots rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Motherboard ;
+                          rdfs:range xsd:integer .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots
+:motherboard_PCIex8_slots rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Motherboard ;
+                          rdfs:range xsd:integer .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections
+:motherboard_SATA_connections rdf:type owl:DatatypeProperty ;
+                              rdfs:domain :Motherboard ;
+                              rdfs:range xsd:integer .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots
+:motherboard_USB_slots rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Motherboard ;
+                       rdfs:range xsd:integer .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset
+:motherboard_chipset rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Motherboard ;
+                     rdfs:range xsd:string ;
+                     rdfs:comment "B350, B450, B550, X570 etc" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format
+:motherboard_format rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Motherboard ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "ATX, Micro-ATX, Mini-ITX, Nano-ITX, Pico-ITX. Mostly ATX or Micro-ATX" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_has_integrated_gpu
+:motherboard_has_integrated_gpu rdf:type owl:DatatypeProperty ;
+                                rdfs:domain :Motherboard ;
+                                rdfs:range xsd:boolean .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_has_integrated_sound_card
+:motherboard_has_integrated_sound_card rdf:type owl:DatatypeProperty ;
+                                       rdfs:domain :Motherboard ;
+                                       rdfs:range xsd:boolean .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port
@@ -408,7 +511,8 @@
                           owl:FunctionalProperty ;
                  rdfs:domain :Processor ;
                  rdfs:range xsd:positiveInteger ;
-                 rdfs:comment "Unit of measurement - nanometers [nm]" .
+                 rdfs:comment """Unit of measurement - nanometers [nm]
+TSMC or samsung""" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#read_speed
@@ -462,6 +566,7 @@
                  owl:FunctionalProperty ;
         rdfs:domain [ rdf:type owl:Class ;
                       owl:unionOf ( :Cooling_system
+                                    :Motherboard
                                     :Processor
                                   )
                     ] ;
