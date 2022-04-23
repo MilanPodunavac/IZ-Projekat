@@ -12,6 +12,18 @@
 #    Object Properties
 #################################################################
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_contains_PSU
+:Computer_casing_contains_PSU rdf:type owl:ObjectProperty ;
+                              rdfs:domain :Computer_casing ;
+                              rdfs:range :Power_supply_unit .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_contains_air_cooler
+:Computer_casing_contains_air_cooler rdf:type owl:ObjectProperty ;
+                                     rdfs:domain :Computer_casing ;
+                                     rdfs:range :Air_cooling_system .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#contains
 :contains rdf:type owl:ObjectProperty ;
           rdfs:domain :Computer_system ;
@@ -60,6 +72,39 @@
 #################################################################
 #    Data properties
 #################################################################
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_2.5_slots
+:Computer_casing_2.5_slots rdf:type owl:DatatypeProperty ;
+                           rdfs:domain :Computer_casing ;
+                           rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_3.5_slots
+:Computer_casing_3.5_slots rdf:type owl:DatatypeProperty ;
+                           rdfs:domain :Computer_casing ;
+                           rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_format
+:Computer_casing_format rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :Computer_casing ;
+                        rdfs:range xsd:string ;
+                        rdfs:comment "Small form factor, Mini Tower, Mid Tower, Full Tower" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_max_gpu_length
+:Computer_casing_max_gpu_length rdf:type owl:DatatypeProperty ;
+                                rdfs:domain :Computer_casing ;
+                                rdfs:range xsd:decimal ;
+                                rdfs:comment "centimeters[cm]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_supported_motherboard_formats
+:Computer_casing_supported_motherboard_formats rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain :Computer_casing ;
+                                               rdfs:range xsd:string ;
+                                               rdfs:comment "EATX, ATX, ..." .
+
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_6pin_connectors
 :GPU_6pin_connectors rdf:type owl:DatatypeProperty ;
@@ -158,6 +203,13 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                 rdfs:comment "32-bit, 128-bit, 256-bit etc" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power
+:GPU_recommended_system_power rdf:type owl:DatatypeProperty ;
+                              rdfs:domain :Graphics_card ;
+                              rdfs:range xsd:positiveInteger ;
+                              rdfs:comment "Watts [W]" .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_width
 :GPU_width rdf:type owl:DatatypeProperty ;
            rdfs:domain :Graphics_card ;
@@ -194,6 +246,13 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
           rdfs:domain :Processor ;
           rdfs:range xsd:string ;
           rdfs:comment "Unit of measurement - kilobytes [kB]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#PSU_Power
+:PSU_Power rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Computer_casing ;
+           rdfs:range xsd:positiveInteger ;
+           rdfs:comment "Watts [W]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency
@@ -338,7 +397,8 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
 :height rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain [ rdf:type owl:Class ;
-                      owl:unionOf ( :Cooling_system
+                      owl:unionOf ( :Computer_casing
+                                    :Cooling_system
                                     :Monitor
                                     :Speakers
                                   )
@@ -411,7 +471,8 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
 :length rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain [ rdf:type owl:Class ;
-                      owl:unionOf ( :Cooling_system
+                      owl:unionOf ( :Computer_casing
+                                    :Cooling_system
                                     :Graphics_card
                                     :Speakers
                                   )
@@ -733,19 +794,22 @@ TSMC or samsung""" .
 :weight rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain [ rdf:type owl:Class ;
-                      owl:unionOf ( :Game_controller
+                      owl:unionOf ( :Computer_casing
+                                    :Game_controller
                                     :Speakers
                                   )
                     ] ;
         rdfs:range xsd:decimal ;
-        rdfs:comment "Unit of measurement - grams [g]" .
+        rdfs:comment """Unit of measurement - grams [g]
+kilograms for computer casing [kg]""" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#width
 :width rdf:type owl:DatatypeProperty ,
                 owl:FunctionalProperty ;
        rdfs:domain [ rdf:type owl:Class ;
-                     owl:unionOf ( :Cooling_system
+                     owl:unionOf ( :Computer_casing
+                                   :Cooling_system
                                    :Monitor
                                    :Speakers
                                  )
@@ -1230,21 +1294,24 @@ TSMC or samsung""" .
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti
 :RTX_3070_Ti rdf:type owl:Class ;
-             owl:equivalentClass [ rdf:type owl:Restriction ;
-                                   owl:onProperty :GPU_CUDA_Cores ;
-                                   owl:hasValue 6144
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :GPU_Memory_size ;
-                                   owl:hasValue 8
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :GPU_Memory_type ;
-                                   owl:hasValue "GDDR6X"
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :total_draw_power ;
-                                   owl:hasValue 290
+             owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :GPU_CUDA_Cores ;
+                                                          owl:hasValue 6144
+                                                        ]
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :GPU_Memory_size ;
+                                                          owl:hasValue 8
+                                                        ]
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :GPU_Memory_type ;
+                                                          owl:hasValue "GDDR6X"
+                                                        ]
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :total_draw_power ;
+                                                          owl:hasValue 290
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
                                  ] ;
              rdfs:subClassOf :NVIDIA-GPU .
 
