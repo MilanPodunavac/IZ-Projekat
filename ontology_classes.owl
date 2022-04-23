@@ -387,7 +387,11 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
 ###  https://github.com/MilanPodunavac/IZ-Projekat#frequency_response
 :frequency_response rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
-                    rdfs:domain :Speakers ;
+                    rdfs:domain [ rdf:type owl:Class ;
+                                  owl:unionOf ( :Microphone
+                                                :Speakers
+                                              )
+                                ] ;
                     rdfs:range xsd:positiveInteger ;
                     rdfs:comment "Unit of measurement - herz [Hz]" .
 
@@ -417,6 +421,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
         rdfs:domain [ rdf:type owl:Class ;
                       owl:unionOf ( :Computer_casing
                                     :Cooling_system
+                                    :Microphone
                                     :Monitor
                                     :Speakers
                                   )
@@ -509,6 +514,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                     :Cooling_system
                                     :Graphics_card
                                     :Keyboard
+                                    :Microphone
                                     :Speakers
                                   )
                     ] ;
@@ -778,7 +784,11 @@ TSMC or samsung""" .
 ###  https://github.com/MilanPodunavac/IZ-Projekat#sound_sensitivity
 :sound_sensitivity rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
-                   rdfs:domain :Speakers ;
+                   rdfs:domain [ rdf:type owl:Class ;
+                                 owl:unionOf ( :Microphone
+                                               :Speakers
+                                             )
+                               ] ;
                    rdfs:range xsd:positiveInteger ;
                    rdfs:comment "Unit of measurement - decibels [dB]" .
 
@@ -832,6 +842,7 @@ TSMC or samsung""" .
                       owl:unionOf ( :Computer_casing
                                     :Game_controller
                                     :Keyboard
+                                    :Microphone
                                     :Speakers
                                   )
                     ] ;
@@ -847,6 +858,7 @@ kilograms for computer casing [kg]""" .
                      owl:unionOf ( :Computer_casing
                                    :Cooling_system
                                    :Keyboard
+                                   :Microphone
                                    :Monitor
                                    :Speakers
                                  )
