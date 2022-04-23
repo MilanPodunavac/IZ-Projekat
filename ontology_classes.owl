@@ -354,6 +354,12 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
        rdfs:comment "Unit of measurement - euros [eur]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#depth
+:depth rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Keyboard ;
+       rdfs:range xsd:double .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed
 :disc_rotation_speed rdf:type owl:DatatypeProperty ,
                               owl:FunctionalProperty ;
@@ -391,6 +397,18 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                      owl:FunctionalProperty ;
             rdfs:domain owl:Thing ;
             rdfs:range xsd:string .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_numpad
+:has_numpad rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Keyboard ;
+            rdfs:range xsd:boolean .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_rgb_backlight_led
+:has_rgb_backlight_led rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Keyboard ;
+                       rdfs:range xsd:boolean .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#height
@@ -463,8 +481,24 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_water_resistant
 :is_water_resistant rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
-                    rdfs:domain :Speakers ;
+                    rdfs:domain [ rdf:type owl:Class ;
+                                  owl:unionOf ( :Keyboard
+                                                :Speakers
+                                              )
+                                ] ;
                     rdfs:range xsd:boolean .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_wired
+:is_wired rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Keyboard ;
+          rdfs:range xsd:boolean .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#key_allocation
+:key_allocation rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Keyboard ;
+                rdfs:range xsd:string .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#length
@@ -474,6 +508,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                       owl:unionOf ( :Computer_casing
                                     :Cooling_system
                                     :Graphics_card
+                                    :Keyboard
                                     :Speakers
                                   )
                     ] ;
@@ -796,6 +831,7 @@ TSMC or samsung""" .
         rdfs:domain [ rdf:type owl:Class ;
                       owl:unionOf ( :Computer_casing
                                     :Game_controller
+                                    :Keyboard
                                     :Speakers
                                   )
                     ] ;
@@ -810,6 +846,7 @@ kilograms for computer casing [kg]""" .
        rdfs:domain [ rdf:type owl:Class ;
                      owl:unionOf ( :Computer_casing
                                    :Cooling_system
+                                   :Keyboard
                                    :Monitor
                                    :Speakers
                                  )
@@ -873,6 +910,16 @@ kilograms for computer casing [kg]""" .
                 rdfs:subClassOf :Internal_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Chiclet
+:Chiclet rdf:type owl:Class ;
+         rdfs:subClassOf :Membrane .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Clicky
+:Clicky rdf:type owl:Class ;
+        rdfs:subClassOf :Mechanical .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Clip-on_camera
 :Clip-on_camera rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -933,6 +980,11 @@ kilograms for computer casing [kg]""" .
                    rdfs:subClassOf :Wired_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Dome_Switch
+:Dome_Switch rdf:type owl:Class ;
+             rdfs:subClassOf :Membrane .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Dual_core_processor
 :Dual_core_processor rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -956,6 +1008,11 @@ kilograms for computer casing [kg]""" .
                     rdfs:subClassOf :Component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Flat-Panel
+:Flat-Panel rdf:type owl:Class ;
+            rdfs:subClassOf :Membrane .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Freestanding_camera
 :Freestanding_camera rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -963,6 +1020,11 @@ kilograms for computer casing [kg]""" .
                                            owl:hasValue "Freestanding"
                                          ] ;
                      rdfs:subClassOf :Camera .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Full_Travel
+:Full_Travel rdf:type owl:Class ;
+             rdfs:subClassOf :Membrane .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#GTX_1070
@@ -1042,6 +1104,11 @@ kilograms for computer casing [kg]""" .
                     rdfs:subClassOf :Component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Key_type
+:Key_type rdf:type owl:Class ;
+          rdfs:subClassOf :Keyboard .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Keyboard
 :Keyboard rdf:type owl:Class ;
           rdfs:subClassOf :External_component .
@@ -1060,6 +1127,21 @@ kilograms for computer casing [kg]""" .
                                      owl:hasValue "Laptop"
                                    ] ;
                rdfs:subClassOf :Computer_system .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Linear
+:Linear rdf:type owl:Class ;
+        rdfs:subClassOf :Mechanical .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mechanical
+:Mechanical rdf:type owl:Class ;
+            rdfs:subClassOf :Key_type .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Membrane
+:Membrane rdf:type owl:Class ;
+          rdfs:subClassOf :Key_type .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive
@@ -1419,6 +1501,16 @@ kilograms for computer casing [kg]""" .
          rdfs:subClassOf :External_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Scissor-Switch
+:Scissor-Switch rdf:type owl:Class ;
+                rdfs:subClassOf :Membrane .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Semi_mechanical
+:Semi_mechanical rdf:type owl:Class ;
+                 rdfs:subClassOf :Key_type .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Single_core_processor
 :Single_core_processor rdf:type owl:Class ;
                        owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -1473,6 +1565,11 @@ kilograms for computer casing [kg]""" .
                                           owl:hasValue "TN"
                                         ] ;
                     rdfs:subClassOf :LCD_display_monitor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Tactile
+:Tactile rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#ThunderBolt_component
