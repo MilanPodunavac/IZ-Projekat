@@ -61,6 +61,110 @@
 #    Data properties
 #################################################################
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_6pin_connectors
+:GPU_6pin_connectors rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Graphics_card ;
+                     rdfs:range xsd:nonNegativeInteger ;
+                     rdfs:comment """1 or 0
+example : 1 6-pin, 1 6-pin and 1 8-pin""" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors
+:GPU_8pin_connectors rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Graphics_card ;
+                     rdfs:range xsd:nonNegativeInteger ;
+                     rdfs:comment """0 or 1 or 2 or 3
+example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores
+:GPU_CUDA_Cores rdf:type owl:DatatypeProperty ;
+                rdfs:domain :NVIDIA-GPU ;
+                rdfs:range xsd:integer .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors
+:GPU_DP_connectors rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Graphics_card ;
+                   rdfs:range xsd:nonNegativeInteger ;
+                   rdfs:comment "Usually 3 or 2" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors
+:GPU_HDMI_connectors rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Graphics_card ;
+                     rdfs:range xsd:nonNegativeInteger ;
+                     rdfs:comment "usually 1 or 2" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock
+:GPU_Memory_clock rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Graphics_card ;
+                  rdfs:range xsd:integer ;
+                  rdfs:comment "Megaherz [MHz]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size
+:GPU_Memory_size rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Graphics_card ;
+                 rdfs:range xsd:integer ;
+                 rdfs:comment "Gigabytes [Gb]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type
+:GPU_Memory_type rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Graphics_card ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "GDDR3, GDDR4, GDDR5, GDDR6, GDDR6X .." .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_Stream_Processors
+:GPU_Stream_Processors rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :AMD-GPU ;
+                       rdfs:range xsd:integer .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors
+:GPU_VGA_connectors rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Graphics_card ;
+                    rdfs:range xsd:nonNegativeInteger ;
+                    rdfs:comment "Usually 0" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_compute_units
+:GPU_compute_units rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :AMD-GPU ;
+                   rdfs:range xsd:nonNegativeInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock
+:GPU_core_boost_clock rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Graphics_card ;
+                      rdfs:range xsd:integer ;
+                      rdfs:comment "Megaherz [MHz]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_clock
+:GPU_core_clock rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Graphics_card ;
+                rdfs:range xsd:integer ;
+                rdfs:comment "Megaherz [MHz]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus
+:GPU_memory_bus rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Graphics_card ;
+                rdfs:range xsd:positiveInteger ;
+                rdfs:comment "32-bit, 128-bit, 256-bit etc" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_width
+:GPU_width rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Graphics_card ;
+           rdfs:range xsd:decimal ;
+           rdfs:comment "Number of slots that will be covered by a GPU (example - 2, 2.3, 2.5...)" .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#HDR
 :HDR rdf:type owl:DatatypeProperty ,
               owl:FunctionalProperty ;
@@ -308,9 +412,11 @@
                  owl:FunctionalProperty ;
         rdfs:domain [ rdf:type owl:Class ;
                       owl:unionOf ( :Cooling_system
+                                    :Graphics_card
                                     :Speakers
                                   )
                     ] ;
+        rdfs:range xsd:decimal ;
         rdfs:comment "Unit of measurement - centimeters [cm]" .
 
 
@@ -585,7 +691,8 @@ TSMC or samsung""" .
 :total_draw_power rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
                   rdfs:domain [ rdf:type owl:Class ;
-                                owl:unionOf ( :HDD
+                                owl:unionOf ( :Graphics_card
+                                              :HDD
                                               :Processor
                                             )
                               ] ;
@@ -666,6 +773,12 @@ TSMC or samsung""" .
                                             owl:hasValue "AHVA"
                                           ] ;
                       rdfs:subClassOf :LCD_display_monitor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU
+:AMD-GPU rdf:type owl:Class ;
+         rdfs:subClassOf :Graphics_card ;
+         owl:disjointWith :NVIDIA-GPU .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard
@@ -786,6 +899,16 @@ TSMC or samsung""" .
                                            owl:hasValue "Freestanding"
                                          ] ;
                      rdfs:subClassOf :Camera .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GTX_1070
+:GTX_1070 rdf:type owl:Class ;
+          rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#GTX_1080
+:GTX_1080 rdf:type owl:Class ;
+          rdfs:subClassOf :NVIDIA-GPU .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Game_controller
@@ -945,6 +1068,11 @@ TSMC or samsung""" .
                           rdfs:subClassOf :Processor .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU
+:NVIDIA-GPU rdf:type owl:Class ;
+            rdfs:subClassOf :Graphics_card .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#NVMA_M.2_drive
 :NVMA_M.2_drive rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -1068,6 +1196,132 @@ TSMC or samsung""" .
                                            owl:hasValue 4
                                          ] ;
                      rdfs:subClassOf :Processor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060
+:RTX_2060 rdf:type owl:Class ;
+          rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_2070
+:RTX_2070 rdf:type owl:Class ;
+          rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_2080
+:RTX_2080 rdf:type owl:Class ;
+          rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti
+:RTX_3050_Ti rdf:type owl:Class ;
+             rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060
+:RTX_3060 rdf:type owl:Class ;
+          rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti
+:RTX_3060_Ti rdf:type owl:Class ;
+             rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti
+:RTX_3070_Ti rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :GPU_CUDA_Cores ;
+                                   owl:hasValue 6144
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :GPU_Memory_size ;
+                                   owl:hasValue 8
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :GPU_Memory_type ;
+                                   owl:hasValue "GDDR6X"
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :total_draw_power ;
+                                   owl:hasValue 290
+                                 ] ;
+             rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080
+:RTX_3080 rdf:type owl:Class ;
+          rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080_12GB
+:RTX_3080_12GB rdf:type owl:Class ;
+               rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080_Ti
+:RTX_3080_Ti rdf:type owl:Class ;
+             rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3090
+:RTX_3090 rdf:type owl:Class ;
+          rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3090_Ti
+:RTX_3090_Ti rdf:type owl:Class ;
+             rdfs:subClassOf :NVIDIA-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_570
+:RX_570 rdf:type owl:Class ;
+        rdfs:subClassOf :AMD-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_5700_XT
+:RX_5700_XT rdf:type owl:Class ;
+            rdfs:subClassOf :AMD-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_580
+:RX_580 rdf:type owl:Class ;
+        rdfs:subClassOf :AMD-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_590
+:RX_590 rdf:type owl:Class ;
+        rdfs:subClassOf :AMD-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6500_XT
+:RX_6500_XT rdf:type owl:Class ;
+            rdfs:subClassOf :AMD-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6700
+:RX_6700 rdf:type owl:Class ;
+         rdfs:subClassOf :AMD-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT
+:RX_6700_XT rdf:type owl:Class ;
+            rdfs:subClassOf :AMD-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6800
+:RX_6800 rdf:type owl:Class ;
+         rdfs:subClassOf :AMD-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6800_XT
+:RX_6800_XT rdf:type owl:Class ;
+            rdfs:subClassOf :AMD-GPU .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6900_XT
+:RX_6900_XT rdf:type owl:Class ;
+            rdfs:subClassOf :AMD-GPU .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory
@@ -1313,9 +1567,43 @@ TSMC or samsung""" .
 
 
 [ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :GTX_1070
+                :GTX_1080
+                :RTX_2060
+                :RTX_2070
+                :RTX_2080
+                :RTX_3050_Ti
+                :RTX_3060
+                :RTX_3060_Ti
+                :RTX_3070_Ti
+                :RTX_3080
+                :RTX_3080_12GB
+                :RTX_3080_Ti
+                :RTX_3090
+                :RTX_3090_Ti
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
   owl:members ( :Multimedia_speakers
                 :Soundbar_speakers
                 :Surround_sound_speakers
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :RX_570
+                :RX_5700_XT
+                :RX_580
+                :RX_590
+                :RX_6500_XT
+                :RX_6700
+                :RX_6700_XT
+                :RX_6800
+                :RX_6800_XT
+                :RX_6900_XT
               )
 ] .
 
