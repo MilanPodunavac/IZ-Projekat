@@ -255,6 +255,13 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
            rdfs:comment "Watts [W]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency
+:PSU_efficiency rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Power_supply_unit ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Number that represents efficiency percentage + optional key word bronze/silver/gold/platinum/titanium generally reserved for either very high capacity or server PSUs." .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency
 :RAM_cas_latency rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Random_access_memory ;
@@ -459,6 +466,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                     :Cooling_system
                                     :Microphone
                                     :Monitor
+                                    :Power_supply_unit
                                     :Speakers
                                   )
                     ] ;
@@ -551,6 +559,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                     :Graphics_card
                                     :Keyboard
                                     :Microphone
+                                    :Power_supply_unit
                                     :Speakers
                                   )
                     ] ;
@@ -875,6 +884,14 @@ TSMC or samsung""" .
              rdfs:range xsd:dateTime .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#wattage
+:wattage rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Power_supply_unit ;
+         rdfs:range xsd:integer ;
+         rdfs:comment "Unit of measurement - watt [W]." .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#weight
 :weight rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
@@ -900,6 +917,7 @@ kilograms for computer casing [kg]""" .
                                    :Keyboard
                                    :Microphone
                                    :Monitor
+                                   :Power_supply_unit
                                    :Speakers
                                  )
                    ] ;
