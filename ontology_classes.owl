@@ -255,15 +255,45 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
            rdfs:comment "Watts [W]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency
+:RAM_cas_latency rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Random_access_memory ;
+                 rdfs:range xsd:positiveInteger ;
+                 rdfs:comment "A RAM module's CAS (Column Address Strobe or Signal) latency is how many clock cycles in it takes for the RAM module to access a specific set of data in one of its columns (hence the name) and make that data available on its output pins, starting from when a memory controller tells it to." .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency
+:RAM_first_word_latency rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :Random_access_memory ;
+                        rdfs:range xsd:double ;
+                        rdfs:comment "Unit of measurement - nanoseconds [ns]." .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency
 :RAM_maximum_frequency rdf:type owl:DatatypeProperty ;
                        rdfs:domain [ rdf:type owl:Class ;
                                      owl:unionOf ( :Motherboard
                                                    :Processor
+                                                   :Random_access_memory
                                                  )
                                    ] ;
-                       rdfs:range xsd:integer ;
+                       rdfs:range xsd:positiveInteger ;
                        rdfs:comment "Megaherz [MHz]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity
+:RAM_modules_capacity rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :Random_access_memory ;
+                      rdfs:range xsd:positiveInteger ;
+                      rdfs:comment "Unit of measurement - gigabytes [GB]." .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number
+:RAM_modules_number rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Random_access_memory ;
+                    rdfs:range xsd:positiveInteger ;
+                    rdfs:comment "Number of modules (1-12)." .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_type
@@ -401,6 +431,12 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                      owl:FunctionalProperty ;
             rdfs:domain owl:Thing ;
             rdfs:range xsd:string .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_heat_spreader
+:has_heat_spreader rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Random_access_memory ;
+                   rdfs:range xsd:boolean .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#has_numpad
@@ -823,7 +859,11 @@ TSMC or samsung""" .
 ###  https://github.com/MilanPodunavac/IZ-Projekat#voltage
 :voltage rdf:type owl:DatatypeProperty ,
                   owl:FunctionalProperty ;
-         rdfs:domain :Processor ;
+         rdfs:domain [ rdf:type owl:Class ;
+                       owl:unionOf ( :Processor
+                                     :Random_access_memory
+                                   )
+                     ] ;
          rdfs:range xsd:decimal ;
          rdfs:comment "Unit of measurement - volts [V]" .
 
@@ -964,6 +1004,37 @@ kilograms for computer casing [kg]""" .
 :Country rdf:type owl:Class .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#DDR
+:DDR rdf:type owl:Class ;
+     rdfs:subClassOf :Type .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#DDR2
+:DDR2 rdf:type owl:Class ;
+      rdfs:subClassOf :Type .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#DDR3
+:DDR3 rdf:type owl:Class ;
+      rdfs:subClassOf :Type .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#DDR4
+:DDR4 rdf:type owl:Class ;
+      rdfs:subClassOf :Type .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#DDR5
+:DDR5 rdf:type owl:Class ;
+      rdfs:subClassOf :Type .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#DIMM
+:DIMM rdf:type owl:Class ;
+      rdfs:subClassOf :Form_factor ;
+      owl:disjointWith :SO-DIMM .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#DVI_component
 :DVI_component rdf:type owl:Class ;
                owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -1023,6 +1094,16 @@ kilograms for computer casing [kg]""" .
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Flat-Panel
 :Flat-Panel rdf:type owl:Class ;
             rdfs:subClassOf :Membrane .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Form_factor
+:Form_factor rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Class ;
+                                   owl:unionOf ( :DIMM
+                                                 :SO-DIMM
+                                               )
+                                 ] ;
+             rdfs:subClassOf :Random_access_memory .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Freestanding_camera
@@ -1499,6 +1580,11 @@ kilograms for computer casing [kg]""" .
              rdfs:subClassOf :Memory_drive .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#SO-DIMM
+:SO-DIMM rdf:type owl:Class ;
+         rdfs:subClassOf :Form_factor .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#SSD
 :SSD rdf:type owl:Class ;
      owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -1591,6 +1677,19 @@ kilograms for computer casing [kg]""" .
                                              owl:hasValue "ThunderBolt"
                                            ] ;
                        rdfs:subClassOf :Wired_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Type
+:Type rdf:type owl:Class ;
+      owl:equivalentClass [ rdf:type owl:Class ;
+                            owl:unionOf ( :DDR
+                                          :DDR2
+                                          :DDR3
+                                          :DDR4
+                                          :DDR5
+                                        )
+                          ] ;
+      rdfs:subClassOf :Random_access_memory .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#USB_component
@@ -1727,6 +1826,16 @@ kilograms for computer casing [kg]""" .
                 :Peltier_cooling_system
                 :Phase_change_cooling_system
                 :Water_cooling_system
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :DDR
+                :DDR2
+                :DDR3
+                :DDR4
+                :DDR5
               )
 ] .
 
