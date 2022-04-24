@@ -1120,6 +1120,15 @@ kilograms for computer casing [kg]""" .
              rdfs:subClassOf :Membrane .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Full_tower
+:Full_tower rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Computer_casing_format ;
+                                  owl:hasValue "Full tower"
+                                ] ;
+            rdfs:subClassOf :Computer_casing .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#GTX_1070
 :GTX_1070 rdf:type owl:Class ;
           rdfs:subClassOf :NVIDIA-GPU .
@@ -1256,6 +1265,15 @@ kilograms for computer casing [kg]""" .
             rdfs:subClassOf :Sound_component .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mid_tower
+:Mid_tower rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :Computer_casing_format ;
+                                 owl:hasValue "Mid tower"
+                               ] ;
+           rdfs:subClassOf :Computer_casing .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Mini-ITX_motherboard
 :Mini-ITX_motherboard rdf:type owl:Class ;
                       owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -1263,6 +1281,15 @@ kilograms for computer casing [kg]""" .
                                             owl:hasValue "Mini-ATX"
                                           ] ;
                       rdfs:subClassOf :Motherboard .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mini_tower
+:Mini_tower rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Computer_casing_format ;
+                                  owl:hasValue "Mini tower"
+                                ] ;
+            rdfs:subClassOf :Computer_casing .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Monitor
@@ -1618,6 +1645,15 @@ kilograms for computer casing [kg]""" .
                        rdfs:subClassOf :Processor .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Small_form
+:Small_form rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Computer_casing_format ;
+                                  owl:hasValue "Small form"
+                                ] ;
+            rdfs:subClassOf :Computer_casing .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Software_component
 :Software_component rdf:type owl:Class ;
                     rdfs:subClassOf :Internal_component .
@@ -1847,6 +1883,15 @@ kilograms for computer casing [kg]""" .
                 :Quad_core_processor
                 :Single_core_processor
                 <https://github.com/MilanPodunavac/IZ-Projekat#12_core_processor>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Full_tower
+                :Mid_tower
+                :Mini_tower
+                :Small_form
               )
 ] .
 
