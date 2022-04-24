@@ -12,6 +12,12 @@
 #    Object Properties
 #################################################################
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Compatible_with_OS
+:Compatible_with_OS rdf:type owl:ObjectProperty ;
+                    rdfs:domain :External_component ;
+                    rdfs:range :Operating_system .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_contains_PSU
 :Computer_casing_contains_PSU rdf:type owl:ObjectProperty ;
                               rdfs:domain :Computer_casing ;
@@ -135,6 +141,13 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                    rdfs:comment "Usually 3 or 2" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version
+:GPU_DirectX_Version rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Graphics_card ;
+                     rdfs:range xsd:string ;
+                     rdfs:comment "9, 10 ,11, 12, 12 ultimate" .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors
 :GPU_HDMI_connectors rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Graphics_card ;
@@ -246,6 +259,59 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
           rdfs:domain :Processor ;
           rdfs:range xsd:string ;
           rdfs:comment "Unit of measurement - kilobytes [kB]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mouse_button_number
+:Mouse_button_number rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Mouse ;
+                     rdfs:range xsd:positiveInteger ;
+                     rdfs:comment "2 or more" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mouse_dpi
+:Mouse_dpi rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Mouse ;
+           rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mouse_polling_rate
+:Mouse_polling_rate rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Mouse ;
+                    rdfs:range xsd:positiveInteger ;
+                    rdfs:comment "Herz[Hz]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mouse_sensor_type
+:Mouse_sensor_type rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Mouse ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "Laser or optical" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_cpu
+:Operating_system_min_cpu rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Operating_system ;
+                          rdfs:range xsd:decimal ;
+                          rdfs:comment "GHz - 1 ..." .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_disk_space
+:Operating_system_min_disk_space rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain :Operating_system ;
+                                 rdfs:range xsd:positiveInteger ;
+                                 rdfs:comment "Gb" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_ram
+:Operating_system_min_ram rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Operating_system ;
+                          rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type
+:Operating_system_type rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Operating_system ;
+                       rdfs:range xsd:positiveInteger .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#PSU_Power
@@ -459,6 +525,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                     :Cooling_system
                                     :Microphone
                                     :Monitor
+                                    :Mouse
                                     :Speakers
                                   )
                     ] ;
@@ -551,6 +618,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                     :Graphics_card
                                     :Keyboard
                                     :Microphone
+                                    :Mouse
                                     :Speakers
                                   )
                     ] ;
@@ -789,9 +857,11 @@ TSMC or samsung""" .
                    rdfs:domain [ rdf:type owl:Class ;
                                  owl:unionOf ( :Camera
                                                :Monitor
+                                               :Operating_system
                                              )
                                ] ;
-                   rdfs:range xsd:positiveInteger .
+                   rdfs:range xsd:positiveInteger ;
+                   rdfs:comment "Operating system - minimum required" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#resolution_width
@@ -800,9 +870,11 @@ TSMC or samsung""" .
                   rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( :Camera
                                               :Monitor
+                                              :Operating_system
                                             )
                               ] ;
-                  rdfs:range xsd:positiveInteger .
+                  rdfs:range xsd:positiveInteger ;
+                  rdfs:comment "Operating system - minimum required" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#socket
@@ -883,6 +955,7 @@ TSMC or samsung""" .
                                     :Game_controller
                                     :Keyboard
                                     :Microphone
+                                    :Mouse
                                     :Speakers
                                   )
                     ] ;
@@ -900,6 +973,7 @@ kilograms for computer casing [kg]""" .
                                    :Keyboard
                                    :Microphone
                                    :Monitor
+                                   :Mouse
                                    :Speakers
                                  )
                    ] ;
@@ -1231,6 +1305,15 @@ kilograms for computer casing [kg]""" .
                rdfs:subClassOf :Computer_system .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Laser
+:Laser rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :Mouse_sensor_type ;
+                             owl:hasValue "laser"
+                           ] ;
+       rdfs:subClassOf :Mouse .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Linear
 :Linear rdf:type owl:Class ;
         rdfs:subClassOf :Mechanical .
@@ -1388,7 +1471,21 @@ kilograms for computer casing [kg]""" .
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system
 :Operating_system rdf:type owl:Class ;
+                  owl:equivalentClass [ rdf:type owl:Class ;
+                                        owl:unionOf ( <https://github.com/MilanPodunavac/IZ-Projekat#32bit>
+                                                      <https://github.com/MilanPodunavac/IZ-Projekat#64bit>
+                                                    )
+                                      ] ;
                   rdfs:subClassOf :Software_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Optical
+:Optical rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :Mouse_sensor_type ;
+                               owl:hasValue "optical"
+                             ] ;
+         rdfs:subClassOf :Mouse .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#PLS_display_monitor
@@ -1814,6 +1911,16 @@ kilograms for computer casing [kg]""" .
                                                                  rdfs:subClassOf :Processor .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#32bit
+<https://github.com/MilanPodunavac/IZ-Projekat#32bit> rdf:type owl:Class ;
+                                                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :Operating_system_type ;
+                                                                            owl:hasValue 32
+                                                                          ] ;
+                                                      rdfs:subClassOf :Operating_system ;
+                                                      owl:disjointWith <https://github.com/MilanPodunavac/IZ-Projekat#64bit> .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#64_bit_processor
 <https://github.com/MilanPodunavac/IZ-Projekat#64_bit_processor> rdf:type owl:Class ;
                                                                  owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -1821,6 +1928,15 @@ kilograms for computer casing [kg]""" .
                                                                                        owl:hasValue 64
                                                                                      ] ;
                                                                  rdfs:subClassOf :Processor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#64bit
+<https://github.com/MilanPodunavac/IZ-Projekat#64bit> rdf:type owl:Class ;
+                                                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :Operating_system_type ;
+                                                                            owl:hasValue 64
+                                                                          ] ;
+                                                      rdfs:subClassOf :Operating_system .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#PS/2_component
