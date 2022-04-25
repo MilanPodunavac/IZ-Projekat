@@ -268,19 +268,6 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                         rdfs:comment "Number of Molex 4-pin connectors." .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors
-:PCie_6-pin_connectors rdf:type owl:DatatypeProperty ;
-                       rdfs:domain :Power_supply_unit ;
-                       rdfs:range xsd:integer ;
-                       rdfs:comment "Number of PCie 6-pin conncectors." .
-
-
-###  https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors
-:PCie_8-pin_connectors rdf:type owl:DatatypeProperty ;
-                       rdfs:domain :Power_supply_unit ;
-                       rdfs:range xsd:integer ;
-                       rdfs:comment "Number of PCie 8-pin connectors." .
-
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Mouse_button_number
 :Mouse_button_number rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Mouse ;
@@ -332,6 +319,20 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
 :Operating_system_type rdf:type owl:DatatypeProperty ;
                        rdfs:domain :Operating_system ;
                        rdfs:range xsd:positiveInteger .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors
+:PCie_6-pin_connectors rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Power_supply_unit ;
+                       rdfs:range xsd:integer ;
+                       rdfs:comment "Number of PCie 6-pin conncectors." .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors
+:PCie_8-pin_connectors rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Power_supply_unit ;
+                       rdfs:range xsd:integer ;
+                       rdfs:comment "Number of PCie 8-pin connectors." .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#PSU_Power
@@ -413,6 +414,13 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                  rdfs:comment "Number of SATA connectors." .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Signal-to-noise_ratio
+:Signal-to-noise_ratio rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Sound_card ;
+                       rdfs:range xsd:integer ;
+                       rdfs:comment "Unit of measurement - decibel [dB]" .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#aspect_ratio
 :aspect_ratio rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
@@ -474,6 +482,20 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
           rdfs:comment "Unit of measurement - gigabytes [GB]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#channels
+:channels rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Sound_card ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Soundcard channels." .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#chipset
+:chipset rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Sound_card ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Soundcard chipset." .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#connection
 :connection rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
@@ -494,6 +516,13 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
 :depth rdf:type owl:DatatypeProperty ;
        rdfs:domain :Keyboard ;
        rdfs:range xsd:double .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#digital_audio
+:digital_audio rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Sound_card ;
+               rdfs:range xsd:string ;
+               rdfs:comment "16-bit, 24-bit or 32-bit." .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed
@@ -565,8 +594,8 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                     :Cooling_system
                                     :Microphone
                                     :Monitor
-                                    :Power_supply_unit
                                     :Mouse
+                                    :Power_supply_unit
                                     :Speakers
                                   )
                     ] ;
@@ -580,6 +609,13 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                           rdfs:domain :Monitor ;
                           rdfs:range xsd:positiveInteger ;
                           rdfs:comment "" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#interface
+:interface rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Sound_card ;
+           rdfs:range xsd:string ;
+           rdfs:comment "Soundcard interface." .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_fanless
@@ -665,8 +701,8 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                     :Graphics_card
                                     :Keyboard
                                     :Microphone
-                                    :Power_supply_unit
                                     :Mouse
+                                    :Power_supply_unit
                                     :Speakers
                                   )
                     ] ;
@@ -925,6 +961,13 @@ TSMC or samsung""" .
                   rdfs:comment "Operating system - minimum required" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#sample_rate
+:sample_rate rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Sound_card ;
+             rdfs:range xsd:double ;
+             rdfs:comment "Unit of measurement -  kilohertz [kHz]" .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#socket
 :socket rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
@@ -1029,8 +1072,8 @@ kilograms for computer casing [kg]""" .
                                    :Keyboard
                                    :Microphone
                                    :Monitor
-                                   :Power_supply_unit
                                    :Mouse
+                                   :Power_supply_unit
                                    :Speakers
                                  )
                    ] ;
@@ -1435,6 +1478,15 @@ kilograms for computer casing [kg]""" .
                       rdfs:subClassOf :Motherboard .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mini_tower
+:Mini_tower rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Computer_casing_format ;
+                                  owl:hasValue "Mini tower"
+                                ] ;
+            rdfs:subClassOf :Computer_casing .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Modularity
 :Modularity rdf:type owl:Class ;
             owl:equivalentClass [ rdf:type owl:Class ;
@@ -1444,14 +1496,6 @@ kilograms for computer casing [kg]""" .
                                               )
                                 ] ;
             rdfs:subClassOf :Power_supply_unit .
-
-###  https://github.com/MilanPodunavac/IZ-Projekat#Mini_tower
-:Mini_tower rdf:type owl:Class ;
-            owl:equivalentClass [ rdf:type owl:Restriction ;
-                                  owl:onProperty :Computer_casing_format ;
-                                  owl:hasValue "Mini tower"
-                                ] ;
-            rdfs:subClassOf :Computer_casing .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Monitor
@@ -2099,6 +2143,7 @@ kilograms for computer casing [kg]""" .
               )
 ] .
 
+
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( :Full_tower
                 :Mid_tower
@@ -2106,6 +2151,7 @@ kilograms for computer casing [kg]""" .
                 :Small_form
               )
 ] .
+
 
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( :GTX_1070
