@@ -894,6 +894,32 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                        rdfs:range xsd:positiveInteger .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_buffer_cache
+:optical_drive_buffer_cache rdf:type owl:DatatypeProperty ;
+                            rdfs:domain :Optical_drive ;
+                            rdfs:range xsd:double ;
+                            rdfs:comment "Unit of measurement - megabytes [MB]" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_capability
+:optical_drive_capability rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Optical_drive ;
+                          rdfs:range xsd:string .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_form_factor
+:optical_drive_form_factor rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf owl:topDataProperty ;
+                           rdfs:domain :Optical_drive ;
+                           rdfs:range xsd:string .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_interface
+:optical_drive_interface rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Optical_drive ;
+                         rdfs:range xsd:string .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#power_needed
 :power_needed rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
@@ -1614,6 +1640,11 @@ kilograms for computer casing [kg]""" .
                                owl:hasValue "optical"
                              ] ;
          rdfs:subClassOf :Mouse .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive
+:Optical_drive rdf:type owl:Class ;
+               rdfs:subClassOf :Case_component .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#PLS_display_monitor
