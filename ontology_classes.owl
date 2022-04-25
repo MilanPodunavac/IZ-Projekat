@@ -248,6 +248,27 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
           rdfs:comment "Unit of measurement - kilobytes [kB]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors
+:Molex_4-pin_connectors rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :Power_supply_unit ;
+                        rdfs:range xsd:integer ;
+                        rdfs:comment "Number of Molex 4-pin connectors." .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors
+:PCie_6-pin_connectors rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Power_supply_unit ;
+                       rdfs:range xsd:integer ;
+                       rdfs:comment "Number of PCie 6-pin conncectors." .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors
+:PCie_8-pin_connectors rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Power_supply_unit ;
+                       rdfs:range xsd:integer ;
+                       rdfs:comment "Number of PCie 8-pin connectors." .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#PSU_Power
 :PSU_Power rdf:type owl:DatatypeProperty ;
            rdfs:domain :Computer_casing ;
@@ -260,6 +281,12 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                 rdfs:domain :Power_supply_unit ;
                 rdfs:range xsd:string ;
                 rdfs:comment "Number that represents efficiency percentage + optional key word bronze/silver/gold/platinum/titanium generally reserved for either very high capacity or server PSUs." .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#PSU_standard
+:PSU_standard rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Power_supply_unit ;
+              rdfs:range xsd:string .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency
@@ -312,6 +339,13 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                       ] ;
           rdfs:range xsd:string ;
           rdfs:comment "Double data rate -- DDR3, DDR4 or DDR 5" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors
+:SATA_connectors rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Power_supply_unit ;
+                 rdfs:range xsd:integer ;
+                 rdfs:comment "Number of SATA connectors." .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#aspect_ratio
@@ -480,6 +514,12 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                           rdfs:domain :Monitor ;
                           rdfs:range xsd:positiveInteger ;
                           rdfs:comment "" .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_fanless
+:is_fanless rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Power_supply_unit ;
+            rdfs:range xsd:boolean .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_introduced
@@ -933,6 +973,13 @@ kilograms for computer casing [kg]""" .
              rdfs:comment "Unit of measurement - megabytes per second [MB/s]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#PCie_6+2-pin_connectors
+<https://github.com/MilanPodunavac/IZ-Projekat#PCie_6+2-pin_connectors> rdf:type owl:DatatypeProperty ;
+                                                                        rdfs:domain :Power_supply_unit ;
+                                                                        rdfs:range xsd:integer ;
+                                                                        rdfs:comment "Number of PCie 6+2-pin connectors." .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -1133,6 +1180,11 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :Camera .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Full
+:Full rdf:type owl:Class ;
+      rdfs:subClassOf :Modularity .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Full_Travel
 :Full_Travel rdf:type owl:Class ;
              rdfs:subClassOf :Membrane .
@@ -1283,6 +1335,17 @@ kilograms for computer casing [kg]""" .
                       rdfs:subClassOf :Motherboard .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Modularity
+:Modularity rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Class ;
+                                  owl:unionOf ( :Full
+                                                :None
+                                                :Semi
+                                              )
+                                ] ;
+            rdfs:subClassOf :Power_supply_unit .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Monitor
 :Monitor rdf:type owl:Class ;
          rdfs:subClassOf :External_component .
@@ -1352,6 +1415,11 @@ kilograms for computer casing [kg]""" .
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Network_interface
 :Network_interface rdf:type owl:Class ;
                    rdfs:subClassOf :Case_component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#None
+:None rdf:type owl:Class ;
+      rdfs:subClassOf :Modularity .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#OLED_display_monitor
@@ -1622,6 +1690,11 @@ kilograms for computer casing [kg]""" .
                 rdfs:subClassOf :Membrane .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Semi
+:Semi rdf:type owl:Class ;
+      rdfs:subClassOf :Modularity .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Semi_mechanical
 :Semi_mechanical rdf:type owl:Class ;
                  rdfs:subClassOf :Key_type .
@@ -1865,6 +1938,14 @@ kilograms for computer casing [kg]""" .
                 :Quad_core_processor
                 :Single_core_processor
                 <https://github.com/MilanPodunavac/IZ-Projekat#12_core_processor>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Full
+                :None
+                :Semi
               )
 ] .
 
