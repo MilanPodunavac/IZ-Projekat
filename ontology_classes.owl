@@ -12,37 +12,37 @@
 #    Object Properties
 #################################################################
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Compatible_with_OS
+###  https://github.com/MilanPodunavac/IZ-Projekat#Compatible_with_OS
 :Compatible_with_OS rdf:type owl:ObjectProperty ;
                     rdfs:domain :External_component ;
                     rdfs:range :Operating_system .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Computer_casing_contains_PSU
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_contains_PSU
 :Computer_casing_contains_PSU rdf:type owl:ObjectProperty ;
                               rdfs:domain :Computer_casing ;
                               rdfs:range :Power_supply_unit .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Computer_casing_contains_air_cooler
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_contains_air_cooler
 :Computer_casing_contains_air_cooler rdf:type owl:ObjectProperty ;
                                      rdfs:domain :Computer_casing ;
                                      rdfs:range :Air_cooling_system .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#contains
+###  https://github.com/MilanPodunavac/IZ-Projekat#contains
 :contains rdf:type owl:ObjectProperty ;
           rdfs:domain :Computer_system ;
           rdfs:range :Component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#has_a_gpu
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_gpu
 :has_a_gpu rdf:type owl:ObjectProperty ;
            rdfs:domain :Motherboard ;
            rdfs:range :Graphics_card .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#has_a_microphone
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_microphone
 :has_a_microphone rdf:type owl:ObjectProperty ;
                   rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( :Camera
@@ -52,24 +52,24 @@
                   rdfs:range :Microphone .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#has_a_sound_card
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_sound_card
 :has_a_sound_card rdf:type owl:ObjectProperty ;
                   rdfs:domain :Motherboard ;
                   rdfs:range :Sound_card .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#is_from
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_from
 :is_from rdf:type owl:ObjectProperty ;
          rdfs:domain :Producer ;
          rdfs:range :Country .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#is_produced_by
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_produced_by
 :is_produced_by rdf:type owl:ObjectProperty ;
                 owl:inverseOf :produces .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#produces
+###  https://github.com/MilanPodunavac/IZ-Projekat#produces
 :produces rdf:type owl:ObjectProperty ;
           rdfs:domain :Producer ;
           rdfs:range :Component .
@@ -79,19 +79,19 @@
 #    Data properties
 #################################################################
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Computer_casing_2.5_slots
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_2.5_slots
 :Computer_casing_2.5_slots rdf:type owl:DatatypeProperty ;
                            rdfs:domain :Computer_casing ;
                            rdfs:range xsd:positiveInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Computer_casing_3.5_slots
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_3.5_slots
 :Computer_casing_3.5_slots rdf:type owl:DatatypeProperty ;
                            rdfs:domain :Computer_casing ;
                            rdfs:range xsd:positiveInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Computer_casing_format
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_format
 :Computer_casing_format rdf:type owl:DatatypeProperty ;
                         rdfs:domain :Computer_casing ;
                         rdfs:range [ rdf:type rdfs:Datatype ;
@@ -112,29 +112,37 @@
                         rdfs:comment "Small form factor, Mini Tower, Mid Tower, Full Tower" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Computer_casing_max_gpu_length
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_max_gpu_length
 :Computer_casing_max_gpu_length rdf:type owl:DatatypeProperty ;
                                 rdfs:domain :Computer_casing ;
                                 rdfs:range xsd:decimal ;
                                 rdfs:comment "centimeters[cm]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Computer_casing_supported_motherboard_formats
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_supported_motherboard_formats
 :Computer_casing_supported_motherboard_formats rdf:type owl:DatatypeProperty ;
                                                rdfs:domain :Computer_casing ;
                                                rdfs:range xsd:string ;
                                                rdfs:comment "EATX, ATX, ..." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_6pin_connectors
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_6pin_connectors
 :GPU_6pin_connectors rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Graphics_card ;
-                     rdfs:range xsd:nonNegativeInteger ;
+                     rdfs:range [ rdf:type rdfs:Datatype ;
+                                  owl:oneOf [ rdf:type rdf:List ;
+                                              rdf:first 0 ;
+                                              rdf:rest [ rdf:type rdf:List ;
+                                                         rdf:first 1 ;
+                                                         rdf:rest rdf:nil
+                                                       ]
+                                            ]
+                                ] ;
                      rdfs:comment """1 or 0
 example : 1 6-pin, 1 6-pin and 1 8-pin""" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_8pin_connectors
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors
 :GPU_8pin_connectors rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Graphics_card ;
                      rdfs:range xsd:nonNegativeInteger ;
@@ -142,20 +150,20 @@ example : 1 6-pin, 1 6-pin and 1 8-pin""" .
 example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_CUDA_Cores
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores
 :GPU_CUDA_Cores rdf:type owl:DatatypeProperty ;
                 rdfs:domain :NVIDIA-GPU ;
                 rdfs:range xsd:integer .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_DP_connectors
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors
 :GPU_DP_connectors rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Graphics_card ;
                    rdfs:range xsd:nonNegativeInteger ;
                    rdfs:comment "Usually 3 or 2" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_DirectX_Version
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version
 :GPU_DirectX_Version rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Graphics_card ;
                      rdfs:range [ rdf:type rdfs:Datatype ;
@@ -179,28 +187,28 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                      rdfs:comment "9, 10 ,11, 12, 12 ultimate" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_HDMI_connectors
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors
 :GPU_HDMI_connectors rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Graphics_card ;
                      rdfs:range xsd:nonNegativeInteger ;
                      rdfs:comment "usually 1 or 2" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_Memory_clock
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock
 :GPU_Memory_clock rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Graphics_card ;
                   rdfs:range xsd:integer ;
                   rdfs:comment "Megaherz [MHz]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_Memory_size
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size
 :GPU_Memory_size rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Graphics_card ;
                  rdfs:range xsd:integer ;
                  rdfs:comment "Gigabytes [Gb]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_Memory_type
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type
 :GPU_Memory_type rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Graphics_card ;
                  rdfs:range [ rdf:type rdfs:Datatype ;
@@ -233,68 +241,68 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                  rdfs:comment "GDDR3, GDDR4, GDDR5, GDDR6, GDDR6X .." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_Stream_Processors
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_Stream_Processors
 :GPU_Stream_Processors rdf:type owl:DatatypeProperty ;
                        rdfs:domain :AMD-GPU ;
                        rdfs:range xsd:integer .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_VGA_connectors
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors
 :GPU_VGA_connectors rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Graphics_card ;
                     rdfs:range xsd:nonNegativeInteger ;
                     rdfs:comment "Usually 0" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_compute_units
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_compute_units
 :GPU_compute_units rdf:type owl:DatatypeProperty ;
                    rdfs:domain :AMD-GPU ;
                    rdfs:range xsd:nonNegativeInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_core_boost_clock
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock
 :GPU_core_boost_clock rdf:type owl:DatatypeProperty ;
                       rdfs:domain :Graphics_card ;
                       rdfs:range xsd:integer ;
                       rdfs:comment "Megaherz [MHz]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_core_clock
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_clock
 :GPU_core_clock rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Graphics_card ;
                 rdfs:range xsd:integer ;
                 rdfs:comment "Megaherz [MHz]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_memory_bus
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus
 :GPU_memory_bus rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Graphics_card ;
                 rdfs:range xsd:positiveInteger ;
                 rdfs:comment "32-bit, 128-bit, 256-bit etc" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_recommended_system_power
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power
 :GPU_recommended_system_power rdf:type owl:DatatypeProperty ;
                               rdfs:domain :Graphics_card ;
                               rdfs:range xsd:positiveInteger ;
                               rdfs:comment "Watts [W]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GPU_width
+###  https://github.com/MilanPodunavac/IZ-Projekat#GPU_width
 :GPU_width rdf:type owl:DatatypeProperty ;
            rdfs:domain :Graphics_card ;
            rdfs:range xsd:decimal ;
            rdfs:comment "Number of slots that will be covered by a GPU (example - 2, 2.3, 2.5...)" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#HDR
+###  https://github.com/MilanPodunavac/IZ-Projekat#HDR
 :HDR rdf:type owl:DatatypeProperty ,
               owl:FunctionalProperty ;
      rdfs:domain :Monitor ;
      rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#L1_cache
+###  https://github.com/MilanPodunavac/IZ-Projekat#L1_cache
 :L1_cache rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
           rdfs:domain :Processor ;
@@ -302,7 +310,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
           rdfs:comment "Unit of measurement - kilobytes [kB]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#L2_cache
+###  https://github.com/MilanPodunavac/IZ-Projekat#L2_cache
 :L2_cache rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
           rdfs:domain :Processor ;
@@ -310,7 +318,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
           rdfs:comment "Unit of measurement - kilobytes [kB]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#L3_cache
+###  https://github.com/MilanPodunavac/IZ-Projekat#L3_cache
 :L3_cache rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
           rdfs:domain :Processor ;
@@ -318,14 +326,14 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
           rdfs:comment "Unit of measurement - kilobytes [kB]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Molex_4-pin_connectors
+###  https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors
 :Molex_4-pin_connectors rdf:type owl:DatatypeProperty ;
                         rdfs:domain :Power_supply_unit ;
                         rdfs:range xsd:integer ;
                         rdfs:comment "Number of Molex 4-pin connectors." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Mouse_button_number
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mouse_button_number
 :Mouse_button_number rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Mouse ;
                      rdfs:range [ rdf:type rdfs:Datatype ;
@@ -337,20 +345,20 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                      rdfs:comment "2 or more" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Mouse_dpi
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mouse_dpi
 :Mouse_dpi rdf:type owl:DatatypeProperty ;
            rdfs:domain :Mouse ;
            rdfs:range xsd:positiveInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Mouse_polling_rate
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mouse_polling_rate
 :Mouse_polling_rate rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Mouse ;
                     rdfs:range xsd:positiveInteger ;
                     rdfs:comment "Herz[Hz]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Mouse_sensor_type
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mouse_sensor_type
 :Mouse_sensor_type rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Mouse ;
                    rdfs:range [ rdf:type rdfs:Datatype ;
@@ -365,81 +373,81 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                    rdfs:comment "Laser or optical" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Operating_system_min_cpu
+###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_cpu
 :Operating_system_min_cpu rdf:type owl:DatatypeProperty ;
                           rdfs:domain :Operating_system ;
                           rdfs:range xsd:decimal ;
                           rdfs:comment "GHz - 1 ..." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Operating_system_min_disk_space
+###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_disk_space
 :Operating_system_min_disk_space rdf:type owl:DatatypeProperty ;
                                  rdfs:domain :Operating_system ;
                                  rdfs:range xsd:positiveInteger ;
                                  rdfs:comment "Gb" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Operating_system_min_ram
+###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_ram
 :Operating_system_min_ram rdf:type owl:DatatypeProperty ;
                           rdfs:domain :Operating_system ;
                           rdfs:range xsd:positiveInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Operating_system_type
+###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type
 :Operating_system_type rdf:type owl:DatatypeProperty ;
                        rdfs:domain :Operating_system ;
                        rdfs:range xsd:positiveInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6-pin_connectors
+###  https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors
 :PCie_6-pin_connectors rdf:type owl:DatatypeProperty ;
                        rdfs:domain :Power_supply_unit ;
                        rdfs:range xsd:integer ;
                        rdfs:comment "Number of PCie 6-pin conncectors." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_8-pin_connectors
+###  https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors
 :PCie_8-pin_connectors rdf:type owl:DatatypeProperty ;
                        rdfs:domain :Power_supply_unit ;
                        rdfs:range xsd:integer ;
                        rdfs:comment "Number of PCie 8-pin connectors." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PSU_Power
+###  https://github.com/MilanPodunavac/IZ-Projekat#PSU_Power
 :PSU_Power rdf:type owl:DatatypeProperty ;
            rdfs:domain :Computer_casing ;
            rdfs:range xsd:positiveInteger ;
            rdfs:comment "Watts [W]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PSU_efficiency
+###  https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency
 :PSU_efficiency rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Power_supply_unit ;
                 rdfs:range xsd:string ;
                 rdfs:comment "Number that represents efficiency percentage + optional key word bronze/silver/gold/platinum/titanium generally reserved for either very high capacity or server PSUs." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PSU_standard
+###  https://github.com/MilanPodunavac/IZ-Projekat#PSU_standard
 :PSU_standard rdf:type owl:DatatypeProperty ;
               rdfs:domain :Power_supply_unit ;
               rdfs:range xsd:string .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RAM_cas_latency
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency
 :RAM_cas_latency rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Random_access_memory ;
                  rdfs:range xsd:positiveInteger ;
                  rdfs:comment "A RAM module's CAS (Column Address Strobe or Signal) latency is how many clock cycles in it takes for the RAM module to access a specific set of data in one of its columns (hence the name) and make that data available on its output pins, starting from when a memory controller tells it to." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RAM_first_word_latency
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency
 :RAM_first_word_latency rdf:type owl:DatatypeProperty ;
                         rdfs:domain :Random_access_memory ;
                         rdfs:range xsd:double ;
                         rdfs:comment "Unit of measurement - nanoseconds [ns]." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RAM_maximum_frequency
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency
 :RAM_maximum_frequency rdf:type owl:DatatypeProperty ;
                        rdfs:domain [ rdf:type owl:Class ;
                                      owl:unionOf ( :Motherboard
@@ -451,7 +459,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                        rdfs:comment "Megaherz [MHz]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RAM_modules_capacity
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity
 :RAM_modules_capacity rdf:type owl:DatatypeProperty ;
                       rdfs:subPropertyOf owl:topDataProperty ;
                       rdfs:domain :Random_access_memory ;
@@ -459,14 +467,19 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                       rdfs:comment "Unit of measurement - gigabytes [GB]." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RAM_modules_number
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number
 :RAM_modules_number rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Random_access_memory ;
-                    rdfs:range xsd:positiveInteger ;
+                    rdfs:range [ rdf:type rdfs:Datatype ;
+                                 owl:onDatatype xsd:positiveInteger ;
+                                 owl:withRestrictions ( [ xsd:minInclusive "1"^^xsd:positiveInteger
+                                                        ]
+                                                      )
+                               ] ;
                     rdfs:comment "Number of modules (1-12)." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RAM_type
+###  https://github.com/MilanPodunavac/IZ-Projekat#RAM_type
 :RAM_type rdf:type owl:DatatypeProperty ;
           rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( :Motherboard
@@ -488,21 +501,21 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
           rdfs:comment "Double data rate -- DDR3, DDR4 or DDR 5" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#SATA_connectors
+###  https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors
 :SATA_connectors rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Power_supply_unit ;
                  rdfs:range xsd:integer ;
                  rdfs:comment "Number of SATA connectors." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Signal-to-noise_ratio
+###  https://github.com/MilanPodunavac/IZ-Projekat#Signal-to-noise_ratio
 :Signal-to-noise_ratio rdf:type owl:DatatypeProperty ;
                        rdfs:domain :Sound_card ;
                        rdfs:range xsd:integer ;
                        rdfs:comment "Unit of measurement - decibel [dB]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#aspect_ratio
+###  https://github.com/MilanPodunavac/IZ-Projekat#aspect_ratio
 :aspect_ratio rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
               rdfs:domain :Monitor ;
@@ -510,7 +523,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
               rdfs:comment "Two number separated by :" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#base_frequency
+###  https://github.com/MilanPodunavac/IZ-Projekat#base_frequency
 :base_frequency rdf:type owl:DatatypeProperty ,
                          owl:FunctionalProperty ;
                 rdfs:domain :Processor ;
@@ -518,7 +531,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                 rdfs:comment "Unit of measurement - gigaherz [GHz]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#buffer_size
+###  https://github.com/MilanPodunavac/IZ-Projekat#buffer_size
 :buffer_size rdf:type owl:DatatypeProperty ,
                       owl:FunctionalProperty ;
              rdfs:domain :HDD ;
@@ -526,7 +539,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
              rdfs:comment "Unit of measurement - megabytes [MB]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#camera_base_type
+###  https://github.com/MilanPodunavac/IZ-Projekat#camera_base_type
 :camera_base_type rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
                   rdfs:domain :Camera ;
@@ -542,28 +555,28 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                   rdfs:comment "Freestanding or Clip-On" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#can_autofocus
+###  https://github.com/MilanPodunavac/IZ-Projekat#can_autofocus
 :can_autofocus rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
                rdfs:domain :Camera ;
                rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#can_multithread
+###  https://github.com/MilanPodunavac/IZ-Projekat#can_multithread
 :can_multithread rdf:type owl:DatatypeProperty ,
                           owl:FunctionalProperty ;
                  rdfs:domain :Processor ;
                  rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#can_record
+###  https://github.com/MilanPodunavac/IZ-Projekat#can_record
 :can_record rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :Camera ;
             rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#capacity
+###  https://github.com/MilanPodunavac/IZ-Projekat#capacity
 :capacity rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
           rdfs:domain :Memory_drive ;
@@ -571,21 +584,21 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
           rdfs:comment "Unit of measurement - gigabytes [GB]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#channels
+###  https://github.com/MilanPodunavac/IZ-Projekat#channels
 :channels rdf:type owl:DatatypeProperty ;
           rdfs:domain :Sound_card ;
           rdfs:range xsd:string ;
           rdfs:comment "Soundcard channels." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#chipset
+###  https://github.com/MilanPodunavac/IZ-Projekat#chipset
 :chipset rdf:type owl:DatatypeProperty ;
          rdfs:domain :Sound_card ;
          rdfs:range xsd:string ;
          rdfs:comment "Soundcard chipset." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#connection
+###  https://github.com/MilanPodunavac/IZ-Projekat#connection
 :connection rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :Memory_drive ;
@@ -601,7 +614,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
             rdfs:comment "SATA3 or NVMA M.2" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#costs
+###  https://github.com/MilanPodunavac/IZ-Projekat#costs
 :costs rdf:type owl:DatatypeProperty ,
                 owl:FunctionalProperty ;
        rdfs:domain :Component ;
@@ -609,13 +622,13 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
        rdfs:comment "Unit of measurement - euros [eur]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#depth
+###  https://github.com/MilanPodunavac/IZ-Projekat#depth
 :depth rdf:type owl:DatatypeProperty ;
        rdfs:domain :Keyboard ;
        rdfs:range xsd:double .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#digital_audio
+###  https://github.com/MilanPodunavac/IZ-Projekat#digital_audio
 :digital_audio rdf:type owl:DatatypeProperty ;
                rdfs:domain :Sound_card ;
                rdfs:range [ rdf:type rdfs:Datatype ;
@@ -633,7 +646,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                rdfs:comment "16-bit, 24-bit or 32-bit." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#disc_rotation_speed
+###  https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed
 :disc_rotation_speed rdf:type owl:DatatypeProperty ,
                               owl:FunctionalProperty ;
                      rdfs:domain :HDD ;
@@ -641,7 +654,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                      rdfs:comment "Unit of measurement - rotations per minute [rpm]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#display_panel_type
+###  https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type
 :display_panel_type rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
                     rdfs:domain :Monitor ;
@@ -669,7 +682,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                     rdfs:comment "AHVA, IPS, PLS, TN, VA or OLED" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#frame_rate
+###  https://github.com/MilanPodunavac/IZ-Projekat#frame_rate
 :frame_rate rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :Camera ;
@@ -677,7 +690,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
             rdfs:comment "Unit of measurement - frames per second [fps]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#frequency_response
+###  https://github.com/MilanPodunavac/IZ-Projekat#frequency_response
 :frequency_response rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
                     rdfs:domain [ rdf:type owl:Class ;
@@ -689,32 +702,32 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                     rdfs:comment "Unit of measurement - herz [Hz]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#has_a_name
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_name
 :has_a_name rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain owl:Thing ;
             rdfs:range xsd:string .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#has_heat_spreader
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_heat_spreader
 :has_heat_spreader rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Random_access_memory ;
                    rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#has_numpad
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_numpad
 :has_numpad rdf:type owl:DatatypeProperty ;
             rdfs:domain :Keyboard ;
             rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#has_rgb_backlight_led
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_rgb_backlight_led
 :has_rgb_backlight_led rdf:type owl:DatatypeProperty ;
                        rdfs:domain :Keyboard ;
                        rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#height
+###  https://github.com/MilanPodunavac/IZ-Projekat#height
 :height rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain [ rdf:type owl:Class ;
@@ -731,7 +744,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
         rdfs:comment "Unit of measurement - centimeters [cm]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#horizontal_viewing_angle
+###  https://github.com/MilanPodunavac/IZ-Projekat#horizontal_viewing_angle
 :horizontal_viewing_angle rdf:type owl:DatatypeProperty ,
                                    owl:FunctionalProperty ;
                           rdfs:domain :Monitor ;
@@ -739,48 +752,48 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                           rdfs:comment "" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#interface
+###  https://github.com/MilanPodunavac/IZ-Projekat#interface
 :interface rdf:type owl:DatatypeProperty ;
            rdfs:domain :Sound_card ;
            rdfs:range xsd:string ;
            rdfs:comment "Soundcard interface." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#is_fanless
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_fanless
 :is_fanless rdf:type owl:DatatypeProperty ;
             rdfs:domain :Power_supply_unit ;
             rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#is_introduced
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_introduced
 :is_introduced rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
                rdfs:domain :Component ;
                rdfs:range xsd:dateTime .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#is_it_embedded
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_it_embedded
 :is_it_embedded rdf:type owl:DatatypeProperty ,
                          owl:FunctionalProperty ;
                 rdfs:domain :Component ;
                 rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#is_manufactured_by
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by
 :is_manufactured_by rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
                     rdfs:domain :Component ;
                     rdfs:range xsd:string .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#is_on_a_continent
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_on_a_continent
 :is_on_a_continent rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain :Country ;
                    rdfs:range xsd:string .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#is_type_of
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_type_of
 :is_type_of rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain [ rdf:type owl:Class ;
@@ -841,7 +854,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                          "Speakers - Multimedia, Surround sound or Soundbar" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#is_water_resistant
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_water_resistant
 :is_water_resistant rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
                     rdfs:domain [ rdf:type owl:Class ;
@@ -852,19 +865,19 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                     rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#is_wired
+###  https://github.com/MilanPodunavac/IZ-Projekat#is_wired
 :is_wired rdf:type owl:DatatypeProperty ;
           rdfs:domain :Keyboard ;
           rdfs:range xsd:boolean .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#key_allocation
+###  https://github.com/MilanPodunavac/IZ-Projekat#key_allocation
 :key_allocation rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Keyboard ;
                 rdfs:range xsd:string .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#length
+###  https://github.com/MilanPodunavac/IZ-Projekat#length
 :length rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain [ rdf:type owl:Class ;
@@ -882,7 +895,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
         rdfs:comment "Unit of measurement - centimeters [cm]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#lens_type
+###  https://github.com/MilanPodunavac/IZ-Projekat#lens_type
 :lens_type rdf:type owl:DatatypeProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Camera ;
@@ -898,14 +911,14 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
            rdfs:comment "Plastic or Glass" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#looks_like
+###  https://github.com/MilanPodunavac/IZ-Projekat#looks_like
 :looks_like rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :Computer_system ;
             rdfs:range xsd:anyURI .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#max_rotation_frequency
+###  https://github.com/MilanPodunavac/IZ-Projekat#max_rotation_frequency
 :max_rotation_frequency rdf:type owl:DatatypeProperty ,
                                  owl:FunctionalProperty ;
                         rdfs:domain [ rdf:type owl:Class ;
@@ -917,7 +930,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                         rdfs:comment "Unit of measurement - rotations per minute [rpm]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#maximum_RAM
+###  https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM
 :maximum_RAM rdf:type owl:DatatypeProperty ,
                       owl:FunctionalProperty ;
              rdfs:domain [ rdf:type owl:Class ;
@@ -929,7 +942,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
              rdfs:comment "Unit of measurement - megabytes [MB] - Probably useless data property. Measurement should be gigabytes" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#memory_format
+###  https://github.com/MilanPodunavac/IZ-Projekat#memory_format
 :memory_format rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
                rdfs:domain [ owl:intersectionOf ( :Memory_drive
@@ -951,7 +964,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                rdfs:comment "2.5'' or 3.5''" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#min_rotation_frequency
+###  https://github.com/MilanPodunavac/IZ-Projekat#min_rotation_frequency
 :min_rotation_frequency rdf:type owl:DatatypeProperty ,
                                  owl:FunctionalProperty ;
                         rdfs:domain [ rdf:type owl:Class ;
@@ -963,7 +976,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                         rdfs:comment "Unit of measurement - rotations per minute [rpm]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#motherboard_DIMM_slots
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots
 :motherboard_DIMM_slots rdf:type owl:DatatypeProperty ;
                         rdfs:domain :Motherboard ;
                         rdfs:range xsd:integer ;
@@ -971,57 +984,57 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
 2/4/6/8, usually 4 or 2""" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#motherboard_M2_connections
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections
 :motherboard_M2_connections rdf:type owl:DatatypeProperty ;
                             rdfs:domain :Motherboard ;
                             rdfs:range xsd:integer .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#motherboard_PCIex16_slots
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots
 :motherboard_PCIex16_slots rdf:type owl:DatatypeProperty ;
                            rdfs:domain :Motherboard ;
                            rdfs:range xsd:integer ;
                            rdfs:comment "Usually 1, 2 or 3" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#motherboard_PCIex1_slots
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots
 :motherboard_PCIex1_slots rdf:type owl:DatatypeProperty ;
                           rdfs:domain :Motherboard ;
                           rdfs:range xsd:integer .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#motherboard_PCIex4_slots
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots
 :motherboard_PCIex4_slots rdf:type owl:DatatypeProperty ;
                           rdfs:domain :Motherboard ;
                           rdfs:range xsd:integer .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#motherboard_PCIex8_slots
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots
 :motherboard_PCIex8_slots rdf:type owl:DatatypeProperty ;
                           rdfs:domain :Motherboard ;
                           rdfs:range xsd:integer .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#motherboard_SATA_connections
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections
 :motherboard_SATA_connections rdf:type owl:DatatypeProperty ;
                               rdfs:domain :Motherboard ;
                               rdfs:range xsd:integer .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#motherboard_USB_slots
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots
 :motherboard_USB_slots rdf:type owl:DatatypeProperty ;
                        rdfs:domain :Motherboard ;
                        rdfs:range xsd:integer .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#motherboard_chipset
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset
 :motherboard_chipset rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Motherboard ;
                      rdfs:range xsd:string ;
                      rdfs:comment "B350, B450, B550, X570 etc" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#motherboard_format
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format
 :motherboard_format rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Motherboard ;
                     rdfs:range [ rdf:type rdfs:Datatype ;
@@ -1030,7 +1043,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                              rdf:rest [ rdf:type rdf:List ;
                                                         rdf:first "Micro-ATX" ;
                                                         rdf:rest [ rdf:type rdf:List ;
-                                                                   rdf:first "Mini-ATX" ;
+                                                                   rdf:first "Mini-ITX" ;
                                                                    rdf:rest [ rdf:type rdf:List ;
                                                                               rdf:first "Mostly-ATX" ;
                                                                               rdf:rest [ rdf:type rdf:List ;
@@ -1048,7 +1061,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                     rdfs:comment "ATX, Micro-ATX, Mini-ITX, Nano-ITX, Pico-ITX or Mostly-ATX" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#needs_connection_port
+###  https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port
 :needs_connection_port rdf:type owl:DatatypeProperty ;
                        rdfs:domain :External_component ;
                        rdfs:range [ rdf:type rdfs:Datatype ;
@@ -1087,21 +1100,21 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                        rdfs:comment "3.5mm Audio, Display, DVI, Ethernet, HDMI, PS/2, ThunderBolt, USB, VGA or None (when it can be wireless)" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#noise_estimate
+###  https://github.com/MilanPodunavac/IZ-Projekat#noise_estimate
 :noise_estimate rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Cooling_system ;
                 rdfs:range xsd:positiveInteger ;
                 rdfs:comment "Unit of measurement - decibels [dB]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#number_of_buttons
+###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_buttons
 :number_of_buttons rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain :Game_controller ;
                    rdfs:range xsd:positiveInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#number_of_cores
+###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores
 :number_of_cores rdf:type owl:DatatypeProperty ,
                           owl:FunctionalProperty ;
                  rdfs:domain :Processor ;
@@ -1129,14 +1142,14 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                  rdfs:comment "1, 2, 4, 6, 8 or 12" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#number_of_devices
+###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_devices
 :number_of_devices rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain :Speakers ;
                    rdfs:range xsd:positiveInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#number_of_fans
+###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_fans
 :number_of_fans rdf:type owl:DatatypeProperty ,
                          owl:FunctionalProperty ;
                 rdfs:domain [ rdf:type owl:Class ;
@@ -1147,40 +1160,40 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                 rdfs:range xsd:positiveInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#number_of_transistors
+###  https://github.com/MilanPodunavac/IZ-Projekat#number_of_transistors
 :number_of_transistors rdf:type owl:DatatypeProperty ,
                                 owl:FunctionalProperty ;
                        rdfs:domain :Processor ;
                        rdfs:range xsd:positiveInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#optical_drive_buffer_cache
+###  https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_buffer_cache
 :optical_drive_buffer_cache rdf:type owl:DatatypeProperty ;
                             rdfs:domain :Optical_drive ;
                             rdfs:range xsd:double ;
                             rdfs:comment "Unit of measurement - megabytes [MB]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#optical_drive_capability
+###  https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_capability
 :optical_drive_capability rdf:type owl:DatatypeProperty ;
                           rdfs:domain :Optical_drive ;
                           rdfs:range xsd:string .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#optical_drive_form_factor
+###  https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_form_factor
 :optical_drive_form_factor rdf:type owl:DatatypeProperty ;
                            rdfs:subPropertyOf owl:topDataProperty ;
                            rdfs:domain :Optical_drive ;
                            rdfs:range xsd:string .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#optical_drive_interface
+###  https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_interface
 :optical_drive_interface rdf:type owl:DatatypeProperty ;
                          rdfs:domain :Optical_drive ;
                          rdfs:range xsd:string .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#power_needed
+###  https://github.com/MilanPodunavac/IZ-Projekat#power_needed
 :power_needed rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
               rdfs:domain :Speakers ;
@@ -1188,7 +1201,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
               rdfs:comment "Unit of measurement - watts [W]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#process_microns
+###  https://github.com/MilanPodunavac/IZ-Projekat#process_microns
 :process_microns rdf:type owl:DatatypeProperty ,
                           owl:FunctionalProperty ;
                  rdfs:domain :Processor ;
@@ -1197,7 +1210,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
 TSMC or samsung""" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#read_speed
+###  https://github.com/MilanPodunavac/IZ-Projekat#read_speed
 :read_speed rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :SSD ;
@@ -1205,7 +1218,7 @@ TSMC or samsung""" .
             rdfs:comment "Unit of measurement - megabytes per second [MB/s]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#refresh_rate
+###  https://github.com/MilanPodunavac/IZ-Projekat#refresh_rate
 :refresh_rate rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
               rdfs:domain :Monitor ;
@@ -1213,7 +1226,7 @@ TSMC or samsung""" .
               rdfs:comment "Unit of measurement - herz [Hz]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#register_type
+###  https://github.com/MilanPodunavac/IZ-Projekat#register_type
 :register_type rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
                rdfs:domain :Processor ;
@@ -1232,7 +1245,7 @@ TSMC or samsung""" .
                rdfs:comment "Unit of measurement - bits (can be 16, 32 or 64)" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#resolution_height
+###  https://github.com/MilanPodunavac/IZ-Projekat#resolution_height
 :resolution_height rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain [ rdf:type owl:Class ;
@@ -1245,7 +1258,7 @@ TSMC or samsung""" .
                    rdfs:comment "Operating system - minimum required" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#resolution_width
+###  https://github.com/MilanPodunavac/IZ-Projekat#resolution_width
 :resolution_width rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
                   rdfs:domain [ rdf:type owl:Class ;
@@ -1258,14 +1271,14 @@ TSMC or samsung""" .
                   rdfs:comment "Operating system - minimum required" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#sample_rate
+###  https://github.com/MilanPodunavac/IZ-Projekat#sample_rate
 :sample_rate rdf:type owl:DatatypeProperty ;
              rdfs:domain :Sound_card ;
              rdfs:range xsd:double ;
              rdfs:comment "Unit of measurement -  kilohertz [kHz]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#socket
+###  https://github.com/MilanPodunavac/IZ-Projekat#socket
 :socket rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain [ rdf:type owl:Class ;
@@ -1277,7 +1290,7 @@ TSMC or samsung""" .
         rdfs:range xsd:string .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#sound_sensitivity
+###  https://github.com/MilanPodunavac/IZ-Projekat#sound_sensitivity
 :sound_sensitivity rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain [ rdf:type owl:Class ;
@@ -1289,7 +1302,7 @@ TSMC or samsung""" .
                    rdfs:comment "Unit of measurement - decibels [dB]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#total_draw_power
+###  https://github.com/MilanPodunavac/IZ-Projekat#total_draw_power
 :total_draw_power rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
                   rdfs:domain [ rdf:type owl:Class ;
@@ -1302,21 +1315,21 @@ TSMC or samsung""" .
                   rdfs:comment "Unit of measurement - watts [W]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#turbo_frequency
+###  https://github.com/MilanPodunavac/IZ-Projekat#turbo_frequency
 :turbo_frequency rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Processor ;
                  rdfs:range xsd:decimal ;
                  rdfs:comment "Unit of measurement - gigaherz [GHz]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#vertical_viewing_angle
+###  https://github.com/MilanPodunavac/IZ-Projekat#vertical_viewing_angle
 :vertical_viewing_angle rdf:type owl:DatatypeProperty ,
                                  owl:FunctionalProperty ;
                         rdfs:domain :Monitor ;
                         rdfs:range xsd:positiveInteger .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#voltage
+###  https://github.com/MilanPodunavac/IZ-Projekat#voltage
 :voltage rdf:type owl:DatatypeProperty ,
                   owl:FunctionalProperty ;
          rdfs:domain [ rdf:type owl:Class ;
@@ -1328,14 +1341,14 @@ TSMC or samsung""" .
          rdfs:comment "Unit of measurement - volts [V]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#was_founded
+###  https://github.com/MilanPodunavac/IZ-Projekat#was_founded
 :was_founded rdf:type owl:DatatypeProperty ,
                       owl:FunctionalProperty ;
              rdfs:domain :Producer ;
              rdfs:range xsd:dateTime .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#wattage
+###  https://github.com/MilanPodunavac/IZ-Projekat#wattage
 :wattage rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
          rdfs:domain :Power_supply_unit ;
@@ -1343,7 +1356,7 @@ TSMC or samsung""" .
          rdfs:comment "Unit of measurement - watt [W]." .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#weight
+###  https://github.com/MilanPodunavac/IZ-Projekat#weight
 :weight rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain [ rdf:type owl:Class ;
@@ -1360,7 +1373,7 @@ TSMC or samsung""" .
 kilograms for computer casing [kg]""" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#width
+###  https://github.com/MilanPodunavac/IZ-Projekat#width
 :width rdf:type owl:DatatypeProperty ,
                 owl:FunctionalProperty ;
        rdfs:domain [ rdf:type owl:Class ;
@@ -1378,7 +1391,7 @@ kilograms for computer casing [kg]""" .
        rdfs:comment "Unit of measurement - centimeters [cm]" .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#write_speed
+###  https://github.com/MilanPodunavac/IZ-Projekat#write_speed
 :write_speed rdf:type owl:DatatypeProperty ,
                       owl:FunctionalProperty ;
              rdfs:domain :SSD ;
@@ -1397,7 +1410,7 @@ kilograms for computer casing [kg]""" .
 #    Classes
 #################################################################
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#AHVA_display_monitor
+###  https://github.com/MilanPodunavac/IZ-Projekat#AHVA_display_monitor
 :AHVA_display_monitor rdf:type owl:Class ;
                       owl:equivalentClass [ rdf:type owl:Restriction ;
                                             owl:onProperty :display_panel_type ;
@@ -1406,13 +1419,13 @@ kilograms for computer casing [kg]""" .
                       rdfs:subClassOf :LCD_display_monitor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#AMD-GPU
+###  https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU
 :AMD-GPU rdf:type owl:Class ;
          rdfs:subClassOf :Graphics_card ;
          owl:disjointWith :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#ATX_motherboard
+###  https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard
 :ATX_motherboard rdf:type owl:Class ;
                  owl:equivalentClass [ rdf:type owl:Restriction ;
                                        owl:onProperty :motherboard_format ;
@@ -1421,7 +1434,7 @@ kilograms for computer casing [kg]""" .
                  rdfs:subClassOf :Motherboard .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Air_cooling_system
+###  https://github.com/MilanPodunavac/IZ-Projekat#Air_cooling_system
 :Air_cooling_system rdf:type owl:Class ;
                     owl:equivalentClass [ rdf:type owl:Restriction ;
                                           owl:onProperty :is_type_of ;
@@ -1430,27 +1443,27 @@ kilograms for computer casing [kg]""" .
                     rdfs:subClassOf :Cooling_system .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Camera
+###  https://github.com/MilanPodunavac/IZ-Projekat#Camera
 :Camera rdf:type owl:Class ;
         rdfs:subClassOf :External_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Case_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#Case_component
 :Case_component rdf:type owl:Class ;
                 rdfs:subClassOf :Internal_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Chiclet
+###  https://github.com/MilanPodunavac/IZ-Projekat#Chiclet
 :Chiclet rdf:type owl:Class ;
          rdfs:subClassOf :Membrane .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Clicky
+###  https://github.com/MilanPodunavac/IZ-Projekat#Clicky
 :Clicky rdf:type owl:Class ;
         rdfs:subClassOf :Mechanical .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Clip-on_camera
+###  https://github.com/MilanPodunavac/IZ-Projekat#Clip-on_camera
 :Clip-on_camera rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
                                       owl:onProperty :camera_base_type ;
@@ -1460,60 +1473,60 @@ kilograms for computer casing [kg]""" .
                 owl:disjointWith :Freestanding_camera .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Component
+###  https://github.com/MilanPodunavac/IZ-Projekat#Component
 :Component rdf:type owl:Class .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Computer_casing
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing
 :Computer_casing rdf:type owl:Class ;
                  rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Computer_system
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_system
 :Computer_system rdf:type owl:Class .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Cooling_system
+###  https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system
 :Cooling_system rdf:type owl:Class ;
                 rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Country
+###  https://github.com/MilanPodunavac/IZ-Projekat#Country
 :Country rdf:type owl:Class .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#DDR
+###  https://github.com/MilanPodunavac/IZ-Projekat#DDR
 :DDR rdf:type owl:Class ;
      rdfs:subClassOf :Type .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#DDR2
+###  https://github.com/MilanPodunavac/IZ-Projekat#DDR2
 :DDR2 rdf:type owl:Class ;
       rdfs:subClassOf :Type .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#DDR3
+###  https://github.com/MilanPodunavac/IZ-Projekat#DDR3
 :DDR3 rdf:type owl:Class ;
       rdfs:subClassOf :Type .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#DDR4
+###  https://github.com/MilanPodunavac/IZ-Projekat#DDR4
 :DDR4 rdf:type owl:Class ;
       rdfs:subClassOf :Type .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#DDR5
+###  https://github.com/MilanPodunavac/IZ-Projekat#DDR5
 :DDR5 rdf:type owl:Class ;
       rdfs:subClassOf :Type .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#DIMM
+###  https://github.com/MilanPodunavac/IZ-Projekat#DIMM
 :DIMM rdf:type owl:Class ;
       rdfs:subClassOf :Form_factor ;
       owl:disjointWith :SO-DIMM .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#DVI_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#DVI_component
 :DVI_component rdf:type owl:Class ;
                owl:equivalentClass [ rdf:type owl:Restriction ;
                                      owl:onProperty :needs_connection_port ;
@@ -1522,7 +1535,7 @@ kilograms for computer casing [kg]""" .
                rdfs:subClassOf :Wired_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Desktop_system
+###  https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system
 :Desktop_system rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
                                       owl:onProperty :is_type_of ;
@@ -1532,7 +1545,7 @@ kilograms for computer casing [kg]""" .
                 owl:disjointWith :Laptop_system .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Display_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#Display_component
 :Display_component rdf:type owl:Class ;
                    owl:equivalentClass [ rdf:type owl:Restriction ;
                                          owl:onProperty :needs_connection_port ;
@@ -1541,12 +1554,12 @@ kilograms for computer casing [kg]""" .
                    rdfs:subClassOf :Wired_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Dome_Switch
+###  https://github.com/MilanPodunavac/IZ-Projekat#Dome_Switch
 :Dome_Switch rdf:type owl:Class ;
              rdfs:subClassOf :Membrane .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Dual_core_processor
+###  https://github.com/MilanPodunavac/IZ-Projekat#Dual_core_processor
 :Dual_core_processor rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
                                            owl:onProperty :number_of_cores ;
@@ -1555,7 +1568,7 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :Processor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Ethernet_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#Ethernet_component
 :Ethernet_component rdf:type owl:Class ;
                     owl:equivalentClass [ rdf:type owl:Restriction ;
                                           owl:onProperty :needs_connection_port ;
@@ -1564,17 +1577,17 @@ kilograms for computer casing [kg]""" .
                     rdfs:subClassOf :Wired_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#External_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#External_component
 :External_component rdf:type owl:Class ;
                     rdfs:subClassOf :Component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Flat-Panel
+###  https://github.com/MilanPodunavac/IZ-Projekat#Flat-Panel
 :Flat-Panel rdf:type owl:Class ;
             rdfs:subClassOf :Membrane .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Form_factor
+###  https://github.com/MilanPodunavac/IZ-Projekat#Form_factor
 :Form_factor rdf:type owl:Class ;
              owl:equivalentClass [ rdf:type owl:Class ;
                                    owl:unionOf ( :DIMM
@@ -1584,7 +1597,7 @@ kilograms for computer casing [kg]""" .
              rdfs:subClassOf :Random_access_memory .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Freestanding_camera
+###  https://github.com/MilanPodunavac/IZ-Projekat#Freestanding_camera
 :Freestanding_camera rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
                                            owl:onProperty :camera_base_type ;
@@ -1593,17 +1606,17 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :Camera .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Full
+###  https://github.com/MilanPodunavac/IZ-Projekat#Full
 :Full rdf:type owl:Class ;
       rdfs:subClassOf :Modularity .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Full_Travel
+###  https://github.com/MilanPodunavac/IZ-Projekat#Full_Travel
 :Full_Travel rdf:type owl:Class ;
              rdfs:subClassOf :Membrane .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Full_tower
+###  https://github.com/MilanPodunavac/IZ-Projekat#Full_tower
 :Full_tower rdf:type owl:Class ;
             owl:equivalentClass [ rdf:type owl:Restriction ;
                                   owl:onProperty :Computer_casing_format ;
@@ -1612,22 +1625,22 @@ kilograms for computer casing [kg]""" .
             rdfs:subClassOf :Computer_casing .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GTX_1070
+###  https://github.com/MilanPodunavac/IZ-Projekat#GTX_1070
 :GTX_1070 rdf:type owl:Class ;
           rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#GTX_1080
+###  https://github.com/MilanPodunavac/IZ-Projekat#GTX_1080
 :GTX_1080 rdf:type owl:Class ;
           rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Game_controller
+###  https://github.com/MilanPodunavac/IZ-Projekat#Game_controller
 :Game_controller rdf:type owl:Class ;
                  rdfs:subClassOf :External_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Glass_lens_camera
+###  https://github.com/MilanPodunavac/IZ-Projekat#Glass_lens_camera
 :Glass_lens_camera rdf:type owl:Class ;
                    owl:equivalentClass [ rdf:type owl:Restriction ;
                                          owl:onProperty :lens_type ;
@@ -1637,12 +1650,12 @@ kilograms for computer casing [kg]""" .
                    owl:disjointWith :Plastic_lens_camera .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Graphics_card
+###  https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card
 :Graphics_card rdf:type owl:Class ;
                rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#HDD
+###  https://github.com/MilanPodunavac/IZ-Projekat#HDD
 :HDD rdf:type owl:Class ;
      owl:equivalentClass [ rdf:type owl:Restriction ;
                            owl:onProperty :is_type_of ;
@@ -1652,7 +1665,7 @@ kilograms for computer casing [kg]""" .
      owl:disjointWith :SSD .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#HDMI_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#HDMI_component
 :HDMI_component rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
                                       owl:onProperty :needs_connection_port ;
@@ -1661,12 +1674,12 @@ kilograms for computer casing [kg]""" .
                 rdfs:subClassOf :Wired_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Headphones
+###  https://github.com/MilanPodunavac/IZ-Projekat#Headphones
 :Headphones rdf:type owl:Class ;
             rdfs:subClassOf :Sound_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Hexa_core_processor
+###  https://github.com/MilanPodunavac/IZ-Projekat#Hexa_core_processor
 :Hexa_core_processor rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
                                            owl:onProperty :number_of_cores ;
@@ -1675,7 +1688,7 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :Processor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#IPS_display_monitor
+###  https://github.com/MilanPodunavac/IZ-Projekat#IPS_display_monitor
 :IPS_display_monitor rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
                                            owl:onProperty :display_panel_type ;
@@ -1684,28 +1697,28 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :LCD_display_monitor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Internal_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#Internal_component
 :Internal_component rdf:type owl:Class ;
                     rdfs:subClassOf :Component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Key_type
+###  https://github.com/MilanPodunavac/IZ-Projekat#Key_type
 :Key_type rdf:type owl:Class ;
           rdfs:subClassOf :Keyboard .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Keyboard
+###  https://github.com/MilanPodunavac/IZ-Projekat#Keyboard
 :Keyboard rdf:type owl:Class ;
           rdfs:subClassOf :External_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#LCD_display_monitor
+###  https://github.com/MilanPodunavac/IZ-Projekat#LCD_display_monitor
 :LCD_display_monitor rdf:type owl:Class ;
                      rdfs:subClassOf :Monitor ;
                      owl:disjointWith :OLED_display_monitor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Laptop_system
+###  https://github.com/MilanPodunavac/IZ-Projekat#Laptop_system
 :Laptop_system rdf:type owl:Class ;
                owl:equivalentClass [ rdf:type owl:Restriction ;
                                      owl:onProperty :is_type_of ;
@@ -1714,7 +1727,7 @@ kilograms for computer casing [kg]""" .
                rdfs:subClassOf :Computer_system .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Laser
+###  https://github.com/MilanPodunavac/IZ-Projekat#Laser
 :Laser rdf:type owl:Class ;
        owl:equivalentClass [ rdf:type owl:Restriction ;
                              owl:onProperty :Mouse_sensor_type ;
@@ -1723,27 +1736,27 @@ kilograms for computer casing [kg]""" .
        rdfs:subClassOf :Mouse .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Linear
+###  https://github.com/MilanPodunavac/IZ-Projekat#Linear
 :Linear rdf:type owl:Class ;
         rdfs:subClassOf :Mechanical .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Mechanical
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mechanical
 :Mechanical rdf:type owl:Class ;
             rdfs:subClassOf :Key_type .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Membrane
+###  https://github.com/MilanPodunavac/IZ-Projekat#Membrane
 :Membrane rdf:type owl:Class ;
           rdfs:subClassOf :Key_type .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Memory_drive
+###  https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive
 :Memory_drive rdf:type owl:Class ;
               rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Micro-ATX_motherboard
+###  https://github.com/MilanPodunavac/IZ-Projekat#Micro-ATX_motherboard
 :Micro-ATX_motherboard rdf:type owl:Class ;
                        owl:equivalentClass [ rdf:type owl:Restriction ;
                                              owl:onProperty :motherboard_format ;
@@ -1752,12 +1765,12 @@ kilograms for computer casing [kg]""" .
                        rdfs:subClassOf :Motherboard .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Microphone
+###  https://github.com/MilanPodunavac/IZ-Projekat#Microphone
 :Microphone rdf:type owl:Class ;
             rdfs:subClassOf :Sound_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Mid_tower
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mid_tower
 :Mid_tower rdf:type owl:Class ;
            owl:equivalentClass [ rdf:type owl:Restriction ;
                                  owl:onProperty :Computer_casing_format ;
@@ -1766,7 +1779,7 @@ kilograms for computer casing [kg]""" .
            rdfs:subClassOf :Computer_casing .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Mini-ITX_motherboard
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mini-ITX_motherboard
 :Mini-ITX_motherboard rdf:type owl:Class ;
                       owl:equivalentClass [ rdf:type owl:Restriction ;
                                             owl:onProperty :motherboard_format ;
@@ -1775,7 +1788,7 @@ kilograms for computer casing [kg]""" .
                       rdfs:subClassOf :Motherboard .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Mini_tower
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mini_tower
 :Mini_tower rdf:type owl:Class ;
             owl:equivalentClass [ rdf:type owl:Restriction ;
                                   owl:onProperty :Computer_casing_format ;
@@ -1784,7 +1797,7 @@ kilograms for computer casing [kg]""" .
             rdfs:subClassOf :Computer_casing .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Modularity
+###  https://github.com/MilanPodunavac/IZ-Projekat#Modularity
 :Modularity rdf:type owl:Class ;
             owl:equivalentClass [ rdf:type owl:Class ;
                                   owl:unionOf ( :Full
@@ -1795,12 +1808,12 @@ kilograms for computer casing [kg]""" .
             rdfs:subClassOf :Power_supply_unit .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Monitor
+###  https://github.com/MilanPodunavac/IZ-Projekat#Monitor
 :Monitor rdf:type owl:Class ;
          rdfs:subClassOf :External_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Mostly-ATX_motherboard
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mostly-ATX_motherboard
 :Mostly-ATX_motherboard rdf:type owl:Class ;
                         owl:equivalentClass [ rdf:type owl:Restriction ;
                                               owl:onProperty :motherboard_format ;
@@ -1809,17 +1822,17 @@ kilograms for computer casing [kg]""" .
                         rdfs:subClassOf :Motherboard .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Motherboard
+###  https://github.com/MilanPodunavac/IZ-Projekat#Motherboard
 :Motherboard rdf:type owl:Class ;
              rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Mouse
+###  https://github.com/MilanPodunavac/IZ-Projekat#Mouse
 :Mouse rdf:type owl:Class ;
        rdfs:subClassOf :External_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Multimedia_speakers
+###  https://github.com/MilanPodunavac/IZ-Projekat#Multimedia_speakers
 :Multimedia_speakers rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
                                            owl:onProperty :is_type_of ;
@@ -1828,7 +1841,7 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :Speakers .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Multithreading_processor
+###  https://github.com/MilanPodunavac/IZ-Projekat#Multithreading_processor
 :Multithreading_processor rdf:type owl:Class ;
                           owl:equivalentClass [ rdf:type owl:Restriction ;
                                                 owl:onProperty :can_multithread ;
@@ -1837,12 +1850,12 @@ kilograms for computer casing [kg]""" .
                           rdfs:subClassOf :Processor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#NVIDIA-GPU
+###  https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU
 :NVIDIA-GPU rdf:type owl:Class ;
             rdfs:subClassOf :Graphics_card .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#NVMA_M.2_drive
+###  https://github.com/MilanPodunavac/IZ-Projekat#NVMA_M.2_drive
 :NVMA_M.2_drive rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
                                       owl:onProperty :connection ;
@@ -1852,7 +1865,7 @@ kilograms for computer casing [kg]""" .
                 owl:disjointWith :SATA3_drive .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Nano-ITX_motherboard
+###  https://github.com/MilanPodunavac/IZ-Projekat#Nano-ITX_motherboard
 :Nano-ITX_motherboard rdf:type owl:Class ;
                       owl:equivalentClass [ rdf:type owl:Restriction ;
                                             owl:onProperty :motherboard_format ;
@@ -1861,17 +1874,17 @@ kilograms for computer casing [kg]""" .
                       rdfs:subClassOf :Motherboard .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Network_interface
+###  https://github.com/MilanPodunavac/IZ-Projekat#Network_interface
 :Network_interface rdf:type owl:Class ;
                    rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#None
+###  https://github.com/MilanPodunavac/IZ-Projekat#None
 :None rdf:type owl:Class ;
       rdfs:subClassOf :Modularity .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#OLED_display_monitor
+###  https://github.com/MilanPodunavac/IZ-Projekat#OLED_display_monitor
 :OLED_display_monitor rdf:type owl:Class ;
                       owl:equivalentClass [ rdf:type owl:Restriction ;
                                             owl:onProperty :display_panel_type ;
@@ -1880,7 +1893,7 @@ kilograms for computer casing [kg]""" .
                       rdfs:subClassOf :Monitor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Octa_core_processor
+###  https://github.com/MilanPodunavac/IZ-Projekat#Octa_core_processor
 :Octa_core_processor rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
                                            owl:onProperty :number_of_cores ;
@@ -1889,12 +1902,12 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :Processor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Office_package
+###  https://github.com/MilanPodunavac/IZ-Projekat#Office_package
 :Office_package rdf:type owl:Class ;
                 rdfs:subClassOf :Software_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Operating_system
+###  https://github.com/MilanPodunavac/IZ-Projekat#Operating_system
 :Operating_system rdf:type owl:Class ;
                   owl:equivalentClass [ rdf:type owl:Class ;
                                         owl:unionOf ( <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#32bit>
@@ -1904,7 +1917,7 @@ kilograms for computer casing [kg]""" .
                   rdfs:subClassOf :Software_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Optical
+###  https://github.com/MilanPodunavac/IZ-Projekat#Optical
 :Optical rdf:type owl:Class ;
          owl:equivalentClass [ rdf:type owl:Restriction ;
                                owl:onProperty :Mouse_sensor_type ;
@@ -1913,12 +1926,12 @@ kilograms for computer casing [kg]""" .
          rdfs:subClassOf :Mouse .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Optical_drive
+###  https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive
 :Optical_drive rdf:type owl:Class ;
                rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PLS_display_monitor
+###  https://github.com/MilanPodunavac/IZ-Projekat#PLS_display_monitor
 :PLS_display_monitor rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
                                            owl:onProperty :display_panel_type ;
@@ -1927,7 +1940,7 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :LCD_display_monitor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Peltier_cooling_system
+###  https://github.com/MilanPodunavac/IZ-Projekat#Peltier_cooling_system
 :Peltier_cooling_system rdf:type owl:Class ;
                         owl:equivalentClass [ rdf:type owl:Restriction ;
                                               owl:onProperty :is_type_of ;
@@ -1936,7 +1949,7 @@ kilograms for computer casing [kg]""" .
                         rdfs:subClassOf :Cooling_system .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Phase_change_cooling_system
+###  https://github.com/MilanPodunavac/IZ-Projekat#Phase_change_cooling_system
 :Phase_change_cooling_system rdf:type owl:Class ;
                              owl:equivalentClass [ rdf:type owl:Restriction ;
                                                    owl:onProperty :is_type_of ;
@@ -1945,7 +1958,7 @@ kilograms for computer casing [kg]""" .
                              rdfs:subClassOf :Cooling_system .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Pico-ITX_motherboard
+###  https://github.com/MilanPodunavac/IZ-Projekat#Pico-ITX_motherboard
 :Pico-ITX_motherboard rdf:type owl:Class ;
                       owl:equivalentClass [ rdf:type owl:Restriction ;
                                             owl:onProperty :motherboard_format ;
@@ -1954,7 +1967,7 @@ kilograms for computer casing [kg]""" .
                       rdfs:subClassOf :Motherboard .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Plastic_lens_camera
+###  https://github.com/MilanPodunavac/IZ-Projekat#Plastic_lens_camera
 :Plastic_lens_camera rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
                                            owl:onProperty :lens_type ;
@@ -1963,26 +1976,26 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :Camera .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Power_supply_unit
+###  https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit
 :Power_supply_unit rdf:type owl:Class ;
                    rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Printer
+###  https://github.com/MilanPodunavac/IZ-Projekat#Printer
 :Printer rdf:type owl:Class ;
          rdfs:subClassOf :External_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Processor
+###  https://github.com/MilanPodunavac/IZ-Projekat#Processor
 :Processor rdf:type owl:Class ;
            rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Producer
+###  https://github.com/MilanPodunavac/IZ-Projekat#Producer
 :Producer rdf:type owl:Class .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Quad_core_processor
+###  https://github.com/MilanPodunavac/IZ-Projekat#Quad_core_processor
 :Quad_core_processor rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
                                            owl:onProperty :number_of_cores ;
@@ -1991,37 +2004,37 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :Processor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_2060
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060
 :RTX_2060 rdf:type owl:Class ;
           rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_2070
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_2070
 :RTX_2070 rdf:type owl:Class ;
           rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_2080
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_2080
 :RTX_2080 rdf:type owl:Class ;
           rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_3050_Ti
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti
 :RTX_3050_Ti rdf:type owl:Class ;
              rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_3060
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060
 :RTX_3060 rdf:type owl:Class ;
           rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_3060_Ti
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti
 :RTX_3060_Ti rdf:type owl:Class ;
              rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_3070_Ti
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti
 :RTX_3070_Ti rdf:type owl:Class ;
              owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                           owl:onProperty :GPU_CUDA_Cores ;
@@ -2045,87 +2058,87 @@ kilograms for computer casing [kg]""" .
              rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_3080
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080
 :RTX_3080 rdf:type owl:Class ;
           rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_3080_12GB
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080_12GB
 :RTX_3080_12GB rdf:type owl:Class ;
                rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_3080_Ti
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080_Ti
 :RTX_3080_Ti rdf:type owl:Class ;
              rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_3090
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3090
 :RTX_3090 rdf:type owl:Class ;
           rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RTX_3090_Ti
+###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3090_Ti
 :RTX_3090_Ti rdf:type owl:Class ;
              rdfs:subClassOf :NVIDIA-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RX_570
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_570
 :RX_570 rdf:type owl:Class ;
         rdfs:subClassOf :AMD-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RX_5700_XT
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_5700_XT
 :RX_5700_XT rdf:type owl:Class ;
             rdfs:subClassOf :AMD-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RX_580
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_580
 :RX_580 rdf:type owl:Class ;
         rdfs:subClassOf :AMD-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RX_590
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_590
 :RX_590 rdf:type owl:Class ;
         rdfs:subClassOf :AMD-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RX_6500_XT
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6500_XT
 :RX_6500_XT rdf:type owl:Class ;
             rdfs:subClassOf :AMD-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RX_6700
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6700
 :RX_6700 rdf:type owl:Class ;
          rdfs:subClassOf :AMD-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RX_6700_XT
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT
 :RX_6700_XT rdf:type owl:Class ;
             rdfs:subClassOf :AMD-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RX_6800
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6800
 :RX_6800 rdf:type owl:Class ;
          rdfs:subClassOf :AMD-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RX_6800_XT
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6800_XT
 :RX_6800_XT rdf:type owl:Class ;
             rdfs:subClassOf :AMD-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RX_6900_XT
+###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6900_XT
 :RX_6900_XT rdf:type owl:Class ;
             rdfs:subClassOf :AMD-GPU .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Random_access_memory
+###  https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory
 :Random_access_memory rdf:type owl:Class ;
                       rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#SATA3_drive
+###  https://github.com/MilanPodunavac/IZ-Projekat#SATA3_drive
 :SATA3_drive rdf:type owl:Class ;
              owl:equivalentClass [ rdf:type owl:Restriction ;
                                    owl:onProperty :connection ;
@@ -2134,12 +2147,12 @@ kilograms for computer casing [kg]""" .
              rdfs:subClassOf :Memory_drive .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#SO-DIMM
+###  https://github.com/MilanPodunavac/IZ-Projekat#SO-DIMM
 :SO-DIMM rdf:type owl:Class ;
          rdfs:subClassOf :Form_factor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#SSD
+###  https://github.com/MilanPodunavac/IZ-Projekat#SSD
 :SSD rdf:type owl:Class ;
      owl:equivalentClass [ rdf:type owl:Restriction ;
                            owl:onProperty :is_type_of ;
@@ -2148,27 +2161,27 @@ kilograms for computer casing [kg]""" .
      rdfs:subClassOf :Memory_drive .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Scanner
+###  https://github.com/MilanPodunavac/IZ-Projekat#Scanner
 :Scanner rdf:type owl:Class ;
          rdfs:subClassOf :External_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Scissor-Switch
+###  https://github.com/MilanPodunavac/IZ-Projekat#Scissor-Switch
 :Scissor-Switch rdf:type owl:Class ;
                 rdfs:subClassOf :Membrane .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Semi
+###  https://github.com/MilanPodunavac/IZ-Projekat#Semi
 :Semi rdf:type owl:Class ;
       rdfs:subClassOf :Modularity .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Semi_mechanical
+###  https://github.com/MilanPodunavac/IZ-Projekat#Semi_mechanical
 :Semi_mechanical rdf:type owl:Class ;
                  rdfs:subClassOf :Key_type .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Single_core_processor
+###  https://github.com/MilanPodunavac/IZ-Projekat#Single_core_processor
 :Single_core_processor rdf:type owl:Class ;
                        owl:equivalentClass [ rdf:type owl:Restriction ;
                                              owl:onProperty :number_of_cores ;
@@ -2177,7 +2190,7 @@ kilograms for computer casing [kg]""" .
                        rdfs:subClassOf :Processor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Small_form
+###  https://github.com/MilanPodunavac/IZ-Projekat#Small_form
 :Small_form rdf:type owl:Class ;
             owl:equivalentClass [ rdf:type owl:Restriction ;
                                   owl:onProperty :Computer_casing_format ;
@@ -2186,22 +2199,22 @@ kilograms for computer casing [kg]""" .
             rdfs:subClassOf :Computer_casing .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Software_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#Software_component
 :Software_component rdf:type owl:Class ;
                     rdfs:subClassOf :Internal_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Sound_card
+###  https://github.com/MilanPodunavac/IZ-Projekat#Sound_card
 :Sound_card rdf:type owl:Class ;
             rdfs:subClassOf :Case_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Sound_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#Sound_component
 :Sound_component rdf:type owl:Class ;
                  rdfs:subClassOf :External_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Soundbar_speakers
+###  https://github.com/MilanPodunavac/IZ-Projekat#Soundbar_speakers
 :Soundbar_speakers rdf:type owl:Class ;
                    owl:equivalentClass [ rdf:type owl:Restriction ;
                                          owl:onProperty :is_type_of ;
@@ -2210,12 +2223,12 @@ kilograms for computer casing [kg]""" .
                    rdfs:subClassOf :Speakers .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Speakers
+###  https://github.com/MilanPodunavac/IZ-Projekat#Speakers
 :Speakers rdf:type owl:Class ;
           rdfs:subClassOf :Sound_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Surround_sound_speakers
+###  https://github.com/MilanPodunavac/IZ-Projekat#Surround_sound_speakers
 :Surround_sound_speakers rdf:type owl:Class ;
                          owl:equivalentClass [ rdf:type owl:Restriction ;
                                                owl:onProperty :is_type_of ;
@@ -2224,7 +2237,7 @@ kilograms for computer casing [kg]""" .
                          rdfs:subClassOf :Speakers .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#TN_display_monitor
+###  https://github.com/MilanPodunavac/IZ-Projekat#TN_display_monitor
 :TN_display_monitor rdf:type owl:Class ;
                     owl:equivalentClass [ rdf:type owl:Restriction ;
                                           owl:onProperty :display_panel_type ;
@@ -2233,12 +2246,12 @@ kilograms for computer casing [kg]""" .
                     rdfs:subClassOf :LCD_display_monitor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Tactile
+###  https://github.com/MilanPodunavac/IZ-Projekat#Tactile
 :Tactile rdf:type owl:Class ;
          rdfs:subClassOf :Mechanical .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#ThunderBolt_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#ThunderBolt_component
 :ThunderBolt_component rdf:type owl:Class ;
                        owl:equivalentClass [ rdf:type owl:Restriction ;
                                              owl:onProperty :needs_connection_port ;
@@ -2247,7 +2260,7 @@ kilograms for computer casing [kg]""" .
                        rdfs:subClassOf :Wired_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Type
+###  https://github.com/MilanPodunavac/IZ-Projekat#Type
 :Type rdf:type owl:Class ;
       owl:equivalentClass [ rdf:type owl:Class ;
                             owl:unionOf ( :DDR
@@ -2260,7 +2273,7 @@ kilograms for computer casing [kg]""" .
       rdfs:subClassOf :Random_access_memory .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#USB_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#USB_component
 :USB_component rdf:type owl:Class ;
                owl:equivalentClass [ rdf:type owl:Restriction ;
                                      owl:onProperty :needs_connection_port ;
@@ -2269,7 +2282,7 @@ kilograms for computer casing [kg]""" .
                rdfs:subClassOf :Wired_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#VA_display_monitor
+###  https://github.com/MilanPodunavac/IZ-Projekat#VA_display_monitor
 :VA_display_monitor rdf:type owl:Class ;
                     owl:equivalentClass [ rdf:type owl:Restriction ;
                                           owl:onProperty :display_panel_type ;
@@ -2278,7 +2291,7 @@ kilograms for computer casing [kg]""" .
                     rdfs:subClassOf :LCD_display_monitor .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#VGA_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#VGA_component
 :VGA_component rdf:type owl:Class ;
                owl:equivalentClass [ rdf:type owl:Restriction ;
                                      owl:onProperty :needs_connection_port ;
@@ -2287,7 +2300,7 @@ kilograms for computer casing [kg]""" .
                rdfs:subClassOf :Wired_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Water_cooling_system
+###  https://github.com/MilanPodunavac/IZ-Projekat#Water_cooling_system
 :Water_cooling_system rdf:type owl:Class ;
                       owl:equivalentClass [ rdf:type owl:Restriction ;
                                             owl:onProperty :is_type_of ;
@@ -2296,12 +2309,12 @@ kilograms for computer casing [kg]""" .
                       rdfs:subClassOf :Cooling_system .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Wired_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#Wired_component
 :Wired_component rdf:type owl:Class ;
                  rdfs:subClassOf :External_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Wireless_component
+###  https://github.com/MilanPodunavac/IZ-Projekat#Wireless_component
 :Wireless_component rdf:type owl:Class ;
                     owl:equivalentClass [ rdf:type owl:Restriction ;
                                           owl:onProperty :needs_connection_port ;
