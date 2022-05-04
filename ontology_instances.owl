@@ -9,4 +9,73 @@
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl> rdf:type owl:Ontology ;
                                                                                             owl:imports <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl> .
 
+#################################################################
+#    Classes
+#################################################################
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#External_component
+<https://github.com/MilanPodunavac/IZ-Projekat#External_component> owl:equivalentClass [ rdf:type owl:Class ;
+                                                                                         owl:unionOf ( <https://github.com/MilanPodunavac/IZ-Projekat#Camera>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Game_controller>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Monitor>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Mouse>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Sound_component>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Wired_component>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Wireless_component>
+                                                                                                     )
+                                                                                       ] .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Rubber_dome
+:Rubber_dome rdf:type owl:Class ;
+             rdfs:subClassOf <https://github.com/MilanPodunavac/IZ-Projekat#Membrane> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB_Wired_Gaming_Keyboard
+:Corsair_K55_RGB_Wired_Gaming_Keyboard rdf:type owl:NamedIndividual ,
+                                                [ owl:intersectionOf ( <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard>
+                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Membrane>
+                                                                     ) ;
+                                                  rdf:type owl:Class
+                                                ] ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#costs> 28.45 ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#has_rgb_backlight_led> "true"^^xsd:boolean ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#height> 3.556 ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#is_introduced> "22.11.2016." ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#is_water_resistant> "true"^^xsd:boolean ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#is_wired> "true"^^xsd:boolean ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#key_allocation> "QWERTY" ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#length> 48.006 ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#weight> "1 338.09749" ;
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#width> 16.764 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K552_Wired_Gaming_Keyboard
+:Redragon_K552_Wired_Gaming_Keyboard rdf:type owl:NamedIndividual ,
+                                              [ owl:intersectionOf ( <https://github.com/MilanPodunavac/IZ-Projekat#Clicky>
+                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard>
+                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#Mechanical>
+                                                                   ) ;
+                                                rdf:type owl:Class
+                                              ] ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#costs> 33 ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#has_numpad> "false"^^xsd:boolean ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#has_rgb_backlight_led> "true"^^xsd:boolean ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#height> 35 ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#is_introduced> "1.11.2018." ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Redragon" ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#is_water_resistant> "true"^^xsd:boolean ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#is_wired> "true"^^xsd:boolean ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#key_allocation> "TKL (Tenkeyless)" ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#length> 355 ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#weight> 898.112893 ;
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#width> 120 .
+
+
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
