@@ -737,6 +737,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                     :Monitor
                                     :Mouse
                                     :Power_supply_unit
+                                    :Scanner
                                     :Speakers
                                   )
                     ] ;
@@ -888,6 +889,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                     :Microphone
                                     :Mouse
                                     :Power_supply_unit
+                                    :Scanner
                                     :Speakers
                                   )
                     ] ;
@@ -1384,6 +1386,7 @@ kilograms for computer casing [kg]""" .
                                    :Monitor
                                    :Mouse
                                    :Power_supply_unit
+                                   :Scanner
                                    :Speakers
                                  )
                    ] ;
@@ -1397,6 +1400,18 @@ kilograms for computer casing [kg]""" .
              rdfs:domain :SSD ;
              rdfs:range xsd:decimal ;
              rdfs:comment "Unit of measurement - megabytes per second [MB/s]" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#dots_per_inch
+:dots_per_inch rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Scanner ;
+               rdfs:range xsd:integer .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#scanner_depth
+:scanner_depth rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Scanner ;
+               rdfs:range xsd:integer .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors
@@ -2163,6 +2178,12 @@ kilograms for computer casing [kg]""" .
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Scanner
 :Scanner rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Class ;
+                               owl:unionOf ( :Drum
+                                             :Emerging
+                                             :Flat
+                                           )
+                             ] ;
          rdfs:subClassOf :External_component .
 
 
@@ -2321,6 +2342,36 @@ kilograms for computer casing [kg]""" .
                                           owl:hasValue "None"
                                         ] ;
                     rdfs:subClassOf :External_component .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Drum
+:Drum rdf:type owl:Class ;
+      rdfs:subClassOf :Scanner .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Emerging
+:Emerging rdf:type owl:Class ;
+          rdfs:subClassOf :Scanner .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Flat
+:Flat rdf:type owl:Class ;
+      rdfs:subClassOf :Scanner .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Paper_fed
+:Paper_fed rdf:type owl:Class ;
+           rdfs:subClassOf :Emerging .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Pen
+:Pen rdf:type owl:Class ;
+     rdfs:subClassOf :Emerging .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Portable
+:Portable rdf:type owl:Class ;
+          rdfs:subClassOf :Emerging .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#12_core_processor
@@ -2506,6 +2557,22 @@ kilograms for computer casing [kg]""" .
                 :RX_6800
                 :RX_6800_XT
                 :RX_6900_XT
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Drum
+                :Emerging
+                :Flat
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Paper_fed
+                :Pen
+                :Portable
               )
 ] .
 
