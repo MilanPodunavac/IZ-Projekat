@@ -36,6 +36,72 @@
 #    Individuals
 #################################################################
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ASUS_PRIME_A320M-K
+:ASUS_PRIME_A320M-K rdf:type owl:NamedIndividual ,
+                             <https://github.com/MilanPodunavac/IZ-Projekat#Micro-ATX_motherboard> ,
+                             <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#costs> 50 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard ASUS Matična ploča PRIME A320M-K" ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 32 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "Micro-ATX" ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 2 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 1 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 1 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots> 2 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots> 0 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots> 0 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 4 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 6 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "A320" ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#socket> "AM4" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_PRIME_H670-PLUS_D4
+:Asus_PRIME_H670-PLUS_D4 rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5066 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#costs> 195 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard Asus PRIME H670-PLUS D4" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 3 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 3 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots> 2 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots> 0 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots> 0 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 4 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 7 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "H670" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_PRIME_Z690M-PLUS_D4
+:Asus_PRIME_Z690M-PLUS_D4 rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5333 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#costs> 260 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard Asus PRIME Z690M-PLUS D4" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 3 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 2 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots> 2 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots> 0 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots> 0 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 4 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 8 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "Z690" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB_Wired_Gaming_Keyboard
 :Corsair_K55_RGB_Wired_Gaming_Keyboard rdf:type owl:NamedIndividual ,
                                                 [ owl:intersectionOf ( <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard>
@@ -74,6 +140,160 @@
                                             <https://github.com/MilanPodunavac/IZ-Projekat#length> 48.8 ;
                                             <https://github.com/MilanPodunavac/IZ-Projekat#weight> 1.85 ;
                                             <https://github.com/MilanPodunavac/IZ-Projekat#width> 20.8 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_B560M_H_rev.1.x
+:Gigabyte_B560M_H_rev.1.x rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Micro-ATX_motherboard> ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#costs> 100 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard Gigabyte B560M H rev.1.x" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 64 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 2 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 2 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 1 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots> 0 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots> 0 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots> 0 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 4 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 6 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "B560" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "Micro-ATX" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1200" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0
+:Gigabyte_X570S_AORUS_MASTER_rev1.0 rdf:type owl:NamedIndividual ,
+                                             <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
+                                             <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5400 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#costs> 500 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard Gigabyte X570S AORUS MASTER rev. 1.0" ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 4 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 3 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots> 1 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots> 0 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots> 0 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 6 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 8 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "X570" ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#socket> "AM4" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570_Gaming_X
+:Gigabyte_X570_Gaming_X rdf:type owl:NamedIndividual ,
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 4000 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#costs> 155 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard Gigabyte X570 Gaming X" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 2 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 2 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots> 3 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots> 0 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots> 0 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 6 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 6 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "X570" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#socket> "AM4" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450M_PRO-VDH_MAX
+:MSI_B450M_PRO-VDH_MAX rdf:type owl:NamedIndividual ,
+                                <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
+                                <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3866 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#costs> 90 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard MSI B450M PRO-VDH MAX" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 1 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 1 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots> 2 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots> 0 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots> 0 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 4 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 8 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "B450" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#socket> "AM4" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450_TOMAHAWK_MAX_II
+:MSI_B450_TOMAHAWK_MAX_II rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 4133 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#costs> 135 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard MSI B450 TOMAHAWK MAX II" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 1 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 2 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots> 3 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots> 0 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots> 0 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 6 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 6 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "B450" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#socket> "AM4" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_MAG_B560_TOMAHAWK_Wi-Fi
+:MSI_MAG_B560_TOMAHAWK_Wi-Fi rdf:type owl:NamedIndividual ,
+                                      <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
+                                      <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5066 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#costs> 220 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard MSI MAG B560 TOMAHAWK Wi-Fi" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 3 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 2 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots> 1 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots> 0 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots> 0 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 6 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 9 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "B560" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1200" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_Z490-A_PRO
+:MSI_Z490-A_PRO rdf:type owl:NamedIndividual ,
+                         <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
+                         <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5000 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#costs> 210 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard MSI Z490-A PRO" ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 2 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 2 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots> 3 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots> 0 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots> 0 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 6 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 15 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "Z490" ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K552_Wired_Gaming_Keyboard
