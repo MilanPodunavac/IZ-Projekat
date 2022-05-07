@@ -42,10 +42,9 @@
                              <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                    <https://github.com/MilanPodunavac/IZ-Projekat#costs> 50 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#costs> "50.0"^^xsd:double ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard ASUS Matična ploča PRIME A320M-K" ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 32 ;
-                    <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "Micro-ATX" ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 2 ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections> 1 ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots> 1 ;
@@ -55,6 +54,7 @@
                     <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections> 4 ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 6 ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "A320" ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "Micro-ATX" ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#socket> "AM4" .
 
 
@@ -64,7 +64,7 @@
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5066 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                         <https://github.com/MilanPodunavac/IZ-Projekat#costs> 195 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#costs> "195.0"^^xsd:double ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard Asus PRIME H670-PLUS D4" ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
@@ -86,7 +86,7 @@
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5333 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                          <https://github.com/MilanPodunavac/IZ-Projekat#costs> 260 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#costs> "260.0"^^xsd:double ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard Asus PRIME Z690M-PLUS D4" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
@@ -100,6 +100,29 @@
                           <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "Z690" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_RTX_3060_Ti_dual_mini_oc
+:Asus_RTX_3060_Ti_dual_mini_oc rdf:type owl:NamedIndividual ,
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU> ,
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti> ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 4864 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 2 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 14000 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 8 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 1710 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 256 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 600 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#costs> "683.0"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "ASUS DUAL GeForce RTX 3060 Ti V2 MINI OC Edition" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#length> 20 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 200 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB_Wired_Gaming_Keyboard
@@ -148,7 +171,7 @@
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                          <https://github.com/MilanPodunavac/IZ-Projekat#costs> 100 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#costs> "100.0"^^xsd:double ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard Gigabyte B560M H rev.1.x" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 64 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 2 ;
@@ -164,13 +187,58 @@
                           <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1200" .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RTX_3060_Ti_Gaming_OC
+:Gigabyte_RTX_3060_Ti_Gaming_OC rdf:type owl:NamedIndividual ,
+                                         <https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU> ,
+                                         <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti> ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 1 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 4864 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 2 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 2 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 14000 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 8 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_clock> 1740 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 256 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 600 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#costs> "1000.0"^^xsd:double ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Gigabyte nVidia GeForce RTX 3060 Ti Gaming OC" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#length> 282 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 200 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RX_570_Gaming_8g
+:Gigabyte_RX_570_Gaming_8g rdf:type owl:NamedIndividual ,
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU> ,
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#RX_570> ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 1 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 3 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12"^^xsd:string ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 7000 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 8 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR5" ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Stream_Processors> 2048 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_compute_units> 32 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 1255 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 256 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 450 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#costs> "250.0"^^xsd:double ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Gigabyte RX-570 GAMING 8G" ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 150 .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0
 :Gigabyte_X570S_AORUS_MASTER_rev1.0 rdf:type owl:NamedIndividual ,
                                              <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
                                              <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
                                     <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5400 ;
                                     <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                    <https://github.com/MilanPodunavac/IZ-Projekat#costs> 500 ;
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#costs> "500.0"^^xsd:double ;
                                     <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard Gigabyte X570S AORUS MASTER rev. 1.0" ;
                                     <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
                                     <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
@@ -192,7 +260,7 @@
                                  <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 4000 ;
                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                        <https://github.com/MilanPodunavac/IZ-Projekat#costs> 155 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#costs> "155.0"^^xsd:double ;
                         <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard Gigabyte X570 Gaming X" ;
                         <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
                         <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
@@ -214,7 +282,7 @@
                                 <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3866 ;
                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                       <https://github.com/MilanPodunavac/IZ-Projekat#costs> 90 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#costs> "90.0"^^xsd:double ;
                        <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard MSI B450M PRO-VDH MAX" ;
                        <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
                        <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
@@ -236,7 +304,7 @@
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 4133 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                          <https://github.com/MilanPodunavac/IZ-Projekat#costs> 135 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#costs> "135.0"^^xsd:double ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard MSI B450 TOMAHAWK MAX II" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
@@ -258,7 +326,7 @@
                                       <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5066 ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                             <https://github.com/MilanPodunavac/IZ-Projekat#costs> 220 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#costs> "220.0"^^xsd:double ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard MSI MAG B560 TOMAHAWK Wi-Fi" ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
@@ -280,7 +348,7 @@
                          <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5000 ;
                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                <https://github.com/MilanPodunavac/IZ-Projekat#costs> 210 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#costs> "210.0"^^xsd:double ;
                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "motherboard MSI Z490-A PRO" ;
                 <https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM> 128 ;
                 <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots> 4 ;
@@ -296,6 +364,54 @@
                 <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Palit_GeForce_RTX_3060_Dual
+:Palit_GeForce_RTX_3060_Dual rdf:type owl:NamedIndividual ,
+                                      <https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU> ,
+                                      <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060> ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_6pin_connectors> 0 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 1 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 3584 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 3 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 15000 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 12 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 1777 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_clock> 1320 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 192 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 550 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#costs> "666.0"^^xsd:double ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Palit GeForce RTX 3060 Dual" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#length> 24.5 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 170 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti
+:ROG_STRIX_RTX_3070_Ti rdf:type owl:NamedIndividual ,
+                                <https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU> ,
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti> ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 3 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 6144 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 3 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 2 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 19000 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 8 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6X" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 1875 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 256 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 750 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2.9 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#costs> "1250.0"^^xsd:double ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Nvidia ASUS ROG STRIX RTX 3070 Ti" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#length> 31.85 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 290 .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio
 :RTX_3070_Ti_Gaming_X_Trio rdf:type owl:NamedIndividual ,
                                     <https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU> ,
@@ -305,14 +421,67 @@
                            <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 3 ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 19000 ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 8 ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6X" ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_clock> 1830 ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 256 ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 750 ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2.5 ;
-                           <https://github.com/MilanPodunavac/IZ-Projekat#costs> 1100 ;
-                           <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Nvidia RTX 3070 Ti Gaming X Trio" .
+                           <https://github.com/MilanPodunavac/IZ-Projekat#costs> "1100.0"^^xsd:double ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Nvidia MSI RTX 3070 Ti Gaming X Trio" ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#length> 32.3 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 290 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle
+:Radeo_RX_6700XT_Eagle rdf:type owl:NamedIndividual ,
+                                <https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU> ,
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT> ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_6pin_connectors> 1 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 1 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 2 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 2 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 16000 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 12 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Stream_Processors> 2560 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_compute_units> 40 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 2581 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 192 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 650 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#costs> "856.0"^^xsd:double ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Gigabyte Radeon RX 6700 XT EAGLE 12G" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#length> 28.2 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 230 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeon_RX_570_XFX
+:Radeon_RX_570_XFX rdf:type owl:NamedIndividual ,
+                            <https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU> ,
+                            <https://github.com/MilanPodunavac/IZ-Projekat#RX_570> ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 1 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 3 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12"^^xsd:string ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1.0 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 7000 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 4 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR5" ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Stream_Processors> 2048 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_compute_units> 32 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 1284.0 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 256 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 450 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#costs> "160.0"^^xsd:double ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "AMD Radeon RX 570 XFX" ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#length> 24.3 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 150 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K552_Wired_Gaming_Keyboard
@@ -334,6 +503,55 @@
                                      <https://github.com/MilanPodunavac/IZ-Projekat#length> 35.5 ;
                                      <https://github.com/MilanPodunavac/IZ-Projekat#weight> 898.112893 ;
                                      <https://github.com/MilanPodunavac/IZ-Projekat#width> 12.0 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT
+:Sapphire_Radeon_Pulse_RX_6700_XT rdf:type owl:NamedIndividual ,
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU> ,
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT> ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_6pin_connectors> 1 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 1 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 3 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 16000 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 12 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6" ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Stream_Processors> 2560 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_compute_units> 40 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 2581 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 192 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 650 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2.2 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#costs> "858.0"^^xsd:double ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Sapphire AMD Radeon Pulse RX 6700 XT" ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#length> 26 ;
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 230 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP
+:Zotac_RTX_3060_AMP rdf:type owl:NamedIndividual ,
+                             <https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU> ,
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060> ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_6pin_connectors> 0 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 2 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 3584 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 3 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 15000 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 12 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6" ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 1867 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 192 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 600 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#costs> "530.0"^^xsd:double ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "ZOTAC GAMING GeForce RTX 3060 AMP" ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#length> 23.19 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 170 .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

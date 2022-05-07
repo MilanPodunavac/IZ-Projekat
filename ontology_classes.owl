@@ -682,6 +682,12 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                     rdfs:comment "AHVA, IPS, PLS, TN, VA or OLED" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#dots_per_inch
+:dots_per_inch rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Scanner ;
+               rdfs:range xsd:integer .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#frame_rate
 :frame_rate rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
@@ -1280,6 +1286,12 @@ TSMC or samsung""" .
              rdfs:comment "Unit of measurement -  kilohertz [kHz]" .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#scanner_depth
+:scanner_depth rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Scanner ;
+               rdfs:range xsd:integer .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#socket
 :socket rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
@@ -1306,15 +1318,15 @@ TSMC or samsung""" .
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power
 :thermal_design_power rdf:type owl:DatatypeProperty ,
-                           owl:FunctionalProperty ;
-                  rdfs:domain [ rdf:type owl:Class ;
-                                owl:unionOf ( :Graphics_card
-                                              :HDD
-                                              :Processor
-                                            )
-                              ] ;
-                  rdfs:range xsd:decimal ;
-                  rdfs:comment "Unit of measurement - watts [W]" .
+                               owl:FunctionalProperty ;
+                      rdfs:domain [ rdf:type owl:Class ;
+                                    owl:unionOf ( :Graphics_card
+                                                  :HDD
+                                                  :Processor
+                                                )
+                                  ] ;
+                      rdfs:range xsd:decimal ;
+                      rdfs:comment "Unit of measurement - watts [W]" .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#turbo_frequency
@@ -1400,18 +1412,6 @@ kilograms for computer casing [kg]""" .
              rdfs:domain :SSD ;
              rdfs:range xsd:decimal ;
              rdfs:comment "Unit of measurement - megabytes per second [MB/s]" .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#dots_per_inch
-:dots_per_inch rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Scanner ;
-               rdfs:range xsd:integer .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#scanner_depth
-:scanner_depth rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Scanner ;
-               rdfs:range xsd:integer .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors
@@ -1574,6 +1574,11 @@ kilograms for computer casing [kg]""" .
              rdfs:subClassOf :Membrane .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Drum
+:Drum rdf:type owl:Class ;
+      rdfs:subClassOf :Scanner .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Dual_core_processor
 :Dual_core_processor rdf:type owl:Class ;
                      owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -1581,6 +1586,11 @@ kilograms for computer casing [kg]""" .
                                            owl:hasValue 2
                                          ] ;
                      rdfs:subClassOf :Processor .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Emerging
+:Emerging rdf:type owl:Class ;
+          rdfs:subClassOf :Scanner .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Ethernet_component
@@ -1595,6 +1605,11 @@ kilograms for computer casing [kg]""" .
 ###  https://github.com/MilanPodunavac/IZ-Projekat#External_component
 :External_component rdf:type owl:Class ;
                     rdfs:subClassOf :Component .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Flat
+:Flat rdf:type owl:Class ;
+      rdfs:subClassOf :Scanner .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Flat-Panel
@@ -1955,6 +1970,11 @@ kilograms for computer casing [kg]""" .
                      rdfs:subClassOf :LCD_display_monitor .
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#Paper_fed
+:Paper_fed rdf:type owl:Class ;
+           rdfs:subClassOf :Emerging .
+
+
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Peltier_cooling_system
 :Peltier_cooling_system rdf:type owl:Class ;
                         owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -1962,6 +1982,11 @@ kilograms for computer casing [kg]""" .
                                               owl:hasValue "Peltier"
                                             ] ;
                         rdfs:subClassOf :Cooling_system .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Pen
+:Pen rdf:type owl:Class ;
+     rdfs:subClassOf :Emerging .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Phase_change_cooling_system
@@ -1989,6 +2014,11 @@ kilograms for computer casing [kg]""" .
                                            owl:hasValue "Plastic"
                                          ] ;
                      rdfs:subClassOf :Camera .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#Portable
+:Portable rdf:type owl:Class ;
+          rdfs:subClassOf :Emerging .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit
@@ -2041,11 +2071,49 @@ kilograms for computer casing [kg]""" .
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060
 :RTX_3060 rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :GPU_CUDA_Cores ;
+                                                       owl:hasValue 3584
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :GPU_Memory_size ;
+                                                       owl:hasValue 12
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :GPU_Memory_type ;
+                                                       owl:hasValue "GDDR6"
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :thermal_design_power ;
+                                                       owl:hasValue 170
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
           rdfs:subClassOf :NVIDIA-GPU .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti
 :RTX_3060_Ti rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :GPU_CUDA_Cores ;
+                                                          owl:hasValue 4864
+                                                        ]
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :GPU_Memory_size ;
+                                                          owl:hasValue 8
+                                                        ]
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :GPU_Memory_type ;
+                                                          owl:hasValue "GDDR6"
+                                                        ]
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :thermal_design_power ;
+                                                          owl:hasValue 200
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
              rdfs:subClassOf :NVIDIA-GPU .
 
 
@@ -2100,6 +2168,25 @@ kilograms for computer casing [kg]""" .
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#RX_570
 :RX_570 rdf:type owl:Class ;
+        owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :GPU_Memory_type ;
+                                                     owl:hasValue "GDDR5"
+                                                   ]
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :GPU_Stream_Processors ;
+                                                     owl:hasValue 2048
+                                                   ]
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :GPU_compute_units ;
+                                                     owl:hasValue 32
+                                                   ]
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :thermal_design_power ;
+                                                     owl:hasValue 150
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] ;
         rdfs:subClassOf :AMD-GPU .
 
 
@@ -2130,6 +2217,29 @@ kilograms for computer casing [kg]""" .
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT
 :RX_6700_XT rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :GPU_Memory_size ;
+                                                         owl:hasValue 12
+                                                       ]
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :GPU_Memory_type ;
+                                                         owl:hasValue "GDDR6"
+                                                       ]
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :GPU_Stream_Processors ;
+                                                         owl:hasValue 2560
+                                                       ]
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :GPU_compute_units ;
+                                                         owl:hasValue 40
+                                                       ]
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :thermal_design_power ;
+                                                         owl:hasValue 230
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
             rdfs:subClassOf :AMD-GPU .
 
 
@@ -2344,36 +2454,6 @@ kilograms for computer casing [kg]""" .
                     rdfs:subClassOf :External_component .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Drum
-:Drum rdf:type owl:Class ;
-      rdfs:subClassOf :Scanner .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Emerging
-:Emerging rdf:type owl:Class ;
-          rdfs:subClassOf :Scanner .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Flat
-:Flat rdf:type owl:Class ;
-      rdfs:subClassOf :Scanner .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Paper_fed
-:Paper_fed rdf:type owl:Class ;
-           rdfs:subClassOf :Emerging .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Pen
-:Pen rdf:type owl:Class ;
-     rdfs:subClassOf :Emerging .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#Portable
-:Portable rdf:type owl:Class ;
-          rdfs:subClassOf :Emerging .
-
-
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#12_core_processor
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#12_core_processor> rdf:type owl:Class ;
                                                                                                            owl:equivalentClass [ rdf:type owl:Restriction ;
@@ -2492,6 +2572,14 @@ kilograms for computer casing [kg]""" .
 
 
 [ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Drum
+                :Emerging
+                :Flat
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
   owl:members ( :Dual_core_processor
                 :Hexa_core_processor
                 :Octa_core_processor
@@ -2547,6 +2635,14 @@ kilograms for computer casing [kg]""" .
 
 
 [ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Paper_fed
+                :Pen
+                :Portable
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
   owl:members ( :RX_570
                 :RX_5700_XT
                 :RX_580
@@ -2557,22 +2653,6 @@ kilograms for computer casing [kg]""" .
                 :RX_6800
                 :RX_6800_XT
                 :RX_6900_XT
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :Drum
-                :Emerging
-                :Flat
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :Paper_fed
-                :Pen
-                :Portable
               )
 ] .
 
