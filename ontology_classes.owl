@@ -1304,8 +1304,8 @@ TSMC or samsung""" .
                    rdfs:comment "Unit of measurement - decibels [dB]" .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#total_draw_power
-:total_draw_power rdf:type owl:DatatypeProperty ,
+###  https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power
+:thermal_design_power rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
                   rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( :Graphics_card
@@ -2064,7 +2064,7 @@ kilograms for computer casing [kg]""" .
                                                           owl:hasValue "GDDR6X"
                                                         ]
                                                         [ rdf:type owl:Restriction ;
-                                                          owl:onProperty :total_draw_power ;
+                                                          owl:onProperty :thermal_design_power ;
                                                           owl:hasValue 290
                                                         ]
                                                       ) ;

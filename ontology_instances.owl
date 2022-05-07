@@ -296,6 +296,25 @@
                 <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio
+:RTX_3070_Ti_Gaming_X_Trio rdf:type owl:NamedIndividual ,
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU> ,
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti> ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 2 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 6144 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 3 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 8 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6X" ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 256 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 750 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 2.5 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#costs> 1100 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Nvidia RTX 3070 Ti Gaming X Trio" .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K552_Wired_Gaming_Keyboard
 :Redragon_K552_Wired_Gaming_Keyboard rdf:type owl:NamedIndividual ,
                                               [ owl:intersectionOf ( <https://github.com/MilanPodunavac/IZ-Projekat#Clicky>
