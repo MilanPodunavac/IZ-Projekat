@@ -811,49 +811,52 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                                       )
                         ] ;
             rdfs:range [ rdf:type rdfs:Datatype ;
-                         owl:oneOf [ rdf:type rdf:List ;
-                                     rdf:first "Air" ;
-                                     rdf:rest [ rdf:type rdf:List ;
-                                                rdf:first "Peltier" ;
-                                                rdf:rest [ rdf:type rdf:List ;
-                                                           rdf:first "Phase change" ;
-                                                           rdf:rest [ rdf:type rdf:List ;
-                                                                      rdf:first "Water" ;
-                                                                      rdf:rest rdf:nil
-                                                                    ]
-                                                         ]
-                                              ]
-                                   ]
-                       ] ,
-                       [ rdf:type rdfs:Datatype ;
-                         owl:oneOf [ rdf:type rdf:List ;
-                                     rdf:first "Desktop" ;
-                                     rdf:rest [ rdf:type rdf:List ;
-                                                rdf:first "Laptop" ;
-                                                rdf:rest rdf:nil
-                                              ]
-                                   ]
-                       ] ,
-                       [ rdf:type rdfs:Datatype ;
-                         owl:oneOf [ rdf:type rdf:List ;
-                                     rdf:first "HDD" ;
-                                     rdf:rest [ rdf:type rdf:List ;
-                                                rdf:first "SSD" ;
-                                                rdf:rest rdf:nil
-                                              ]
-                                   ]
-                       ] ,
-                       [ rdf:type rdfs:Datatype ;
-                         owl:oneOf [ rdf:type rdf:List ;
-                                     rdf:first "Multimedia" ;
-                                     rdf:rest [ rdf:type rdf:List ;
-                                                rdf:first "Soundbar" ;
-                                                rdf:rest [ rdf:type rdf:List ;
-                                                           rdf:first "Surround sound" ;
-                                                           rdf:rest rdf:nil
-                                                         ]
-                                              ]
-                                   ]
+                         owl:unionOf ( [ rdf:type rdfs:Datatype ;
+                                         owl:oneOf [ rdf:type rdf:List ;
+                                                     rdf:first "Air" ;
+                                                     rdf:rest [ rdf:type rdf:List ;
+                                                                rdf:first "Peltier" ;
+                                                                rdf:rest [ rdf:type rdf:List ;
+                                                                           rdf:first "Phase change" ;
+                                                                           rdf:rest [ rdf:type rdf:List ;
+                                                                                      rdf:first "Water" ;
+                                                                                      rdf:rest rdf:nil
+                                                                                    ]
+                                                                         ]
+                                                              ]
+                                                   ]
+                                       ]
+                                       [ rdf:type rdfs:Datatype ;
+                                         owl:oneOf [ rdf:type rdf:List ;
+                                                     rdf:first "Desktop" ;
+                                                     rdf:rest [ rdf:type rdf:List ;
+                                                                rdf:first "Laptop" ;
+                                                                rdf:rest rdf:nil
+                                                              ]
+                                                   ]
+                                       ]
+                                       [ rdf:type rdfs:Datatype ;
+                                         owl:oneOf [ rdf:type rdf:List ;
+                                                     rdf:first "HDD" ;
+                                                     rdf:rest [ rdf:type rdf:List ;
+                                                                rdf:first "SSD" ;
+                                                                rdf:rest rdf:nil
+                                                              ]
+                                                   ]
+                                       ]
+                                       [ rdf:type rdfs:Datatype ;
+                                         owl:oneOf [ rdf:type rdf:List ;
+                                                     rdf:first "Multimedia" ;
+                                                     rdf:rest [ rdf:type rdf:List ;
+                                                                rdf:first "Soundbar" ;
+                                                                rdf:rest [ rdf:type rdf:List ;
+                                                                           rdf:first "Surround sound" ;
+                                                                           rdf:rest rdf:nil
+                                                                         ]
+                                                              ]
+                                                   ]
+                                       ]
+                                     )
                        ] ;
             rdfs:comment "Computer system - Desktop or Laptop" ,
                          "Cooling system - Air, Water, Phase change or Peltier" ,

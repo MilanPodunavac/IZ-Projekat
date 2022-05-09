@@ -13,7 +13,6 @@
 #    Classes
 #################################################################
 
-
 ###  https://github.com/MilanPodunavac/IZ-Projekat#External_component
 <https://github.com/MilanPodunavac/IZ-Projekat#External_component> owl:equivalentClass [ rdf:type owl:Class ;
                                                                                          owl:unionOf ( <https://github.com/MilanPodunavac/IZ-Projekat#Camera>
@@ -36,10 +35,6 @@
 #################################################################
 #    Individuals
 #################################################################
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ARESGAME_AGV
-:ARESGAME_AGV rdf:type owl:NamedIndividual ,
-                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_A6-9500E
 :AMD_Processor_A6-9500E rdf:type owl:NamedIndividual ,
@@ -102,6 +97,11 @@
                              <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 12 ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ARESGAME_AGV
+:ARESGAME_AGV rdf:type owl:NamedIndividual ,
+                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ASUS_PRIME_A320M-K
@@ -309,8 +309,8 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB
-:Corsair_K55_RGB rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:Corsair_K55_RGB rdf:type owl:NamedIndividual ,
+                          <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB_Wired_Gaming_Keyboard
@@ -497,6 +497,7 @@
 :G.Skill_Trident_Z5_RGB_32_GB rdf:type owl:NamedIndividual ,
                                        <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Geil_SSD_2.5inch_SATA3_256GB_GZ25Z3-256GP
 :Geil_SSD_2.5inch_SATA3_256GB_GZ25Z3-256GP rdf:type owl:NamedIndividual ,
                                                     <https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive> ;
@@ -624,6 +625,10 @@
                         <https://github.com/MilanPodunavac/IZ-Projekat#socket> "AM4" .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY
+:HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY rdf:type owl:NamedIndividual .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HEC_HEC200SA-2FX
 :HEC_HEC200SA-2FX rdf:type owl:NamedIndividual ,
                            <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
@@ -632,119 +637,6 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Insignia™_-_USB_Microphone
 :Insignia™_-_USB_Microphone rdf:type owl:NamedIndividual ,
                                      <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_FURY_Beast_32_GB
-:Kingston_FURY_Beast_32_GB rdf:type owl:NamedIndividual ,
-                                    <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_HyperX_Impact_32_GB
-:Kingston_HyperX_Impact_32_GB rdf:type owl:NamedIndividual ,
-                                       <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_ValueRAM_4_GB
-:Kingston_ValueRAM_4_GB rdf:type owl:NamedIndividual ,
-                                 <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_BH16NS55.AUAR10B
-:LG_BH16NS55.AUAR10B rdf:type owl:NamedIndividual ,
-                              <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH14NS40
-:LG_WH14NS40 rdf:type owl:NamedIndividual ,
-                      <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH16NS40
-:LG_WH16NS40 rdf:type owl:NamedIndividual ,
-                      <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH16NS60
-:LG_WH16NS60 rdf:type owl:NamedIndividual ,
-                      <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lenovo_300
-:Lenovo_300 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lite-On_iHAS124-14
-:Lite-On_iHAS124-14 rdf:type owl:NamedIndividual ,
-                             <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lite-On_iHAS224-06
-:Lite-On_iHAS224-06 rdf:type owl:NamedIndividual ,
-                             <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logisys_PS350MA
-:Logisys_PS350MA rdf:type owl:NamedIndividual ,
-                          <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G613
-:Logitech_G613 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G915_Lightspeed
-:Logitech_G915_Lightspeed rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K120
-:Logitech_K120 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K350
-:Logitech_K350 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K360
-:Logitech_K360 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K400_Plus
-:Logitech_K400_Plus rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK120
-:Logitech_MK120 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK550
-:Logitech_MK550 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK710
-:Logitech_MK710 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MX_5500_Revolution
-:Logitech_MX_5500_Revolution rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock
-:MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock rdf:type owl:NamedIndividual ,
-                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY
-:HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i3-6100
@@ -909,6 +801,116 @@
                            <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_FURY_Beast_32_GB
+:Kingston_FURY_Beast_32_GB rdf:type owl:NamedIndividual ,
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_HyperX_Impact_32_GB
+:Kingston_HyperX_Impact_32_GB rdf:type owl:NamedIndividual ,
+                                       <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_ValueRAM_4_GB
+:Kingston_ValueRAM_4_GB rdf:type owl:NamedIndividual ,
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_BH16NS55.AUAR10B
+:LG_BH16NS55.AUAR10B rdf:type owl:NamedIndividual ,
+                              <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH14NS40
+:LG_WH14NS40 rdf:type owl:NamedIndividual ,
+                      <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH16NS40
+:LG_WH16NS40 rdf:type owl:NamedIndividual ,
+                      <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH16NS60
+:LG_WH16NS60 rdf:type owl:NamedIndividual ,
+                      <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lenovo_300
+:Lenovo_300 rdf:type owl:NamedIndividual ,
+                     <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lite-On_iHAS124-14
+:Lite-On_iHAS124-14 rdf:type owl:NamedIndividual ,
+                             <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lite-On_iHAS224-06
+:Lite-On_iHAS224-06 rdf:type owl:NamedIndividual ,
+                             <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logisys_PS350MA
+:Logisys_PS350MA rdf:type owl:NamedIndividual ,
+                          <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G613
+:Logitech_G613 rdf:type owl:NamedIndividual ,
+                        <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G915_Lightspeed
+:Logitech_G915_Lightspeed rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K120
+:Logitech_K120 rdf:type owl:NamedIndividual ,
+                        <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K350
+:Logitech_K350 rdf:type owl:NamedIndividual ,
+                        <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K360
+:Logitech_K360 rdf:type owl:NamedIndividual ,
+                        <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K400_Plus
+:Logitech_K400_Plus rdf:type owl:NamedIndividual ,
+                             <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK120
+:Logitech_MK120 rdf:type owl:NamedIndividual ,
+                         <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK550
+:Logitech_MK550 rdf:type owl:NamedIndividual ,
+                         <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK710
+:Logitech_MK710 rdf:type owl:NamedIndividual ,
+                         <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MX_5500_Revolution
+:Logitech_MX_5500_Revolution rdf:type owl:NamedIndividual ,
+                                      <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock
+:MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock rdf:type owl:NamedIndividual ,
+                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450M_PRO-VDH_MAX
 :MSI_B450M_PRO-VDH_MAX rdf:type owl:NamedIndividual ,
                                 <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
@@ -998,13 +1000,13 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Microsoft_WTA-00001
-:Microsoft_WTA-00001 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:Microsoft_WTA-00001 rdf:type owl:NamedIndividual ,
+                              <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Mistel_BAROCCO_MD770
-:Mistel_BAROCCO_MD770 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:Mistel_BAROCCO_MD770 rdf:type owl:NamedIndividual ,
+                               <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#NZXT_C
@@ -1040,6 +1042,10 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Panasonic_UJ-265
 :Panasonic_UJ-265 rdf:type owl:NamedIndividual ,
                            <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_SSD_VPN100-256GM28H
+:Patriot_SSD_VPN100-256GM28H rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_Signature_1_GB
@@ -1080,9 +1086,6 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Plextor_PX-891SAF
 :Plextor_PX-891SAF rdf:type owl:NamedIndividual ,
                             <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_SSD_VPN100-256GM28H
-:Patriot_SSD_VPN100-256GM28H rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti
@@ -1186,33 +1189,33 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Cynosa_Chroma
-:Razer_Cynosa_Chroma rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:Razer_Cynosa_Chroma rdf:type owl:NamedIndividual ,
+                              <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Huntsman_Mini
-:Razer_Huntsman_Mini rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:Razer_Huntsman_Mini rdf:type owl:NamedIndividual ,
+                              <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Huntsman_Tournament_Edition
-:Razer_Huntsman_Tournament_Edition rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:Razer_Huntsman_Tournament_Edition rdf:type owl:NamedIndividual ,
+                                            <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_TARTARUS_V2
-:Razer_TARTARUS_V2 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:Razer_TARTARUS_V2 rdf:type owl:NamedIndividual ,
+                            <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Tartarus_Pro
-:Razer_Tartarus_Pro rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:Razer_Tartarus_Pro rdf:type owl:NamedIndividual ,
+                             <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K551-RGB_VARA
-:Redragon_K551-RGB_VARA rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:Redragon_K551-RGB_VARA rdf:type owl:NamedIndividual ,
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K552_Wired_Gaming_Keyboard
@@ -1241,6 +1244,18 @@
                                                                             <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_1TB_Samsung_980_PRO-MZ-V8P1T0BW
+:SSD_NVMe_M.2_1TB_Samsung_980_PRO-MZ-V8P1T0BW rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW
+:SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW
+:SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW rdf:type owl:NamedIndividual .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samson_-_G-Track_Pro_USB_Microphone
 :Samson_-_G-Track_Pro_USB_Microphone rdf:type owl:NamedIndividual ,
                                               <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
@@ -1264,16 +1279,6 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CK0_4_GB
 :Samsung_M471B5273DH0-CK0_4_GB rdf:type owl:NamedIndividual ,
                                         <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_1TB_Samsung_980_PRO-MZ-V8P1T0BW
-:SSD_NVMe_M.2_1TB_Samsung_980_PRO-MZ-V8P1T0BW rdf:type owl:NamedIndividual .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW
-:SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW rdf:type owl:NamedIndividual .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW
-:SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT
@@ -1337,8 +1342,8 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SteelSeries_Apex_Pro_TKL
-:SteelSeries_Apex_Pro_TKL rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:SteelSeries_Apex_Pro_TKL rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Team_Elite_16_GB
@@ -1352,8 +1357,8 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Verbatim_99201
-:Verbatim_99201 rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+:Verbatim_99201 rdf:type owl:NamedIndividual ,
+                         <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Wave_Shock_Mount_for_Elgato_Wave_Microphones
@@ -1420,6 +1425,28 @@
                                                                                                                               <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX> rdf:type owl:NamedIndividual ,
+                                                                                                                                               <https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive> ;
+                                                                                                                                      <https://github.com/MilanPodunavac/IZ-Projekat#capacity> 4096 ;
+                                                                                                                                      <https://github.com/MilanPodunavac/IZ-Projekat#connection> "SATA3" ;
+                                                                                                                                      <https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed> 5400 ;
+                                                                                                                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "HDD" ;
+                                                                                                                                      <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> 3.5 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_3TB_Western_Digital_Purple_Surveillance_WD30PURZ
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_3TB_Western_Digital_Purple_Surveillance_WD30PURZ> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_6TB_Toshiba_Enterprise_Capacity_MG06ACA_-_MG06ACA6
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_6TB_Toshiba_Enterprise_Capacity_MG06ACA_-_MG06ACA6> rdf:type owl:NamedIndividual .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#I/O_Magic_IBD1
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#I/O_Magic_IBD1> rdf:type owl:NamedIndividual ,
                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
@@ -1435,28 +1462,15 @@
                                                                                                                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_SH-224DB/BEBE
-<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_SH-224DB/BEBE> rdf:type owl:NamedIndividual ,
-                                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A
-<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A> rdf:type owl:NamedIndividual .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX
-<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX> rdf:type owl:NamedIndividual .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_3TB_Western_Digital_Purple_Surveillance_WD30PURZ
-<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_3TB_Western_Digital_Purple_Surveillance_WD30PURZ> rdf:type owl:NamedIndividual .
-
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_6TB_Toshiba_Enterprise_Capacity_MG06ACA_-_MG06ACA6
-<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_6TB_Toshiba_Enterprise_Capacity_MG06ACA_-_MG06ACA6> rdf:type owl:NamedIndividual .
-
-
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B
-<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B> rdf:type owl:NamedIndividual .
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B> rdf:type owl:NamedIndividual ,
+                                                                                                                                             <https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive> ;
+                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#capacity> 1024 ;
+                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#connection> "SATA3" ;
+                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
+                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> 2.5 ;
+                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 560 ;
+                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 530 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_500GB_Samsung_870_EVO_530_MB/s/560_MB/s_-_MZ-77E500B
@@ -1493,6 +1507,11 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_SATA_512GB_KC600_Kingston_SKC600/512G
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_SATA_512GB_KC600_Kingston_SKC600/512G> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_SH-224DB/BEBE
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_SH-224DB/BEBE> rdf:type owl:NamedIndividual ,
+                                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
