@@ -64,13 +64,13 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Aluratek_-_Omnidirectional_USB_Microphone_With_Mute_Button
-:Aluratek_-_Omnidirectional_USB_Microphone_With_Mute_Button rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Aluratek_-_Omnidirectional_USB_Microphone_With_Mute_Button rdf:type owl:NamedIndividual ,
+                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Aluratek_-_Wired_USB_Stereo_Headset_with_Boom_Mic_-_Black
-:Aluratek_-_Wired_USB_Stereo_Headset_with_Boom_Mic_-_Black rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Aluratek_-_Wired_USB_Stereo_Headset_with_Boom_Mic_-_Black rdf:type owl:NamedIndividual ,
+                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Apevia_ITX-AP250W
@@ -206,18 +206,18 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Blue_Yeti_Nano_Premium_Wired_Multi-Pattern_USB_Condenser_Microphone
-:Blue_Microphones_-_Blue_Yeti_Nano_Premium_Wired_Multi-Pattern_USB_Condenser_Microphone rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Blue_Microphones_-_Blue_Yeti_Nano_Premium_Wired_Multi-Pattern_USB_Condenser_Microphone rdf:type owl:NamedIndividual ,
+                                                                                                 <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Blue_Yeti_Professional_Multi-Pattern_USB_Condenser_Microphone
-:Blue_Microphones_-_Blue_Yeti_Professional_Multi-Pattern_USB_Condenser_Microphone rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Blue_Microphones_-_Blue_Yeti_Professional_Multi-Pattern_USB_Condenser_Microphone rdf:type owl:NamedIndividual ,
+                                                                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Yeticaster_Studio_Professional_Wired_Multi-Pattern_Condenser_Microphone_Desktop_Bundle
-:Blue_Microphones_-_Yeticaster_Studio_Professional_Wired_Multi-Pattern_Condenser_Microphone_Desktop_Bundle rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Blue_Microphones_-_Yeticaster_Studio_Professional_Wired_Multi-Pattern_Condenser_Microphone_Desktop_Bundle rdf:type owl:NamedIndividual ,
+                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#CoolMax_CM-300
@@ -243,6 +243,11 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_HX_Platinum
 :Corsair_HX_Platinum rdf:type owl:NamedIndividual ,
                               <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB
+:Corsair_K55_RGB rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB_Wired_Gaming_Keyboard
@@ -552,8 +557,8 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Insignia™_-_USB_Microphone
-:Insignia™_-_USB_Microphone rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Insignia™_-_USB_Microphone rdf:type owl:NamedIndividual ,
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_FURY_Beast_32_GB
@@ -591,6 +596,11 @@
                       <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lenovo_300
+:Lenovo_300 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lite-On_iHAS124-14
 :Lite-On_iHAS124-14 rdf:type owl:NamedIndividual ,
                              <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
@@ -606,9 +616,59 @@
                           <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G613
+:Logitech_G613 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G915_Lightspeed
+:Logitech_G915_Lightspeed rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K120
+:Logitech_K120 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K350
+:Logitech_K350 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K360
+:Logitech_K360 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K400_Plus
+:Logitech_K400_Plus rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK120
+:Logitech_MK120 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK550
+:Logitech_MK550 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK710
+:Logitech_MK710 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MX_5500_Revolution
+:Logitech_MX_5500_Revolution rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock
-:MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock rdf:type owl:NamedIndividual ,
+                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450M_PRO-VDH_MAX
@@ -697,6 +757,16 @@
                 <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "Z490" ;
                 <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
                 <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Microsoft_WTA-00001
+:Microsoft_WTA-00001 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Mistel_BAROCCO_MD770
+:Mistel_BAROCCO_MD770 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#NZXT_C
@@ -870,8 +940,38 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_-_Seiren_Mini_Wired_Ultra-compact_Condenser_Microphone
-:Razer_-_Seiren_Mini_Wired_Ultra-compact_Condenser_Microphone rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Razer_-_Seiren_Mini_Wired_Ultra-compact_Condenser_Microphone rdf:type owl:NamedIndividual ,
+                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Cynosa_Chroma
+:Razer_Cynosa_Chroma rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Huntsman_Mini
+:Razer_Huntsman_Mini rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Huntsman_Tournament_Edition
+:Razer_Huntsman_Tournament_Edition rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_TARTARUS_V2
+:Razer_TARTARUS_V2 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Tartarus_Pro
+:Razer_Tartarus_Pro rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K551-RGB_VARA
+:Redragon_K551-RGB_VARA rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K552_Wired_Gaming_Keyboard
@@ -901,18 +1001,18 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samson_-_G-Track_Pro_USB_Microphone
-:Samson_-_G-Track_Pro_USB_Microphone rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Samson_-_G-Track_Pro_USB_Microphone rdf:type owl:NamedIndividual ,
+                                              <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samson_-_Meteor_USB_Microphone_with_Noise_Cancellation_Software
-:Samson_-_Meteor_USB_Microphone_with_Noise_Cancellation_Software rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Samson_-_Meteor_USB_Microphone_with_Noise_Cancellation_Software rdf:type owl:NamedIndividual ,
+                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samson_-_Q2U_Dynamic_USB_Microphone
-:Samson_-_Q2U_Dynamic_USB_Microphone rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Samson_-_Q2U_Dynamic_USB_Microphone rdf:type owl:NamedIndividual ,
+                                              <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CH9_4_GB
@@ -956,13 +1056,13 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Shure_-_MV51-DIG_USB_Condenser_Microphone
-:Shure_-_MV51-DIG_USB_Condenser_Microphone rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Shure_-_MV51-DIG_USB_Condenser_Microphone rdf:type owl:NamedIndividual ,
+                                                    <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Shure_-_MV7_Dynamic_Cardioid_USB_Microphone
-:Shure_-_MV7_Dynamic_Cardioid_USB_Microphone rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Shure_-_MV7_Dynamic_Cardioid_USB_Microphone rdf:type owl:NamedIndividual ,
+                                                      <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silicon_Power_SU016GLSTU160N22AH_16_GB
@@ -985,6 +1085,11 @@
                                <https://github.com/MilanPodunavac/IZ-Projekat#Sound_card> .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SteelSeries_Apex_Pro_TKL
+:SteelSeries_Apex_Pro_TKL rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Team_Elite_16_GB
 :Team_Elite_16_GB rdf:type owl:NamedIndividual ,
                            <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
@@ -995,9 +1100,14 @@
                             <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Verbatim_99201
+:Verbatim_99201 rdf:type owl:NamedIndividual, 
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Wave_Shock_Mount_for_Elgato_Wave_Microphones
-:Wave_Shock_Mount_for_Elgato_Wave_Microphones rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+:Wave_Shock_Mount_for_Elgato_Wave_Microphones rdf:type owl:NamedIndividual ,
+                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP
@@ -1035,8 +1145,8 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Snowball_iCE_Wired_Cardioid_USB_Plug_'n_Play_Microphone
-<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Snowball_iCE_Wired_Cardioid_USB_Plug_'n_Play_Microphone> rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Snowball_iCE_Wired_Cardioid_USB_Plug_'n_Play_Microphone> rdf:type owl:NamedIndividual ,
+                                                                                                                                                                               <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2018)
@@ -1065,8 +1175,8 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#JLab_-_TALK_GO_Plug_&_Play_USB_Microphone
-<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#JLab_-_TALK_GO_Plug_&_Play_USB_Microphone> rdf:type owl:NamedIndividual, 
-                                           <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#JLab_-_TALK_GO_Plug_&_Play_USB_Microphone> rdf:type owl:NamedIndividual ,
+                                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB
