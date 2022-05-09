@@ -36,6 +36,11 @@
 #    Individuals
 #################################################################
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ARESGAME_AGV
+:ARESGAME_AGV rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ASUS_PRIME_A320M-K
 :ASUS_PRIME_A320M-K rdf:type owl:NamedIndividual ,
                              <https://github.com/MilanPodunavac/IZ-Projekat#Micro-ATX_motherboard> ,
@@ -56,6 +61,11 @@
                     <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "A320" ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "Micro-ATX" ;
                     <https://github.com/MilanPodunavac/IZ-Projekat#socket> "AM4" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Apevia_ITX-AP250W
+:Apevia_ITX-AP250W rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_PRIME_H670-PLUS_D4
@@ -125,6 +135,36 @@
                                <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 200 .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Athena_Power_AP-MFATX35
+:Athena_Power_AP-MFATX35 rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#CoolMax_CM-300
+:CoolMax_CM-300 rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterWatt
+:Cooler_Master_MasterWatt rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_CXM
+:Corsair_CXM rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Dominator_Platinum_RGB_32_GB
+:Corsair_Dominator_Platinum_RGB_32_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_HX_Platinum
+:Corsair_HX_Platinum rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB_Wired_Gaming_Keyboard
 :Corsair_K55_RGB_Wired_Gaming_Keyboard rdf:type owl:NamedIndividual ,
                                                 [ owl:intersectionOf ( <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard>
@@ -166,35 +206,88 @@
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_16_GB
-:Corsair_Vengeance_16_GB rdf:type owl:NamedIndividual .
+:Corsair_Vengeance_16_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_32_GB
+:Corsair_Vengeance_32_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_LPX_16_GB
-:Corsair_Vengeance_LPX_16_GB rdf:type owl:NamedIndividual .
+:Corsair_Vengeance_LPX_16_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_RGB_Pro_16_GB
-:Corsair_Vengeance_RGB_Pro_16_GB rdf:type owl:NamedIndividual .
+:Corsair_Vengeance_RGB_Pro_16_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_RGB_Pro_32_GB
-:Corsair_Vengeance_RGB_Pro_32_GB rdf:type owl:NamedIndividual .
+:Corsair_Vengeance_RGB_Pro_32_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Crucial_CT2K16G4SFRA32A_32_GB
+:Crucial_CT2K16G4SFRA32A_32_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Crucial_CT2K32G48C40U5_64_GB
+:Crucial_CT2K32G48C40U5_64_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PHD380M
+:Diablotek_PHD380M rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PSDA320M
+:Diablotek_PSDA320M rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_BQ
+:EVGA_BQ rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP300-60LG
+:FSP_Group_FSP300-60LG rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_Series_16_GB
+:G.Skill_Ripjaws_Series_16_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_Series_8_GB
-:G.Skill_Ripjaws_Series_8_GB rdf:type owl:NamedIndividual .
+:G.Skill_Ripjaws_Series_8_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_V_16_GB
-:G.Skill_Ripjaws_V_16_GB rdf:type owl:NamedIndividual .
+:G.Skill_Ripjaws_V_16_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_V_Series_32_GB
-:G.Skill_Ripjaws_V_Series_32_GB rdf:type owl:NamedIndividual .
+:G.Skill_Ripjaws_V_Series_32_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_X_Series_16_GB
-:G.Skill_Ripjaws_X_Series_16_GB rdf:type owl:NamedIndividual .
+:G.Skill_Ripjaws_X_Series_16_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB
+:G.Skill_Trident_Z5_RGB_32_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_B560M_H_rev.1.x
@@ -217,6 +310,11 @@
                           <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "B560" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "Micro-ATX" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1200" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_P-B
+:Gigabyte_P-B rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RTX_3060_Ti_Gaming_OC
@@ -308,6 +406,31 @@
                         <https://github.com/MilanPodunavac/IZ-Projekat#socket> "AM4" .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HEC_HEC200SA-2FX
+:HEC_HEC200SA-2FX rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_FURY_Beast_32_GB
+:Kingston_FURY_Beast_32_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_HyperX_Impact_32_GB
+:Kingston_HyperX_Impact_32_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_ValueRAM_4_GB
+:Kingston_ValueRAM_4_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logisys_PS350MA
+:Logisys_PS350MA rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450M_PRO-VDH_MAX
 :MSI_B450M_PRO-VDH_MAX rdf:type owl:NamedIndividual ,
                                 <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
@@ -396,6 +519,11 @@
                 <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#NZXT_C
+:NZXT_C rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Palit_GeForce_RTX_3060_Dual
 :Palit_GeForce_RTX_3060_Dual rdf:type owl:NamedIndividual ,
                                       <https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU> ,
@@ -421,8 +549,14 @@
                              <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 170 .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_Signature_1_GB
+:Patriot_Signature_1_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_Viper_3_16_GB
-:Patriot_Viper_3_16_GB rdf:type owl:NamedIndividual .
+:Patriot_Viper_3_16_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti
@@ -541,6 +675,16 @@
                                      <https://github.com/MilanPodunavac/IZ-Projekat#width> 12.0 .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CH9_4_GB
+:Samsung_M471B5273DH0-CH9_4_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CK0_4_GB
+:Samsung_M471B5273DH0-CK0_4_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT
 :Sapphire_Radeon_Pulse_RX_6700_XT rdf:type owl:NamedIndividual ,
                                            <https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU> ,
@@ -564,6 +708,31 @@
                                   <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Sapphire AMD Radeon Pulse RX 6700 XT" ;
                                   <https://github.com/MilanPodunavac/IZ-Projekat#length> 26 ;
                                   <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 230 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SeaSonic_FOCUS_Gold
+:SeaSonic_FOCUS_Gold rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silicon_Power_SU016GLSTU160N22AH_16_GB
+:Silicon_Power_SU016GLSTU160N22AH_16_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silicon_Power_SU032GBSFU266B22AB_32_GB
+:Silicon_Power_SU032GBSFU266B22AB_32_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Team_Elite_16_GB
+:Team_Elite_16_GB rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Thermaltake_Smart
+:Thermaltake_Smart rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP
@@ -590,8 +759,29 @@
                     <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 170 .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2018)
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2018)> rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2021)
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2021)> rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_GD_(2019)
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_GD_(2019)> rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP220-60LE(80)
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP220-60LE(80)> rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB
-<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB> rdf:type owl:NamedIndividual .
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB> rdf:type owl:NamedIndividual,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
