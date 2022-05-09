@@ -13,23 +13,7 @@
 #    Classes
 #################################################################
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#External_component
-<https://github.com/MilanPodunavac/IZ-Projekat#External_component> owl:equivalentClass [ rdf:type owl:Class ;
-                                                                                         owl:unionOf ( <https://github.com/MilanPodunavac/IZ-Projekat#Camera>
-                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Game_controller>
-                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard>
-                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Monitor>
-                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Mouse>
-                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Sound_component>
-                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Wired_component>
-                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Wireless_component>
-                                                                                                     )
-                                                                                       ] .
 
-
-###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Rubber_dome
-:Rubber_dome rdf:type owl:Class ;
-             rdfs:subClassOf <https://github.com/MilanPodunavac/IZ-Projekat#Membrane> .
 
 
 #################################################################
