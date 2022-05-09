@@ -838,7 +838,7 @@ example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin""" .
                          owl:oneOf [ rdf:type rdf:List ;
                                      rdf:first "HDD" ;
                                      rdf:rest [ rdf:type rdf:List ;
-                                                rdf:first "SDD" ;
+                                                rdf:first "SSD" ;
                                                 rdf:rest rdf:nil
                                               ]
                                    ]

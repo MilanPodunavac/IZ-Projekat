@@ -14,6 +14,23 @@
 #################################################################
 
 
+###  https://github.com/MilanPodunavac/IZ-Projekat#External_component
+<https://github.com/MilanPodunavac/IZ-Projekat#External_component> owl:equivalentClass [ rdf:type owl:Class ;
+                                                                                         owl:unionOf ( <https://github.com/MilanPodunavac/IZ-Projekat#Camera>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Game_controller>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Monitor>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Mouse>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Sound_component>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Wired_component>
+                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Wireless_component>
+                                                                                                     )
+                                                                                       ] .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Rubber_dome
+:Rubber_dome rdf:type owl:Class ;
+             rdfs:subClassOf <https://github.com/MilanPodunavac/IZ-Projekat#Membrane> .
 
 
 #################################################################
@@ -23,6 +40,68 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ARESGAME_AGV
 :ARESGAME_AGV rdf:type owl:NamedIndividual ,
                        <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_A6-9500E
+:AMD_Processor_A6-9500E rdf:type owl:NamedIndividual ,
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 2 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_3_1200
+:AMD_Processor_Ryzen_3_1200 rdf:type owl:NamedIndividual ,
+                                     <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                            <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.1 ;
+                            <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                            <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
+                            <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_5600G
+:AMD_Processor_Ryzen_5_5600G rdf:type owl:NamedIndividual ,
+                                      <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.9 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_AM4_5600X
+:AMD_Processor_Ryzen_5_AM4_5600X rdf:type owl:NamedIndividual ,
+                                          <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_PRO_4650G
+:AMD_Processor_Ryzen_5_PRO_4650G rdf:type owl:NamedIndividual ,
+                                          <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_5700G
+:AMD_Processor_Ryzen_7_5700G rdf:type owl:NamedIndividual ,
+                                      <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_9_5900X
+:AMD_Processor_Ryzen_9_5900X rdf:type owl:NamedIndividual ,
+                                      <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 12 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ASUS_PRIME_A320M-K
@@ -418,6 +497,16 @@
 :G.Skill_Trident_Z5_RGB_32_GB rdf:type owl:NamedIndividual ,
                                        <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Geil_SSD_2.5inch_SATA3_256GB_GZ25Z3-256GP
+:Geil_SSD_2.5inch_SATA3_256GB_GZ25Z3-256GP rdf:type owl:NamedIndividual ,
+                                                    <https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive> ;
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#capacity> 256 ;
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#connection> "SATA3" ;
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> 2.5 ;
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 520 ;
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 470 .
+
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_B560M_H_rev.1.x
 :Gigabyte_B560M_H_rev.1.x rdf:type owl:NamedIndividual ,
@@ -654,6 +743,171 @@
 :MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock rdf:type owl:NamedIndividual ,
                                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY
+:HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i3-6100
+:Intel_Processor_i3-6100 rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 2 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i3-6100T
+:Intel_Processor_i3-6100T rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.2 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 2 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-10400F
+:Intel_Processor_i5-10400F rdf:type owl:NamedIndividual ,
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.6 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-4460
+:Intel_Processor_i5-4460 rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.2 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 2 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 32 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6400
+:Intel_Processor_i5-6400 rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.7 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6500
+:Intel_Processor_i5-6500 rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.2 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6500T
+:Intel_Processor_i5-6500T rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.5 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-8400
+:Intel_Processor_i5-8400 rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.8 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i6-6400T
+:Intel_Processor_i6-6400T rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.2 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-10700
+:Intel_Processor_i7-10700 rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.9 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 8 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-4790
+:Intel_Processor_i7-4790 rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.6 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700
+:Intel_Processor_i7-6700 rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.4 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700K
+:Intel_Processor_i7-6700K rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 4 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700T
+:Intel_Processor_i7-6700T rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.8 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-7700
+:Intel_Processor_i7-7700 rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.6 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-8700
+:Intel_Processor_i7-8700 rdf:type owl:NamedIndividual ,
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.2 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-8700K
+:Intel_Processor_i7-8700K rdf:type owl:NamedIndividual ,
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i9-10900K
+:Intel_Processor_i9-10900K rdf:type owl:NamedIndividual ,
+                                    <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.5 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 8 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450M_PRO-VDH_MAX
 :MSI_B450M_PRO-VDH_MAX rdf:type owl:NamedIndividual ,
@@ -826,6 +1080,9 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Plextor_PX-891SAF
 :Plextor_PX-891SAF rdf:type owl:NamedIndividual ,
                             <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_SSD_VPN100-256GM28H
+:Patriot_SSD_VPN100-256GM28H rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti
@@ -1007,6 +1264,16 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CK0_4_GB
 :Samsung_M471B5273DH0-CK0_4_GB rdf:type owl:NamedIndividual ,
                                         <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_1TB_Samsung_980_PRO-MZ-V8P1T0BW
+:SSD_NVMe_M.2_1TB_Samsung_980_PRO-MZ-V8P1T0BW rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW
+:SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW
+:SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT
@@ -1171,6 +1438,61 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_SH-224DB/BEBE
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_SH-224DB/BEBE> rdf:type owl:NamedIndividual ,
                                                                                                                           <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_3TB_Western_Digital_Purple_Surveillance_WD30PURZ
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_3TB_Western_Digital_Purple_Surveillance_WD30PURZ> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_6TB_Toshiba_Enterprise_Capacity_MG06ACA_-_MG06ACA6
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_6TB_Toshiba_Enterprise_Capacity_MG06ACA_-_MG06ACA6> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_500GB_Samsung_870_EVO_530_MB/s/560_MB/s_-_MZ-77E500B
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_500GB_Samsung_870_EVO_530_MB/s/560_MB/s_-_MZ-77E500B> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_2TB_Samsung_870_EVO_MZ-77E2T0B/EU
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_2TB_Samsung_870_EVO_MZ-77E2T0B/EU> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_1TB_Western_Digital_5300_MB/s_/_7000_MB/s_WDS100T1X0E
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_1TB_Western_Digital_5300_MB/s_/_7000_MB/s_WDS100T1X0E> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_250GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V250BW
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_250GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V250BW> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V500BW
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V500BW> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_NVMe_1TB_Patriot_Viper_4700MBS/4200MBS_VP4100-1TBM28H
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_NVMe_1TB_Patriot_Viper_4700MBS/4200MBS_VP4100-1TBM28H> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_SATA3_240GB_AData_520/450_MB/s,_HDD02649
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_SATA3_240GB_AData_520/450_MB/s,_HDD02649> rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_SATA_512GB_KC600_Kingston_SKC600/512G
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_SATA_512GB_KC600_Kingston_SKC600/512G> rdf:type owl:NamedIndividual .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
