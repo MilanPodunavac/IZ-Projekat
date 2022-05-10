@@ -166,6 +166,21 @@
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Sound_card> .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E
+:Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E rdf:type owl:NamedIndividual ,
+                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO
+:Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO rdf:type owl:NamedIndividual ,
+                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO
+:Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO rdf:type owl:NamedIndividual ,
+                                                                           <https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_PRIME_H670-PLUS_D4
 :Asus_PRIME_H670-PLUS_D4 rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
@@ -192,6 +207,7 @@
 :Asus_PRIME_Z690M-PLUS_D4 rdf:type owl:NamedIndividual ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#has_a_gpu> :Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5333 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#costs> "260.0"^^xsd:double ;
@@ -518,6 +534,14 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP300-60LG
 :FSP_Group_FSP300-60LG rdf:type owl:NamedIndividual ,
                                 <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Falcon_Case_Pathfinder_with_Power_Supply_750_W
+:Falcon_Case_Pathfinder_with_Power_Supply_750_W rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Falcon_Case_Zeus_Window_RGB_FCR15ZBW
+:Falcon_Case_Zeus_Window_RGB_FCR15ZBW rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_Series_16_GB
@@ -1113,6 +1137,13 @@
                 <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Mac_Version_10.13
+:Mac_Version_10.13 rdf:type owl:NamedIndividual ,
+                            <https://github.com/MilanPodunavac/IZ-Projekat#Operating_system> ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type> 32 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Mac Version 10.13" .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Microlab_Speakers_B26
 :Microlab_Speakers_B26 rdf:type owl:NamedIndividual ,
                                 <https://github.com/MilanPodunavac/IZ-Projekat#Speakers> ;
@@ -1140,6 +1171,24 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#NZXT_C
 :NZXT_C rdf:type owl:NamedIndividual ,
                  <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Office_10_Package
+:Office_10_Package rdf:type owl:NamedIndividual ,
+                            <https://github.com/MilanPodunavac/IZ-Projekat#Office_package> ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Office 10" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Office_3_Package
+:Office_3_Package rdf:type owl:NamedIndividual ,
+                           <https://github.com/MilanPodunavac/IZ-Projekat#Office_package> ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Office 3" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Office_7_Package
+:Office_7_Package rdf:type owl:NamedIndividual ,
+                           <https://github.com/MilanPodunavac/IZ-Projekat#Office_package> ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Office 7" .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Palit_GeForce_RTX_3060_Dual
@@ -1315,6 +1364,14 @@
                    <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "AMD Radeon RX 570 XFX" ;
                    <https://github.com/MilanPodunavac/IZ-Projekat#length> 24.3 ;
                    <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 150 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Raidmax_Case_T202
+:Raidmax_Case_T202 rdf:type owl:NamedIndividual .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Raidmax_Case_Vortex_V4_404WB_-_Black-green
+:Raidmax_Case_Vortex_V4_404WB_-_Black-green rdf:type owl:NamedIndividual .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_-_Seiren_Mini_Wired_Ultra-compact_Condenser_Microphone
@@ -1532,6 +1589,13 @@
                                  <https://github.com/MilanPodunavac/IZ-Projekat#number_of_devices> 3 .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Ubuntu_20.04_LTS
+:Ubuntu_20.04_LTS rdf:type owl:NamedIndividual ,
+                           <https://github.com/MilanPodunavac/IZ-Projekat#Operating_system> ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type> 32 ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Ubuntu 20.04 LTS" .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Verbatim_99201
 :Verbatim_99201 rdf:type owl:NamedIndividual ,
                          <https://github.com/MilanPodunavac/IZ-Projekat#Keyboard> .
@@ -1540,6 +1604,30 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Wave_Shock_Mount_for_Elgato_Wave_Microphones
 :Wave_Shock_Mount_for_Elgato_Wave_Microphones rdf:type owl:NamedIndividual ,
                                                        <https://github.com/MilanPodunavac/IZ-Projekat#Microphone> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Windows_10
+:Windows_10 rdf:type owl:NamedIndividual ,
+                     <https://github.com/MilanPodunavac/IZ-Projekat#Operating_system> ;
+            <https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type> 64 ;
+            <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Windows 10" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Windows_7
+:Windows_7 rdf:type owl:NamedIndividual ,
+                    <https://github.com/MilanPodunavac/IZ-Projekat#Operating_system> ;
+           <https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type> 64 ;
+           <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Windows 7" .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M
+:Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M rdf:type owl:NamedIndividual ,
+                                                                                  <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti> .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB
+:Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB rdf:type owl:NamedIndividual ,
+                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP
@@ -1710,6 +1798,12 @@
                                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type> "TN" ;
                                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#resolution_height> 1920 ;
                                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#resolution_width> 1080 .
+
+
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radimax_Case_with_Power_Supply_I328_TB_+_RX-800AC-V
+<https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radimax_Case_with_Power_Supply_I328_TB_+_RX-800AC-V> rdf:type owl:NamedIndividual ,
+                                                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing> ;
+                                                                                                                                               <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "Full tower" .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B
