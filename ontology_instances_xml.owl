@@ -7,8 +7,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:IZ-Projekat="https://github.com/MilanPodunavac/IZ-Projekat#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl">
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl"/>
     </owl:Ontology>
     
 
@@ -45,9 +45,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Rubber_dome -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Rubber_dome -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Rubber_dome">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Rubber_dome">
         <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Membrane"/>
     </owl:Class>
     
@@ -64,9 +64,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_A6-9500E -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_A6-9500E -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_A6-9500E">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_A6-9500E">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -76,9 +76,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_3_1200 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_3_1200 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_3_1200">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_3_1200">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -88,9 +88,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_5600G -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_5_5600G -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_5600G">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_5_5600G">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -100,9 +100,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_AM4_5600X -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_5_AM4_5600X -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_AM4_5600X">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_5_AM4_5600X">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -112,9 +112,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_PRO_4650G -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_5_PRO_4650G -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_PRO_4650G">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_5_PRO_4650G">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -124,9 +124,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_5700G -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_7_5700G -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_5700G">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_7_5700G">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -136,9 +136,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_9_5900X -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_9_5900X -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_9_5900X">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#AMD_Processor_Ryzen_9_5900X">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -148,17 +148,17 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ARESGAME_AGV -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#ARESGAME_AGV -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ARESGAME_AGV">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#ARESGAME_AGV">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ASUS_PRIME_A320M-K -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#ASUS_PRIME_A320M-K -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ASUS_PRIME_A320M-K">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#ASUS_PRIME_A320M-K">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Micro-ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3200</IZ-Projekat:RAM_maximum_frequency>
@@ -181,97 +181,97 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Aluratek_-_Omnidirectional_USB_Microphone_With_Mute_Button -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Aluratek_-_Omnidirectional_USB_Microphone_With_Mute_Button -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Aluratek_-_Omnidirectional_USB_Microphone_With_Mute_Button">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Aluratek_-_Omnidirectional_USB_Microphone_With_Mute_Button">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Aluratek_-_Wired_USB_Stereo_Headset_with_Boom_Mic_-_Black -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Aluratek_-_Wired_USB_Stereo_Headset_with_Boom_Mic_-_Black -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Aluratek_-_Wired_USB_Stereo_Headset_with_Boom_Mic_-_Black">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Aluratek_-_Wired_USB_Stereo_Headset_with_Boom_Mic_-_Black">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Apevia_ITX-AP250W -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Apevia_ITX-AP250W -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Apevia_ITX-AP250W">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Apevia_ITX-AP250W">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_BC-12D2HT -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_BC-12D2HT -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_BC-12D2HT">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_BC-12D2HT">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_BW-16D1HT -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_BW-16D1HT -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_BW-16D1HT">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_BW-16D1HT">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_DRW-24D5MT -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_DRW-24D5MT -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_DRW-24D5MT">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_DRW-24D5MT">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_DRW-24F1ST -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_DRW-24F1ST -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_DRW-24F1ST">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_DRW-24F1ST">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Essence_STX_II_7.1 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Essence_STX_II_7.1 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Essence_STX_II_7.1">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Essence_STX_II_7.1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_PRIME_H670-PLUS_D4 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_PRIME_H670-PLUS_D4 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_PRIME_H670-PLUS_D4">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_PRIME_H670-PLUS_D4">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5066</IZ-Projekat:RAM_maximum_frequency>
@@ -294,12 +294,12 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_PRIME_Z690M-PLUS_D4 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_PRIME_Z690M-PLUS_D4 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_PRIME_Z690M-PLUS_D4">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_PRIME_Z690M-PLUS_D4">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
-        <IZ-Projekat:has_a_gpu rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E"/>
+        <IZ-Projekat:has_a_gpu rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5333</IZ-Projekat:RAM_maximum_frequency>
         <IZ-Projekat:RAM_type>DDR4</IZ-Projekat:RAM_type>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">260.0</IZ-Projekat:costs>
@@ -320,9 +320,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_RTX_3060_Ti_dual_mini_oc -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_RTX_3060_Ti_dual_mini_oc -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_RTX_3060_Ti_dual_mini_oc">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_RTX_3060_Ti_dual_mini_oc">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
@@ -346,89 +346,89 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_STRIX_RAID_DLX -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_STRIX_RAID_DLX -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_STRIX_RAID_DLX">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_STRIX_RAID_DLX">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_STRIX_RAID_PRO -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_STRIX_RAID_PRO -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_STRIX_RAID_PRO">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_STRIX_RAID_PRO">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_STRIX_SOAR -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_STRIX_SOAR -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_STRIX_SOAR">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_STRIX_SOAR">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Xonar_AE -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Xonar_AE -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Xonar_AE">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Xonar_AE">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Xonar_Essence_STX -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Xonar_Essence_STX -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Xonar_Essence_STX">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Xonar_Essence_STX">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Xonar_SE -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Xonar_SE -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Xonar_SE">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_Xonar_SE">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Athena_Power_AP-MFATX35 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Athena_Power_AP-MFATX35 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Athena_Power_AP-MFATX35">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Athena_Power_AP-MFATX35">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Blue_Yeti_Nano_Premium_Wired_Multi-Pattern_USB_Condenser_Microphone -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Blue_Microphones_-_Blue_Yeti_Nano_Premium_Wired_Multi-Pattern_USB_Condenser_Microphone -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Blue_Yeti_Nano_Premium_Wired_Multi-Pattern_USB_Condenser_Microphone">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Blue_Microphones_-_Blue_Yeti_Nano_Premium_Wired_Multi-Pattern_USB_Condenser_Microphone">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Blue_Yeti_Professional_Multi-Pattern_USB_Condenser_Microphone -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Blue_Microphones_-_Blue_Yeti_Professional_Multi-Pattern_USB_Condenser_Microphone -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Blue_Yeti_Professional_Multi-Pattern_USB_Condenser_Microphone">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Blue_Microphones_-_Blue_Yeti_Professional_Multi-Pattern_USB_Condenser_Microphone">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Yeticaster_Studio_Professional_Wired_Multi-Pattern_Condenser_Microphone_Desktop_Bundle -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Blue_Microphones_-_Yeticaster_Studio_Professional_Wired_Multi-Pattern_Condenser_Microphone_Desktop_Bundle -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Yeticaster_Studio_Professional_Wired_Multi-Pattern_Condenser_Microphone_Desktop_Bundle">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Blue_Microphones_-_Yeticaster_Studio_Professional_Wired_Multi-Pattern_Condenser_Microphone_Desktop_Bundle">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Canyon_Web_Camera_CNE-CWC1 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Canyon_Web_Camera_CNE-CWC1 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Canyon_Web_Camera_CNE-CWC1">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Canyon_Web_Camera_CNE-CWC1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
         <IZ-Projekat:camera_base_type>Freestanding</IZ-Projekat:camera_base_type>
         <IZ-Projekat:lens_type>Glass</IZ-Projekat:lens_type>
@@ -436,9 +436,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Canyon_Web_Camera_CNE-CWC3N_-_12_MP -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Canyon_Web_Camera_CNE-CWC3N_-_12_MP -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Canyon_Web_Camera_CNE-CWC3N_-_12_MP">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Canyon_Web_Camera_CNE-CWC3N_-_12_MP">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
         <IZ-Projekat:camera_base_type>Freestanding</IZ-Projekat:camera_base_type>
         <IZ-Projekat:lens_type>Glass</IZ-Projekat:lens_type>
@@ -446,9 +446,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Chieftec_Cooler_AF-0625S -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Chieftec_Cooler_AF-0625S -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Chieftec_Cooler_AF-0625S">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Chieftec_Cooler_AF-0625S">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
         <IZ-Projekat:is_type_of>Air</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</IZ-Projekat:max_rotation_frequency>
@@ -458,17 +458,17 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#CoolMax_CM-300 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#CoolMax_CM-300 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#CoolMax_CM-300">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#CoolMax_CM-300">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_A30_PWM_RH-A30-25PK-R1 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Cooler_Master_A30_PWM_RH-A30-25PK-R1 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_A30_PWM_RH-A30-25PK-R1">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Cooler_Master_A30_PWM_RH-A30-25PK-R1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
         <IZ-Projekat:is_type_of>Air</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</IZ-Projekat:max_rotation_frequency>
@@ -478,9 +478,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterAir_MA624_-_MAM-D6PS-314PK-R1 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Cooler_Master_MasterAir_MA624_-_MAM-D6PS-314PK-R1 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterAir_MA624_-_MAM-D6PS-314PK-R1">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Cooler_Master_MasterAir_MA624_-_MAM-D6PS-314PK-R1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
         <IZ-Projekat:is_type_of>Air</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</IZ-Projekat:max_rotation_frequency>
@@ -491,9 +491,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterLiquid_ML240_ILLUSION_RGB_MLX-D24M-A18P2-R1 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Cooler_Master_MasterLiquid_ML240_ILLUSION_RGB_MLX-D24M-A18P2-R1 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterLiquid_ML240_ILLUSION_RGB_MLX-D24M-A18P2-R1">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Cooler_Master_MasterLiquid_ML240_ILLUSION_RGB_MLX-D24M-A18P2-R1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
         <IZ-Projekat:is_type_of>Water</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</IZ-Projekat:max_rotation_frequency>
@@ -504,49 +504,49 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterWatt -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Cooler_Master_MasterWatt -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterWatt">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Cooler_Master_MasterWatt">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_CXM -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_CXM -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_CXM">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_CXM">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Dominator_Platinum_RGB_32_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Dominator_Platinum_RGB_32_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Dominator_Platinum_RGB_32_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Dominator_Platinum_RGB_32_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_HX_Platinum -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_HX_Platinum -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_HX_Platinum">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_HX_Platinum">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_K55_RGB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_K55_RGB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB_Wired_Gaming_Keyboard -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_K55_RGB_Wired_Gaming_Keyboard -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB_Wired_Gaming_Keyboard">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_K55_RGB_Wired_Gaming_Keyboard">
         <rdf:type>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -569,9 +569,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K70_RGB_MK.2_Wired_Gaming_Keyboard -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_K70_RGB_MK.2_Wired_Gaming_Keyboard -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K70_RGB_MK.2_Wired_Gaming_Keyboard">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_K70_RGB_MK.2_Wired_Gaming_Keyboard">
         <rdf:type>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -596,253 +596,253 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_16_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Vengeance_16_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_16_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Vengeance_16_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_32_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Vengeance_32_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_32_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Vengeance_32_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_LPX_16_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Vengeance_LPX_16_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_LPX_16_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Vengeance_LPX_16_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_RGB_Pro_16_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Vengeance_RGB_Pro_16_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_RGB_Pro_16_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Vengeance_RGB_Pro_16_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_RGB_Pro_32_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Vengeance_RGB_Pro_32_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_RGB_Pro_32_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_Vengeance_RGB_Pro_32_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_70SB157000000 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_70SB157000000 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_70SB157000000">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_70SB157000000">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_BlasterX_AE-5_Plus -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_BlasterX_AE-5_Plus -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_BlasterX_AE-5_Plus">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_BlasterX_AE-5_Plus">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_AE-7 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_AE-7 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_AE-7">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_AE-7">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_AE-9 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_AE-9 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_AE-9">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_AE-9">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_Audigy2_ZS -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_Audigy2_ZS -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_Audigy2_ZS">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_Audigy2_ZS">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_Audigy_Fx -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_Audigy_Fx -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_Audigy_Fx">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_Audigy_Fx">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_Audigy_Rx -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_Audigy_Rx -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_Audigy_Rx">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_Audigy_Rx">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_Zx -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_Zx -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Sound_Blaster_Zx">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Sound_Blaster_Zx">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_ZXR -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_ZXR -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_ZXR">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_ZXR">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Z_PCIe -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Z_PCIe -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_Z_PCIe">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Creative_Labs_Z_PCIe">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Crucial_CT2K16G4SFRA32A_32_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Crucial_CT2K16G4SFRA32A_32_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Crucial_CT2K16G4SFRA32A_32_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Crucial_CT2K16G4SFRA32A_32_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Crucial_CT2K32G48C40U5_64_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Crucial_CT2K32G48C40U5_64_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Crucial_CT2K32G48C40U5_64_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Crucial_CT2K32G48C40U5_64_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PHD380M -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Diablotek_PHD380M -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PHD380M">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Diablotek_PHD380M">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PSDA320M -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Diablotek_PSDA320M -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PSDA320M">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Diablotek_PSDA320M">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_BQ -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#EVGA_BQ -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_BQ">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#EVGA_BQ">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_NU -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#EVGA_NU -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_NU">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#EVGA_NU">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_NU_AUDIO_PRO -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#EVGA_NU_AUDIO_PRO -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_NU_AUDIO_PRO">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#EVGA_NU_AUDIO_PRO">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP300-60LG -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#FSP_Group_FSP300-60LG -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP300-60LG">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#FSP_Group_FSP300-60LG">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Falcon_Case_Pathfinder_with_Power_Supply_750_W -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Falcon_Case_Pathfinder_with_Power_Supply_750_W -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Falcon_Case_Pathfinder_with_Power_Supply_750_W"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Falcon_Case_Pathfinder_with_Power_Supply_750_W"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Falcon_Case_Zeus_Window_RGB_FCR15ZBW -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Falcon_Case_Zeus_Window_RGB_FCR15ZBW -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Falcon_Case_Zeus_Window_RGB_FCR15ZBW"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Falcon_Case_Zeus_Window_RGB_FCR15ZBW"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_Series_16_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Ripjaws_Series_16_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_Series_16_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Ripjaws_Series_16_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_Series_8_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Ripjaws_Series_8_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_Series_8_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Ripjaws_Series_8_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_V_16_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Ripjaws_V_16_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_V_16_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Ripjaws_V_16_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_V_Series_32_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Ripjaws_V_Series_32_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_V_Series_32_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Ripjaws_V_Series_32_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_X_Series_16_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Ripjaws_X_Series_16_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_X_Series_16_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Ripjaws_X_Series_16_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Trident_Z5_RGB_32_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#G.Skill_Trident_Z5_RGB_32_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Geil_SSD_2.5inch_SATA3_256GB_GZ25Z3-256GP -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Geil_SSD_2.5inch_SATA3_256GB_GZ25Z3-256GP -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Geil_SSD_2.5inch_SATA3_256GB_GZ25Z3-256GP">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Geil_SSD_2.5inch_SATA3_256GB_GZ25Z3-256GP">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
@@ -854,9 +854,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_B560M_H_rev.1.x -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_B560M_H_rev.1.x -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_B560M_H_rev.1.x">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_B560M_H_rev.1.x">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Micro-ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3200</IZ-Projekat:RAM_maximum_frequency>
@@ -879,17 +879,17 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_P-B -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_P-B -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_P-B">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_P-B">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RTX_3060_Ti_Gaming_OC -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_RTX_3060_Ti_Gaming_OC -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RTX_3060_Ti_Gaming_OC">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_RTX_3060_Ti_Gaming_OC">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
@@ -913,9 +913,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RX_570_Gaming_8g -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_RX_570_Gaming_8g -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RX_570_Gaming_8g">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_RX_570_Gaming_8g">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_570"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
@@ -938,9 +938,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5400</IZ-Projekat:RAM_maximum_frequency>
@@ -963,9 +963,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570_Gaming_X -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_X570_Gaming_X -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570_Gaming_X">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Gigabyte_X570_Gaming_X">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000</IZ-Projekat:RAM_maximum_frequency>
@@ -988,9 +988,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:capacity>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7200</IZ-Projekat:disc_rotation_speed>
@@ -999,17 +999,17 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HEC_HEC200SA-2FX -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HEC_HEC200SA-2FX -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HEC_HEC200SA-2FX">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HEC_HEC200SA-2FX">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Hama_Web_Camera_Spy_Protect_53950 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Hama_Web_Camera_Spy_Protect_53950 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Hama_Web_Camera_Spy_Protect_53950">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Hama_Web_Camera_Spy_Protect_53950">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
         <IZ-Projekat:camera_base_type>Freestanding</IZ-Projekat:camera_base_type>
         <IZ-Projekat:lens_type>Glass</IZ-Projekat:lens_type>
@@ -1017,17 +1017,17 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Insignia™_-_USB_Microphone -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Insignia™_-_USB_Microphone -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Insignia™_-_USB_Microphone">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Insignia™_-_USB_Microphone">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i3-6100 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i3-6100 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i3-6100">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i3-6100">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1037,9 +1037,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i3-6100T -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i3-6100T -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i3-6100T">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i3-6100T">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1049,9 +1049,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-10400F -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-10400F -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-10400F">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-10400F">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.6</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1061,9 +1061,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-4460 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-4460 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-4460">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-4460">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1073,9 +1073,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6400 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-6400 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6400">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-6400">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1085,9 +1085,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6500 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-6500 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6500">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-6500">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1097,9 +1097,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6500T -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-6500T -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6500T">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-6500T">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1109,9 +1109,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-8400 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-8400 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-8400">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i5-8400">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1121,9 +1121,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i6-6400T -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i6-6400T -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i6-6400T">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i6-6400T">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1133,9 +1133,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-10700 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-10700 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-10700">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-10700">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1145,9 +1145,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-4790 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-4790 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-4790">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-4790">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1157,9 +1157,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-6700 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-6700">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1169,9 +1169,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700K -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-6700K -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700K">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-6700K">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1181,9 +1181,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700T -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-6700T -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700T">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-6700T">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1193,9 +1193,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-7700 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-7700 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-7700">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-7700">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1205,9 +1205,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-8700 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-8700 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-8700">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-8700">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1217,9 +1217,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-8700K -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-8700K -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-8700K">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i7-8700K">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1229,9 +1229,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i9-10900K -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i9-10900K -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i9-10900K">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Intel_Processor_i9-10900K">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
@@ -1241,65 +1241,65 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_FURY_Beast_32_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Kingston_FURY_Beast_32_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_FURY_Beast_32_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Kingston_FURY_Beast_32_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_HyperX_Impact_32_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Kingston_HyperX_Impact_32_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_HyperX_Impact_32_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Kingston_HyperX_Impact_32_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_ValueRAM_4_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Kingston_ValueRAM_4_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_ValueRAM_4_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Kingston_ValueRAM_4_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_BH16NS55.AUAR10B -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LG_BH16NS55.AUAR10B -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_BH16NS55.AUAR10B">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LG_BH16NS55.AUAR10B">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH14NS40 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LG_WH14NS40 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH14NS40">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LG_WH14NS40">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH16NS40 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LG_WH16NS40 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH16NS40">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LG_WH16NS40">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH16NS60 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LG_WH16NS60 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_WH16NS60">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LG_WH16NS60">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LOGITECH_Speakers_Z200 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LOGITECH_Speakers_Z200 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LOGITECH_Speakers_Z200">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LOGITECH_Speakers_Z200">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
         <IZ-Projekat:is_type_of>Multimedia</IZ-Projekat:is_type_of>
         <IZ-Projekat:number_of_devices rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_devices>
@@ -1307,9 +1307,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LOGITECH_Speakers_Z_213 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LOGITECH_Speakers_Z_213 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LOGITECH_Speakers_Z_213">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LOGITECH_Speakers_Z_213">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
         <IZ-Projekat:is_type_of>Multimedia</IZ-Projekat:is_type_of>
         <IZ-Projekat:number_of_devices rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:number_of_devices>
@@ -1317,9 +1317,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LOGITECH_Web_Camera_C310_HD -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LOGITECH_Web_Camera_C310_HD -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LOGITECH_Web_Camera_C310_HD">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LOGITECH_Web_Camera_C310_HD">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
         <IZ-Projekat:camera_base_type>Clip-On</IZ-Projekat:camera_base_type>
         <IZ-Projekat:lens_type>Plastic</IZ-Projekat:lens_type>
@@ -1327,9 +1327,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LOGITECH_Web_Camera_C920_HD_PRO -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LOGITECH_Web_Camera_C920_HD_PRO -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LOGITECH_Web_Camera_C920_HD_PRO">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LOGITECH_Web_Camera_C920_HD_PRO">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
         <IZ-Projekat:camera_base_type>Clip-On</IZ-Projekat:camera_base_type>
         <IZ-Projekat:lens_type>Plastic</IZ-Projekat:lens_type>
@@ -1337,9 +1337,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LOGITECH_Web_Camera_C_270_BLACK -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LOGITECH_Web_Camera_C_270_BLACK -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LOGITECH_Web_Camera_C_270_BLACK">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#LOGITECH_Web_Camera_C_270_BLACK">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
         <IZ-Projekat:camera_base_type>Clip-On</IZ-Projekat:camera_base_type>
         <IZ-Projekat:lens_type>Plastic</IZ-Projekat:lens_type>
@@ -1347,129 +1347,129 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lenovo_300 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Lenovo_300 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lenovo_300">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Lenovo_300">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lite-On_iHAS124-14 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Lite-On_iHAS124-14 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lite-On_iHAS124-14">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Lite-On_iHAS124-14">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lite-On_iHAS224-06 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Lite-On_iHAS224-06 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Lite-On_iHAS224-06">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Lite-On_iHAS224-06">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logisys_PS350MA -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logisys_PS350MA -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logisys_PS350MA">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logisys_PS350MA">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G613 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_G613 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G613">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_G613">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G915_Lightspeed -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_G915_Lightspeed -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G915_Lightspeed">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_G915_Lightspeed">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K120 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_K120 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K120">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_K120">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K350 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_K350 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K350">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_K350">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K360 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_K360 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K360">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_K360">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K400_Plus -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_K400_Plus -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_K400_Plus">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_K400_Plus">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK120 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_MK120 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK120">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_MK120">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK550 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_MK550 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK550">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_MK550">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK710 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_MK710 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MK710">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_MK710">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MX_5500_Revolution -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_MX_5500_Revolution -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_MX_5500_Revolution">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Logitech_MX_5500_Revolution">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MEE_audio_-_Bluetooth_Wireless_Headset_with_Boom_Microphone_and_Charging_Dock">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MICROLAB_Speakers_M-105R -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MICROLAB_Speakers_M-105R -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MICROLAB_Speakers_M-105R">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MICROLAB_Speakers_M-105R">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
         <IZ-Projekat:is_type_of>Multimedia</IZ-Projekat:is_type_of>
         <IZ-Projekat:number_of_devices rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_devices>
@@ -1477,9 +1477,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450M_PRO-VDH_MAX -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MSI_B450M_PRO-VDH_MAX -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450M_PRO-VDH_MAX">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MSI_B450M_PRO-VDH_MAX">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3866</IZ-Projekat:RAM_maximum_frequency>
@@ -1502,9 +1502,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450_TOMAHAWK_MAX_II -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MSI_B450_TOMAHAWK_MAX_II -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450_TOMAHAWK_MAX_II">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MSI_B450_TOMAHAWK_MAX_II">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4133</IZ-Projekat:RAM_maximum_frequency>
@@ -1527,9 +1527,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_MAG_B560_TOMAHAWK_Wi-Fi -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MSI_MAG_B560_TOMAHAWK_Wi-Fi -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_MAG_B560_TOMAHAWK_Wi-Fi">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MSI_MAG_B560_TOMAHAWK_Wi-Fi">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5066</IZ-Projekat:RAM_maximum_frequency>
@@ -1552,9 +1552,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_Water_Cooling_MAG_CORELIQUID_280R -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MSI_Water_Cooling_MAG_CORELIQUID_280R -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_Water_Cooling_MAG_CORELIQUID_280R">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MSI_Water_Cooling_MAG_CORELIQUID_280R">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
         <IZ-Projekat:is_type_of>Water</IZ-Projekat:is_type_of>
         <IZ-Projekat:min_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</IZ-Projekat:min_rotation_frequency>
@@ -1564,9 +1564,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_Z490-A_PRO -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MSI_Z490-A_PRO -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_Z490-A_PRO">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#MSI_Z490-A_PRO">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</IZ-Projekat:RAM_maximum_frequency>
@@ -1589,9 +1589,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Mac_Version_10.13 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Mac_Version_10.13 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Mac_Version_10.13">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Mac_Version_10.13">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
         <IZ-Projekat:Operating_system_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</IZ-Projekat:Operating_system_type>
         <IZ-Projekat:has_a_name>Mac Version 10.13</IZ-Projekat:has_a_name>
@@ -1599,9 +1599,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Microlab_Speakers_B26 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Microlab_Speakers_B26 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Microlab_Speakers_B26">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Microlab_Speakers_B26">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
         <IZ-Projekat:is_type_of>Multimedia</IZ-Projekat:is_type_of>
         <IZ-Projekat:number_of_devices rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_devices>
@@ -1609,9 +1609,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Microlab_Speakers_FC_530U -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Microlab_Speakers_FC_530U -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Microlab_Speakers_FC_530U">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Microlab_Speakers_FC_530U">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
         <IZ-Projekat:is_type_of>Multimedia</IZ-Projekat:is_type_of>
         <IZ-Projekat:number_of_devices rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:number_of_devices>
@@ -1619,60 +1619,60 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Microsoft_WTA-00001 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Microsoft_WTA-00001 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Microsoft_WTA-00001">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Microsoft_WTA-00001">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Mistel_BAROCCO_MD770 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Mistel_BAROCCO_MD770 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Mistel_BAROCCO_MD770">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Mistel_BAROCCO_MD770">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#NZXT_C -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#NZXT_C -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#NZXT_C">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#NZXT_C">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Office_10_Package -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Office_10_Package -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Office_10_Package">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Office_10_Package">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Office_package"/>
         <IZ-Projekat:has_a_name>Office 10</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Office_3_Package -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Office_3_Package -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Office_3_Package">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Office_3_Package">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Office_package"/>
         <IZ-Projekat:has_a_name>Office 3</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Office_7_Package -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Office_7_Package -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Office_7_Package">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Office_7_Package">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Office_package"/>
         <IZ-Projekat:has_a_name>Office 7</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Palit_GeForce_RTX_3060_Dual -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Palit_GeForce_RTX_3060_Dual -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Palit_GeForce_RTX_3060_Dual">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Palit_GeForce_RTX_3060_Dual">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_6pin_connectors>
@@ -1698,17 +1698,17 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Panasonic_UJ-265 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Panasonic_UJ-265 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Panasonic_UJ-265">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Panasonic_UJ-265">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_SSD_VPN100-256GM28H -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Patriot_SSD_VPN100-256GM28H -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_SSD_VPN100-256GM28H">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Patriot_SSD_VPN100-256GM28H">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
@@ -1719,73 +1719,73 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_Signature_1_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Patriot_Signature_1_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_Signature_1_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Patriot_Signature_1_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_Viper_3_16_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Patriot_Viper_3_16_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_Viper_3_16_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Patriot_Viper_3_16_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-209DBK -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Pioneer_BDR-209DBK -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-209DBK">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Pioneer_BDR-209DBK">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-211UBK -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Pioneer_BDR-211UBK -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-211UBK">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Pioneer_BDR-211UBK">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-212DBK -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Pioneer_BDR-212DBK -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-212DBK">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Pioneer_BDR-212DBK">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-212EBK -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Pioneer_BDR-212EBK -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-212EBK">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Pioneer_BDR-212EBK">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-2209 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Pioneer_BDR-2209 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-2209">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Pioneer_BDR-2209">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Plextor_PX-891SAF -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Plextor_PX-891SAF -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Plextor_PX-891SAF">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Plextor_PX-891SAF">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#ROG_STRIX_RTX_3070_Ti -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#ROG_STRIX_RTX_3070_Ti">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_8pin_connectors>
@@ -1809,9 +1809,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#RTX_3070_Ti_Gaming_X_Trio -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#RTX_3070_Ti_Gaming_X_Trio">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_8pin_connectors>
@@ -1835,9 +1835,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Radeo_RX_6700XT_Eagle -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Radeo_RX_6700XT_Eagle">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_6pin_connectors>
@@ -1863,9 +1863,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeon_RX_570_XFX -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Radeon_RX_570_XFX -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeon_RX_570_XFX">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Radeon_RX_570_XFX">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_570"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
@@ -1890,77 +1890,77 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Raidmax_Case_T202 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Raidmax_Case_T202 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Raidmax_Case_T202"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Raidmax_Case_T202"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Raidmax_Case_Vortex_V4_404WB_-_Black-green -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Raidmax_Case_Vortex_V4_404WB_-_Black-green -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Raidmax_Case_Vortex_V4_404WB_-_Black-green"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Raidmax_Case_Vortex_V4_404WB_-_Black-green"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_-_Seiren_Mini_Wired_Ultra-compact_Condenser_Microphone -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_-_Seiren_Mini_Wired_Ultra-compact_Condenser_Microphone -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_-_Seiren_Mini_Wired_Ultra-compact_Condenser_Microphone">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_-_Seiren_Mini_Wired_Ultra-compact_Condenser_Microphone">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Cynosa_Chroma -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_Cynosa_Chroma -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Cynosa_Chroma">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_Cynosa_Chroma">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Huntsman_Mini -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_Huntsman_Mini -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Huntsman_Mini">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_Huntsman_Mini">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Huntsman_Tournament_Edition -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_Huntsman_Tournament_Edition -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Huntsman_Tournament_Edition">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_Huntsman_Tournament_Edition">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_TARTARUS_V2 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_TARTARUS_V2 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_TARTARUS_V2">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_TARTARUS_V2">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Tartarus_Pro -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_Tartarus_Pro -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Razer_Tartarus_Pro">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Razer_Tartarus_Pro">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K551-RGB_VARA -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Redragon_K551-RGB_VARA -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K551-RGB_VARA">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Redragon_K551-RGB_VARA">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K552_Wired_Gaming_Keyboard -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Redragon_K552_Wired_Gaming_Keyboard -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Redragon_K552_Wired_Gaming_Keyboard">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Redragon_K552_Wired_Gaming_Keyboard">
         <rdf:type>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1985,17 +1985,17 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RØDE_-_GO_II_2-Channel_Wireless_Omnidirectional_Microphone_System -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#RØDE_-_GO_II_2-Channel_Wireless_Omnidirectional_Microphone_System -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RØDE_-_GO_II_2-Channel_Wireless_Omnidirectional_Microphone_System">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#RØDE_-_GO_II_2-Channel_Wireless_Omnidirectional_Microphone_System">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_1TB_Samsung_980_PRO-MZ-V8P1T0BW -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_NVMe_M.2_1TB_Samsung_980_PRO-MZ-V8P1T0BW -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_1TB_Samsung_980_PRO-MZ-V8P1T0BW">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_NVMe_M.2_1TB_Samsung_980_PRO-MZ-V8P1T0BW">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
@@ -2006,9 +2006,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
@@ -2019,9 +2019,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
@@ -2032,9 +2032,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#S_BOX_Speakers_SP_092_B -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#S_BOX_Speakers_SP_092_B -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#S_BOX_Speakers_SP_092_B">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#S_BOX_Speakers_SP_092_B">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
         <IZ-Projekat:is_type_of>Multimedia</IZ-Projekat:is_type_of>
         <IZ-Projekat:number_of_devices rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_devices>
@@ -2042,49 +2042,49 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samson_-_G-Track_Pro_USB_Microphone -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samson_-_G-Track_Pro_USB_Microphone -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samson_-_G-Track_Pro_USB_Microphone">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samson_-_G-Track_Pro_USB_Microphone">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samson_-_Meteor_USB_Microphone_with_Noise_Cancellation_Software -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samson_-_Meteor_USB_Microphone_with_Noise_Cancellation_Software -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samson_-_Meteor_USB_Microphone_with_Noise_Cancellation_Software">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samson_-_Meteor_USB_Microphone_with_Noise_Cancellation_Software">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samson_-_Q2U_Dynamic_USB_Microphone -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samson_-_Q2U_Dynamic_USB_Microphone -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samson_-_Q2U_Dynamic_USB_Microphone">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samson_-_Q2U_Dynamic_USB_Microphone">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CH9_4_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samsung_M471B5273DH0-CH9_4_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CH9_4_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samsung_M471B5273DH0-CH9_4_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CK0_4_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samsung_M471B5273DH0-CK0_4_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CK0_4_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samsung_M471B5273DH0-CK0_4_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_Smart_Monitor_M5_LS27AM500NRXEN_27inch -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samsung_Smart_Monitor_M5_LS27AM500NRXEN_27inch -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_Smart_Monitor_M5_LS27AM500NRXEN_27inch">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samsung_Smart_Monitor_M5_LS27AM500NRXEN_27inch">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
         <IZ-Projekat:aspect_ratio>16:9</IZ-Projekat:aspect_ratio>
         <IZ-Projekat:display_panel_type>VA</IZ-Projekat:display_panel_type>
@@ -2095,9 +2095,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Sapphire_Radeon_Pulse_RX_6700_XT -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Sapphire_Radeon_Pulse_RX_6700_XT">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_6pin_connectors>
@@ -2123,89 +2123,89 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SeaSonic_FOCUS_Gold -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SeaSonic_FOCUS_Gold -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SeaSonic_FOCUS_Gold">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SeaSonic_FOCUS_Gold">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Shure_-_MV51-DIG_USB_Condenser_Microphone -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Shure_-_MV51-DIG_USB_Condenser_Microphone -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Shure_-_MV51-DIG_USB_Condenser_Microphone">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Shure_-_MV51-DIG_USB_Condenser_Microphone">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Shure_-_MV7_Dynamic_Cardioid_USB_Microphone -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Shure_-_MV7_Dynamic_Cardioid_USB_Microphone -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Shure_-_MV7_Dynamic_Cardioid_USB_Microphone">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Shure_-_MV7_Dynamic_Cardioid_USB_Microphone">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silicon_Power_SU016GLSTU160N22AH_16_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Silicon_Power_SU016GLSTU160N22AH_16_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silicon_Power_SU016GLSTU160N22AH_16_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Silicon_Power_SU016GLSTU160N22AH_16_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silicon_Power_SU032GBSFU266B22AB_32_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Silicon_Power_SU032GBSFU266B22AB_32_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silicon_Power_SU032GBSFU266B22AB_32_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Silicon_Power_SU032GBSFU266B22AB_32_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silverstone_TOB04 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Silverstone_TOB04 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silverstone_TOB04">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Silverstone_TOB04">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#StarTech_PCISOUND5CH -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#StarTech_PCISOUND5CH -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#StarTech_PCISOUND5CH">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#StarTech_PCISOUND5CH">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SteelSeries_Apex_Pro_TKL -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SteelSeries_Apex_Pro_TKL -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SteelSeries_Apex_Pro_TKL">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SteelSeries_Apex_Pro_TKL">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Team_Elite_16_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Team_Elite_16_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Team_Elite_16_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Team_Elite_16_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Thermaltake_Smart -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Thermaltake_Smart -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Thermaltake_Smart">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Thermaltake_Smart">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Trust_Speakers_Tytan_2.1_-_Crni -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Trust_Speakers_Tytan_2.1_-_Crni -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Trust_Speakers_Tytan_2.1_-_Crni">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Trust_Speakers_Tytan_2.1_-_Crni">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
         <IZ-Projekat:is_type_of>Surround sound</IZ-Projekat:is_type_of>
         <IZ-Projekat:number_of_devices rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:number_of_devices>
@@ -2213,9 +2213,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Ubuntu_20.04_LTS -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Ubuntu_20.04_LTS -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Ubuntu_20.04_LTS">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Ubuntu_20.04_LTS">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
         <IZ-Projekat:Operating_system_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</IZ-Projekat:Operating_system_type>
         <IZ-Projekat:has_a_name>Ubuntu 20.04 LTS</IZ-Projekat:has_a_name>
@@ -2223,25 +2223,25 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Verbatim_99201 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Verbatim_99201 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Verbatim_99201">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Verbatim_99201">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Wave_Shock_Mount_for_Elgato_Wave_Microphones -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Wave_Shock_Mount_for_Elgato_Wave_Microphones -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Wave_Shock_Mount_for_Elgato_Wave_Microphones">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Wave_Shock_Mount_for_Elgato_Wave_Microphones">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Windows_10 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Windows_10 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Windows_10">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Windows_10">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
         <IZ-Projekat:Operating_system_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:Operating_system_type>
         <IZ-Projekat:has_a_name>Windows 10</IZ-Projekat:has_a_name>
@@ -2249,9 +2249,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Windows_7 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Windows_7 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Windows_7">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Windows_7">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
         <IZ-Projekat:Operating_system_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:Operating_system_type>
         <IZ-Projekat:has_a_name>Windows 7</IZ-Projekat:has_a_name>
@@ -2259,25 +2259,25 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Zotac_RTX_3060_AMP -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Zotac_RTX_3060_AMP">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_6pin_connectors>
@@ -2302,49 +2302,49 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_BW-12B1ST/BLK/G/AS -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_BW-12B1ST/BLK/G/AS -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_BW-12B1ST/BLK/G/AS">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_BW-12B1ST/BLK/G/AS">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_DRW-24B1ST/BLK/B/AS -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_DRW-24B1ST/BLK/B/AS -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_DRW-24B1ST/BLK/B/AS">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Asus_DRW-24B1ST/BLK/B/AS">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Snowball_iCE_Wired_Cardioid_USB_Plug_&apos;n_Play_Microphone -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Blue_Microphones_-_Snowball_iCE_Wired_Cardioid_USB_Plug_&apos;n_Play_Microphone -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Snowball_iCE_Wired_Cardioid_USB_Plug_&apos;n_Play_Microphone">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Blue_Microphones_-_Snowball_iCE_Wired_Cardioid_USB_Plug_&apos;n_Play_Microphone">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2018) -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_RMx_(2018) -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2018)">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_RMx_(2018)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2021) -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_RMx_(2021) -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2021)">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Corsair_RMx_(2021)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Dell_Monitor_E2723HN_27inch/IPS -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Dell_Monitor_E2723HN_27inch/IPS -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Dell_Monitor_E2723HN_27inch/IPS">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Dell_Monitor_E2723HN_27inch/IPS">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
         <IZ-Projekat:aspect_ratio>16:9</IZ-Projekat:aspect_ratio>
         <IZ-Projekat:display_panel_type>IPS</IZ-Projekat:display_panel_type>
@@ -2355,9 +2355,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Dell_Monitor_P2423D_Professional_23,8inch/IPS -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Dell_Monitor_P2423D_Professional_23,8inch/IPS -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Dell_Monitor_P2423D_Professional_23,8inch/IPS">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Dell_Monitor_P2423D_Professional_23,8inch/IPS">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
         <IZ-Projekat:aspect_ratio>16:9</IZ-Projekat:aspect_ratio>
         <IZ-Projekat:display_panel_type>IPS</IZ-Projekat:display_panel_type>
@@ -2368,9 +2368,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Dell_Monitor_P2423_Professional_24inch/IPS -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Dell_Monitor_P2423_Professional_24inch/IPS -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Dell_Monitor_P2423_Professional_24inch/IPS">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Dell_Monitor_P2423_Professional_24inch/IPS">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
         <IZ-Projekat:aspect_ratio>16:9</IZ-Projekat:aspect_ratio>
         <IZ-Projekat:display_panel_type>IPS</IZ-Projekat:display_panel_type>
@@ -2381,25 +2381,25 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_GD_(2019) -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#EVGA_GD_(2019) -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_GD_(2019)">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#EVGA_GD_(2019)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP220-60LE(80) -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#FSP_Group_FSP220-60LE(80) -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP220-60LE(80)">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#FSP_Group_FSP220-60LE(80)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:capacity>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7200</IZ-Projekat:disc_rotation_speed>
@@ -2409,9 +2409,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
@@ -2422,9 +2422,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_3TB_Western_Digital_Purple_Surveillance_WD30PURZ -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HDD_3,5inch_SATA_3TB_Western_Digital_Purple_Surveillance_WD30PURZ -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_3TB_Western_Digital_Purple_Surveillance_WD30PURZ">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HDD_3,5inch_SATA_3TB_Western_Digital_Purple_Surveillance_WD30PURZ">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3072</IZ-Projekat:capacity>
         <IZ-Projekat:connection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SATA3</IZ-Projekat:connection>
@@ -2435,9 +2435,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_6TB_Toshiba_Enterprise_Capacity_MG06ACA_-_MG06ACA6 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HDD_3,5inch_SATA_6TB_Toshiba_Enterprise_Capacity_MG06ACA_-_MG06ACA6 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA_6TB_Toshiba_Enterprise_Capacity_MG06ACA_-_MG06ACA6">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#HDD_3,5inch_SATA_6TB_Toshiba_Enterprise_Capacity_MG06ACA_-_MG06ACA6">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
@@ -2448,9 +2448,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Huawei_Monitor_MateView_GT_27_-_XWU-CBA_27inch_/_165_Hz -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Huawei_Monitor_MateView_GT_27_-_XWU-CBA_27inch_/_165_Hz -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Huawei_Monitor_MateView_GT_27_-_XWU-CBA_27inch_/_165_Hz">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Huawei_Monitor_MateView_GT_27_-_XWU-CBA_27inch_/_165_Hz">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
         <IZ-Projekat:aspect_ratio>16:9</IZ-Projekat:aspect_ratio>
         <IZ-Projekat:refresh_rate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</IZ-Projekat:refresh_rate>
@@ -2460,9 +2460,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Huawei_Monitor_MateView_GT_34_34inch_/_165Hz -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Huawei_Monitor_MateView_GT_34_34inch_/_165Hz -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Huawei_Monitor_MateView_GT_34_34inch_/_165Hz">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Huawei_Monitor_MateView_GT_34_34inch_/_165Hz">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
         <IZ-Projekat:aspect_ratio>21:9</IZ-Projekat:aspect_ratio>
         <IZ-Projekat:refresh_rate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</IZ-Projekat:refresh_rate>
@@ -2472,33 +2472,33 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#I/O_Magic_IBD1 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#I/O_Magic_IBD1 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#I/O_Magic_IBD1">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#I/O_Magic_IBD1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#JLab_-_TALK_GO_Plug_&amp;_Play_USB_Microphone -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#JLab_-_TALK_GO_Plug_&amp;_Play_USB_Microphone -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#JLab_-_TALK_GO_Plug_&amp;_Play_USB_Microphone">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#JLab_-_TALK_GO_Plug_&amp;_Play_USB_Microphone">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Kingston_KVR1333D3N9/4G_4_GB -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Kingston_KVR1333D3N9/4G_4_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PHILIPS_Monitor_21.5inch_223V5LHSB2_00,_LED -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#PHILIPS_Monitor_21.5inch_223V5LHSB2_00,_LED -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PHILIPS_Monitor_21.5inch_223V5LHSB2_00,_LED">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#PHILIPS_Monitor_21.5inch_223V5LHSB2_00,_LED">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
         <IZ-Projekat:aspect_ratio>16:9</IZ-Projekat:aspect_ratio>
         <IZ-Projekat:display_panel_type>TN</IZ-Projekat:display_panel_type>
@@ -2508,18 +2508,18 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radimax_Case_with_Power_Supply_I328_TB_+_RX-800AC-V -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Radimax_Case_with_Power_Supply_I328_TB_+_RX-800AC-V -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radimax_Case_with_Power_Supply_I328_TB_+_RX-800AC-V">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Radimax_Case_with_Power_Supply_I328_TB_+_RX-800AC-V">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
         <IZ-Projekat:is_type_of>Full tower</IZ-Projekat:is_type_of>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
@@ -2531,9 +2531,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_500GB_Samsung_870_EVO_530_MB/s/560_MB/s_-_MZ-77E500B -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_2,5inch_500GB_Samsung_870_EVO_530_MB/s/560_MB/s_-_MZ-77E500B -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_500GB_Samsung_870_EVO_530_MB/s/560_MB/s_-_MZ-77E500B">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_2,5inch_500GB_Samsung_870_EVO_530_MB/s/560_MB/s_-_MZ-77E500B">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
@@ -2544,9 +2544,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_2TB_Samsung_870_EVO_MZ-77E2T0B/EU -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_2,5inch_SATA3_2TB_Samsung_870_EVO_MZ-77E2T0B/EU -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_2TB_Samsung_870_EVO_MZ-77E2T0B/EU">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_2,5inch_SATA3_2TB_Samsung_870_EVO_MZ-77E2T0B/EU">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2048</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
@@ -2558,9 +2558,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_1TB_Western_Digital_5300_MB/s_/_7000_MB/s_WDS100T1X0E -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_M.2_1TB_Western_Digital_5300_MB/s_/_7000_MB/s_WDS100T1X0E -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_1TB_Western_Digital_5300_MB/s_/_7000_MB/s_WDS100T1X0E">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_M.2_1TB_Western_Digital_5300_MB/s_/_7000_MB/s_WDS100T1X0E">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
@@ -2571,9 +2571,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_250GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V250BW -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_M.2_250GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V250BW -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_250GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V250BW">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_M.2_250GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V250BW">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
@@ -2584,9 +2584,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V500BW -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_M.2_500GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V500BW -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V500BW">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_M.2_500GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V500BW">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
@@ -2597,9 +2597,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
@@ -2610,9 +2610,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_NVMe_1TB_Patriot_Viper_4700MBS/4200MBS_VP4100-1TBM28H -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_M.2_NVMe_1TB_Patriot_Viper_4700MBS/4200MBS_VP4100-1TBM28H -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_NVMe_1TB_Patriot_Viper_4700MBS/4200MBS_VP4100-1TBM28H">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_M.2_NVMe_1TB_Patriot_Viper_4700MBS/4200MBS_VP4100-1TBM28H">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
@@ -2623,9 +2623,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_SATA3_240GB_AData_520/450_MB/s,_HDD02649 -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_SATA3_240GB_AData_520/450_MB/s,_HDD02649 -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_SATA3_240GB_AData_520/450_MB/s,_HDD02649">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_SATA3_240GB_AData_520/450_MB/s,_HDD02649">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
@@ -2636,9 +2636,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_SATA_512GB_KC600_Kingston_SKC600/512G -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_SATA_512GB_KC600_Kingston_SKC600/512G -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_SATA_512GB_KC600_Kingston_SKC600/512G">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#SSD_SATA_512GB_KC600_Kingston_SKC600/512G">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
@@ -2650,9 +2650,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_SH-224DB/BEBE -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samsung_SH-224DB/BEBE -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_SH-224DB/BEBE">
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl#Samsung_SH-224DB/BEBE">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
     </owl:NamedIndividual>
 </rdf:RDF>
