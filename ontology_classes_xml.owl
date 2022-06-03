@@ -6,7 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl"/>
     
 
 
@@ -2193,9 +2193,9 @@ kilograms for computer casing [kg]</rdfs:comment>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#PCie_6+2-pin_connectors -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#PCie_6+2-pin_connectors">
         <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>Number of PCie 6+2-pin connectors.</rdfs:comment>
@@ -3021,8 +3021,8 @@ kilograms for computer casing [kg]</rdfs:comment>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#32bit"/>
-                    <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#64bit"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#32bit"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#64bit"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -3787,9 +3787,9 @@ kilograms for computer casing [kg]</rdfs:comment>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#12_core_processor -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#12_core_processor -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#12_core_processor">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#12_core_processor">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores"/>
@@ -3801,9 +3801,9 @@ kilograms for computer casing [kg]</rdfs:comment>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#16_bit_processor -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#16_bit_processor -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#16_bit_processor">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#16_bit_processor">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#register_type"/>
@@ -3815,9 +3815,9 @@ kilograms for computer casing [kg]</rdfs:comment>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#3.5mm_Audio_component -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#3.5mm_Audio_component -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#3.5mm_Audio_component">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#3.5mm_Audio_component">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
@@ -3829,9 +3829,9 @@ kilograms for computer casing [kg]</rdfs:comment>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#32_bit_processor -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#32_bit_processor -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#32_bit_processor">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#32_bit_processor">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#register_type"/>
@@ -3843,9 +3843,9 @@ kilograms for computer casing [kg]</rdfs:comment>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#32bit -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#32bit -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#32bit">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#32bit">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type"/>
@@ -3853,14 +3853,14 @@ kilograms for computer casing [kg]</rdfs:comment>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
-        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#64bit"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#64bit"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#64_bit_processor -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#64_bit_processor -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#64_bit_processor">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#64_bit_processor">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#register_type"/>
@@ -3872,9 +3872,9 @@ kilograms for computer casing [kg]</rdfs:comment>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#64bit -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#64bit -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#64bit">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#64bit">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type"/>
@@ -3886,9 +3886,9 @@ kilograms for computer casing [kg]</rdfs:comment>
     
 
 
-    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PS/2_component -->
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#PS/2_component -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PS/2_component">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#PS/2_component">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
@@ -3964,7 +3964,7 @@ kilograms for computer casing [kg]</rdfs:comment>
             <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Octa_core_processor"/>
             <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Quad_core_processor"/>
             <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Single_core_processor"/>
-            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#12_core_processor"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#12_core_processor"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -4037,9 +4037,9 @@ kilograms for computer casing [kg]</rdfs:comment>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#16_bit_processor"/>
-            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#32_bit_processor"/>
-            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#64_bit_processor"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#16_bit_processor"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#32_bit_processor"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl#64_bit_processor"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
