@@ -5,11 +5,22 @@ from owlready2 import *
 
 
 app = Flask(__name__)
-onto_path.append("C:/Users/User/Desktop/Milan/IZ/IZ-Projekat")
+onto_path.append("D:/ftn/GODINA4/LETNJI/IZ/Projekat/IZ-Projekat")
 classes = get_ontology("https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_classes_xml.owl")
 classes.load()
+print(list(classes.classes()))
 instances = get_ontology("https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/feat/python-setup/ontology_instances_xml.owl")
 instances.load()
+print(list(instances.individuals()))
+ecomponent = list(classes.classes())[0]
+with instances:
+    class Motherboard(Thing):
+        pass
+    mb = classes.Motherboard
+    motherboard = list(classes.search(iri = "https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"))
+    mb_instances = list(instances.search(type = motherboard))
+    print(motherboard)
+    print(mb_instances)
 
 
 @app.route('/')
