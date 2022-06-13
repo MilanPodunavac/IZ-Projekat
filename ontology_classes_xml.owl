@@ -1,0 +1,4065 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/MilanPodunavac/IZ-Projekat#"
+     xml:base="https://github.com/MilanPodunavac/IZ-Projekat"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Compatible_with_OS -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Compatible_with_OS">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_has_a_PSU -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_has_a_PSU">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#has_a"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_has_a_air_cooler -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_has_a_air_cooler">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#has_a"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Air_cooling_system"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#camera_or_headphones_has_a_microphone -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#camera_or_headphones_has_a_microphone">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#has_a"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Headphones"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#contains -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#contains">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_system"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#has_a -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#has_a">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_from -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_from">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Producer"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_produced_by -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_produced_by">
+        <owl:inverseOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#produces"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_has_a_gpu -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_has_a_gpu">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#has_a"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_has_a_sound_card -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_has_a_sound_card">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#has_a"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#produces -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#produces">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Producer"/>
+        <rdfs:range rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_2.5_slots -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_2.5_slots">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_3.5_slots -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_3.5_slots">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_format -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_format">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Full tower</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Mid tower</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Mini tower</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Small form factor</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Small form factor, Mini Tower, Mid Tower, Full Tower</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_max_gpu_length -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_max_gpu_length">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>centimeters[cm]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_supported_motherboard_formats -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_supported_motherboard_formats">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>EATX, ATX, ...</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_6pin_connectors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_6pin_connectors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>1 or 0
+example : 1 6-pin, 1 6-pin and 1 8-pin</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:comment>0 or 1 or 2 or 3
+example : 1 8-pin, 2 8-pin, 1 6-pin and 1 8-pin</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:comment>Usually 3 or 2</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>10</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>11</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>12</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>12 ultimate</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>9</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>9, 10 ,11, 12, 12 ultimate</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:comment>usually 1 or 2</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Megaherz [MHz]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Gigabytes [Gb]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>GDDR3</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>GDDR4</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>GDDR5</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>GDDR5X</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>GDDR6</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>GDDR6X</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first>HBM</rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                <rdf:first>HBM2</rdf:first>
+                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>GDDR3, GDDR4, GDDR5, GDDR6, GDDR6X ..</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_Stream_Processors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Stream_Processors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:comment>Usually 0</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_compute_units -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_compute_units">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Megaherz [MHz]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_clock -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_clock">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Megaherz [MHz]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>32-bit, 128-bit, 256-bit etc</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Watts [W]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GPU_width -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GPU_width">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Number of slots that will be covered by a GPU (example - 2, 2.3, 2.5...)</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#HDR -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#HDR">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#L1_cache -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#L1_cache">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Unit of measurement - kilobytes [kB]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#L2_cache -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#L2_cache">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Unit of measurement - kilobytes [kB]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#L3_cache -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#L3_cache">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Unit of measurement - kilobytes [kB]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Number of Molex 4-pin connectors.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mouse_button_number -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mouse_button_number">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mouse"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2</xsd:minInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>2 or more</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mouse_dpi -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mouse_dpi">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mouse"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mouse_polling_rate -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mouse_polling_rate">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mouse"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Herz[Hz]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mouse_sensor_type -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mouse_sensor_type">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mouse"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Laser</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Optical</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Laser or optical</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_cpu -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_cpu">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>GHz - 1 ...</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_disk_space -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_disk_space">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Gb</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_ram -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_min_ram">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Number of PCie 6-pin conncectors.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Number of PCie 8-pin connectors.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#PSU_Power -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#PSU_Power">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Watts [W]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Number that represents efficiency percentage + optional key word bronze/silver/gold/platinum/titanium generally reserved for either very high capacity or server PSUs.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#PSU_standard -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#PSU_standard">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>A RAM module&apos;s CAS (Column Address Strobe or Signal) latency is how many clock cycles in it takes for the RAM module to access a specific set of data in one of its columns (hence the name) and make that data available on its output pins, starting from when a memory controller tells it to.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>Unit of measurement - nanoseconds [ns].</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Megaherz [MHz]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - gigabytes [GB].</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</xsd:minInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Number of modules (1-12).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RAM_type -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RAM_type">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>DDR3</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>DDR4</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>DDR5</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Double data rate -- DDR3, DDR4 or DDR 5</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Number of SATA connectors.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Signal-to-noise_ratio -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Signal-to-noise_ratio">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Unit of measurement - decibel [dB]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#aspect_ratio -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#aspect_ratio">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Two number separated by :</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#base_frequency -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#base_frequency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - gigaherz [GHz]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#buffer_size -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#buffer_size">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#HDD"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - megabytes [MB]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#camera_base_type -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#camera_base_type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Clip-On</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Freestanding</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Freestanding or Clip-On</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#can_autofocus -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#can_autofocus">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#can_multithread -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#can_multithread">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#can_record -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#can_record">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#capacity -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#capacity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - gigabytes [GB]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#channels -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#channels">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Soundcard channels.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#chipset -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#chipset">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Soundcard chipset.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#connection -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#connection">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>NVMA M.2</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>SATA3</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>SATA3 or NVMA M.2</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#costs -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#costs">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>Unit of measurement - euros [eur]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#depth -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#depth">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#digital_audio -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#digital_audio">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>16-bit</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>24-bit</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>32-bit</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>16-bit, 24-bit or 32-bit.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#HDD"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - rotations per minute [rpm]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>AHVA</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>IPS</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>OLED</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>PLS</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>TN</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>VA</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>AHVA, IPS, PLS, TN, VA or OLED</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#dots_per_inch -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#dots_per_inch">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Scanner"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#frame_rate -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#frame_rate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - frames per second [fps]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#frequency_response -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#frequency_response">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - herz [Hz]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#has_a_name -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#has_a_name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#has_heat_spreader -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#has_heat_spreader">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#has_numpad -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#has_numpad">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#has_rgb_backlight_led -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#has_rgb_backlight_led">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#height -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#height">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mouse"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Scanner"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - centimeters [cm]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#horizontal_viewing_angle -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#horizontal_viewing_angle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment></rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#interface -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#interface">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Soundcard interface.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_fanless -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_fanless">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_introduced -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_introduced">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_it_embedded -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_it_embedded">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_on_a_continent -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_on_a_continent">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_type_of -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_system"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Air</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Peltier</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Phase change</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>Water</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Desktop</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Laptop</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>HDD</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>SSD</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Multimedia</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Soundbar</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Surround sound</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Computer system - Desktop or Laptop</rdfs:comment>
+        <rdfs:comment>Cooling system - Air, Water, Phase change or Peltier</rdfs:comment>
+        <rdfs:comment>Memory drive - HDD or SSD</rdfs:comment>
+        <rdfs:comment>Speakers - Multimedia, Surround sound or Soundbar</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_water_resistant -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_water_resistant">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#is_wired -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#is_wired">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#key_allocation -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#key_allocation">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#length -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#length">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mouse"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Scanner"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - centimeters [cm]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#lens_type -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#lens_type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Glass</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Plastic</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Plastic or Glass</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#looks_like -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#looks_like">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_system"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#max_rotation_frequency -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#max_rotation_frequency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Air_cooling_system"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Water_cooling_system"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - rotations per minute [rpm]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#maximum_RAM">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - megabytes [MB] - Probably useless data property. Measurement should be gigabytes</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#memory_format -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#memory_format">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVMA_M.2_drive"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>2.5</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>3.5</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>2.5&apos;&apos; or 3.5&apos;&apos;</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#min_rotation_frequency -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#min_rotation_frequency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Air_cooling_system"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Water_cooling_system"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - rotations per minute [rpm]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_DIMM_slots">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>dual in-line memory module, number of ram slots on motherboard.
+2/4/6/8, usually 4 or 2</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_M2_connections">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex16_slots">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Usually 1, 2 or 3</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex1_slots">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex4_slots">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_PCIex8_slots">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_SATA_connections">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>B350, B450, B550, X570 etc</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>ATX</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Micro-ATX</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Mini-ITX</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Mostly-ATX</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>Nano-ITX</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>Pico-ITX</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>ATX, Micro-ATX, Mini-ITX, Nano-ITX, Pico-ITX or Mostly-ATX</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>3.5mm Audio</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>DVI</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Display</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Ethernet</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>HDMI</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>None</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first>PS/2</rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                <rdf:first>ThunderBolt</rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                        <rdf:first>USB</rdf:first>
+                                                                                        <rdf:rest>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                <rdf:first>VGA</rdf:first>
+                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:rest>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>3.5mm Audio, Display, DVI, Ethernet, HDMI, PS/2, ThunderBolt, USB, VGA or None (when it can be wireless)</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#noise_estimate -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#noise_estimate">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - decibels [dB]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#number_of_buttons -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#number_of_buttons">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Game_controller"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>1, 2, 4, 6, 8 or 12</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#number_of_devices -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#number_of_devices">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#number_of_fans -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#number_of_fans">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Air_cooling_system"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Water_cooling_system"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#number_of_transistors -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#number_of_transistors">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_buffer_cache -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_buffer_cache">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>Unit of measurement - megabytes [MB]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_capability -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_capability">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_form_factor -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_form_factor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_interface -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#optical_drive_interface">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#power_needed -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#power_needed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - watts [W]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#process_microns -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#process_microns">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - nanometers [nm]
+TSMC or samsung</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#read_speed -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#read_speed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#SSD"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - megabytes per second [MB/s]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#refresh_rate -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#refresh_rate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - herz [Hz]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#register_type -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#register_type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Unit of measurement - bits (can be 16, 32 or 64)</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#resolution_height -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#resolution_height">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Operating system - minimum required</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#resolution_width -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#resolution_width">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Operating system - minimum required</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#sample_rate -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#sample_rate">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>Unit of measurement -  kilohertz [kHz]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#scanner_depth -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#scanner_depth">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Scanner"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#socket -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#socket">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#sound_sensitivity -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#sound_sensitivity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Unit of measurement - decibels [dB]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#HDD"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - watts [W]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#turbo_frequency -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#turbo_frequency">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - gigaherz [GHz]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#vertical_viewing_angle -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#vertical_viewing_angle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#voltage -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#voltage">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - volts [V]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#was_founded -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#was_founded">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Producer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#wattage -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#wattage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Unit of measurement - watt [W].</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#weight -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#weight">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Game_controller"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mouse"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - grams [g]
+kilograms for computer casing [kg]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#width -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#width">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Microphone"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mouse"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Scanner"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - centimeters [cm]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#write_speed -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#write_speed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#SSD"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Unit of measurement - megabytes per second [MB/s]</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#PCie_6+2-pin_connectors -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#PCie_6+2-pin_connectors">
+        <rdfs:domain rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Number of PCie 6+2-pin connectors.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#AHVA_display_monitor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#AHVA_display_monitor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type"/>
+                <owl:hasValue>AHVA</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#LCD_display_monitor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <owl:disjointWith rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format"/>
+                <owl:hasValue>ATX</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Air_cooling_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Air_cooling_system">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>Air</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Camera -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Camera">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Case_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Case_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Internal_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Chiclet -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Chiclet">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Membrane"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Clicky -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Clicky">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mechanical"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Clip-on_camera -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Clip-on_camera">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#camera_base_type"/>
+                <owl:hasValue>Clip-On</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+        <owl:disjointWith rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Freestanding_camera"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Computer_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Computer_system"/>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Country -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Country"/>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#DDR -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#DDR2 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR2">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#DDR3 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR3">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#DDR4 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR4">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#DDR5 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR5">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#DIMM -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DIMM">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Form_factor"/>
+        <owl:disjointWith rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#SO-DIMM"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#DVI_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DVI_component">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
+                <owl:hasValue>DVI</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Wired_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>Desktop</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_system"/>
+        <owl:disjointWith rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Laptop_system"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Display_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Display_component">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
+                <owl:hasValue>Display</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Wired_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Dome_Switch -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Dome_Switch">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Membrane"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Drum -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Drum">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Scanner"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Dual_core_processor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Dual_core_processor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Emerging -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Emerging">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Scanner"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Ethernet_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Ethernet_component">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
+                <owl:hasValue>Ethernet</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Wired_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#External_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#External_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Flat -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Flat">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Scanner"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Flat-Panel -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Flat-Panel">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Membrane"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Form_factor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Form_factor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DIMM"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#SO-DIMM"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Freestanding_camera -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Freestanding_camera">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#camera_base_type"/>
+                <owl:hasValue>Freestanding</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Full -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Full">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Modularity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Full_Travel -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Full_Travel">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Membrane"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Full_tower -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Full_tower">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_format"/>
+                <owl:hasValue>Full tower</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GTX_1070 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GTX_1070">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#GTX_1080 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GTX_1080">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Game_controller -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Game_controller">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Glass_lens_camera -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Glass_lens_camera">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#lens_type"/>
+                <owl:hasValue>Glass</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+        <owl:disjointWith rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Plastic_lens_camera"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#HDD -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#HDD">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>HDD</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
+        <owl:disjointWith rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#SSD"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#HDMI_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#HDMI_component">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
+                <owl:hasValue>HDMI</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Wired_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Headphones -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Headphones">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Hexa_core_processor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Hexa_core_processor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#IPS_display_monitor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#IPS_display_monitor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type"/>
+                <owl:hasValue>IPS</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#LCD_display_monitor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Internal_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Internal_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Key_type -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Key_type">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Keyboard -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Keyboard">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#LCD_display_monitor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#LCD_display_monitor">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+        <owl:disjointWith rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#OLED_display_monitor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Laptop_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Laptop_system">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>Laptop</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_system"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Laser -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Laser">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mouse_sensor_type"/>
+                <owl:hasValue>laser</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mouse"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Linear -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Linear">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mechanical"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mechanical -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mechanical">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Key_type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Membrane -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Membrane">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Key_type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Micro-ATX_motherboard -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Micro-ATX_motherboard">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format"/>
+                <owl:hasValue>Micro-ATX</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Microphone -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Microphone">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mid_tower -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mid_tower">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_format"/>
+                <owl:hasValue>Mid tower</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mini-ITX_motherboard -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mini-ITX_motherboard">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format"/>
+                <owl:hasValue>Mini-ITX</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mini_tower -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mini_tower">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_format"/>
+                <owl:hasValue>Mini tower</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Modularity -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Modularity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Full"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#None"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Semi"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Monitor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Monitor">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mostly-ATX_motherboard -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mostly-ATX_motherboard">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format"/>
+                <owl:hasValue>Mostly-ATX</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Motherboard -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Mouse -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mouse">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Multimedia_speakers -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Multimedia_speakers">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>Multimedia</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Multithreading_processor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Multithreading_processor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#can_multithread"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#NVMA_M.2_drive -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#NVMA_M.2_drive">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#connection"/>
+                <owl:hasValue>NVMA M.2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#SSD"/>
+        <owl:disjointWith rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#SATA3_drive"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Nano-ITX_motherboard -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Nano-ITX_motherboard">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format"/>
+                <owl:hasValue>Nano-ITX</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Network_interface -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Network_interface">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#None -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#None">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Modularity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#OLED_display_monitor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#OLED_display_monitor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type"/>
+                <owl:hasValue>OLED</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Monitor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Octa_core_processor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Octa_core_processor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Office_package -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Office_package">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Software_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Operating_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#32bit"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#64bit"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Software_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Optical -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Optical">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mouse_sensor_type"/>
+                <owl:hasValue>optical</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mouse"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#PLS_display_monitor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#PLS_display_monitor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type"/>
+                <owl:hasValue>PLS</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#LCD_display_monitor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Paper_fed -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Paper_fed">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Emerging"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Peltier_cooling_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Peltier_cooling_system">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>Peltier</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Pen -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Pen">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Emerging"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Phase_change_cooling_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Phase_change_cooling_system">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>Phase change</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Pico-ITX_motherboard -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Pico-ITX_motherboard">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format"/>
+                <owl:hasValue>Pico-ITX</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Plastic_lens_camera -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Plastic_lens_camera">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#lens_type"/>
+                <owl:hasValue>Plastic</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Camera"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Portable -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Portable">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Emerging"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Printer -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Printer">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Processor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Processor">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Producer -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Producer"/>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Quad_core_processor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Quad_core_processor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_2070 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2070">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_2080 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2080">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3584</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type"/>
+                        <owl:hasValue>GDDR6</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4864</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type"/>
+                        <owl:hasValue>GDDR6</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type"/>
+                        <owl:hasValue>GDDR6X</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080_12GB -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080_12GB">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080_Ti -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080_Ti">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_3090 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3090">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RTX_3090_Ti -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3090_Ti">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RX_570 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_570">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type"/>
+                        <owl:hasValue>GDDR5</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Stream_Processors"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2048</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_compute_units"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RX_5700_XT -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_5700_XT">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RX_580 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_580">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RX_590 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_590">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RX_6500_XT -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6500_XT">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RX_6700 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type"/>
+                        <owl:hasValue>GDDR6</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_Stream_Processors"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2560</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#GPU_compute_units"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RX_6800 -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6800">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RX_6800_XT -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6800_XT">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#RX_6900_XT -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6900_XT">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#SATA3_drive -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#SATA3_drive">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#connection"/>
+                <owl:hasValue>SATA3</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#SO-DIMM -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#SO-DIMM">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Form_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#SSD -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#SSD">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>SSD</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Scanner -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Scanner">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Drum"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Emerging"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Flat"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Scissor-Switch -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Scissor-Switch">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Membrane"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Semi -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Semi">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Modularity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Semi_mechanical -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Semi_mechanical">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Key_type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Single_core_processor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Single_core_processor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Small_form -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Small_form">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_format"/>
+                <owl:hasValue>Small form factor</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Software_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Software_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Internal_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Sound_card -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Sound_card">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Case_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Sound_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Sound_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Soundbar_speakers -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Soundbar_speakers">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>Soundbar</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Speakers -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Speakers">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Sound_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Surround_sound_speakers -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Surround_sound_speakers">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>Surround sound</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Speakers"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#TN_display_monitor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#TN_display_monitor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type"/>
+                <owl:hasValue>TN</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#LCD_display_monitor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Tactile -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Tactile">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Mechanical"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#ThunderBolt_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#ThunderBolt_component">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
+                <owl:hasValue>ThunderBolt</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Wired_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Type -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Type">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR2"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR3"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR4"/>
+                    <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR5"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#USB_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#USB_component">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
+                <owl:hasValue>USB</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Wired_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#VA_display_monitor -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#VA_display_monitor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#display_panel_type"/>
+                <owl:hasValue>VA</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#LCD_display_monitor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#VGA_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#VGA_component">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
+                <owl:hasValue>VGA</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Wired_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Water_cooling_system -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Water_cooling_system">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#is_type_of"/>
+                <owl:hasValue>Water</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Wired_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Wired_component">
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/MilanPodunavac/IZ-Projekat#Wireless_component -->
+
+    <owl:Class rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Wireless_component">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
+                <owl:hasValue>None</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#External_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#12_core_processor -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#12_core_processor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#16_bit_processor -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#16_bit_processor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#register_type"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#3.5mm_Audio_component -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#3.5mm_Audio_component">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
+                <owl:hasValue>3.5mm Audio</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Wired_component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#32_bit_processor -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#32_bit_processor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#register_type"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#32bit -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#32bit">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#64bit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#64_bit_processor -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#64_bit_processor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#register_type"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#64bit -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#64bit">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system_type"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Operating_system"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#PS/2_component -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#PS/2_component">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#needs_connection_port"/>
+                <owl:hasValue>PS/2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Wired_component"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#AHVA_display_monitor"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#IPS_display_monitor"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#PLS_display_monitor"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#TN_display_monitor"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#VA_display_monitor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Micro-ATX_motherboard"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mini-ITX_motherboard"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mostly-ATX_motherboard"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Nano-ITX_motherboard"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Pico-ITX_motherboard"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Air_cooling_system"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Peltier_cooling_system"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Phase_change_cooling_system"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Water_cooling_system"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR2"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR3"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR4"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#DDR5"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Drum"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Emerging"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Flat"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Dual_core_processor"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Hexa_core_processor"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Octa_core_processor"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Quad_core_processor"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Single_core_processor"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#12_core_processor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Full"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#None"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Semi"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Full_tower"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mid_tower"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Mini_tower"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Small_form"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GTX_1070"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#GTX_1080"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2070"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2080"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080_12GB"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080_Ti"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3090"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3090_Ti"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Multimedia_speakers"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Soundbar_speakers"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Surround_sound_speakers"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Paper_fed"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Pen"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#Portable"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_570"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_5700_XT"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_580"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_590"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6500_XT"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6800"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6800_XT"/>
+            <rdf:Description rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#RX_6900_XT"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#16_bit_processor"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#32_bit_processor"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl#64_bit_processor"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
