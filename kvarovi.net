@@ -1,0 +1,569 @@
+net
+{
+     node_size = (0 0);
+     name = "New BN";
+     tree = "(C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C23,C24,C25,C26,C27,C28,C29,C30,C31,C32,C33,C34,C35,C36,C37,C38,C39,C40)";
+     UnBBayes_Color_Probabilistic_Description = "-256";
+     UnBBayes_Color_Probabilistic_Explanation = "-16711936";
+}
+
+node Monitor_flickers
+{
+     label = "C1";
+     position = (24 564);
+     states = ("State 0");
+}
+
+node Pixels_on_monitor
+{
+     label = "C2";
+     position = (341 567);
+     states = ("yes" "no");
+}
+
+node System_crash
+{
+     label = "C3";
+     position = (460 630);
+     states = ("yes" "no");
+}
+
+node Blue_screen_of_death
+{
+     label = "C4";
+     position = (697 634);
+     states = ("yes" "no");
+}
+
+node Turn_off
+{
+     label = "C5";
+     position = (889 632);
+     states = ("State 0");
+}
+
+node Cant_turn_on
+{
+     label = "C6";
+     position = (1206 445);
+     states = ("yes" "no");
+}
+
+node Cant_boot_system
+{
+     label = "C7";
+     position = (1054 538);
+     states = ("State 0");
+}
+
+node Files_corrupted
+{
+     label = "C8";
+     position = (1258 578);
+     states = ("yes" "no");
+}
+
+node Slow_performance
+{
+     label = "C9";
+     position = (1641 586);
+     states = ("State 0");
+}
+
+node Hardware_does_not_work
+{
+     label = "C10";
+     position = (16 679);
+     states = ("State 0");
+}
+
+node Is_loud
+{
+     label = "C11";
+     position = (199 666);
+     states = ("State 0");
+}
+
+node Is_hot
+{
+     label = "C12";
+     position = (300 649);
+     states = ("State 0");
+}
+
+node Cant_connect_to_web
+{
+     label = "C13";
+     position = (323 703);
+     states = ("State 0");
+}
+
+node Blank_screen
+{
+     label = "C14";
+     position = (486 708);
+     states = ("State 0");
+}
+
+node PC_beeps
+{
+     label = "C15";
+     position = (606 678);
+     states = ("yes" "no");
+}
+
+node Cannot_install_software
+{
+     label = "C16";
+     position = (780 684);
+     states = ("State 0");
+}
+
+node Video_freezes
+{
+     label = "C17";
+     position = (957 682);
+     states = ("State 0");
+}
+
+node System_reboot
+{
+     label = "C18";
+     position = (1089 691);
+     states = ("State 0");
+}
+
+node No_audio
+{
+     label = "C19";
+     position = (1355 715);
+     states = ("State 0");
+}
+
+node Audio_corruption
+{
+     label = "C20";
+     position = (1519 678);
+     states = ("State 0");
+}
+
+node Missing_files
+{
+     label = "C21";
+     position = (1249 674);
+     states = ("State 0");
+}
+
+node Smoke
+{
+     label = "C22";
+     position = (1434 610);
+     states = ("State 0");
+}
+
+node Audio_freezes
+{
+     label = "C23";
+     position = (1749 669);
+     states = ("State 0");
+}
+
+node Computer_dropped
+{
+     label = "C24";
+     position = (335 48);
+     states = ("yes" "no");
+}
+
+node Dust
+{
+     label = "C25";
+     position = (52 205);
+     states = ("yes" "no");
+}
+
+node Spilled_liquid
+{
+     label = "C26";
+     position = (499 33);
+     states = ("yes" "no");
+}
+
+node Overclocking
+{
+     label = "C27";
+     position = (724 26);
+     states = ("yes" "no");
+}
+
+node Didnt_clean
+{
+     label = "C28";
+     position = (13 36);
+     states = ("yes" "no");
+}
+
+node Malware
+{
+     label = "C29";
+     position = (1670 408);
+     states = ("yes" "no");
+}
+
+node Hard_drive_disconnected
+{
+     label = "C30";
+     position = (411 326);
+     states = ("yes" "no");
+}
+
+node Hard_drive_damaged
+{
+     label = "C31";
+     position = (867 227);
+     states = ("yes" "no");
+}
+
+node RAM_damaged
+{
+     label = "C32";
+     position = (578 289);
+     states = ("yes" "no");
+}
+
+node Port_damaged
+{
+     label = "C33";
+     position = (702 268);
+     states = ("yes" "no");
+}
+
+node Processor_damaged
+{
+     label = "C34";
+     position = (329 421);
+     states = ("yes" "no");
+}
+
+node Power_supply_disconnected
+{
+     label = "C35";
+     position = (957 353);
+     states = ("yes" "no");
+}
+
+node Power_supply_damaged
+{
+     label = "C36";
+     position = (1209 259);
+     states = ("yes" "no");
+}
+
+node Cooling_system_disconnected
+{
+     label = "C37";
+     position = (1501 264);
+     states = ("State 0");
+}
+
+node Cooling_system_damaged
+{
+     label = "C38";
+     position = (84 132);
+     states = ("yes" "no");
+}
+
+node Cable_damaged
+{
+     label = "C39";
+     position = (13 437);
+     states = ("yes" "no");
+}
+
+node Graphics_card_damaged
+{
+     label = "C40";
+     position = (757 348);
+     states = ("yes" "no");
+}
+
+node Surfing
+{
+     label = "C2";
+     position = (1074 63);
+     states = ("yes" "no");
+}
+
+potential (Monitor_flickers | Graphics_card_damaged)
+{
+ data = (( 1.0 )
+( 1.0 ));
+}
+
+potential (Pixels_on_monitor | Graphics_card_damaged)
+{
+ data = (( 0.95 0.05 )
+( 0.05 0.95 ));
+}
+
+potential (System_crash | Graphics_card_damaged Processor_damaged)
+{
+ data = ((( 0.85 0.15 )
+( 0.3 0.7 ))
+(( 0.55 0.45 )
+( 0.05 0.95 )));
+}
+
+potential (Blue_screen_of_death | Graphics_card_damaged Processor_damaged)
+{
+ data = ((( 0.85 0.15 )
+( 0.35 0.65 ))
+(( 0.6 0.4 )
+( 0.1 0.9 )));
+}
+
+potential (Turn_off | Dust Power_supply_disconnected Power_supply_damaged)
+{
+ data = (((( 1.0 )
+( 1.0 ))
+(( 1.0 )
+( 1.0 )))
+((( 1.0 )
+( 1.0 ))
+(( 1.0 )
+( 1.0 ))));
+}
+
+potential (Cant_turn_on | Power_supply_damaged Power_supply_disconnected)
+{
+ data = ((( 1.0 0.0 )
+( 1.0 0.0 ))
+(( 1.0 0.0 )
+( 1.0 0.0 )));
+}
+
+potential (Cant_boot_system | Hard_drive_damaged Hard_drive_disconnected Malware)
+{
+ data = (((( 1.0 )
+( 1.0 ))
+(( 1.0 )
+( 1.0 )))
+((( 1.0 )
+( 1.0 ))
+(( 1.0 )
+( 1.0 ))));
+}
+
+potential (Files_corrupted | Malware Hard_drive_damaged)
+{
+ data = ((( 1.0 0.0 )
+( 1.0 0.0 ))
+(( 1.0 0.0 )
+( 1.0 0.0 )));
+}
+
+potential (Slow_performance | Hard_drive_damaged Malware)
+{
+ data = ((( 1.0 )
+( 1.0 ))
+(( 1.0 )
+( 1.0 )));
+}
+
+potential (Hardware_does_not_work)
+{
+ data = ( 1.0 );
+}
+
+potential (Is_loud | Cooling_system_damaged Dust)
+{
+ data = ((( 1.0 )
+( 1.0 ))
+(( 1.0 )
+( 1.0 )));
+}
+
+potential (Is_hot | Cooling_system_damaged Dust)
+{
+ data = ((( 1.0 )
+( 1.0 ))
+(( 1.0 )
+( 1.0 )));
+}
+
+potential (Cant_connect_to_web)
+{
+ data = ( 1.0 );
+}
+
+potential (Blank_screen | Graphics_card_damaged Cable_damaged)
+{
+ data = ((( 1.0 )
+( 1.0 ))
+(( 1.0 )
+( 1.0 )));
+}
+
+potential (PC_beeps | Processor_damaged RAM_damaged)
+{
+ data = ((( 0.9 0.1 )
+( 0.4 0.6 ))
+(( 0.5 0.5 )
+( 0.05 0.95 )));
+}
+
+potential (Cannot_install_software)
+{
+ data = ( 1.0 );
+}
+
+potential (Video_freezes)
+{
+ data = ( 1.0 );
+}
+
+potential (System_reboot | Dust)
+{
+ data = (( 1.0 )
+( 1.0 ));
+}
+
+potential (No_audio)
+{
+ data = ( 1.0 );
+}
+
+potential (Audio_corruption)
+{
+ data = ( 1.0 );
+}
+
+potential (Missing_files | Hard_drive_damaged Hard_drive_disconnected)
+{
+ data = ((( 1.0 )
+( 1.0 ))
+(( 1.0 )
+( 1.0 )));
+}
+
+potential (Smoke | Power_supply_damaged)
+{
+ data = (( 1.0 )
+( 1.0 ));
+}
+
+potential (Audio_freezes)
+{
+ data = ( 1.0 );
+}
+
+potential (Computer_dropped)
+{
+ data = ( 0.5 0.5 );
+}
+
+potential (Dust | Didnt_clean)
+{
+ data = (( 1.0 0.0 )
+( 1.0 0.0 ));
+}
+
+potential (Spilled_liquid)
+{
+ data = ( 0.5 0.5 );
+}
+
+potential (Overclocking)
+{
+ data = ( 0.5 0.5 );
+}
+
+potential (Didnt_clean)
+{
+ data = ( 0.5 0.5 );
+}
+
+potential (Malware | Surfing)
+{
+ data = (( 0.7 0.3 )
+( 0.3 0.7 ));
+}
+
+potential (Hard_drive_disconnected | Computer_dropped)
+{
+ data = (( 1.0 0.0 )
+( 1.0 0.0 ));
+}
+
+potential (Hard_drive_damaged | Computer_dropped)
+{
+ data = (( 1.0 0.0 )
+( 1.0 0.0 ));
+}
+
+potential (RAM_damaged | Overclocking Computer_dropped)
+{
+ data = ((( 1.0 0.0 )
+( 1.0 0.0 ))
+(( 1.0 0.0 )
+( 1.0 0.0 )));
+}
+
+potential (Port_damaged | Computer_dropped)
+{
+ data = (( 1.0 0.0 )
+( 1.0 0.0 ));
+}
+
+potential (Processor_damaged | Overclocking Computer_dropped)
+{
+ data = ((( 0.9 0.1 )
+( 0.85 0.15 ))
+(( 0.1 0.9 )
+( 0.05 0.95 )));
+}
+
+potential (Power_supply_disconnected | Computer_dropped)
+{
+ data = (( 0.7 0.3 )
+( 0.1 0.9 ));
+}
+
+potential (Power_supply_damaged | Computer_dropped Overclocking)
+{
+ data = ((( 1.0 0.0 )
+( 1.0 0.0 ))
+(( 1.0 0.0 )
+( 1.0 0.0 )));
+}
+
+potential (Cooling_system_disconnected)
+{
+ data = ( 1.0 );
+}
+
+potential (Cooling_system_damaged | Computer_dropped)
+{
+ data = (( 1.0 0.0 )
+( 1.0 0.0 ));
+}
+
+potential (Cable_damaged | Computer_dropped)
+{
+ data = (( 1.0 0.0 )
+( 1.0 0.0 ));
+}
+
+potential (Graphics_card_damaged | Overclocking Computer_dropped)
+{
+ data = ((( 0.95 0.05 )
+( 0.6 0.4 ))
+(( 0.35 0.65 )
+( 0.1 0.9 )));
+}
+
+potential (Surfing)
+{
+ data = ( 0.5 0.5 );
+}
+
