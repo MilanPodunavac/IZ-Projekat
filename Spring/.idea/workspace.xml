@@ -4,107 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="599e1af7-84c5-4194-b2a2-62cbf933503c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/MotherboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dtos/MotherboardDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/global/SparqlConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-jena-fuseki-4.4.0/run/system_files/bb276c9d-7f5e-475e-84fb-252067ef5615" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="044b0f8f-9f7f-444f-bae0-cb7c64e414d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/OntologyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/controller/OntologyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ontology_instances_xml.owl" beforeDir="false" afterPath="$PROJECT_DIR$/../ontology_instances_xml.owl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="27huT4ARiPQVsxXmOv5xdbJkcbu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2AXbbLvPxiFe81kAReMWmv3jMZ6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/unbbayes/lib" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apache-jena-4.4.0/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean install" />
-    </option>
-  </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Spring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Spring" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MainSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ProjekatIzInzenjeringaZnanja" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InzenjeringZnanja.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="InzenjeringZnanja.MainSpringApplication" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.MainSpringApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b66387b6-08c3-4755-a857-91bc279b047f" name="Changes" comment="" />
-      <created>1649784644580</created>
+      <changelist id="044b0f8f-9f7f-444f-bae0-cb7c64e414d3" name="Changes" comment="" />
+      <created>1655158950405</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649784644580</updated>
-      <workItem from="1649784647371" duration="858000" />
-      <workItem from="1651870430147" duration="37000" />
-      <workItem from="1655056521107" duration="1338000" />
-      <workItem from="1655057891423" duration="1976000" />
-      <workItem from="1655134153996" duration="570000" />
-      <workItem from="1655143084806" duration="5355000" />
+      <updated>1655158950405</updated>
+      <workItem from="1655158952094" duration="964000" />
     </task>
     <servers />
   </component>
@@ -121,12 +75,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="org.apache.jena.sparql.engine.binding.Binding1" memberName="value" />
-      </pinned-members>
-    </pin-to-top-manager>
   </component>
 </project>

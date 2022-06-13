@@ -16,23 +16,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://github.com/MilanPodunavac/IZ-Projekat#has_a_gpu -->
-
-    <owl:ObjectProperty rdf:about="https://github.com/MilanPodunavac/IZ-Projekat#has_a_gpu"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Individuals
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -121,6 +104,7 @@
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
+        <IZ-Projekat:socket>AM4</IZ-Projekat:socket>
     </owl:NamedIndividual>
     
 
@@ -276,7 +260,6 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances_xml.owl#Asus_PRIME_Z690M-PLUS_D4">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Motherboard"/>
-        <IZ-Projekat:has_a_gpu rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances_xml.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E"/>
         <IZ-Projekat:RAM_maximum_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5333</IZ-Projekat:RAM_maximum_frequency>
         <IZ-Projekat:RAM_type>DDR4</IZ-Projekat:RAM_type>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">260.0</IZ-Projekat:costs>
