@@ -18,16 +18,29 @@
                     rdfs:range :Operating_system .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_contains_PSU
-:Computer_casing_contains_PSU rdf:type owl:ObjectProperty ;
-                              rdfs:domain :Computer_casing ;
-                              rdfs:range :Power_supply_unit .
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_has_a_PSU
+:Computer_casing_has_a_PSU rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf :has_a ;
+                           rdfs:domain :Computer_casing ;
+                           rdfs:range :Power_supply_unit .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_contains_air_cooler
-:Computer_casing_contains_air_cooler rdf:type owl:ObjectProperty ;
-                                     rdfs:domain :Computer_casing ;
-                                     rdfs:range :Air_cooling_system .
+###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_has_a_air_cooler
+:Computer_casing_has_a_air_cooler rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf :has_a ;
+                                  rdfs:domain :Computer_casing ;
+                                  rdfs:range :Air_cooling_system .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#camera_or_headphones_has_a_microphone
+:camera_or_headphones_has_a_microphone rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf :has_a ;
+                                       rdfs:domain [ rdf:type owl:Class ;
+                                                     owl:unionOf ( :Camera
+                                                                   :Headphones
+                                                                 )
+                                                   ] ;
+                                       rdfs:range :Microphone .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#contains
@@ -36,26 +49,10 @@
           rdfs:range :Component .
 
 
-###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_gpu
-:has_a_gpu rdf:type owl:ObjectProperty ;
-           rdfs:domain :Motherboard ;
-           rdfs:range :Graphics_card .
-
-
-###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_microphone
-:has_a_microphone rdf:type owl:ObjectProperty ;
-                  rdfs:domain [ rdf:type owl:Class ;
-                                owl:unionOf ( :Camera
-                                              :Headphones
-                                            )
-                              ] ;
-                  rdfs:range :Microphone .
-
-
-###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_sound_card
-:has_a_sound_card rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Motherboard ;
-                  rdfs:range :Sound_card .
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_a
+:has_a rdf:type owl:ObjectProperty ;
+       rdfs:domain :Component ;
+       rdfs:range :Component .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_from
@@ -67,6 +64,20 @@
 ###  https://github.com/MilanPodunavac/IZ-Projekat#is_produced_by
 :is_produced_by rdf:type owl:ObjectProperty ;
                 owl:inverseOf :produces .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_has_a_gpu
+:motherboard_has_a_gpu rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :has_a ;
+                       rdfs:domain :Motherboard ;
+                       rdfs:range :Graphics_card .
+
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#motherboard_has_a_sound_card
+:motherboard_has_a_sound_card rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf :has_a ;
+                              rdfs:domain :Motherboard ;
+                              rdfs:range :Sound_card .
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#produces
@@ -92,15 +103,16 @@
 
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing_format
-:Computer_casing_format rdf:type owl:DatatypeProperty ;
+:Computer_casing_format rdf:type owl:DatatypeProperty ,
+                                 owl:FunctionalProperty ;
                         rdfs:domain :Computer_casing ;
                         rdfs:range [ rdf:type rdfs:Datatype ;
                                      owl:oneOf [ rdf:type rdf:List ;
-                                                 rdf:first "Full Tower" ;
+                                                 rdf:first "Full tower" ;
                                                  rdf:rest [ rdf:type rdf:List ;
-                                                            rdf:first "Mid Tower" ;
+                                                            rdf:first "Mid tower" ;
                                                             rdf:rest [ rdf:type rdf:List ;
-                                                                       rdf:first "Mini Tower" ;
+                                                                       rdf:first "Mini tower" ;
                                                                        rdf:rest [ rdf:type rdf:List ;
                                                                                   rdf:first "Small form factor" ;
                                                                                   rdf:rest rdf:nil
@@ -2328,7 +2340,7 @@ kilograms for computer casing [kg]""" .
 :Small_form rdf:type owl:Class ;
             owl:equivalentClass [ rdf:type owl:Restriction ;
                                   owl:onProperty :Computer_casing_format ;
-                                  owl:hasValue "Small form"
+                                  owl:hasValue "Small form factor"
                                 ] ;
             rdfs:subClassOf :Computer_casing .
 
