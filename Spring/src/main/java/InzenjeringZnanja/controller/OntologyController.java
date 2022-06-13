@@ -33,6 +33,7 @@ public class OntologyController {
     private static final String SELECT_URL = "http://localhost:3030/primer/sparql";
 
     private static final String UPDATE_URL = "http://localhost:3030/primer/update";
+
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public Test TestGet(){
         Model model = ModelFactory.createDefaultModel();
