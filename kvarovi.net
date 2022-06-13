@@ -31,7 +31,7 @@ node System_crash
 node Blue_screen_of_death
 {
      label = "C4";
-     position = (697 634);
+     position = (708 808);
      states = ("yes" "no");
 }
 
@@ -171,7 +171,7 @@ node Audio_freezes
 node Computer_dropped
 {
      label = "C24";
-     position = (335 48);
+     position = (247 32);
      states = ("yes" "no");
 }
 
@@ -192,7 +192,7 @@ node Spilled_liquid
 node Overclocking
 {
      label = "C27";
-     position = (724 26);
+     position = (807 29);
      states = ("yes" "no");
 }
 
@@ -241,7 +241,7 @@ node Port_damaged
 node Processor_damaged
 {
      label = "C34";
-     position = (329 421);
+     position = (346 449);
      states = ("yes" "no");
 }
 
@@ -283,7 +283,7 @@ node Cable_damaged
 node Graphics_card_damaged
 {
      label = "C40";
-     position = (757 348);
+     position = (721 476);
      states = ("yes" "no");
 }
 
@@ -518,7 +518,7 @@ potential (Port_damaged | Computer_dropped)
 potential (Processor_damaged | Overclocking Computer_dropped)
 {
  data = ((( 0.9 0.1 )
-( 0.85 0.15 ))
+( 0.6 0.4 ))
 (( 0.1 0.9 )
 ( 0.05 0.95 )));
 }
@@ -557,7 +557,7 @@ potential (Cable_damaged | Computer_dropped)
 potential (Graphics_card_damaged | Overclocking Computer_dropped)
 {
  data = ((( 0.95 0.05 )
-( 0.6 0.4 ))
+( 0.7 0.3 ))
 (( 0.35 0.65 )
 ( 0.1 0.9 )));
 }
