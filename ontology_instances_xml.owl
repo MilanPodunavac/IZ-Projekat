@@ -434,6 +434,7 @@
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</IZ-Projekat:max_rotation_frequency>
         <IZ-Projekat:noise_estimate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</IZ-Projekat:noise_estimate>
         <IZ-Projekat:number_of_fans rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:number_of_fans>
+        <IZ-Projekat:socket>AM4</IZ-Projekat:socket>
     </owl:NamedIndividual>
     
 
