@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="044b0f8f-9f7f-444f-bae0-cb7c64e414d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/enums/ComputerMalfunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/enums/MalfunctionCauses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kvarovi.net" beforeDir="false" afterPath="$PROJECT_DIR$/data/kvarovi.net" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/BayesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/BayesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/MotherboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/MotherboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/BayesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/BayesDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/BayesResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/BayesResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/BayesResultDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/BayesResultDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/enums/ComputerSymptoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/enums/ComputerSymptoms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/model/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/controller/BayesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/controller/BayesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/controller/MotherboardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/controller/MotherboardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/BayesDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/BayesDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/BayesResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/BayesResponseDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/enums/ComputerSymptoms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/enums/ComputerSymptoms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/model/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/MainSpringApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/controller/BayesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/controller/MotherboardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/BayesDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/BayesResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/BayesResultDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/enums/ComputerSymptoms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dtos/MotherboardDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/global/SparqlConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/ftn/GODINA4/LETNJI/IZ/Projekat/IZ-Projekat/Spring/unbbayes/lib",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ftn/GODINA4/LETNJI/IZ/Projekat/IZ-Projekat/Spring/unbbayes/lib&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.MainSpringApplication">
     <configuration name="MainSpringApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring" />
