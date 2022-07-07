@@ -55,7 +55,7 @@ public class BayesController {
             ProbabilisticNode node = (ProbabilisticNode) net.getNode(ComputerMalfunctions.getNodeName(malfunction));
             if (node.getMarginalAt(0) > 0)
                 malfunctions.getResults().
-                        add(new BayesResponseDto(ComputerMalfunctions.getNodeName(malfunction), node.getMarginalAt(0)));
+                        add(new BayesResponseDto(ComputerMalfunctions.toString(malfunction), node.getMarginalAt(0)));
         }
         malfunctions.getResults().sort(Comparator.comparing(BayesResponseDto::getProbability).reversed());
         return malfunctions;

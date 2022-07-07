@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="044b0f8f-9f7f-444f-bae0-cb7c64e414d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/MainSpringApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/controller/BayesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/controller/MotherboardController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/BayesDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/BayesResponseDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/BayesResultDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dto/enums/ComputerSymptoms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/dtos/MotherboardDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InzenjeringZnanja/global/SparqlConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/BayesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/BayesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/enums/ComputerMalfunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/enums/ComputerMalfunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

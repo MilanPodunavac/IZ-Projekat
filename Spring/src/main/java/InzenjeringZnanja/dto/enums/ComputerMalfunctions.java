@@ -56,4 +56,42 @@ public enum ComputerMalfunctions {
                 return "NO NODE FOUND";
         }
     }
+    public static String toString(ComputerMalfunctions malfunction){
+        switch(malfunction){
+            case modemDamaged:
+                return "Modem is damaged";
+            case audioDriverNotWorking:
+                return "Audio drivers are not working";
+            case cableDamaged:
+                return "Cable is damaged";
+            case portDamaged:
+                return "Port is damaged";
+            case coolingSystemDamaged:
+                return "Cooling system is damaged";
+            case coolingSystemDisconnected:
+                return "Cooling system is disconnected";
+            case processorDamaged:
+                return "Processor is damaged";
+            case graphicsCardDamaged:
+                return "Graphics card is damaged";
+            case hardDriveDisconnected:
+                return "Hard drive is disconnected";
+            case ramDamaged:
+                return "Ram is damaged";
+            case dust:
+                return "Computer is dusty";
+            case powerSupplyDisconnected:
+                return "Power supply is disconnected";
+            case powerSupplyDamaged:
+                return "Power supply is damaged";
+            case hardDriveDamaged:
+                return "Hard drive is damaged";
+            case malware:
+                return "Pc is infected with malware";
+            case antivirusBlocking:
+                return "Antivirus is blocking your software";
+            default:
+                return "";
+        }
+    }
 }
