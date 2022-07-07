@@ -2,7 +2,6 @@ package InzenjeringZnanja.controller;
 
 import InzenjeringZnanja.dtos.MotherboardDTO;
 import InzenjeringZnanja.global.SparqlConstants;
-import InzenjeringZnanja.model.Test;
 import org.apache.jena.update.UpdateExecutionFactory;
 import org.apache.jena.update.UpdateFactory;
 import org.apache.jena.update.UpdateProcessor;

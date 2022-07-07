@@ -1,2 +1,4 @@
-
 Python/.idea/workspace.xml
+*/.idea/**
+*/target/**
+*.class
