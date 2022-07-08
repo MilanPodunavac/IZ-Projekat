@@ -1,0 +1,243 @@
+
+FUNCTION_BLOCK pc_usage
+
+VAR_INPUT               // ulazne varijable
+	price : REAL;
+	cpu_cores : REAL;
+	ram_size : REAL;
+	vram_size : REAL;
+	disk_speed : REAL;
+	disk_size : REAL;
+END_VAR
+
+VAR_OUTPUT              // izlazne varijable
+	home_usage : REAL;
+	professional_usage : REAL;
+	server_hosting : REAL;
+	gaming : REAL;
+	mining : REAL;
+END_VAR
+
+FUZZIFY price
+	TERM low := (0, 1) (300, 1) (600, 0);
+	TERM medium := (500, 0) (800, 1) (1200, 0);
+	TERM high := (1000, 0) (1500, 1) (3000, 1);
+END_FUZZIFY
+
+FUZZIFY cpu_cores
+	TERM low := (1, 1) (2, 1) (6, 0);
+	TERM medium := (4, 0) (6, 1) (8, 0);
+	TERM high := (6, 0) (12, 1) (16, 1);
+END_FUZZIFY
+
+FUZZIFY ram_size
+	TERM low := (2, 1) (4, 0);
+	TERM medium := (4, 0) (8, 1) (12, 1) (16, 0);
+	TERM high := (12, 0) (16, 1) (32, 0);
+	TERM very_high := (16, 0) (32, 0.7) (64, 1) (128, 1);
+END_FUZZIFY
+
+FUZZIFY vram_size
+	TERM low := (0, 1) (1, 1) (2, 0);
+	TERM medium := (2, 0) (4, 1) (8, 0);
+	TERM high := (6, 0) (8, 1) (16, 1) (24, 0);
+	TERM very_high := (16, 0) (24, 1) (48, 1);
+END_FUZZIFY
+
+FUZZIFY disk_speed
+	TERM low := (30, 1) (100, 1) (160, 0); //MB/s
+	TERM medium := (100, 0) (160, 1) (600, 0);
+	TERM high := (500, 0) (3000, 1) (7000, 1);
+END_FUZZIFY
+
+FUZZIFY disk_size
+	TERM low := (100, 1) (250, 1) (500, 0); //MB/s
+	TERM medium := (250, 0) (500, 1) (1000, 0);
+	TERM high := (750, 0) (1000, 1) (4000, 1);
+END_FUZZIFY
+
+DEFUZZIFY home_usage
+	TERM low := (0, 1) (2, 1) (4, 0);
+	TERM medium := (3, 0) (5, 1) (7, 0);
+	TERM high := (6, 0) (8, 1) (10, 1);
+	METHOD : COG;		// 'Center Of Gravity' odn. centar mase (koristi se i MM odn. mean max)
+	DEFAULT := 0;		// podrazumevana vrednost (ukoliko nijedno pravilo nije aktivirano)
+END_DEFUZZIFY
+
+DEFUZZIFY professional_usage
+	TERM low := (0, 1) (2, 1) (4, 0);
+	TERM medium := (3, 0) (5, 1) (7, 0);
+	TERM high := (6, 0) (8, 1) (10, 1);
+	METHOD : COG;
+	DEFAULT := 0;
+END_DEFUZZIFY
+
+DEFUZZIFY server_hosting
+	TERM low := (0, 1) (2, 1) (4, 0);
+	TERM medium := (3, 0) (5, 1) (7, 0);
+	TERM high := (6, 0) (8, 1) (10, 1);
+	METHOD : COG;		// 'Center Of Gravity' odn. centar mase (koristi se i MM odn. mean max)
+	DEFAULT := 0;		// podrazumevana vrednost (ukoliko nijedno pravilo nije aktivirano)
+END_DEFUZZIFY
+
+DEFUZZIFY gaming
+	TERM low := (0, 1) (2, 1) (4, 0);
+	TERM medium := (3, 0) (5, 1) (7, 0);
+	TERM high := (6, 0) (8, 1) (10, 1);
+	METHOD : COG;		// 'Center Of Gravity' odn. centar mase (koristi se i MM odn. mean max)
+	DEFAULT := 0;		// podrazumevana vrednost (ukoliko nijedno pravilo nije aktivirano)
+END_DEFUZZIFY
+
+DEFUZZIFY mining
+	TERM low := (0, 1) (2, 1) (4, 0);
+	TERM medium := (3, 0) (5, 1) (7, 0);
+	TERM high := (6, 0) (8, 1) (10, 1);
+	METHOD : COG;
+	DEFAULT := 0;
+END_DEFUZZIFY
+
+RULEBLOCK blok1
+	AND : MIN;			// za konjunkciju se koristi minimum (samim tim sa za disjunkciju koristi maksimum)
+	ACT : MIN;			// za zaključivanje (implikaciju) je izabran minimum (Mamdani implikacija) (osim MIN koristi se i PROD)
+	ACCU : MAX;			// za kompoziciju je izabran maksimum (osim MAX koristi se i SUM)
+
+	RULE 1 : IF price IS low AND disk_speed IS medium THEN home_usage IS high;
+	RULE 2 : IF price IS low AND disk_speed IS high THEN home_usage IS medium;
+	RULE 3 : IF price IS low AND disk_speed IS low THEN home_usage IS medium;
+	RULE 4 : IF price IS medium AND disk_speed IS medium THEN home_usage IS medium;
+	RULE 5 : IF price IS medium AND disk_speed IS high THEN home_usage IS medium;
+	RULE 6 : IF price IS medium AND disk_speed IS low THEN home_usage IS low;
+	RULE 7 : IF price IS high THEN home_usage IS low;
+	RULE 8 : IF vram_size IS high OR vram_size IS medium OR vram_size IS very_high THEN home_usage IS low;
+
+END_RULEBLOCK
+
+RULEBLOCK blok2
+	AND : MIN;
+	ACT : MIN;
+	ACCU : MAX;
+
+	RULE 1 : IF cpu_cores IS medium AND ram_size IS medium AND disk_speed IS medium THEN professional_usage IS high;
+	RULE 2 : IF cpu_cores IS medium AND ram_size IS medium AND disk_speed IS low THEN professional_usage IS medium;
+	RULE 3 : IF cpu_cores IS medium AND ram_size IS medium AND disk_speed IS high THEN professional_usage IS high;
+	RULE 4 : IF cpu_cores IS medium AND ram_size IS high AND disk_speed IS medium THEN professional_usage IS medium;
+	RULE 5 : IF cpu_cores IS medium AND ram_size IS high AND disk_speed IS low THEN professional_usage IS medium;
+	RULE 6 : IF cpu_cores IS medium AND ram_size IS high AND disk_speed IS high THEN professional_usage IS high;
+	RULE 7 : IF cpu_cores IS medium AND ram_size IS very_high AND disk_speed IS medium THEN professional_usage IS medium;
+	RULE 8 : IF cpu_cores IS medium AND ram_size IS very_high AND disk_speed IS low THEN professional_usage IS medium;
+	RULE 9 : IF cpu_cores IS medium AND ram_size IS very_high AND disk_speed IS high THEN professional_usage IS high;
+	
+	RULE 10 : IF cpu_cores IS high AND ram_size IS medium AND disk_speed IS medium THEN professional_usage IS medium;
+	RULE 11 : IF cpu_cores IS high AND ram_size IS medium AND disk_speed IS low THEN professional_usage IS medium;
+	RULE 12 : IF cpu_cores IS high AND ram_size IS medium AND disk_speed IS high THEN professional_usage IS high;
+	
+	RULE 13 : IF cpu_cores IS high AND ram_size IS high AND disk_speed IS medium THEN professional_usage IS medium;
+	RULE 14 : IF cpu_cores IS high AND ram_size IS high AND disk_speed IS low THEN professional_usage IS medium;
+	RULE 15 : IF cpu_cores IS high AND ram_size IS high AND disk_speed IS high THEN professional_usage IS high;
+	
+	RULE 16 : IF cpu_cores IS low THEN professional_usage IS low;
+	RULE 17: IF ram_size IS low OR ram_size IS very_high then professional_usage IS low;
+	
+END_RULEBLOCK
+
+RULEBLOCK blok3
+	AND : MIN;
+	ACT : MIN;
+	ACCU : MAX;
+
+	RULE 1 : IF cpu_cores IS high AND ram_size IS very_high AND disk_size IS high THEN server_hosting IS high;
+	RULE 2 : IF cpu_cores IS high AND ram_size IS very_high AND disk_size IS medium THEN server_hosting IS high;
+	RULE 3 : IF cpu_cores IS high AND ram_size IS very_high AND disk_size IS low THEN server_hosting IS medium;
+	
+	RULE 4 : IF cpu_cores IS high AND ram_size IS high AND disk_size IS high THEN server_hosting IS high;
+	RULE 5 : IF cpu_cores IS high AND ram_size IS high AND disk_size IS medium THEN server_hosting IS high;
+	RULE 6 : IF cpu_cores IS high AND ram_size IS high AND disk_size IS low THEN server_hosting IS medium;
+	
+	RULE 7 : IF cpu_cores IS high AND ram_size IS medium AND disk_size is medium THEN server_hosting IS medium;
+	RULE 8 : IF cpu_cores IS high AND ram_size IS medium AND disk_size is high THEN server_hosting IS high;
+	RULE 9 : IF cpu_cores IS high AND ram_size IS medium AND disk_size is low THEN server_hosting IS low;
+	
+	RULE 10 : IF cpu_cores IS medium AND ram_size IS high AND disk_size IS high THEN server_hosting IS medium;
+	RULE 11 : IF cpu_cores IS medium AND ram_size IS high AND disk_size IS medium THEN server_hosting IS medium;
+	RULE 12 : IF cpu_cores IS medium AND ram_size IS high AND disk_size IS low THEN server_hosting IS low;
+	
+	RULE 13 : IF cpu_cores IS medium AND ram_size IS very_high AND disk_size IS high THEN server_hosting IS medium;
+	RULE 14 : IF cpu_cores IS medium AND ram_size IS very_high AND disk_size IS medium THEN server_hosting IS medium;
+	RULE 15 : IF cpu_cores IS medium AND ram_size IS very_high AND disk_size IS low THEN server_hosting IS low;
+	
+	RULE 16 : IF cpu_cores IS medium AND ram_size IS medium AND disk_size IS medium THEN server_hosting IS medium;
+	RULE 17 : IF cpu_cores IS medium AND ram_size IS medium AND disk_size IS medium THEN server_hosting IS low;
+	RULE 18 : IF cpu_cores IS medium AND ram_size IS medium AND disk_size IS medium THEN server_hosting IS low;
+	
+	RULE 19 : IF cpu_cores IS low THEN server_hosting IS low;
+	RULE 20 : IF ram_size IS low THEN server_hosting IS low;
+	
+END_RULEBLOCK
+
+RULEBLOCK blok4
+	AND : MIN;
+	ACT : MIN;
+	ACCU : MAX;
+
+	RULE 1 : IF vram_size IS high AND ram_size IS medium AND cpu_cores IS medium THEN gaming IS medium;
+	RULE 2 : IF vram_size IS high AND ram_size IS medium AND cpu_cores IS high THEN gaming IS high;
+	
+	RULE 3 : IF vram_size IS high AND ram_size IS high AND cpu_cores IS high THEN gaming IS high;
+	RULE 4 : IF vram_size IS high AND ram_size IS high AND cpu_cores IS medium THEN gaming IS high;
+	
+	RULE 5 : IF vram_size IS high AND ram_size IS very_high AND cpu_cores IS high THEN gaming IS high;
+	RULE 6 : IF vram_size IS high AND ram_size IS very_high AND cpu_cores IS medium THEN gaming IS high;
+	
+	RULE 7 : IF vram_size IS medium AND ram_size IS high AND cpu_cores IS high THEN gaming IS high;
+	RULE 8 : IF vram_size IS medium AND ram_size IS high AND cpu_cores IS medium THEN gaming IS medium;
+	
+	RULE 9 : IF vram_size IS medium AND ram_size IS very_high AND cpu_cores IS high THEN gaming IS high;
+	RULE 10 : IF vram_size IS medium AND ram_size IS very_high AND cpu_cores IS medium THEN gaming IS medium;
+	
+	RULE 11 : IF vram_size IS medium AND ram_size IS medium AND cpu_cores IS medium THEN gaming IS medium;
+	RULE 12 : IF vram_size IS medium AND ram_size IS medium AND cpu_cores IS high THEN gaming IS medium;
+	
+	RULE 13 : IF vram_size IS very_high AND ram_size IS very_high AND cpu_cores IS high THEN gaming IS medium;
+	RULE 14 : IF vram_size IS very_high AND ram_size IS very_high AND cpu_cores IS medium THEN gaming IS medium;
+	
+	RULE 15 : IF vram_size IS very_high AND ram_size IS high AND cpu_cores IS high THEN gaming IS medium;
+	RULE 16 : IF vram_size IS very_high AND ram_size IS high AND cpu_cores IS medium THEN gaming IS medium;
+	
+	RULE 17 : IF vram_size IS very_high AND ram_size IS medium AND cpu_cores IS high THEN gaming IS medium;
+	RULE 18 : IF vram_size IS very_high AND ram_size IS medium AND cpu_cores IS medium THEN gaming IS low;
+	
+	RULE 19 : IF vram_size IS low THEN gaming IS low;
+	RULE 20 : IF cpu_cores IS low THEN gaming IS low;
+	RULE 21 : IF ram_size IS low THEN gaming IS low;
+	
+END_RULEBLOCK
+	
+RULEBLOCK blok5
+	AND : MIN;
+	ACT : MIN;
+	ACCU : MAX;
+	
+	RULE 1 : IF vram_size IS very_high AND cpu_cores IS high AND ram_size IS very_high THEN mining IS medium;
+	RULE 2 : IF vram_size IS very_high AND cpu_cores IS high AND ram_size IS high THEN mining IS high;
+	RULE 3 : IF vram_size IS very_high AND cpu_cores IS high AND ram_size IS medium THEN mining IS medium;
+	
+	RULE 4 : IF vram_size IS very_high AND cpu_cores IS medium AND ram_size IS very_high THEN mining IS medium;
+	RULE 5 : IF vram_size IS very_high AND cpu_cores IS medium AND ram_size IS high THEN mining IS medium;
+	RULE 6 : IF vram_size IS very_high AND cpu_cores IS medium AND ram_size IS medium THEN mining IS medium;
+	
+	RULE 7 : IF vram_size IS high AND cpu_cores IS high AND ram_size IS very_high THEN mining IS low;
+	RULE 8 : IF vram_size IS high AND cpu_cores IS high AND ram_size IS high THEN mining IS medium;
+	RULE 9 : IF vram_size IS high AND cpu_cores IS high AND ram_size IS medium THEN mining IS medium;
+	
+	RULE 10 : IF vram_size IS high AND cpu_cores IS medium AND ram_size IS very_high THEN mining IS low;
+	RULE 11 : IF vram_size IS high AND cpu_cores IS medium AND ram_size IS high THEN mining IS low;
+	RULE 12 : IF vram_size IS high AND cpu_cores IS medium AND ram_size IS medium THEN mining IS medium;
+	
+	RULE 13 : IF cpu_cores IS low THEN mining IS low;
+	RULE 14 : IF ram_size IS low THEN mining IS low;
+	RULE 15 : IF vram_size IS medium OR vram_size IS low THEN mining IS low;
+
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK
+
