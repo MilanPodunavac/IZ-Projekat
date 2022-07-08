@@ -6,7 +6,8 @@ public enum MalfunctionCauses {
     computerDropped,
     overclocking,
     surfing,
-    spilledLiquid;
+    spilledLiquid,
+    hasAntivirus;
 
     public static String getNodeName(MalfunctionCauses cause){
         switch(cause){
@@ -22,6 +23,8 @@ public enum MalfunctionCauses {
                 return "Surfing";
             case spilledLiquid:
                 return "Spilled_liquid";
+            case hasAntivirus:
+                return "Has_antivirus";
             default:
                 return "NO NODE FOUND";
         }

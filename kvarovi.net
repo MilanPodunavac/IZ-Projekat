@@ -52,21 +52,21 @@ node Cant_turn_on
 node Cant_boot_system
 {
      label = "C7";
-     position = (1814 718);
+     position = (1815 678);
      states = ("yes" "no");
 }
 
 node Files_corrupted
 {
      label = "C8";
-     position = (2376 722);
+     position = (2344 736);
      states = ("yes" "no");
 }
 
 node Slow_performance
 {
      label = "C9";
-     position = (2238 719);
+     position = (2434 683);
      states = ("yes" "no");
 }
 
@@ -94,7 +94,7 @@ node Is_hot
 node Cant_connect_to_web
 {
      label = "C13";
-     position = (1 711);
+     position = (10 712);
      states = ("yes" "no");
 }
 
@@ -115,7 +115,7 @@ node PC_beeps
 node Cannot_install_software
 {
      label = "C16";
-     position = (2492 722);
+     position = (2313 593);
      states = ("yes" "no");
 }
 
@@ -171,7 +171,7 @@ node Audio_freezes
 node Computer_dropped
 {
      label = "C24";
-     position = (626 54);
+     position = (624 44);
      states = ("yes" "no");
 }
 
@@ -192,21 +192,21 @@ node Spilled_liquid
 node Overclocking
 {
      label = "C27";
-     position = (1070 52);
+     position = (1078 42);
      states = ("yes" "no");
 }
 
 node Didnt_clean
 {
      label = "C28";
-     position = (354 49);
+     position = (336 50);
      states = ("yes" "no");
 }
 
 node Malware
 {
      label = "C29";
-     position = (1947 431);
+     position = (1964 417);
      states = ("yes" "no");
 }
 
@@ -220,7 +220,7 @@ node Hard_drive_disconnected
 node Hard_drive_damaged
 {
      label = "C31";
-     position = (1776 578);
+     position = (1761 573);
      states = ("yes" "no");
 }
 
@@ -283,7 +283,7 @@ node Cable_damaged
 node Graphics_card_damaged
 {
      label = "C40";
-     position = (1012 433);
+     position = (961 426);
      states = ("yes" "no");
 }
 
@@ -297,28 +297,35 @@ node Surfing
 node Modem_damaged
 {
      label = "C2";
-     position = (0 416);
+     position = (21 394);
      states = ("yes" "no");
 }
 
 node Audio_drivers_tampering
 {
      label = "C3";
-     position = (137 48);
+     position = (114 52);
      states = ("yes" "no");
 }
 
 node Audio_drivers_not_working
 {
      label = "C4";
-     position = (137 422);
+     position = (209 384);
      states = ("yes" "no");
 }
 
 node Antivirus_blocking
 {
      label = "C6";
-     position = (2051 427);
+     position = (2165 424);
+     states = ("yes" "no");
+}
+
+node Has_antivirus
+{
+     label = "C1";
+     position = (2100 81);
      states = ("yes" "no");
 }
 
@@ -568,10 +575,12 @@ potential (Didnt_clean)
  data = ( 0.5 0.5 );
 }
 
-potential (Malware | Surfing)
+potential (Malware | Has_antivirus Surfing)
 {
- data = (( 0.7 0.3 )
-( 0.3 0.7 ));
+ data = ((( 0.4 0.6 )
+( 0.1 0.9 ))
+(( 0.7 0.3 )
+( 0.3 0.7 )));
 }
 
 potential (Hard_drive_disconnected | Computer_dropped)
@@ -683,7 +692,13 @@ potential (Audio_drivers_not_working | Audio_drivers_tampering)
 ( 0.2 0.8 ));
 }
 
-potential (Antivirus_blocking)
+potential (Antivirus_blocking | Has_antivirus)
+{
+ data = (( 0.6 0.4 )
+( 0.1 0.9 ));
+}
+
+potential (Has_antivirus)
 {
  data = ( 0.5 0.5 );
 }

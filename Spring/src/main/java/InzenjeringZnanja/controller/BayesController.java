@@ -42,6 +42,17 @@ public class BayesController {
 
         for (ComputerSymptoms symptom : dto.getComputerSymptomsList()) ((ProbabilisticNode)net.getNode(ComputerSymptoms.getNodeName(symptom))).addFinding(0);
         for (MalfunctionCauses cause : dto.getMalfunctionCausesList()) ((ProbabilisticNode)net.getNode(MalfunctionCauses.getNodeName(cause))).addFinding(0);
+        for (MalfunctionCauses cause : MalfunctionCauses.values()){
+            boolean found = false;
+            for(MalfunctionCauses inDto : dto.getMalfunctionCausesList()){
+                if (cause == inDto){
+                    found = true;
+                    break;
+                }
+            }
+            if(found) continue;
+            ((ProbabilisticNode)net.getNode(MalfunctionCauses.getNodeName(cause))).addFinding(1);
+        }
 
         try {
             net.updateEvidences();
