@@ -1,8 +1,6 @@
 package InzenjeringZnanja.controller;
 
-import InzenjeringZnanja.dto.BayesDto;
-import InzenjeringZnanja.dto.BayesResponseDto;
-import InzenjeringZnanja.dto.BayesResultDto;
+import InzenjeringZnanja.dto.*;
 import InzenjeringZnanja.dto.enums.ComputerMalfunctions;
 import InzenjeringZnanja.dto.enums.ComputerSymptoms;
 import InzenjeringZnanja.dto.enums.MalfunctionCauses;
@@ -18,16 +16,20 @@ import unbbayes.util.extension.bn.inference.IInferenceAlgorithm;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api/Bayes")
 public class BayesController {
     @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public BayesResultDto Bayes(@RequestBody BayesDto dto){
+        for(String string : dto.getMalfunctionCausesList())
+            System.out.println("MALFUNCTION:" + string);
+        for(String string : dto.getComputerSymptomsList())
+            System.out.println("SYMPTOM:" + string);
         ProbabilisticNetwork net;
         BaseIO io = new NetIO();
         try {
@@ -40,12 +42,12 @@ public class BayesController {
         algorithm.setNetwork(net);
         algorithm.run();
 
-        for (ComputerSymptoms symptom : dto.getComputerSymptomsList()) ((ProbabilisticNode)net.getNode(ComputerSymptoms.getNodeName(symptom))).addFinding(0);
-        for (MalfunctionCauses cause : dto.getMalfunctionCausesList()) ((ProbabilisticNode)net.getNode(MalfunctionCauses.getNodeName(cause))).addFinding(0);
+        for (String symptom : dto.getComputerSymptomsList()) ((ProbabilisticNode)net.getNode(ComputerSymptoms.getNodeName(ComputerSymptoms.valueOf(symptom)))).addFinding(0);
+        for (String cause : dto.getMalfunctionCausesList()) ((ProbabilisticNode)net.getNode(MalfunctionCauses.getNodeName(MalfunctionCauses.valueOf(cause)))).addFinding(0);
         for (MalfunctionCauses cause : MalfunctionCauses.values()){
             boolean found = false;
-            for(MalfunctionCauses inDto : dto.getMalfunctionCausesList()){
-                if (cause == inDto){
+            for(String inDto : dto.getMalfunctionCausesList()){
+                if (cause == MalfunctionCauses.valueOf(inDto)){
                     found = true;
                     break;
                 }
@@ -70,5 +72,23 @@ public class BayesController {
         }
         malfunctions.getResults().sort(Comparator.comparing(BayesResponseDto::getProbability).reversed());
         return malfunctions;
+    }
+
+    @GetMapping(value = "computerSymptoms",produces = MediaType.APPLICATION_JSON_VALUE)
+    public ComputerSymptomsDto GetComputerSymptoms(){
+        ComputerSymptomsDto computerSymptomsDto = new ComputerSymptomsDto();
+        computerSymptomsDto.setComputerSymptomsList(Stream.of(ComputerSymptoms.values())
+                .map(Enum::name)
+                .collect(Collectors.toList()));
+        return computerSymptomsDto;
+    }
+
+    @GetMapping(value = "malfunctionCauses",produces = MediaType.APPLICATION_JSON_VALUE)
+    public MalfunctionCausesDto GetMalfunctionCauses(){
+        MalfunctionCausesDto malfunctionCausesDto = new MalfunctionCausesDto();
+        malfunctionCausesDto.setMalfunctionCausesList(Stream.of(MalfunctionCauses.values())
+                .map(Enum::name)
+                .collect(Collectors.toList()));
+        return malfunctionCausesDto;
     }
 }
