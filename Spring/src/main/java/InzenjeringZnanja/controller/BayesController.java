@@ -26,10 +26,6 @@ import java.util.stream.Stream;
 public class BayesController {
     @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public BayesResultDto Bayes(@RequestBody BayesDto dto){
-        for(String string : dto.getMalfunctionCausesList())
-            System.out.println("MALFUNCTION:" + string);
-        for(String string : dto.getComputerSymptomsList())
-            System.out.println("SYMPTOM:" + string);
         ProbabilisticNetwork net;
         BaseIO io = new NetIO();
         try {
