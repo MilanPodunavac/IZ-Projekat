@@ -1,6 +1,7 @@
 package InzenjeringZnanja.controller;
 
 import InzenjeringZnanja.dtos.MotherboardDTO;
+import InzenjeringZnanja.dtos.MotherboardShortDTO;
 import InzenjeringZnanja.global.SparqlConstants;
 import org.apache.jena.update.UpdateExecutionFactory;
 import org.apache.jena.update.UpdateFactory;
@@ -25,6 +26,30 @@ import java.util.List;
 @RequestMapping("/api/Motherboard")
 public class MotherboardController {
 
+
+    @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<MotherboardShortDTO> GetAll(){
+        String selectString = SparqlConstants.Prefix +
+                "SELECT  ?iri ?name \n" +
+                "WHERE {\n" +
+                "  ?motherboard rdf:type iz:Motherboard .\n" +
+                "  OPTIONAL {?motherboard iz:has_a_name ?name .}\n" +
+                "  OPTIONAL {?motherboard iz:costs ?cost .}\n" +
+                "}";
+
+        Query query = QueryFactory.create(selectString);
+        QueryExecution qexec = QueryExecutionFactory.sparqlService(SparqlConstants.SELECT_URL, query);
+        ResultSet results = qexec.execSelect();
+        List<MotherboardShortDTO> dtos = new ArrayList<>();
+        while (results.hasNext()) {
+            QuerySolution solution = results.nextSolution();
+            MotherboardShortDTO dto = new MotherboardShortDTO();
+            dto.name = (solution.getLiteral("name") != null) ? solution.getLiteral("name").getString() : "";
+            dto.iri = (solution.getLiteral("iri") != null) ? solution.getLiteral("iri").getString() : "";
+            dtos.add(dto);
+        }
+        return dtos;
+    }
 
     @GetMapping(value = "/{iri}", produces = MediaType.APPLICATION_JSON_VALUE)
     public MotherboardDTO Get(@PathVariable(value="iri") String iri){
@@ -143,7 +168,7 @@ public class MotherboardController {
         }
         return dtos;
     }
-
+/*
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     public String Post(@RequestBody MotherboardDTO dto){
         if (dto.name == null) return "Component needs a name";
@@ -206,6 +231,6 @@ public class MotherboardController {
         UpdateProcessor updateProcessor = UpdateExecutionFactory.createRemote(updateRequest, SparqlConstants.UPDATE_URL);
         updateProcessor.execute();
         return "Success!";
-    }
+    }*/
 }
 
