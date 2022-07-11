@@ -7,7 +7,6 @@ import java.util.List;
 
 @Getter
 @Setter
-public class BayesDto {
-    private List<String> computerSymptomsList;
+public class MalfunctionCausesDto {
     private List<String> malfunctionCausesList;
 }
