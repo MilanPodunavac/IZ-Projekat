@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="044b0f8f-9f7f-444f-bae0-cb7c64e414d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../iz-frontend/src/components/StorageForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../iz-frontend/src/components/StorageForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <workItem from="1657447781772" duration="2873000" />
       <workItem from="1657491081518" duration="595000" />
       <workItem from="1657571396254" duration="5138000" />
-      <workItem from="1657621734877" duration="11391000" />
+      <workItem from="1657621734877" duration="12692000" />
     </task>
     <servers />
   </component>
