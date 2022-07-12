@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="044b0f8f-9f7f-444f-bae0-cb7c64e414d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/CpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/CpuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/GpuDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/GpuDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/PsuDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/PsuDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/service/GpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/service/GpuService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,7 +103,7 @@
       <workItem from="1657447781772" duration="2873000" />
       <workItem from="1657491081518" duration="595000" />
       <workItem from="1657571396254" duration="5138000" />
-      <workItem from="1657621734877" duration="4240000" />
+      <workItem from="1657621734877" duration="5767000" />
     </task>
     <servers />
   </component>
@@ -122,12 +126,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/MotherboardController.java</url>
-          <line>117</line>
+          <line>142</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/MotherboardController.java</url>
-          <line>120</line>
+          <line>145</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
