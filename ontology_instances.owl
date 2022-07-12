@@ -10,8 +10,11 @@
                                                                                             owl:imports <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl> .
 
 #################################################################
-#    Classes
+#    Annotation properties
 #################################################################
+
+###  https://github.com/MilanPodunavac/IZ-Projekat#has_a_gpu
+<https://github.com/MilanPodunavac/IZ-Projekat#has_a_gpu> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -83,7 +86,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ARESGAME_AGV
 :ARESGAME_AGV rdf:type owl:NamedIndividual ,
-                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 2 ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 2 ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Gold" ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 4 ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "ARESGAME AGV 500w 80+ Gold" ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#length> 14 ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 500 ;
+              <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 1 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ASUS_PRIME_A320M-K
@@ -120,7 +133,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Apevia_ITX-AP250W
 :Apevia_ITX-AP250W rdf:type owl:NamedIndividual ,
-                            <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                            <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 2 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Gold" ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 2 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Apevia ITX-AP250W 250w" ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#length> 15 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 250 ;
+                   <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 0 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_BC-12D2HT
@@ -189,7 +212,6 @@
 :Asus_PRIME_Z690M-PLUS_D4 rdf:type owl:NamedIndividual ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#ATX_motherboard> ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Motherboard> ;
-                          <https://github.com/MilanPodunavac/IZ-Projekat#has_a_gpu> :Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5333 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#costs> "260.0"^^xsd:double ;
@@ -205,7 +227,8 @@
                           <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_USB_slots> 8 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_chipset> "Z690" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#motherboard_format> "ATX" ;
-                          <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" .
+                          <https://github.com/MilanPodunavac/IZ-Projekat#socket> "LGA1700" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#has_a_gpu> :Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_RTX_3060_Ti_dual_mini_oc
@@ -263,7 +286,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Athena_Power_AP-MFATX35
 :Athena_Power_AP-MFATX35 rdf:type owl:NamedIndividual ,
-                                  <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                                  <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 0 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 1 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Bronze" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 0 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Athena Power AP-MFATX35 350w" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#length> 15 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 350 ;
+                         <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 0 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Blue_Microphones_-_Blue_Yeti_Nano_Premium_Wired_Multi-Pattern_USB_Condenser_Microphone
@@ -306,7 +339,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#CoolMax_CM-300
 :CoolMax_CM-300 rdf:type owl:NamedIndividual ,
-                         <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                         <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 4 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Gold" ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 2 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "CoolMax CM-300 300w" ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#length> 10 ;
+                <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 300 ;
+                <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 0 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_A30_PWM_RH-A30-25PK-R1
@@ -340,12 +383,32 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterWatt
 :Cooler_Master_MasterWatt rdf:type owl:NamedIndividual ,
-                                   <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                                   <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 4 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Bronze" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 6 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Cooler Master MasterWatt 550w 80+ Bronze" ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#length> 14 ;
+                          <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 550 ;
+                          <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 2 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_CXM
 :Corsair_CXM rdf:type owl:NamedIndividual ,
-                      <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                      <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+             <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 6 ;
+             <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+             <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+             <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Bronze" ;
+             <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 8 ;
+             <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair CXM 750w 80+ Bronze" ;
+             <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+             <https://github.com/MilanPodunavac/IZ-Projekat#length> 16 ;
+             <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 750 ;
+             <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 4 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Dominator_Platinum_RGB_32_GB
@@ -355,7 +418,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_HX_Platinum
 :Corsair_HX_Platinum rdf:type owl:NamedIndividual ,
-                              <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                              <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 8 ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Platinum" ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 16 ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair HX Platinum 1000w 80+ Platinum" ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#length> 18 ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 1000 ;
+                     <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 8 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_K55_RGB
@@ -490,17 +563,47 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PHD380M
 :Diablotek_PHD380M rdf:type owl:NamedIndividual ,
-                            <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                            <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 3 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 1 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "<77%" ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 4 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Diablotek PHD380M 380w" ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#length> 15 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 380 ;
+                   <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 0 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PSDA320M
 :Diablotek_PSDA320M rdf:type owl:NamedIndividual ,
-                             <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                             <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 3 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "" ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 2 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Diablotek PSDA320M 320w" ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#length> 15 ;
+                    <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 320 ;
+                    <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 0 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_BQ
 :EVGA_BQ rdf:type owl:NamedIndividual ,
-                  <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                  <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+         <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 3 ;
+         <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+         <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 1 ;
+         <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Gold" ;
+         <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 6 ;
+         <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "EVGA_BQ 600w 80+ Gold" ;
+         <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+         <https://github.com/MilanPodunavac/IZ-Projekat#length> 15 ;
+         <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 600 ;
+         <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 2 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_NU
@@ -515,7 +618,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP300-60LG
 :FSP_Group_FSP300-60LG rdf:type owl:NamedIndividual ,
-                                <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                                <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 2 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Bronze" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 3 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "FSP Group FSP300-60LG 300w 80+ Bronze" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#length> 15 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 300 ;
+                       <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 0 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Falcon_Case_Pathfinder_with_Power_Supply_750_W
@@ -591,7 +704,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_P-B
 :Gigabyte_P-B rdf:type owl:NamedIndividual ,
-                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 3 ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Bronze" ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 6 ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Gigabyte P-B 650w 80+ Bronze" ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#length> 14 ;
+              <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 650 ;
+              <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 4 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RTX_3060_Ti_Gaming_OC
@@ -693,7 +816,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HEC_HEC200SA-2FX
 :HEC_HEC200SA-2FX rdf:type owl:NamedIndividual ,
-                           <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                           <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 0 ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "" ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 1 ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "HEC HEC200SA-2FX 200w" ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#length> 15 ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 200 ;
+                  <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 0 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Hama_Web_Camera_Spy_Protect_53950
@@ -957,7 +1090,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logisys_PS350MA
 :Logisys_PS350MA rdf:type owl:NamedIndividual ,
-                          <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                          <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                 <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 4 ;
+                 <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                 <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                 <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "" ;
+                 <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 1 ;
+                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Logisys PS350MA 350W" ;
+                 <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                 <https://github.com/MilanPodunavac/IZ-Projekat#length> 10 ;
+                 <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 350 ;
+                 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 0 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logitech_G613
@@ -1152,7 +1295,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#NZXT_C
 :NZXT_C rdf:type owl:NamedIndividual ,
-                 <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                 <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+        <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 6 ;
+        <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+        <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 2 ;
+        <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Gold" ;
+        <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 8 ;
+        <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "NZXT C 850w 80+ Gold" ;
+        <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+        <https://github.com/MilanPodunavac/IZ-Projekat#length> 15 ;
+        <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 850 ;
+        <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 6 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Office_10_Package
@@ -1516,7 +1669,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SeaSonic_FOCUS_Gold
 :SeaSonic_FOCUS_Gold rdf:type owl:NamedIndividual ,
-                              <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                              <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 3 ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 2 ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Gold" ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 8 ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SeaSonic FOCUS 650w 80+ Gold" ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#length> 14 ;
+                     <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 650 ;
+                     <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 4 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Shure_-_MV51-DIG_USB_Condenser_Microphone
@@ -1561,7 +1724,17 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Thermaltake_Smart
 :Thermaltake_Smart rdf:type owl:NamedIndividual ,
-                            <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                            <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 4 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+" ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 4 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Thermaltake Smart 430w 80+" ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#length> 14 ;
+                   <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 430 ;
+                   <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 2 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Trust_Speakers_Tytan_2.1_-_Crni
@@ -1653,12 +1826,32 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2018)
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2018)> rdf:type owl:NamedIndividual ,
-                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 8 ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 2 ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Gold" ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 10 ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair RMx (2018) 850w 80+ Gold" ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#length> 15 ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 850 ;
+                                                                                                              <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 6 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2021)
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2021)> rdf:type owl:NamedIndividual ,
-                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 8 ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Gold" ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 14 ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Rmx (2021) 1000w 80+ Gold" ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#length> 18 ;
+                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 1000 ;
+                                                                                                              <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 6 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Dell_Monitor_E2723HN_27inch/IPS
@@ -1693,12 +1886,32 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_GD_(2019)
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_GD_(2019)> rdf:type owl:NamedIndividual ,
-                                                                                                                   <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                                                                                                                   <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 3 ;
+                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+ Gold" ;
+                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 6 ;
+                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "EVGA GD (2019) 500w 80+ Gold" ;
+                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#length> 14 ;
+                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 500 ;
+                                                                                                          <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 2 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP220-60LE(80)
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP220-60LE(80)> rdf:type owl:NamedIndividual ,
-                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> .
+                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit> ;
+                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#Molex_4-pin_connectors> 0 ;
+                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#PCie_6-pin_connectors> 0 ;
+                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#PCie_8-pin_connectors> 0 ;
+                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#PSU_efficiency> "80+" ;
+                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#SATA_connectors> 0 ;
+                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "FSP Group FSP220-60LE(80) 220w 80+" ;
+                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#is_fanless> "false"^^xsd:boolean ;
+                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#length> 15 ;
+                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#wattage> 220 ;
+                                                                                                                     <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> 0 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A
