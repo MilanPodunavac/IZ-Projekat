@@ -2,28 +2,20 @@ import { useState } from "react";
 import axios from 'axios';
 //import Swal from "sweetalert2";
 import MultiSelectBox from "./MultiSelectBox";
+import MotherboardForm from "./MotherboardForm";
+import PsuForm from "./PsuForm";
+import RamForm from "./RamForm";
+import CpuForm from "./CpuForm";
+import GpuForm from "./GpuForm";
+import StorageForm from "./StorageForm";
 
-const CauseOfFailure = () => {
-    const [causes, setCauses] = useState([]);
-    const [symptoms, setSymptoms] = useState([]);
+const ComponentRecommendation = () => {
+    const [componentType, setComponentType] = useState([]);
     const [isPending, setIsPending] = useState(false);
     const [results, setResults] = useState();
 
-    const onSubmit = async (e) => {
-        e.preventDefault();
-        const bayes = {
-            "computerSymptomsList": symptoms,
-            "malfunctionCausesList": causes
-        };
-        setIsPending(true);
-        axios.post(axios.defaults.baseURL + 'api/Bayes', bayes).then(res => {
-            setResults(res.data.results);
-            setIsPending(false);
-        }).catch((err) => { console.log(err) });
-    }
-
-    const causesSelector = causes => setCauses(causes);
-    const symptomsSelector = symptoms => setSymptoms(symptoms);
+    const componentTypeSelector = type => setComponentType(type[0]);
+    const resultsSelector = resultsRetVal => setResults(resultsRetVal);
 
     function getPercentageFromProbability(data){
         return data * 100;
@@ -33,34 +25,31 @@ const CauseOfFailure = () => {
         <div className="container align-content: center display: flex align-items: center mt-5">
             <form style={{ maxWidth: "50%", margin: "auto" }}>
                 <div className="mb-3">
-                    <label className="form-label">Malfunction causes</label>
+                    <label className="form-label">Choose component for upgrade</label>
                     <MultiSelectBox
                         className="form-control"
-                        selectedValue={causes}
-                        setSelectedValue={causesSelector}
-                        path={"api/Bayes/malfunctionCauses"}
+                        selectedValue={componentType}
+                        setSelectedValue={componentTypeSelector}
+                        path={"api/common/componentTypes"}
                         message={""}
-                        propertyName={'malfunctionCausesList'} />
+                        propertyName={'componentTypesList'} 
+                        singleSelect={true}/>
                 </div>
-                <div className="mb-3">
-                    <label className="form-label">Computer symptoms</label>
-                    <MultiSelectBox
-                        className="form-control"
-                        selectedValue={symptoms}
-                        setSelectedValue={symptomsSelector}
-                        path={"api/Bayes/computerSymptoms"}
-                        message={"computerSymptomsList"}
-                        propertyName={'computerSymptomsList'} />
-                </div>
-                <div className="mb-3">
+                {/*<div className="mb-3">
                     {!isPending &&
                         <span className="right">
-                            <button disabled={causes.length == 0 && symptoms.length == 0} to="#" onClick={(e) => onSubmit(e)} type="submit" className="btn btn-primary">Submit</button>
+                            <button disabled={ symptoms.length == 0} to="#" onClick={(e) => onSubmit(e)} type="submit" className="btn btn-primary">Submit</button>
                         </span>
                     }
                     {isPending && <label>Waiting for results...</label>}
-                </div>
+                </div>*/}
             </form>
+            {componentType === 'Motherboard' && <MotherboardForm/>}
+            {componentType === 'PowerSupplyUnit' && <PsuForm/>}
+            {componentType === 'RandomAccessMemory' && <RamForm/>}
+            {componentType === 'CentralProcessingUnit' && <CpuForm/>}
+            {componentType === 'GraphicsProcessingUnit' && <GpuForm/>}
+            {componentType === 'Storage' && <StorageForm/>}
             {
                 results &&
                 <table class="table">
@@ -86,4 +75,4 @@ const CauseOfFailure = () => {
     );
 }
 
-export default CauseOfFailure;
+export default ComponentRecommendation;

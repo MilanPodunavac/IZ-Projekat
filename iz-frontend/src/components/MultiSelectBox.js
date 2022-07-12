@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Multiselect from 'multiselect-react-dropdown';
 
-const MultiSelectBox = ({ selectedValue, setSelectedValue, path, message, className, propertyName }) => {
+const MultiSelectBox = ({ selectedValue, setSelectedValue, path, message, className, propertyName ,singleSelect}) => {
     const [objects, setObjects] = useState([]);
 
     useEffect(() => {
@@ -52,6 +52,7 @@ const MultiSelectBox = ({ selectedValue, setSelectedValue, path, message, classN
             displayValue="content"
             onSelect={(e) => changeHandle(e)}
             onRemove={(e) => changeHandle(e)}
+            singleSelect={singleSelect}
         >
         </Multiselect>
     );
