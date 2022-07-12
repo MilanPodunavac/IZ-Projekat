@@ -1,5 +1,6 @@
 package InzenjeringZnanja.controller;
 
+import InzenjeringZnanja.dto.AllComponentsByTypeDto;
 import InzenjeringZnanja.dto.ComponentShortDto;
 import InzenjeringZnanja.dto.ComponentTypesDto;
 import InzenjeringZnanja.dto.enums.ComponentTypes;
@@ -33,22 +34,27 @@ public class CommonController {
     }
 
     @GetMapping(value = "allPsu",produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<ComponentShortDto> GetAllPsu(){
-        return commonService.GetAllByString("power_supply_unit");
+    public AllComponentsByTypeDto GetAllPsu(){
+        return new AllComponentsByTypeDto(commonService.GetAllByString("power_supply_unit"));
     }
 
     @GetMapping(value = "allRam",produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<ComponentShortDto> GetAllRam(){
-        return commonService.GetAllByString("random_access_memory");
+    public AllComponentsByTypeDto GetAllRam(){
+        return new AllComponentsByTypeDto(commonService.GetAllByString("random_access_memory"));
     }
 
     @GetMapping(value = "allCpu",produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<ComponentShortDto> GetAllCPU(){
-        return commonService.GetAllByString("processor");
+    public AllComponentsByTypeDto GetAllCPU(){
+        return new AllComponentsByTypeDto(commonService.GetAllByString("processor"));
     }
 
     @GetMapping(value = "allGpu",produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<ComponentShortDto> GetAllGPU(){
-        return commonService.GetAllByString("Graphics_card");
+    public AllComponentsByTypeDto GetAllGPU(){
+        return new AllComponentsByTypeDto(commonService.GetAllByString("graphics_card"));
+    }
+
+    @GetMapping(value = "allMotherboards",produces = MediaType.APPLICATION_JSON_VALUE)
+    public AllComponentsByTypeDto GetAllMotherboards(){
+        return new AllComponentsByTypeDto(commonService.GetAllByString("motherboard"));
     }
 }

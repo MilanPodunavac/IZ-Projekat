@@ -35,7 +35,6 @@ const CauseOfFailure = () => {
                 <div className="mb-3">
                     <label className="form-label">Malfunction causes</label>
                     <MultiSelectBox
-                        className="form-control"
                         selectedValue={causes}
                         setSelectedValue={causesSelector}
                         path={"api/Bayes/malfunctionCauses"}
@@ -45,7 +44,6 @@ const CauseOfFailure = () => {
                 <div className="mb-3">
                     <label className="form-label">Computer symptoms</label>
                     <MultiSelectBox
-                        className="form-control"
                         selectedValue={symptoms}
                         setSelectedValue={symptomsSelector}
                         path={"api/Bayes/computerSymptoms"}

@@ -27,7 +27,6 @@ const ComponentRecommendation = () => {
                 <div className="mb-3">
                     <label className="form-label">Choose component for upgrade</label>
                     <MultiSelectBox
-                        className="form-control"
                         selectedValue={componentType}
                         setSelectedValue={componentTypeSelector}
                         path={"api/common/componentTypes"}
