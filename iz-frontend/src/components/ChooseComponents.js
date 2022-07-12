@@ -1,6 +1,5 @@
 import { useState } from "react";
 import axios from 'axios';
-//import Swal from "sweetalert2";
 import ComponentSelectBox from "./ComponentSelectBox";
 import SimilarityTable from "./SimilarityTable";
 import CompatibilityTable from "./CompatibilityTable";
@@ -24,28 +23,40 @@ const ChooseComponents = ({useCase}) => {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        if(useCase==='compatibility'){
-            //TODO: submit to compatibility endpoint
-        }else{
-            //TODO: submit to similar PCs endpoint
-        }
-        /*const bayes = {
-            "computerSymptomsList": symptoms,
-            "malfunctionCausesList": causes
-        };
         setIsPending(true);
-        axios.post(axios.defaults.baseURL + 'api/Bayes', bayes).then(res => {
-            setResults(res.data.results);
-            setIsPending(false);
-        }).catch((err) => { console.log(err) });*/
-    }
-
-    function getPercentageFromProbability(data) {
-        return data * 100;
+        if(useCase==='compatibility'){
+            const dto = {
+                "motherboard": motherboard,
+                "psu": psu,
+                "cpu": cpu,
+                "gpu": gpu,
+                "ram": ram,
+                "storage": storage
+            };
+            setIsPending(true);
+            axios.post(axios.defaults.baseURL + 'api/compatibility', dto).then(res => {
+                setResults(res.data.results);
+                setIsPending(false);
+            }).catch((err) => { console.log(err) });
+        }else{
+            const dto = {
+                "motherboard": motherboard,
+                "psu": psu,
+                "cpu": cpu,
+                "gpu": gpu,
+                "ram": ram,
+                "storage": storage
+            };
+            setIsPending(true);
+            axios.post(axios.defaults.baseURL + 'api/similarity', dto).then(res => {
+                setResults(res.data.results);
+                setIsPending(false);
+            }).catch((err) => { console.log(err) });
+        }
     }
 
     function isSubmitDisabled() {
-        return true;
+        return false;
     }
 
     return (
@@ -114,8 +125,8 @@ const ChooseComponents = ({useCase}) => {
                     {isPending && <label>Waiting for results...</label>}
                 </div>
             </form>
-            {useCase==='compatibility' && <CompatibilityTable/>}
-            {useCase==='similarity' && <SimilarityTable/>}
+            {useCase==='compatibility' && <CompatibilityTable results={results}/>}
+            {useCase==='similarity' && <SimilarityTable results={results}/>}
         </div>
     );
 }
