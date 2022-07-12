@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ComponentSelectBox from "./ComponentSelectBox";
 import axios from 'axios';
+import RamTable from "./RamTable";
 
 const RamForm = () => {
     const [motherboard, setMotherboard] = useState();
@@ -15,11 +16,13 @@ const RamForm = () => {
         const dto = {
             "motherboard": motherboard,
         };
-        setIsPending(true);
         axios.post(axios.defaults.baseURL + 'api/ram', dto).then(res => {
             setResults(res.data.results);
             setIsPending(false);
-        }).catch((err) => { console.log(err) });
+        }).catch((err) => { 
+            console.log(err);
+            setIsPending(false);
+        });
     }
 
     function isSubmitDisabled() {
@@ -48,6 +51,9 @@ const RamForm = () => {
                     {isPending && <label>Waiting for results...</label>}
                 </div>
             </form>
+            {
+                results && <RamTable results={results}/>
+            }
         </>
     );
 }

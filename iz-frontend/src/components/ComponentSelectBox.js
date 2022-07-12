@@ -11,11 +11,11 @@ const ComponentSelectBox = ({ selectedValue, setSelectedValue, path, message, cl
         }).catch(err => {
             console.log(err);
         })
-    }, [])
+    })
 
     const setJson = (data) => {
         let json = []
-        console.log(data)
+
         if (data[propertyName] || data.length>=0) {
             data[propertyName].forEach((dataMember) => {
                 

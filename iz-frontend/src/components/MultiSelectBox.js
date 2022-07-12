@@ -11,7 +11,7 @@ const MultiSelectBox = ({ selectedValue, setSelectedValue, path, message, classN
         }).catch(err => {
             console.log(err);
         })
-    }, [])
+    })
 
     const setJson = (data) => {
         let json = []
