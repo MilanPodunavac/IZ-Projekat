@@ -13,12 +13,14 @@ const ChooseComponents = ({useCase}) => {
     const [cpu, setCpu] = useState();
     const [gpu, setGpu] = useState();
     const [ram, setRam] = useState();
+    const [storage, setStorage] = useState();
 
     const cpuSelector = selected => setCpu(selected[0]);
     const gpuSelector = selected => setGpu(selected[0]);
     const ramSelector = selected => setRam(selected[0]);
     const motherboardSelector = selected => setMotherboard(selected[0]);
     const psuSelector = selected => setPsu(selected[0]);
+    const storageSelector = selected => setStorage(selected[0]);
 
     const onSubmit = async (e) => {
         e.preventDefault();
@@ -90,6 +92,15 @@ const ChooseComponents = ({useCase}) => {
                     <ComponentSelectBox
                         setSelectedValue={ramSelector}
                         path={"api/common/allRam"}
+                        message={""}
+                        propertyName={'componentShortDtoList'}
+                        singleSelect={true} />
+                </div>
+                <div className="mb-3">
+                    <label className="form-label">Choose storage:</label>
+                    <ComponentSelectBox
+                        setSelectedValue={storageSelector}
+                        path={"api/common/allMemoryDrives"}
                         message={""}
                         propertyName={'componentShortDtoList'}
                         singleSelect={true} />

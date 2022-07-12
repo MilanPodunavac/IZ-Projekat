@@ -1,7 +1,6 @@
 package InzenjeringZnanja.controller;
 
 import InzenjeringZnanja.dto.AllComponentsByTypeDto;
-import InzenjeringZnanja.dto.ComponentShortDto;
 import InzenjeringZnanja.dto.ComponentTypesDto;
 import InzenjeringZnanja.dto.enums.ComponentTypes;
 import InzenjeringZnanja.service.CommonService;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -56,5 +54,10 @@ public class CommonController {
     @GetMapping(value = "allMotherboards",produces = MediaType.APPLICATION_JSON_VALUE)
     public AllComponentsByTypeDto GetAllMotherboards(){
         return new AllComponentsByTypeDto(commonService.GetAllByString("motherboard"));
+    }
+
+    @GetMapping(value = "allMemoryDrives",produces = MediaType.APPLICATION_JSON_VALUE)
+    public AllComponentsByTypeDto GetAllMemoryDrives(){
+        return new AllComponentsByTypeDto(commonService.GetAllByString("memory_drive"));
     }
 }

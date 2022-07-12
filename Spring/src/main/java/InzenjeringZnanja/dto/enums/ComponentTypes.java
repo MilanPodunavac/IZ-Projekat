@@ -6,5 +6,5 @@ public enum ComponentTypes {
     CentralProcessingUnit,
     GraphicsProcessingUnit,
     PowerSupplyUnit,
-    //Storage
+    Storage
 }
