@@ -107,8 +107,12 @@ public class MotherboardController {
         return dto;
     }
 
-    @GetMapping(value = "Compatible/{processorIri}/{coolingSystemIri}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<MotherboardDTO> GetCompatibleMotherboards(@PathVariable(value="processorIri") String processorIri, @PathVariable(value="coolingSystemIri") String coolingSystemIri){
+    @GetMapping(value = "Compatible/{processorIri}/{coolingSystemIri}/{caseIri}/{soundCardIri}/{ramIri}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<MotherboardDTO> GetCompatibleMotherboards(@PathVariable(value="processorIri") String processorIri,
+                                                          @PathVariable(value="coolingSystemIri") String coolingSystemIri,
+                                                          @PathVariable(value="caseIri") String caseIri,
+                                                          @PathVariable(value="soundCardIri") String soundCardIri,
+                                                          @PathVariable(value="ramIri") String ramIri){
         String selectString = SparqlConstants.Prefix +
                 "SELECT *\n" +
                 "WHERE {\n" +
@@ -116,6 +120,11 @@ public class MotherboardController {
                 "?motherboard iz:socket ?socket .\n" +
                 "ontology_instances:" + processorIri + " iz:socket ?socket .\n" +
                 "ontology_instances:" + coolingSystemIri + " iz:socket ?socket .\n" +
+                "ontology_instances:" + caseIri + " iz:Computer_casing_supported_motherboard_formats ?format ." +
+                "ontology_instances:" + soundCardIri + " iz:chipset ?chipset ." +
+                "ontology_instances:" + ramIri + " iz:RAM_type ?ramType ." +
+                "ontology_instances:" + ramIri + " iz:RAM_type ?neededRamFrequency ." +
+                "FILTER (?neededRamFrequency <=  ?ramMaxFrequency) ." +
                 "  OPTIONAL {?motherboard iz:has_a_name ?name ;}\n" +
                 "  OPTIONAL {?motherboard iz:costs ?cost .}\n" +
                 "  OPTIONAL {?motherboard iz:is_introduced ?timeOfIntroduction .}\n" +
