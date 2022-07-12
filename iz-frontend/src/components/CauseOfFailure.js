@@ -1,6 +1,5 @@
 import { useState } from "react";
 import axios from 'axios';
-//import Swal from "sweetalert2";
 import MultiSelectBox from "./MultiSelectBox";
 
 const CauseOfFailure = () => {
@@ -19,7 +18,10 @@ const CauseOfFailure = () => {
         axios.post(axios.defaults.baseURL + 'api/Bayes', bayes).then(res => {
             setResults(res.data.results);
             setIsPending(false);
-        }).catch((err) => { console.log(err) });
+        }).catch((err) => { 
+            console.log(err);
+            setIsPending(false);
+        });
     }
 
     const causesSelector = causes => setCauses(causes);
@@ -61,7 +63,7 @@ const CauseOfFailure = () => {
             </form>
             {
                 results &&
-                <table class="table">
+                <table className="table">
                     <thead>
                         <tr>
                             <th scope="col">#</th>

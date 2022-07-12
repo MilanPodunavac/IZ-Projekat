@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ComponentSelectBox from "./ComponentSelectBox";
 import axios from 'axios';
+import StorageTable from "./StorageTable";
 
 const StorageForm = () => {
     const [motherboard, setMotherboard] = useState();
@@ -15,11 +16,13 @@ const StorageForm = () => {
         const dto = {
             "motherboard": motherboard,
         };
-        setIsPending(true);
         axios.post(axios.defaults.baseURL + 'api/storage', dto).then(res => {
             setResults(res.data.results);
             setIsPending(false);
-        }).catch((err) => { console.log(err) });
+        }).catch((err) => { 
+            console.log(err);
+            setIsPending(false);
+        });
     }
 
     function isSubmitDisabled() {
@@ -28,18 +31,18 @@ const StorageForm = () => {
 
     return (
         <>
-        <hr/>
-        <form style={{ maxWidth: "50%", margin: "auto" }}>
-            <div className="mb-3">
-                <label className="form-label">Choose motherboard:</label>
-                <ComponentSelectBox
-                    setSelectedValue={motherboardSelector}
-                    path={"api/common/allMotherboards"}
-                    message={""}
-                    propertyName={'componentShortDtoList'} 
-                    singleSelect={true}/>
-            </div>
-            <div className="mb-3">
+            <hr />
+            <form style={{ maxWidth: "50%", margin: "auto" }}>
+                <div className="mb-3">
+                    <label className="form-label">Choose motherboard:</label>
+                    <ComponentSelectBox
+                        setSelectedValue={motherboardSelector}
+                        path={"api/common/allMotherboards"}
+                        message={""}
+                        propertyName={'componentShortDtoList'}
+                        singleSelect={true} />
+                </div>
+                <div className="mb-3">
                     {!isPending &&
                         <span className="right">
                             <button disabled={isSubmitDisabled()} to="#" onClick={(e) => onSubmit(e)} type="submit" className="btn btn-primary">Submit</button>
@@ -47,7 +50,10 @@ const StorageForm = () => {
                     }
                     {isPending && <label>Waiting for results...</label>}
                 </div>
-        </form>
+            </form>
+            {
+                results && <StorageTable results={results}/>
+            }
         </>
     );
 }

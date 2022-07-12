@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ComponentSelectBox from "./ComponentSelectBox";
 import axios from 'axios';
+import GpuTable from "./GpuTable";
 
 const GpuForm = () => {
     const [motherboard, setMotherboard] = useState();
@@ -18,11 +19,13 @@ const GpuForm = () => {
             "motherboard": motherboard,
             "psu": psu
         };
-        setIsPending(true);
         axios.post(axios.defaults.baseURL + 'api/gpu', dto).then(res => {
             setResults(res.data.results);
             setIsPending(false);
-        }).catch((err) => { console.log(err) });
+        }).catch((err) => { 
+            console.log(err);
+            setIsPending(false);
+        });
     }
 
     function isSubmitDisabled() {
@@ -60,6 +63,9 @@ const GpuForm = () => {
                     {isPending && <label>Waiting for results...</label>}
                 </div>
             </form>
+            {
+                results && <GpuTable results={results}/>
+            }
         </>
     );
 }

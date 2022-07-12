@@ -37,7 +37,10 @@ const ChooseComponents = ({useCase}) => {
             axios.post(axios.defaults.baseURL + 'api/compatibility', dto).then(res => {
                 setResults(res.data.results);
                 setIsPending(false);
-            }).catch((err) => { console.log(err) });
+            }).catch((err) => { 
+                console.log(err);
+                setIsPending(false);
+            });
         }else{
             const dto = {
                 "motherboard": motherboard,
@@ -51,7 +54,10 @@ const ChooseComponents = ({useCase}) => {
             axios.post(axios.defaults.baseURL + 'api/similarity', dto).then(res => {
                 setResults(res.data.results);
                 setIsPending(false);
-            }).catch((err) => { console.log(err) });
+            }).catch((err) => { 
+                console.log(err);
+                setIsPending(false);
+            });
         }
     }
 

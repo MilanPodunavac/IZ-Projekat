@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ComponentSelectBox from "./ComponentSelectBox";
 import axios from 'axios';
+import PsuTable from "./PsuTable";
 
 const PsuForm = () => {
     const [cpu, setCpu] = useState();
@@ -18,11 +19,13 @@ const PsuForm = () => {
             "cpu": cpu,
             "gpu": gpu
         };
-        setIsPending(true);
         axios.post(axios.defaults.baseURL + 'api/psu', dto).then(res => {
             setResults(res.data.results);
             setIsPending(false);
-        }).catch((err) => { console.log(err) });
+        }).catch((err) => { 
+            console.log(err);
+            setIsPending(false);
+        });
     }
 
     function isSubmitDisabled() {
@@ -60,6 +63,9 @@ const PsuForm = () => {
                     {isPending && <label>Waiting for results...</label>}
                 </div>
             </form>
+            {
+                results && <PsuTable results={results}/>
+            }
         </>
     );
 }

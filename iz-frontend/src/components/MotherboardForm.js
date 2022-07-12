@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ComponentSelectBox from "./ComponentSelectBox";
 import axios from 'axios';
+import MotherboardTable from "./MotherboardTable";
 
 const MotherboardForm = () => {
     const [cpu, setCpu] = useState();
@@ -21,11 +22,13 @@ const MotherboardForm = () => {
             "gpu": gpu,
             "ram": ram
         };
-        setIsPending(true);
         axios.post(axios.defaults.baseURL + 'api/motherboard', dto).then(res => {
             setResults(res.data.results);
             setIsPending(false);
-        }).catch((err) => { console.log(err) });
+        }).catch((err) => { 
+            console.log(err);
+            setIsPending(false);
+        });
     }
 
     function isSubmitDisabled() {
@@ -72,6 +75,9 @@ const MotherboardForm = () => {
                     {isPending && <label>Waiting for results...</label>}
                 </div>
             </form>
+            {
+                results && <MotherboardTable results={results}/>
+            }
         </>
     );
 }
