@@ -41,7 +41,8 @@ const ComponentSelectBox = ({ selectedValue, setSelectedValue, path, message, cl
             displayValue="content"
             onSelect={(e) => changeHandle(e)}
             onRemove={(e) => changeHandle(e)}
-            singleSelect={singleSelect}
+            //singleSelect={singleSelect}
+            selectionLimit={1}
         >
         </Multiselect>
     );
