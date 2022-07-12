@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="044b0f8f-9f7f-444f-bae0-cb7c64e414d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/CpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/CpuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/GpuDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/GpuDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/PsuDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/PsuDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/service/GpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/service/GpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/service/CpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/service/CpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-v001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../catalog-v001.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/apache-jena-4.4.0/lib/commons-cli-1.5.0.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ontology_instances.owl" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -103,7 +102,7 @@
       <workItem from="1657447781772" duration="2873000" />
       <workItem from="1657491081518" duration="595000" />
       <workItem from="1657571396254" duration="5138000" />
-      <workItem from="1657621734877" duration="5767000" />
+      <workItem from="1657621734877" duration="9036000" />
     </task>
     <servers />
   </component>
