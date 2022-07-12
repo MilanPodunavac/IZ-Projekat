@@ -15,6 +15,7 @@ const ComponentSelectBox = ({ selectedValue, setSelectedValue, path, message, cl
 
     const setJson = (data) => {
         let json = []
+        console.log(data)
         if (data[propertyName] || data.length>=0) {
             data[propertyName].forEach((dataMember) => {
                 
