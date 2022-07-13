@@ -48,7 +48,6 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
-        <IZ-Projekat:has_a_name></IZ-Projekat:has_a_name>
         <IZ-Projekat:has_a_name>AMD Processor A6-9500E</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
@@ -62,7 +61,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">150.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>AMD Processor Ryzen 3 1200</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -75,7 +76,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>AMD Processor Ryzen 5 5600G</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -88,7 +91,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>AMD Processor Ryzen 5 AM4 5600X</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -101,7 +106,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>AMD Processor Ryzen 5 PRO 4650G</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -114,7 +121,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">320.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>AMD Processor Ryzen 7 5700G</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -127,7 +136,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">350.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>AMD Processor Ryzen 7 AM4 5800X</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -140,7 +151,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">600.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>AMD Processor Ryzen 9 5900X</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -271,7 +284,7 @@
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">384</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_DP_connectors>
-        <IZ-Projekat:GPU_DirectX_Version></IZ-Projekat:GPU_DirectX_Version>
+        <IZ-Projekat:GPU_DirectX_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</IZ-Projekat:GPU_DirectX_Version>
         <IZ-Projekat:GPU_HDMI_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_HDMI_connectors>
         <IZ-Projekat:GPU_Memory_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5010</IZ-Projekat:GPU_Memory_clock>
         <IZ-Projekat:GPU_Memory_size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_Memory_size>
@@ -283,6 +296,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>ASUS GeForce GT 730 2GB GDDR5</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -308,6 +322,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">302.98</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>ASUS Dual GeForce RTX 2060 EVO 6GB GDDR6</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -321,7 +336,7 @@
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2176</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_DP_connectors>
-        <IZ-Projekat:GPU_DirectX_Version></IZ-Projekat:GPU_DirectX_Version>
+        <IZ-Projekat:GPU_DirectX_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 ultimate</IZ-Projekat:GPU_DirectX_Version>
         <IZ-Projekat:GPU_HDMI_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_HDMI_connectors>
         <IZ-Projekat:GPU_Memory_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14000</IZ-Projekat:GPU_Memory_clock>
         <IZ-Projekat:GPU_Memory_size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</IZ-Projekat:GPU_Memory_size>
@@ -333,6 +348,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">379.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>ASUS Dual GeForce RTX 2060 EVO OC Edition 12GB GDDR6</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -409,6 +425,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">683.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>ASUS DUAL GeForce RTX 3060 Ti V2 MINI OC Edition</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -1230,6 +1247,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1000.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Gigabyte nVidia GeForce RTX 3060 Ti Gaming OC</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">282</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -1255,6 +1273,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Gigabyte RX-570 GAMING 8G</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1364,7 +1383,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i3-6100</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1377,7 +1398,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i3-6100T</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1390,7 +1413,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.6</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">150.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i5-10400F</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1403,7 +1428,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i5-4460</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1416,7 +1443,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">170.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i5-6400</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1429,7 +1458,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">170.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i5-6500</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1442,7 +1473,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i5-6500T</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1455,7 +1488,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i5-8400</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1468,7 +1503,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">150.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i6-6400T</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1481,7 +1518,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i7-10700</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1494,7 +1533,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i7-4790</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1507,7 +1548,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">400.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i7-6700</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1520,6 +1563,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">420.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i7-6700K</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
@@ -1533,7 +1577,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">410.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i7-6700T</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1546,7 +1592,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">450.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i7-7700</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1559,7 +1607,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">500.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i7-8700</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1572,7 +1622,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i7-8700K</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1585,7 +1637,9 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">800.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Intel Processor i9-10900K</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -2095,6 +2149,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">666.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Palit GeForce RTX 3060 Dual</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.5</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -2236,6 +2291,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1250.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Nvidia ASUS ROG STRIX RTX 3070 Ti</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.85</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -2261,6 +2317,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1100.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Nvidia MSI RTX 3070 Ti Gaming X Trio</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.3</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -2288,6 +2345,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">856.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Gigabyte Radeon RX 6700 XT EAGLE 12G</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.2</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -2314,6 +2372,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">160.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>AMD Radeon RX 570 XFX</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.3</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -2429,6 +2488,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD NVMe M.2 1TB Samsung 980 PRO-MZ-V8P1T0BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000</IZ-Projekat:read_speed>
@@ -2443,6 +2503,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD NVMe M.2 250GB Samsung 980 PRO-MZ-V8P250BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6400</IZ-Projekat:read_speed>
@@ -2457,6 +2518,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD NVMe M.2 500GB Samsung 980 PRO-MZ-V8P500BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6900</IZ-Projekat:read_speed>
@@ -2571,6 +2633,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">858.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Sapphire AMD Radeon Pulse RX 6700 XT</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -2785,6 +2848,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">370.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>ZOTAC GAMING GeForce RTX 3050 Twin Edge OC</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -2810,6 +2874,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">799.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>ZOTAC GAMING GeForce RTX 3080 AMP Holo LHR 12GB</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -2836,6 +2901,7 @@
         <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_width>
         <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>ZOTAC GAMING GeForce RTX 3060 AMP</IZ-Projekat:has_a_name>
+        <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nVidia</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.19</IZ-Projekat:length>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
@@ -2982,6 +3048,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:capacity>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</IZ-Projekat:costs>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7200</IZ-Projekat:disc_rotation_speed>
         <IZ-Projekat:has_a_name>HDD 3,5inch 6TB Seagate Exos E 7E8-ST6000NM029A</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>HDD</IZ-Projekat:is_type_of>
@@ -2996,6 +3063,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">130.0</IZ-Projekat:costs>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5400</IZ-Projekat:disc_rotation_speed>
         <IZ-Projekat:has_a_name>HDD 3,5inch SATA3 5400 4TB WD RED WD40EFAX</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>HDD</IZ-Projekat:is_type_of>
@@ -3010,6 +3078,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3072</IZ-Projekat:capacity>
         <IZ-Projekat:connection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">140.0</IZ-Projekat:costs>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5400</IZ-Projekat:disc_rotation_speed>
         <IZ-Projekat:has_a_name>HDD 3,5inch SATA 3TB Western Digital Purple Surveillance WD30PURZ</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HDD</IZ-Projekat:is_type_of>
@@ -3024,6 +3093,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</IZ-Projekat:costs>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7200</IZ-Projekat:disc_rotation_speed>
         <IZ-Projekat:has_a_name>HDD 3,5inch SATA 6TB Toshiba Enterprise Capacity MG06ACA-MG06ACA6</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>HDD</IZ-Projekat:is_type_of>
@@ -3117,6 +3187,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">150.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD 2,5inch SATA3 1TB Samsung MZ-77E1T0B</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
@@ -3131,6 +3202,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_500GB_Samsung_870_EVO_530_MB/s/560_MB/s_-_MZ-77E500B">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD 2,5inch 500GB Samsung 870 EVO 530 MB/s/560 MB/s -MZ-77E500B</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
@@ -3146,6 +3218,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2048</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD 2,5inch SATA3 2TB Samsung 870 EVO MZ-77E2T0B/EU</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
@@ -3161,6 +3234,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">280.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD M.2 1TB Western Digital 5300 MB/s / 7000 MB/s WDS100T1X0E</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000</IZ-Projekat:read_speed>
@@ -3175,6 +3249,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">140.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD M.2 250GB Samsung 2900 MB/s / 1300 MB/s MZ-V8V250BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2900</IZ-Projekat:read_speed>
@@ -3189,6 +3264,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">140.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD M.2 500GB Samsung 2900 MB/s / 1300 MB/s MZ-V8V500BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2900</IZ-Projekat:read_speed>
@@ -3203,6 +3279,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">160.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD M.2 500GB Samsung 970 EVO PLUS V-NAND NVMe 3500/3200 MB/s MZ-V7S5</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3500</IZ-Projekat:read_speed>
@@ -3217,6 +3294,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">220.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD M.2 NVMe 1TB Patriot Viper 4700MBS/4200MBS VP4100-1TBM28H</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4700</IZ-Projekat:read_speed>
@@ -3231,6 +3309,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD SATA3 240GB AData 520/450 MB/s, HDD02649</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">520</IZ-Projekat:read_speed>
@@ -3245,6 +3324,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">160.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD SATA 512GB KC600 Kingston SKC600/512G</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
