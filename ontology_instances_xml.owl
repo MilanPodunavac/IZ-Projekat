@@ -131,6 +131,7 @@
         <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
+        <IZ-Projekat:socket>AM4</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -558,6 +559,7 @@
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</IZ-Projekat:max_rotation_frequency>
         <IZ-Projekat:noise_estimate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</IZ-Projekat:noise_estimate>
         <IZ-Projekat:number_of_fans rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:number_of_fans>
+        <IZ-Projekat:socket>AM4</IZ-Projekat:socket>
     </owl:NamedIndividual>
     
 
@@ -2306,8 +2308,8 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_PRIME_Z690M-PLUS_D4"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i9-10900K"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
-        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 4</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
@@ -2334,8 +2336,8 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_B560M_H_rev.1.x"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6400"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_FURY_Beast_32_GB"/>
-        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_SSD_VPN100-256GM28H"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 6</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
@@ -3336,6 +3338,8 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radimax_Case_with_Power_Supply_I328_TB_+_RX-800AC-V">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
+        <IZ-Projekat:Computer_casing_supported_motherboard_formats>ATX</IZ-Projekat:Computer_casing_supported_motherboard_formats>
+        <IZ-Projekat:Computer_casing_supported_motherboard_formats>Micro-ATX</IZ-Projekat:Computer_casing_supported_motherboard_formats>
     </owl:NamedIndividual>
     
 
