@@ -11,7 +11,7 @@ const ComponentSelectBox = ({ selectedValue, setSelectedValue, path, message, cl
         }).catch(err => {
             console.log(err);
         })
-    })
+    },[])
 
     const setJson = (data) => {
         let json = []

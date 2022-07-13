@@ -1634,11 +1634,6 @@ kilograms for computer casing [kg]""" .
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Form_factor
 :Form_factor rdf:type owl:Class ;
-             owl:equivalentClass [ rdf:type owl:Class ;
-                                   owl:unionOf ( :DIMM
-                                                 :SO-DIMM
-                                               )
-                                 ] ;
              rdfs:subClassOf :Random_access_memory .
 
 
