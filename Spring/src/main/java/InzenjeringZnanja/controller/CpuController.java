@@ -1,7 +1,6 @@
 package InzenjeringZnanja.controller;
 
 import InzenjeringZnanja.dto.CpuDto;
-import InzenjeringZnanja.model.CentralProcessingUnit;
 import InzenjeringZnanja.service.CpuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
