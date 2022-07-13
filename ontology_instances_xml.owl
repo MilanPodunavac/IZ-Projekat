@@ -2488,6 +2488,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD NVMe M.2 1TB Samsung 980 PRO-MZ-V8P1T0BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000</IZ-Projekat:read_speed>
@@ -2502,6 +2503,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD NVMe M.2 250GB Samsung 980 PRO-MZ-V8P250BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6400</IZ-Projekat:read_speed>
@@ -2516,6 +2518,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD NVMe M.2 500GB Samsung 980 PRO-MZ-V8P500BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6900</IZ-Projekat:read_speed>
@@ -3045,6 +3048,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:capacity>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</IZ-Projekat:costs>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7200</IZ-Projekat:disc_rotation_speed>
         <IZ-Projekat:has_a_name>HDD 3,5inch 6TB Seagate Exos E 7E8-ST6000NM029A</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>HDD</IZ-Projekat:is_type_of>
@@ -3059,6 +3063,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">130.0</IZ-Projekat:costs>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5400</IZ-Projekat:disc_rotation_speed>
         <IZ-Projekat:has_a_name>HDD 3,5inch SATA3 5400 4TB WD RED WD40EFAX</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>HDD</IZ-Projekat:is_type_of>
@@ -3073,6 +3078,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3072</IZ-Projekat:capacity>
         <IZ-Projekat:connection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">140.0</IZ-Projekat:costs>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5400</IZ-Projekat:disc_rotation_speed>
         <IZ-Projekat:has_a_name>HDD 3,5inch SATA 3TB Western Digital Purple Surveillance WD30PURZ</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HDD</IZ-Projekat:is_type_of>
@@ -3087,6 +3093,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</IZ-Projekat:costs>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7200</IZ-Projekat:disc_rotation_speed>
         <IZ-Projekat:has_a_name>HDD 3,5inch SATA 6TB Toshiba Enterprise Capacity MG06ACA-MG06ACA6</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>HDD</IZ-Projekat:is_type_of>
@@ -3180,6 +3187,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">150.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD 2,5inch SATA3 1TB Samsung MZ-77E1T0B</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
@@ -3194,6 +3202,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_500GB_Samsung_870_EVO_530_MB/s/560_MB/s_-_MZ-77E500B">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD 2,5inch 500GB Samsung 870 EVO 530 MB/s/560 MB/s -MZ-77E500B</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
@@ -3209,6 +3218,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2048</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD 2,5inch SATA3 2TB Samsung 870 EVO MZ-77E2T0B/EU</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
@@ -3224,6 +3234,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">280.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD M.2 1TB Western Digital 5300 MB/s / 7000 MB/s WDS100T1X0E</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000</IZ-Projekat:read_speed>
@@ -3238,6 +3249,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">140.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD M.2 250GB Samsung 2900 MB/s / 1300 MB/s MZ-V8V250BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2900</IZ-Projekat:read_speed>
@@ -3252,6 +3264,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">140.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD M.2 500GB Samsung 2900 MB/s / 1300 MB/s MZ-V8V500BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2900</IZ-Projekat:read_speed>
@@ -3266,6 +3279,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">160.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD M.2 500GB Samsung 970 EVO PLUS V-NAND NVMe 3500/3200 MB/s MZ-V7S5</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3500</IZ-Projekat:read_speed>
@@ -3280,6 +3294,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">220.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD M.2 NVMe 1TB Patriot Viper 4700MBS/4200MBS VP4100-1TBM28H</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4700</IZ-Projekat:read_speed>
@@ -3294,6 +3309,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD SATA3 240GB AData 520/450 MB/s, HDD02649</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">520</IZ-Projekat:read_speed>
@@ -3308,6 +3324,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">160.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SSD SATA 512GB KC600 Kingston SKC600/512G</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
