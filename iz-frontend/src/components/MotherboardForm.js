@@ -5,25 +5,21 @@ import MotherboardTable from "./MotherboardTable";
 
 const MotherboardForm = () => {
     const [cpu, setCpu] = useState();
-    const [gpu, setGpu] = useState();
+    const [cooler, setCooler] = useState();
     const [ram, setRam] = useState();
     const [isPending, setIsPending] = useState(false);
     const [results, setResults] = useState();
 
     const cpuSelector = selected => setCpu(selected[0]);
-    const gpuSelector = selected => setGpu(selected[0]);
+    const coolerSelector = selected => setCooler(selected[0]);
     const ramSelector = selected => setRam(selected[0]);
 
     const onSubmit = async (e) => {
         e.preventDefault();
         setIsPending(true);
-        const dto = {
-            "cpu": cpu,
-            "gpu": gpu,
-            "ram": ram
-        };
-        axios.post(axios.defaults.baseURL + 'api/motherboard', dto).then(res => {
-            setResults(res.data.results);
+        axios.get(axios.defaults.baseURL + 'api/Motherboard/Compatible/'+ cpu + '/'+ cooler + '/' + ram).then(res => {
+            setResults(res.data);
+            console.log(res.data)
             setIsPending(false);
         }).catch((err) => { 
             console.log(err);
@@ -32,7 +28,7 @@ const MotherboardForm = () => {
     }
 
     function isSubmitDisabled() {
-        return false;
+        return !cpu || !ram || !cooler;
     }
 
     return (
@@ -49,10 +45,10 @@ const MotherboardForm = () => {
                         singleSelect={true} />
                 </div>
                 <div className="mb-3">
-                    <label className="form-label">Choose GPU:</label>
+                    <label className="form-label">Choose cooler:</label>
                     <ComponentSelectBox
-                        setSelectedValue={gpuSelector}
-                        path={"api/common/allGpu"}
+                        setSelectedValue={coolerSelector}
+                        path={"api/common/allCoolers"}
                         message={""}
                         propertyName={'componentShortDtoList'}
                         singleSelect={true} />
