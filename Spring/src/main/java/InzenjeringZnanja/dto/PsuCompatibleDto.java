@@ -5,7 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PsuDto {
-    private String name;
-    private int wattage;
+public class PsuCompatibleDto {
+    private String gpuName;
 }
