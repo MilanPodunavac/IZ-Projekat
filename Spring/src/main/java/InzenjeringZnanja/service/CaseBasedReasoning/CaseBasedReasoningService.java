@@ -89,7 +89,7 @@ public class CaseBasedReasoningService implements StandardCBRApplication {
     public void cycle(CBRQuery cbrQuery) throws ExecutionException {
         result = new ArrayList<>();
         Collection<RetrievalResult> eval = NNScoringMethod.evaluateSimilarity(_caseBase.getCases(), cbrQuery, _simConfig);
-        eval = SelectCases.selectTopKRR(eval, 2); // STAVITI NA 5 KASNIJE
+        eval = SelectCases.selectTopKRR(eval, 5); // STAVITI NA 5 KASNIJE
         System.out.println("Retrieved cases:");
         for (RetrievalResult nse : eval){
             System.out.println(nse.get_case().getDescription() + " -> " + nse.getEval());
