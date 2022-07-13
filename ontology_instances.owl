@@ -24,15 +24,18 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_A6-9500E
 :AMD_Processor_A6-9500E rdf:type owl:NamedIndividual ,
                                  <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "AMD Processor A6-9500E" ;
                         <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3 ;
                         <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                         <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 2 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "" ;
                         <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_3_1200
 :AMD_Processor_Ryzen_3_1200 rdf:type owl:NamedIndividual ,
                                      <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "AMD Processor Ryzen 3 1200" ;
                             <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.1 ;
                             <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                             <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
@@ -42,6 +45,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_5600G
 :AMD_Processor_Ryzen_5_5600G rdf:type owl:NamedIndividual ,
                                       <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "AMD Processor Ryzen 5 5600G" ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.9 ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
@@ -51,6 +55,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_AM4_5600X
 :AMD_Processor_Ryzen_5_AM4_5600X rdf:type owl:NamedIndividual ,
                                           <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "AMD Processor Ryzen 5 AM4 5600X" ;
                                  <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
                                  <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                                  <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
@@ -60,6 +65,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_5_PRO_4650G
 :AMD_Processor_Ryzen_5_PRO_4650G rdf:type owl:NamedIndividual ,
                                           <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "AMD Processor Ryzen 5 PRO 4650G" ;
                                  <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
                                  <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                                  <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
@@ -69,6 +75,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_5700G
 :AMD_Processor_Ryzen_7_5700G rdf:type owl:NamedIndividual ,
                                       <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "AMD Processor Ryzen 7 5700G" ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
@@ -78,6 +85,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X
 :AMD_Processor_Ryzen_7_AM4_5800X rdf:type owl:NamedIndividual ,
                                           <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "AMD Processor Ryzen 7 AM4 5800X" ;
                                  <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.8 ;
                                  <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                                  <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 8 ;
@@ -87,6 +95,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_9_5900X
 :AMD_Processor_Ryzen_9_5900X rdf:type owl:NamedIndividual ,
                                       <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "AMD Processor Ryzen 9 5900X" ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 12 ;
@@ -1060,6 +1069,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i3-6100
 :Intel_Processor_i3-6100 rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i3-6100" ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 2 ;
@@ -1069,6 +1079,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i3-6100T
 :Intel_Processor_i3-6100T rdf:type owl:NamedIndividual ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i3-6100T" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.2 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 2 ;
@@ -1078,6 +1089,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-10400F
 :Intel_Processor_i5-10400F rdf:type owl:NamedIndividual ,
                                     <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i5-10400F" ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.6 ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
@@ -1087,6 +1099,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-4460
 :Intel_Processor_i5-4460 rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i5-4460" ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.2 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 2 ;
@@ -1096,6 +1109,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6400
 :Intel_Processor_i5-6400 rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i5-6400" ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.7 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
@@ -1105,6 +1119,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6500
 :Intel_Processor_i5-6500 rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i5-6500" ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.2 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
@@ -1114,6 +1129,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6500T
 :Intel_Processor_i5-6500T rdf:type owl:NamedIndividual ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i5-6500T" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.5 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
@@ -1123,6 +1139,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-8400
 :Intel_Processor_i5-8400 rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i5-8400" ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.8 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
@@ -1132,6 +1149,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i6-6400T
 :Intel_Processor_i6-6400T rdf:type owl:NamedIndividual ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i6-6400T" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.2 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
@@ -1141,6 +1159,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-10700
 :Intel_Processor_i7-10700 rdf:type owl:NamedIndividual ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i7-10700" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.9 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 8 ;
@@ -1150,6 +1169,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-4790
 :Intel_Processor_i7-4790 rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i7-4790" ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.6 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
@@ -1159,6 +1179,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700
 :Intel_Processor_i7-6700 rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i7-6700" ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.4 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
@@ -1168,6 +1189,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700K
 :Intel_Processor_i7-6700K rdf:type owl:NamedIndividual ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i7-6700K" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 4 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
@@ -1177,6 +1199,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700T
 :Intel_Processor_i7-6700T rdf:type owl:NamedIndividual ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i7-6700T" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 2.8 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
@@ -1186,6 +1209,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-7700
 :Intel_Processor_i7-7700 rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i7-7700" ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.6 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 4 ;
@@ -1195,6 +1219,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-8700
 :Intel_Processor_i7-8700 rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i7-8700" ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.2 ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                          <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
@@ -1204,6 +1229,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-8700K
 :Intel_Processor_i7-8700K rdf:type owl:NamedIndividual ,
                                    <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i7-8700K" ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.7 ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                           <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 6 ;
@@ -1213,6 +1239,7 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i9-10900K
 :Intel_Processor_i9-10900K rdf:type owl:NamedIndividual ,
                                     <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Intel Processor i9-10900K" ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.5 ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
                            <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 8 ;

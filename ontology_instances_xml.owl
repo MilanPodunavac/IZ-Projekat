@@ -48,6 +48,8 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name></IZ-Projekat:has_a_name>
+        <IZ-Projekat:has_a_name>AMD Processor A6-9500E</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -60,6 +62,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>AMD Processor Ryzen 3 1200</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -72,6 +75,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>AMD Processor Ryzen 5 5600G</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -84,6 +88,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>AMD Processor Ryzen 5 AM4 5600X</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -96,6 +101,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>AMD Processor Ryzen 5 PRO 4650G</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -108,6 +114,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>AMD Processor Ryzen 7 5700G</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -120,6 +127,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>AMD Processor Ryzen 7 AM4 5800X</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -132,6 +140,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>AMD Processor Ryzen 9 5900X</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -283,7 +292,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_DP_connectors>
@@ -308,7 +317,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2176</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_DP_connectors>
@@ -1358,6 +1367,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i3-6100</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1370,6 +1380,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i3-6100T</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1382,6 +1393,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.6</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i5-10400F</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1394,6 +1406,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i5-4460</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1406,6 +1419,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i5-6400</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1418,6 +1432,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i5-6500</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1430,6 +1445,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i5-6500T</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1442,6 +1458,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i5-8400</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1454,6 +1471,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i6-6400T</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1466,6 +1484,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i7-10700</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1478,6 +1497,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i7-4790</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1490,6 +1510,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i7-6700</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1502,6 +1523,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i7-6700K</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1514,6 +1536,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i7-6700T</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1526,6 +1549,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i7-7700</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1538,6 +1562,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i7-8700</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1550,6 +1575,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i7-8700K</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>
@@ -1562,6 +1588,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
         <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</IZ-Projekat:base_frequency>
         <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Intel Processor i9-10900K</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
     </owl:NamedIndividual>

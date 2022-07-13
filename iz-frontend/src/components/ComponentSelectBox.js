@@ -18,7 +18,8 @@ const ComponentSelectBox = ({ selectedValue, setSelectedValue, path, message, cl
 
         if (data[propertyName] || data.length>=0) {
             data[propertyName].forEach((dataMember) => {
-                
+
+                if(dataMember.name.length>0)
                 json = json.concat({
                     id: dataMember.name,
                     content: dataMember.name
