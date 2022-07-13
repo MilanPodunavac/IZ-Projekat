@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="044b0f8f-9f7f-444f-bae0-cb7c64e414d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/CpuCompatibleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/PsuCompatibleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/RamCompatibleDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/CpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/CpuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/PsuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/PsuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/RamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/RamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/PsuDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/PsuDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/RamDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/dto/RamDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/service/PsuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/service/PsuService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,17 +56,17 @@
   </component>
   <component name="RunManager" selected="Spring Boot.MainSpringApplication">
     <configuration name="MainSpringApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <module name="Spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="InzenjeringZnanja.MainSpringApplication" />
+      <option name="ACTIVE_PROFILES" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <module name="Spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="InzenjeringZnanja.MainSpringApplication" />
+      <option name="ACTIVE_PROFILES" />
       <option name="VM_PARAMETERS" value="-Djava.awt.headless=false" />
       <method v="2">
         <option name="Make" enabled="true" />
