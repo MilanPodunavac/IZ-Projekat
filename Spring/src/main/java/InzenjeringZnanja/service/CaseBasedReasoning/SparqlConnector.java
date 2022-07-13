@@ -176,7 +176,7 @@ public class SparqlConnector implements Connector {
         disk1.setName("Nvme 500gb 3500mb/s");
         disk1. setSpeed(3500);
         disk1.setCapacity(500);
-        disk1.setType("nvme ssd");
+        disk1.setType("NVME");
         PersonalComputer pc1 = new PersonalComputer();
         pc1.setName("Ralov komp");
         pc1.setRam(ram1);
