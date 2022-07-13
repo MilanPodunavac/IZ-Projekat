@@ -37,43 +37,50 @@ public class SparqlConnector implements Connector {
     @Override
     public Collection<CBRCase> retrieveAllCases() {
         List<CBRCase> pcs = new ArrayList<CBRCase>();
-        String sparqlQuery = SparqlConstants.Prefix + "SELECT ?pcName ?cpuName ?gpuName ?mbName ?ramName ?diskName ?core ?cpuFrequency ?cpuTdp ?memoryDriveCapacity ?memoryDriveSpeed ?memoryDriveRotation ?memoryDriveConnection ?memoryDriveType ?mbChipset ?mbRamSlots ?mbMaximumRamFreq ?mbMaximumRamSize ?mbRamType ?RamCapacity ?RamFreq ?RamModules ?gpuTdp ?gpuMemSize WHERE {\n" +
-                "  ?sub rdf:type iz:Desktop_system .\n" +
-                "  OPTIONAL {?sub iz:has_a_name ?pcName.}\n" +
-                "  ?sub iz:contains ?cpu.\n" +
-                "  ?cpu rdf:type iz:Processor.\n" +
-                "  ?cpu iz:number_of_cores ?core.\n" +
-                "  ?cpu iz:base_frequency ?cpuFrequency.\n" +
-                "  ?cpu iz:thermal_design_power ?cpuTdp.\n" +
-                "  OPTIONAL {?cpu iz:has_a_name ?cpuName.}\n" +
-                "  ?sub iz:contains ?drive.\n" +
-                "  ?drive rdf:type iz:Memory_drive.\n" +
-                "  OPTIONAL {?drive iz:disc_rotation_speed ?memoryDriveRotation.}\n" +
-                "  OPTIONAL {?drive iz:write_speed ?memoryDriveSpeed.}\n" +
-                "  ?drive iz:connection ?memoryDriveConnection.\n" +
-                "  ?drive iz:is_type_of ?memoryDriveType.\n" +
-                "  ?drive iz:capacity ?memoryDriveCapacity.\n" +
-                "  OPTIONAL {?drive iz:has_a_name ?diskName.}\n" +
-                "  ?sub iz:contains ?mb.\n" +
-                "  OPTIONAL {?mb iz:has_a_name ?mbName.}\n" +
-                "  ?mb rdf:type iz:Motherboard.\n" +
-                "  ?mb iz:motherboard_chipset ?mbChipset.\n" +
-                "  ?mb iz:motherboard_DIMM_slots ?mbRamSlots.\n" +
-                "  ?mb iz:RAM_type ?mbRamType.\n" +
-                "  ?mb iz:RAM_maximum_frequency ?mbMaximumRamFreq.\n" +
-                "  ?mb iz:maximum_RAM ?mbMaximumRamSize.\n" +
-                "  ?sub iz:contains ?ram.\n" +
-                "  ?ram rdf:type iz:Random_access_memory.\n" +
-                "  OPTIONAL {?ram iz:RAM_modules_capacity ?RamCapacity.}\n" +
-                "  OPTIONAL {?ram iz:RAM_modules_number ?RamModules.}\n" +
-                "  OPTIONAL {?ram iz:RAM_maximum_frequency ?RamFreq.}\n" +
-                "  OPTIONAL {?ram iz:has_a_name ?ramName.}\n" +
-                "  ?sub iz:contains ?gpu.\n" +
-                "  ?gpu rdf:type iz:NVIDIA-GPU.\n" +
-                "  ?gpu iz:thermal_design_power ?gpuTdp.\n" +
-                "  ?gpu iz:GPU_Memory_size ?gpuMemSize.\n" +
-                "  OPTIONAL {?gpu iz:has_a_name ?gpuName.}\n" +
-                "}";
+        String sparqlQuery = SparqlConstants.Prefix + "SELECT ?pcName ?cpuName ?gpuName ?mbName ?ramName ?diskName \n" +
+                "                ?core ?cpuFrequency ?cpuTdp ?cpuManufacturer \n" +
+                "                ?memoryDriveCapacity ?memoryDriveSpeed ?memoryDriveRotation ?memoryDriveConnection ?memoryDriveType \n" +
+                "                ?mbChipset ?mbRamSlots ?mbMaximumRamFreq ?mbMaximumRamSize ?mbRamType \n" +
+                "                ?RamCapacity ?RamFreq ?RamModules \n" +
+                "                ?gpuTdp ?gpuMemSize ?gpuManufacturer WHERE {\n" +
+                "                ?sub rdf:type iz:Desktop_system .\n" +
+                "                ?sub iz:has_a_name ?pcName.\n" +
+                "                ?sub iz:contains ?cpu.\n" +
+                "                ?cpu rdf:type iz:Processor.\n" +
+                "                ?cpu iz:number_of_cores ?core.\n" +
+                "                ?cpu iz:base_frequency ?cpuFrequency.\n" +
+                "                ?cpu iz:thermal_design_power ?cpuTdp.\n" +
+                "                ?cpu iz:has_a_name ?cpuName.\n" +
+                "                ?cpu iz:is_manufactured_by ?cpuManufacturer.\n" +
+                "                ?sub iz:contains ?drive.\n" +
+                "                ?drive rdf:type iz:Memory_drive.\n" +
+                "                OPTIONAL {?drive iz:disc_rotation_speed ?memoryDriveRotation.}\n" +
+                "                OPTIONAL {?drive iz:write_speed ?memoryDriveSpeed.}\n" +
+                "                ?drive iz:connection ?memoryDriveConnection.\n" +
+                "                ?drive iz:is_type_of ?memoryDriveType.\n" +
+                "                ?drive iz:capacity ?memoryDriveCapacity.\n" +
+                "                ?drive iz:has_a_name ?diskName.\n" +
+                "                ?sub iz:contains ?mb.\n" +
+                "                ?mb iz:has_a_name ?mbName.\n" +
+                "                ?mb rdf:type iz:Motherboard.\n" +
+                "                ?mb iz:motherboard_chipset ?mbChipset.\n" +
+                "                ?mb iz:motherboard_DIMM_slots ?mbRamSlots.\n" +
+                "                ?mb iz:RAM_type ?mbRamType.\n" +
+                "                ?mb iz:RAM_maximum_frequency ?mbMaximumRamFreq.\n" +
+                "                ?mb iz:maximum_RAM ?mbMaximumRamSize.\n" +
+                "                ?sub iz:contains ?ram.\n" +
+                "                ?ram rdf:type iz:Random_access_memory.\n" +
+                "                ?ram iz:RAM_modules_capacity ?RamCapacity.\n" +
+                "                ?ram iz:RAM_modules_number ?RamModules.\n" +
+                "                ?ram iz:RAM_maximum_frequency ?RamFreq.\n" +
+                "                ?ram iz:has_a_name ?ramName.\n" +
+                "                ?sub iz:contains ?gpu.\n" +
+                "                ?gpu rdf:type iz:Graphics_card.\n" +
+                "                ?gpu iz:thermal_design_power ?gpuTdp.\n" +
+                "                ?gpu iz:GPU_Memory_size ?gpuMemSize.\n" +
+                "                ?gpu iz:has_a_name ?gpuName.\n" +
+                "                ?gpu iz:is_manufactured_by ?gpuManufacturer.\n" +
+                "                }";
         Query query = QueryFactory.create(sparqlQuery);
         QueryExecution qexec = QueryExecutionFactory.sparqlService(SparqlConstants.SELECT_URL, query);
         ResultSet results = qexec.execSelect();
