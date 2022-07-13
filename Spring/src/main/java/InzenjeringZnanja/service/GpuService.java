@@ -14,7 +14,7 @@ public class GpuService {
                 "WHERE {\n" +
                 "?gpu rdf:type iz:Graphics_card .\n" +
                 "?gpu iz:has_a_name \"" + name + "\".\n" +
-                "  ?cpu rdf:type iz:Processor .\n" +
+                "  ?gpu rdf:type iz:Graphics_card .\n" +
                 "  OPTIONAL {?gpu iz:has_a_name ?name ;}\n" +
                 "  OPTIONAL {?gpu iz:costs ?cost .}\n" +
                 "  OPTIONAL {?gpu iz:GPU_6pin_connectors ?GPU_6pin_connectors .}\n" +
