@@ -1,6 +1,8 @@
 package InzenjeringZnanja.service.CaseBasedReasoning;
 
+import InzenjeringZnanja.global.SparqlConstants;
 import InzenjeringZnanja.model.*;
+import org.apache.jena.query.*;
 import ucm.gaia.jcolibri.cbrcore.CBRCase;
 import ucm.gaia.jcolibri.cbrcore.CaseBaseFilter;
 import ucm.gaia.jcolibri.cbrcore.Connector;
@@ -35,6 +37,110 @@ public class SparqlConnector implements Connector {
     @Override
     public Collection<CBRCase> retrieveAllCases() {
         List<CBRCase> pcs = new ArrayList<CBRCase>();
+        String sparqlQuery = SparqlConstants.Prefix + "SELECT ?pcName ?cpuName ?gpuName ?mbName ?ramName ?diskName ?core ?cpuFrequency ?cpuTdp ?memoryDriveCapacity ?memoryDriveSpeed ?memoryDriveRotation ?memoryDriveConnection ?memoryDriveType ?mbChipset ?mbRamSlots ?mbMaximumRamFreq ?mbMaximumRamSize ?mbRamType ?RamCapacity ?RamFreq ?RamModules ?gpuTdp ?gpuMemSize WHERE {\n" +
+                "  ?sub rdf:type iz:Desktop_system .\n" +
+                "  OPTIONAL {?sub iz:has_a_name ?pcName.}\n" +
+                "  ?sub iz:contains ?cpu.\n" +
+                "  ?cpu rdf:type iz:Processor.\n" +
+                "  ?cpu iz:number_of_cores ?core.\n" +
+                "  ?cpu iz:base_frequency ?cpuFrequency.\n" +
+                "  ?cpu iz:thermal_design_power ?cpuTdp.\n" +
+                "  OPTIONAL {?cpu iz:has_a_name ?cpuName.}\n" +
+                "  ?sub iz:contains ?drive.\n" +
+                "  ?drive rdf:type iz:Memory_drive.\n" +
+                "  OPTIONAL {?drive iz:disc_rotation_speed ?memoryDriveRotation.}\n" +
+                "  OPTIONAL {?drive iz:write_speed ?memoryDriveSpeed.}\n" +
+                "  ?drive iz:connection ?memoryDriveConnection.\n" +
+                "  ?drive iz:is_type_of ?memoryDriveType.\n" +
+                "  ?drive iz:capacity ?memoryDriveCapacity.\n" +
+                "  OPTIONAL {?drive iz:has_a_name ?diskName.}\n" +
+                "  ?sub iz:contains ?mb.\n" +
+                "  OPTIONAL {?mb iz:has_a_name ?mbName.}\n" +
+                "  ?mb rdf:type iz:Motherboard.\n" +
+                "  ?mb iz:motherboard_chipset ?mbChipset.\n" +
+                "  ?mb iz:motherboard_DIMM_slots ?mbRamSlots.\n" +
+                "  ?mb iz:RAM_type ?mbRamType.\n" +
+                "  ?mb iz:RAM_maximum_frequency ?mbMaximumRamFreq.\n" +
+                "  ?mb iz:maximum_RAM ?mbMaximumRamSize.\n" +
+                "  ?sub iz:contains ?ram.\n" +
+                "  ?ram rdf:type iz:Random_access_memory.\n" +
+                "  OPTIONAL {?ram iz:RAM_modules_capacity ?RamCapacity.}\n" +
+                "  OPTIONAL {?ram iz:RAM_modules_number ?RamModules.}\n" +
+                "  OPTIONAL {?ram iz:RAM_maximum_frequency ?RamFreq.}\n" +
+                "  OPTIONAL {?ram iz:has_a_name ?ramName.}\n" +
+                "  ?sub iz:contains ?gpu.\n" +
+                "  ?gpu rdf:type iz:NVIDIA-GPU.\n" +
+                "  ?gpu iz:thermal_design_power ?gpuTdp.\n" +
+                "  ?gpu iz:GPU_Memory_size ?gpuMemSize.\n" +
+                "  OPTIONAL {?gpu iz:has_a_name ?gpuName.}\n" +
+                "}";
+        Query query = QueryFactory.create(sparqlQuery);
+        QueryExecution qexec = QueryExecutionFactory.sparqlService(SparqlConstants.SELECT_URL, query);
+        ResultSet results = qexec.execSelect();
+        while(results.hasNext()){
+            QuerySolution solution = results.nextSolution();
+            CentralProcessingUnit cpu = new CentralProcessingUnit();
+            cpu.setName((solution.getLiteral("cpuName") != null) ? solution.getLiteral("cpuName").getString() : "NoName");
+            cpu.setManufacturer((solution.getLiteral("cpuManufacturer") != null) ? solution.getLiteral("cpuManufacturer").getString() : "AMD");
+            cpu.setFrequency(Float.parseFloat((solution.getLiteral("cpuFrequency") != null) ? solution.getLiteral("cpuFrequency").getString() : "3.8"));
+            cpu.setCores(Integer.parseInt((solution.getLiteral("core") != null) ? solution.getLiteral("core").getString() : "8"));
+            cpu.setThermalDesignPower(Integer.parseInt((solution.getLiteral("cpuTdp") != null) ? solution.getLiteral("cpuTdp").getString() : "105"));
+            MemoryDisk disk = new MemoryDisk();
+            disk.setName((solution.getLiteral("diskName") != null) ? solution.getLiteral("diskName").getString() : "NoName");
+            disk.setCapacity(Integer.parseInt((solution.getLiteral("memoryDriveCapacity") != null) ? solution.getLiteral("memoryDriveCapacity").getString() : "500"));
+            String diskType = (solution.getLiteral("memoryDriveType") != null) ? solution.getLiteral("memoryDriveType").getString() : "SSD";
+            disk.setType(diskType);
+            if(diskType.equals("SSD")){
+                disk.setSpeed(Integer.parseInt((solution.getLiteral("memoryDriveSpeed") != null) ? solution.getLiteral("memoryDriveSpeed").getString() : "500"));
+            }else{
+                int rotations = Integer.parseInt((solution.getLiteral("memoryDriveRotation") != null) ? solution.getLiteral("memoryDriveRotation").getString() : "7200");
+                switch(rotations){
+                    case 5400:
+                        disk.setSpeed(100);
+                        break;
+                    case 7200:
+                        disk.setSpeed(150);
+                        break;
+                    case 10000:
+                        disk.setSpeed(300);
+                        break;
+                    default:
+                        disk.setSpeed(150);
+                        break;
+                }
+            }
+            String diskConnection = (solution.getLiteral("memoryDriveConnection") != null) ? solution.getLiteral("memoryDriveConnection").getString() : "SATA3";
+            if(diskConnection.equals("NVMA M.2")){
+                disk.setType("NVME");
+            }
+            RandomAccessMemory ram = new RandomAccessMemory();
+            ram.setName((solution.getLiteral("ramName") != null) ? solution.getLiteral("ramName").getString() : "NoName");
+            ram.setCapacity(Integer.parseInt((solution.getLiteral("RamCapacity") != null) ? solution.getLiteral("RamCapacity").getString() : "32"));
+            ram.setFrequency(Integer.parseInt((solution.getLiteral("RamFreq") != null) ? solution.getLiteral("RamFreq").getString() : "3200"));
+            ram.setNumberOfModules(Integer.parseInt((solution.getLiteral("RamModules") != null) ? solution.getLiteral("RamModules").getString() : "2"));
+            Motherboard mb = new Motherboard();
+            mb.setName((solution.getLiteral("mbName") != null) ? solution.getLiteral("mbName").getString() : "NoName");
+            mb.setChipset((solution.getLiteral("mbChipset") != null) ? solution.getLiteral("mbChipset").getString() : "X570");
+            mb.setRamSlots(Integer.parseInt((solution.getLiteral("mbRamSlots") != null) ? solution.getLiteral("mbRamSlots").getString() : "4"));
+            mb.setMemoryType((solution.getLiteral("mbRamType") != null) ? solution.getLiteral("mbRamType").getString() : "DDR4");
+            mb.setMaximumMemoryFrequency(Integer.parseInt((solution.getLiteral("mbMaximumRamFreq") != null) ? solution.getLiteral("mbMaximumRamFreq").getString() : "5000"));
+            mb.setMaximumMemorySize(Integer.parseInt((solution.getLiteral("mbMaximumRamSize") != null) ? solution.getLiteral("mbMaximumRamSize").getString() : "128"));
+            GraphicsCard gpu = new GraphicsCard();
+            gpu.setName((solution.getLiteral("gpuName") != null) ? solution.getLiteral("gpuName").getString() : "NoName");
+            gpu.setTdp(Integer.parseInt((solution.getLiteral("gpuTdp") != null) ? solution.getLiteral("gpuTdp").getString() : "290"));
+            gpu.setManufacturer((solution.getLiteral("gpuManufacturer") != null) ? solution.getLiteral("gpuManufacturer").getString() : "NVIDIA");
+            gpu.setMemoryCapacity(Integer.parseInt((solution.getLiteral("gpuMemSize") != null) ? solution.getLiteral("gpuMemSize").getString() : "8"));
+            PersonalComputer pc = new PersonalComputer();
+            pc.setName((solution.getLiteral("pcName") != null) ? solution.getLiteral("pcName").getString() : "PcFromBase");
+            pc.setGpu(gpu);
+            pc.setDisk(disk);
+            pc.setCpu(cpu);
+            pc.setMotherboard(mb);
+            pc.setRam(ram);
+            CBRCase cbrCase = new CBRCase();
+            cbrCase.setDescription(pc);
+            pcs.add(cbrCase);
+        }
         CBRCase cbrCase1 = new CBRCase();
         Motherboard mb1 = new Motherboard();
         mb1.setName("msi x570 torpedo");
