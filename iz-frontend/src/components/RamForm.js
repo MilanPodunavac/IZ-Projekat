@@ -14,10 +14,11 @@ const RamForm = () => {
         e.preventDefault();
         setIsPending(true);
         const dto = {
-            "motherboard": motherboard,
+            "mbName": motherboard,
         };
-        axios.post(axios.defaults.baseURL + 'api/ram', dto).then(res => {
-            setResults(res.data.results);
+        axios.post(axios.defaults.baseURL + 'api/Ram', dto).then(res => {
+            console.log(res.data)
+            setResults(res.data);
             setIsPending(false);
         }).catch((err) => { 
             console.log(err);

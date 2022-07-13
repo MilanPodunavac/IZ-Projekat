@@ -23,9 +23,9 @@ const RamTable = ({ results }) => {
                                 <th scope="row">{index + 1}</th>
                                 <td>{result.name}</td>
                                 <td>{result.manufacturer}</td>
-                                <td>{result.maximumFrequency}</td>
-                                <td>{result.moduleCapacity}</td>
-                                <td>{result.moduleNumber}</td>
+                                <td>{result.frequency}</td>
+                                <td>{result.capacity}</td>
+                                <td>{result.numberOfModules}</td>
                                 <td>{result.type}</td>
                                 <td>{result.price}</td>
                             </tr>

@@ -23,6 +23,7 @@ public class RamController {
     public RamDto getOne(@PathVariable(value="name") String name){
         return ramService.Get(name);
     }
+
     @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public List<RamDto> GetRecommended(@RequestBody RamCompatibleDto dto){
         String sparqlQuery = SparqlConstants.Prefix + "SELECT ?ramName ?ramPrice WHERE{\n" +
