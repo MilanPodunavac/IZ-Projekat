@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/api/Motherboard")
+@RequestMapping("/api/Gpu")
 public class GpuController {
+
+
+
 }

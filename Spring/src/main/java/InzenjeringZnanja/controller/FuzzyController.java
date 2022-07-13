@@ -124,10 +124,10 @@ public class FuzzyController {
                 rawDto.setDiskSpeed(Integer.parseInt(diskSpeedStr));
             }
             rawDto.setDiskSpeed(Integer.parseInt((solution.getLiteral("diskCapacity") != null) ? solution.getLiteral("diskCapacity").getString() : "500"));
-            int cpuPrice = Integer.parseInt((solution.getLiteral("cpuPrice") != null) ? solution.getLiteral("cpuPrice").getString() : "300");
-            int diskPrice = Integer.parseInt((solution.getLiteral("diskPrice") != null) ? solution.getLiteral("diskPrice").getString() : "50");
-            int ramPrice = Integer.parseInt((solution.getLiteral("ramPrice") != null) ? solution.getLiteral("ramPrice").getString() : "140");
-            int gpuPrice = Integer.parseInt((solution.getLiteral("gpuPrice") != null) ? solution.getLiteral("gpuPrice").getString() : "1100");
+            float cpuPrice = Float.parseFloat((solution.getLiteral("cpuPrice") != null) ? solution.getLiteral("cpuPrice").getString() : "300");
+            float diskPrice = Float.parseFloat((solution.getLiteral("diskPrice") != null) ? solution.getLiteral("diskPrice").getString() : "50");
+            float ramPrice = Float.parseFloat((solution.getLiteral("ramPrice") != null) ? solution.getLiteral("ramPrice").getString() : "140");
+            float gpuPrice = Float.parseFloat((solution.getLiteral("gpuPrice") != null) ? solution.getLiteral("gpuPrice").getString() : "1100");
             rawDto.setPrice(cpuPrice + diskPrice + ramPrice + gpuPrice + 200);
         }
         else{

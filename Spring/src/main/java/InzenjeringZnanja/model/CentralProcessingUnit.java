@@ -13,7 +13,7 @@ import ucm.gaia.jcolibri.cbrcore.CaseComponent;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CentralProcessingUnit implements CaseComponent {
-    private String name;
+    private String name;          // has_a_name
     private String manufacturer; //AMD, Intel
     private float frequency;
     private int cores;

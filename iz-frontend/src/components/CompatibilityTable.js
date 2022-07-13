@@ -3,10 +3,6 @@ import { useState } from "react";
 const CompatibilityTable = ({ results }) => {
     const [keys] = useState(Object.keys(results));
 
-    function getPercentageFromProbability(data) {
-        return data * 10;
-    }
-
     function getName(name) {
         let wordList = name.split(/(?=[A-Z])/);
 
@@ -30,7 +26,7 @@ const CompatibilityTable = ({ results }) => {
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Usage</th>
-                            <th scope="col">Compatibility</th>
+                            <th scope="col">Grade</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -38,7 +34,7 @@ const CompatibilityTable = ({ results }) => {
                             <tr key={index}>
                                 <th scope="row">{index + 1}</th>
                                 <td>{getName(key)}</td>
-                                <td>{getPercentageFromProbability(results[key])} %</td>
+                                <td>{results[key]} %</td>
                             </tr>
                         )))}
                     </tbody>
