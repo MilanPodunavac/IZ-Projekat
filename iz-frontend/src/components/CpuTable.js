@@ -1,4 +1,13 @@
+import { useNavigate } from 'react-router-dom';
+
 const CpuTable = ({ results }) => {
+    const history = useNavigate();
+
+    function lookComponent(name){
+        localStorage.setItem('name',name);
+        localStorage.setItem('type','Cpu');
+        history('/component');
+    }
 
     return (
         <>
@@ -19,7 +28,7 @@ const CpuTable = ({ results }) => {
                         {results && (results.map((result, index) => (
                             <tr key={index}>
                                 <th scope="row">{index + 1}</th>
-                                <td>{result.name}</td>
+                                <td><a href="#" onClick={() => lookComponent(result.name)}>{result.name}</a></td>
                                 <td>{result.manufacturer}</td>
                                 <td>{result.frequency}</td>
                                 <td>{result.cores}</td>

@@ -34,7 +34,7 @@ const ChooseComponents = ({ useCase }) => {
                 "diskName": storage
             };
             setIsPending(true);
-            axios.post(axios.defaults.baseURL + 'api/Fuzzy', dto).then(res => {
+            axios.put(axios.defaults.baseURL + 'api/Fuzzy', dto).then(res => {
                 setResults(res.data);
                 console.log(Object.keys(res.data));
                 setIsPending(false);

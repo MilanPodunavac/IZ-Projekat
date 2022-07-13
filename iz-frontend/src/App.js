@@ -7,6 +7,7 @@ import axios from 'axios';
 import CauseOfFailure from './components/CauseOfFailure';
 import ComponentRecommendation from './components/ComponentRecommendation';
 import ChooseComponents from './components/ChooseComponents';
+import ShowSingleComponent from './components/ShowSingleComponent';
 
 axios.defaults.baseURL = 'http://localhost:8080/';
 
@@ -25,6 +26,7 @@ function App() {
           <Route key={uuidv4()} exact path="/estimate" element={[<Navbar key={uuidv4()}/>, <ChooseComponents key={uuidv4()} useCase={'compatibility'} />]}/>
           <Route key={uuidv4()} exact path="/failure" element={[<Navbar key={uuidv4()}/>, <CauseOfFailure key={uuidv4()}/>]}/>
           <Route key={uuidv4()} exact path="/similarity" element={[<Navbar key={uuidv4()}/>, <ChooseComponents key={uuidv4()} useCase={'similarity'} />]}/>
+          <Route key={uuidv4()} exact path="/component" element={[<Navbar key={uuidv4()}/>, <ShowSingleComponent key={uuidv4()}/>]}/>
           </Routes>
         </Router>
     </div>
