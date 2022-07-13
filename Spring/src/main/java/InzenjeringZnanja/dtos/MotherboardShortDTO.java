@@ -1,6 +1,6 @@
 package InzenjeringZnanja.dtos;
 
 public class MotherboardShortDTO {
-    public String iri;
+    public double cost;
     public String name;
 }

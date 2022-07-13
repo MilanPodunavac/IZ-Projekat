@@ -44,8 +44,8 @@ public class RamController {
         while(results.hasNext()){
             QuerySolution solution = results.nextSolution();
             RamDto retValDto = new RamDto();
-            retValDto.setName((solution.getLiteral("ramName") != null) ? solution.getLiteral("ramName").getString() : "No name psu");
-            retValDto.setPrice(Float.parseFloat((solution.getLiteral("ramPrice") != null) ? solution.getLiteral("ramPrice").getString() : "750"));
+            retValDto.setName((solution.getLiteral("ramName") != null) ? solution.getLiteral("ramName").getString() : "No name ram");
+            retValDto.setPrice(Float.parseFloat((solution.getLiteral("ramPrice") != null) ? solution.getLiteral("ramPrice").getString() : "200"));
             retVal.add(retValDto);
         }
         return retVal;
