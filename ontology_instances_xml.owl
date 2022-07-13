@@ -114,6 +114,20 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_5800X -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_5800X">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Processor"/>
+        <IZ-Projekat:base_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</IZ-Projekat:base_frequency>
+        <IZ-Projekat:can_multithread rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IZ-Projekat:can_multithread>
+        <IZ-Projekat:has_a_name>Ryzen 7 5800X</IZ-Projekat:has_a_name>
+        <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
+        <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</IZ-Projekat:thermal_design_power>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_9_5900X -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_9_5900X">
@@ -1863,6 +1877,19 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer1 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer1">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_5800X"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_V_Series_32_GB"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_500GB_Samsung_980_PRO-MZ-V8P500BW"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-209DBK -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-209DBK">
@@ -2700,7 +2727,6 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radimax_Case_with_Power_Supply_I328_TB_+_RX-800AC-V">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing"/>
-        <IZ-Projekat:is_type_of>Full tower</IZ-Projekat:is_type_of>
     </owl:NamedIndividual>
     
 

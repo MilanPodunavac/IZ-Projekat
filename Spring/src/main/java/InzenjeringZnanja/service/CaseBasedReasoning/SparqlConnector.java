@@ -128,3 +128,51 @@ public class SparqlConnector implements Connector {
         return null;
     }
 }
+/*PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX iz: <https://github.com/MilanPodunavac/IZ-Projekat#>
+SELECT ?core ?cpuFrequency ?cpuTdp ?gpuMemoryCapacity ?gpuTdp ?memoryDriveCapacity ?memoryDriveSpeed ?memoryDriveRotation ?motherboardChipset ?mbRamSlots ?mbMaximumRamFreq ?mbMaximumRamSize ?mbRamType ?RamCapacity ?RamFreq ?RamModules WHERE {
+  ?sub rdf:type iz:Desktop_system .
+  ?sub iz:contains ?cpu.
+  ?cpu rdf:type iz:Processor.
+  ?cpu iz:number_of_cores ?core.
+  ?cpu iz:baseFrequency ?cpuFrequency.
+  OPTIONAL {?cpu iz:thermal_design_power ?cpuTdp.}
+  ?sub iz:contains ?gpu.
+  ?gpu rdf:type iz:
+}*/
+
+/*PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX iz: <https://github.com/MilanPodunavac/IZ-Projekat#>
+SELECT ?core ?cpuFrequency ?cpuTdp ?memoryDriveCapacity ?memoryDriveSpeed ?memoryDriveRotation ?memoryDriveConnection ?memoryDriveType ?mbChipset ?mbRamSlots ?mbMaximumRamFreq ?mbMaximumRamSize ?mbRamType ?RamCapacity ?RamFreq ?RamModules ?gpuTdp ?gpuMemSize WHERE {
+  ?sub rdf:type iz:Desktop_system .
+  ?sub iz:contains ?cpu.
+  ?cpu rdf:type iz:Processor.
+  ?cpu iz:number_of_cores ?core.
+  ?cpu iz:base_frequency ?cpuFrequency.
+  ?cpu iz:thermal_design_power ?cpuTdp.
+  ?sub iz:contains ?drive.
+  ?drive rdf:type iz:Memory_drive.
+  OPTIONAL {?drive iz:disc_rotation_speed ?memoryDriveRotation.}
+  OPTIONAL {?drive iz:write_speed ?memoryDriveSpeed.}
+  ?drive iz:connection ?memoryDriveConnection.
+  ?drive iz:is_type_of ?memoryDriveType.
+  ?drive iz:capacity ?memoryDriveCapacity.
+  ?sub iz:contains ?mb.
+  ?mb rdf:type iz:Motherboard.
+  ?mb iz:motherboard_chipset ?mbChipset.
+  ?mb iz:motherboard_DIMM_slots ?mbRamSlots.
+  ?mb iz:RAM_type ?mbRamType.
+  ?mb iz:RAM_maximum_frequency ?mbMaximumRamFreq.
+  ?mb iz:maximum_RAM ?mbMaximumRamSize.
+  ?sub iz:contains ?ram.
+  ?ram rdf:type iz:Random_access_memory.
+  OPTIONAL {?ram iz:RAM_modules_capacity ?RamCapacity.}
+  OPTIONAL {?ram iz:RAM_modules_number ?RamModules.}
+  OPTIONAL {?ram iz:RAM_maximum_frequency ?RamFreq.}
+  ?sub iz:contains ?gpu.
+  ?gpu rdf:type iz:NVIDIA-GPU.
+  ?gpu iz:thermal_design_power ?gpuTdp.
+  ?gpu iz:GPU_Memory_size ?gpuMemSize.
+}*/

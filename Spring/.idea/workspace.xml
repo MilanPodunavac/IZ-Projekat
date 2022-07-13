@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="044b0f8f-9f7f-444f-bae0-cb7c64e414d3" name="Changes" comment="" />
+    <list default="true" id="044b0f8f-9f7f-444f-bae0-cb7c64e414d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/service/CaseBasedReasoning/SparqlConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InzenjeringZnanja/service/CaseBasedReasoning/SparqlConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalog-v001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../catalog-v001.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ontology_instances.owl" beforeDir="false" afterPath="$PROJECT_DIR$/../ontology_instances.owl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ontology_instances_xml.owl" beforeDir="false" afterPath="$PROJECT_DIR$/../ontology_instances_xml.owl" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,37 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ontology_instances.owl" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "38008dd81c2f4d7985ecf6e0ce8af1d1"
+  }
+}]]></component>
   <component name="RunManager" selected="Spring Boot.MainSpringApplication">
     <configuration name="MainSpringApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="Spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="InzenjeringZnanja.MainSpringApplication" />
-      <option name="ACTIVE_PROFILES" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="Spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="InzenjeringZnanja.MainSpringApplication" />
-      <option name="ACTIVE_PROFILES" />
       <option name="VM_PARAMETERS" value="-Djava.awt.headless=false" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,6 +92,7 @@
       <workItem from="1657491081518" duration="595000" />
       <workItem from="1657571396254" duration="5138000" />
       <workItem from="1657621734877" duration="13575000" />
+      <workItem from="1657673451627" duration="20000" />
     </task>
     <servers />
   </component>
@@ -114,21 +109,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/MotherboardController.java</url>
-          <line>142</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/InzenjeringZnanja/controller/MotherboardController.java</url>
-          <line>145</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

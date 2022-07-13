@@ -75,6 +75,15 @@
                              <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X
+:AMD_Processor_Ryzen_7_AM4_5800X rdf:type owl:NamedIndividual ,
+                                          <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#base_frequency> 3.8 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#can_multithread> "true"^^xsd:boolean ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#number_of_cores> 8 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#register_type> 64 .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_9_5900X
 :AMD_Processor_Ryzen_9_5900X rdf:type owl:NamedIndividual ,
                                       <https://github.com/MilanPodunavac/IZ-Projekat#Processor> ;
@@ -1376,6 +1385,11 @@
                                 <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer1
+:PersonalComputer1 rdf:type owl:NamedIndividual ,
+                            <https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system> .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Pioneer_BDR-209DBK
 :Pioneer_BDR-209DBK rdf:type owl:NamedIndividual ,
                              <https://github.com/MilanPodunavac/IZ-Projekat#Optical_drive> .
@@ -1997,8 +2011,7 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radimax_Case_with_Power_Supply_I328_TB_+_RX-800AC-V
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radimax_Case_with_Power_Supply_I328_TB_+_RX-800AC-V> rdf:type owl:NamedIndividual ,
-                                                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing> ;
-                                                                                                                                               <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "Full tower" .
+                                                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#Computer_casing> .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_SATA3_1TB_Samsung_MZ-77E1T0B
