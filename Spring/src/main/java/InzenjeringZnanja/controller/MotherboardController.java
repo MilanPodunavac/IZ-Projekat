@@ -1,12 +1,18 @@
 package InzenjeringZnanja.controller;
 
+import InzenjeringZnanja.dto.CpuDto;
+import InzenjeringZnanja.dto.GpuCompatibleDto;
+import InzenjeringZnanja.dto.MotherboardCompatibleDto;
 import InzenjeringZnanja.dtos.MotherboardDTO;
 import InzenjeringZnanja.dtos.MotherboardShortDTO;
 import InzenjeringZnanja.global.SparqlConstants;
+import InzenjeringZnanja.service.CpuService;
+import InzenjeringZnanja.service.MotherboardService;
 import org.apache.jena.update.UpdateExecutionFactory;
 import org.apache.jena.update.UpdateFactory;
 import org.apache.jena.update.UpdateProcessor;
 import org.apache.jena.update.UpdateRequest;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
@@ -26,6 +32,13 @@ import java.util.List;
 @RequestMapping("/api/Motherboard")
 public class MotherboardController {
 
+    @Autowired
+    private MotherboardService motherboardService;
+
+    @GetMapping(value = "{name}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public MotherboardDTO getOne(@PathVariable(value="name") String name){
+        return motherboardService.Get(name);
+    }
 
     @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<MotherboardShortDTO> GetAll(){
@@ -107,10 +120,8 @@ public class MotherboardController {
         return dto;
     }
 
-    @GetMapping(value = "Compatible/{processorName}/{coolingSystemName}/{ramName}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<MotherboardDTO> GetCompatibleMotherboards(@PathVariable(value="processorName") String processorName,
-                                                          @PathVariable(value="coolingSystemName") String coolingSystemName,
-                                                          @PathVariable(value="ramName") String ramName){
+    @PostMapping(value = "Compatible", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<MotherboardDTO> GetCompatibleMotherboards(@RequestBody MotherboardCompatibleDto inputDto){
         String selectString = SparqlConstants.Prefix +
                 "SELECT *\n" +
                 "WHERE {\n" +
@@ -133,11 +144,11 @@ public class MotherboardController {
                 "  OPTIONAL {?motherboard iz:RAM_maximum_frequency ?ramMaxFrequency .}\n" +
                 "  OPTIONAL {?motherboard iz:RAM_type ?ramType .}\n" +
                 "  OPTIONAL {?motherboard iz:socket ?socket .}\n" +
-                "?cpu iz:has_a_name \"" + processorName + "\" ." +
+                "?cpu iz:has_a_name \"" + inputDto.getProcessorName() + "\" ." +
                 "?cpu iz:socket ?socket ." +
-                "?cooler iz:has_a_name \"" + coolingSystemName + "\" ." +
+                "?cooler iz:has_a_name \"" + inputDto.getCoolingSystemName() + "\" ." +
                 "?cooler iz:socket ?socket ." +
-                "?ram iz:has_a_name \"" + ramName + "\" ." +
+                "?ram iz:has_a_name \"" + inputDto.getRamName() + "\" ." +
                 "?ram iz:RAM_type ?ramType ." +
                 "?ram iz:RAM_maximum_frequency  ?neededRamFrequency ." +
                 "FILTER (?neededRamFrequency <=  ?ramMaxFrequency) ." +
