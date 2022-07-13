@@ -10,7 +10,7 @@ public class GpuService {
 
     public GpuDto Get(String name){
         String selectString = SparqlConstants.Prefix +
-                "SELECT  ?name ?cost ?GPU_6pin_connectors ?GPU_8pin_connectors ?GPU_core_boost_clock ?GPU_core_clock ?GPU_DirectX_Version ?GPU_DP_connectors ?GPU_HDMI_connectors ?GPU_memory_bus ?GPU_memory_type ?GPU_recommended_system_power ?GPU_VGA_connectors ?GPU_width ?length ?thermal_design_power \n" +
+                "SELECT  ?name ?cost ?GPU_6pin_connectors ?GPU_8pin_connectors ?GPU_core_boost_clock ?GPU_core_clock ?GPU_DirectX_Version ?GPU_DP_connectors ?GPU_HDMI_connectors ?GPU_memory_bus ?GPU_memory_type ?GPU_recommended_system_power ?GPU_VGA_connectors ?GPU_width ?length ?thermal_design_power ?is_manufactured_by \n" +
                 "WHERE {\n" +
                 "?gpu rdf:type iz:Graphics_card .\n" +
                 "?gpu iz:has_a_name \"" + name + "\".\n" +
@@ -31,6 +31,7 @@ public class GpuService {
                 "  OPTIONAL {?gpu iz:GPU_width ?GPU_width .}\n" +
                 "  OPTIONAL {?gpu iz:length ?length .}\n" +
                 "  OPTIONAL {?gpu iz:thermal_design_power ?thermal_design_power .}\n" +
+                "  OPTIONAL {?gpu iz:is_manufactured_by ?is_manufactured_by .}\n" +
                 "}";
 
         Query query = QueryFactory.create(selectString);
@@ -55,6 +56,7 @@ public class GpuService {
             gpu.setWidth((solution.getLiteral("GPU_width") != null) ? solution.getLiteral("GPU_width").getFloat() : -1);
             gpu.setLength((solution.getLiteral("length") != null) ? solution.getLiteral("length").getFloat() : -1);
             gpu.setTdp((solution.getLiteral("thermal_design_power") != null) ? solution.getLiteral("thermal_design_power").getInt() : -1);
+            gpu.setManufacturer((solution.getLiteral("is_manufactured_by") != null) ? solution.getLiteral("is_manufactured_by").getString() : null);
         }
         return gpu;
     }
