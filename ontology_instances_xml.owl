@@ -259,6 +259,23 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_8pin_connectors>
+        <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">384</IZ-Projekat:GPU_CUDA_Cores>
+        <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_DP_connectors>
+        <IZ-Projekat:GPU_DirectX_Version></IZ-Projekat:GPU_DirectX_Version>
+        <IZ-Projekat:GPU_HDMI_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_HDMI_connectors>
+        <IZ-Projekat:GPU_Memory_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5010</IZ-Projekat:GPU_Memory_clock>
+        <IZ-Projekat:GPU_Memory_size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_Memory_size>
+        <IZ-Projekat:GPU_Memory_type>GDDR5</IZ-Projekat:GPU_Memory_type>
+        <IZ-Projekat:GPU_VGA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_VGA_connectors>
+        <IZ-Projekat:GPU_core_boost_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">706</IZ-Projekat:GPU_core_boost_clock>
+        <IZ-Projekat:GPU_memory_bus rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:GPU_memory_bus>
+        <IZ-Projekat:GPU_recommended_system_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</IZ-Projekat:GPU_recommended_system_power>
+        <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</IZ-Projekat:GPU_width>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</IZ-Projekat:costs>
+        <IZ-Projekat:has_a_name>ASUS GeForce GT 730 2GB GDDR5</IZ-Projekat:has_a_name>
+        <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</IZ-Projekat:length>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -267,7 +284,23 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060"/>
+        <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
+        <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</IZ-Projekat:GPU_CUDA_Cores>
+        <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_DP_connectors>
+        <IZ-Projekat:GPU_DirectX_Version>12 ultimate</IZ-Projekat:GPU_DirectX_Version>
+        <IZ-Projekat:GPU_HDMI_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_HDMI_connectors>
+        <IZ-Projekat:GPU_Memory_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14000</IZ-Projekat:GPU_Memory_clock>
+        <IZ-Projekat:GPU_Memory_size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:GPU_Memory_size>
+        <IZ-Projekat:GPU_Memory_type>GDDR6</IZ-Projekat:GPU_Memory_type>
+        <IZ-Projekat:GPU_VGA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_VGA_connectors>
+        <IZ-Projekat:GPU_core_boost_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1365</IZ-Projekat:GPU_core_boost_clock>
+        <IZ-Projekat:GPU_memory_bus rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192</IZ-Projekat:GPU_memory_bus>
+        <IZ-Projekat:GPU_recommended_system_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:GPU_recommended_system_power>
+        <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</IZ-Projekat:GPU_width>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">302.98</IZ-Projekat:costs>
+        <IZ-Projekat:has_a_name>ASUS Dual GeForce RTX 2060 EVO 6GB GDDR6</IZ-Projekat:has_a_name>
+        <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</IZ-Projekat:length>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -276,7 +309,23 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060"/>
+        <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
+        <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2176</IZ-Projekat:GPU_CUDA_Cores>
+        <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_DP_connectors>
+        <IZ-Projekat:GPU_DirectX_Version></IZ-Projekat:GPU_DirectX_Version>
+        <IZ-Projekat:GPU_HDMI_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_HDMI_connectors>
+        <IZ-Projekat:GPU_Memory_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14000</IZ-Projekat:GPU_Memory_clock>
+        <IZ-Projekat:GPU_Memory_size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</IZ-Projekat:GPU_Memory_size>
+        <IZ-Projekat:GPU_Memory_type>GDDR6</IZ-Projekat:GPU_Memory_type>
+        <IZ-Projekat:GPU_VGA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_VGA_connectors>
+        <IZ-Projekat:GPU_core_boost_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1680</IZ-Projekat:GPU_core_boost_clock>
+        <IZ-Projekat:GPU_memory_bus rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192</IZ-Projekat:GPU_memory_bus>
+        <IZ-Projekat:GPU_recommended_system_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:GPU_recommended_system_power>
+        <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</IZ-Projekat:GPU_width>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">379.99</IZ-Projekat:costs>
+        <IZ-Projekat:has_a_name>ASUS Dual GeForce RTX 2060 EVO OC Edition 12GB GDDR6</IZ-Projekat:has_a_name>
+        <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</IZ-Projekat:length>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -336,8 +385,6 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_RTX_3060_Ti_dual_mini_oc">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4864</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_DP_connectors>
@@ -1158,8 +1205,6 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RTX_3060_Ti_Gaming_OC">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4864</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_DP_connectors>
@@ -1184,9 +1229,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RX_570_Gaming_8g -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RX_570_Gaming_8g">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_570"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
         <IZ-Projekat:GPU_DirectX_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</IZ-Projekat:GPU_DirectX_Version>
@@ -2006,8 +2049,6 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Palit_GeForce_RTX_3060_Dual">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3584</IZ-Projekat:GPU_CUDA_Cores>
@@ -2150,8 +2191,6 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2177,8 +2216,6 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2203,9 +2240,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_DP_connectors>
@@ -2232,9 +2267,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeon_RX_570_XFX -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeon_RX_570_XFX">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_570"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
         <IZ-Projekat:GPU_DirectX_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</IZ-Projekat:GPU_DirectX_Version>
@@ -2487,9 +2520,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2706,7 +2737,23 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti"/>
+        <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
+        <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2560</IZ-Projekat:GPU_CUDA_Cores>
+        <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
+        <IZ-Projekat:GPU_DirectX_Version>12 ultimate</IZ-Projekat:GPU_DirectX_Version>
+        <IZ-Projekat:GPU_HDMI_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_HDMI_connectors>
+        <IZ-Projekat:GPU_Memory_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14000</IZ-Projekat:GPU_Memory_clock>
+        <IZ-Projekat:GPU_Memory_size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:GPU_Memory_size>
+        <IZ-Projekat:GPU_Memory_type>GDDR6</IZ-Projekat:GPU_Memory_type>
+        <IZ-Projekat:GPU_VGA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_VGA_connectors>
+        <IZ-Projekat:GPU_core_boost_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1807</IZ-Projekat:GPU_core_boost_clock>
+        <IZ-Projekat:GPU_memory_bus rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</IZ-Projekat:GPU_memory_bus>
+        <IZ-Projekat:GPU_recommended_system_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</IZ-Projekat:GPU_recommended_system_power>
+        <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</IZ-Projekat:GPU_width>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">370.0</IZ-Projekat:costs>
+        <IZ-Projekat:has_a_name>ZOTAC GAMING GeForce RTX 3050 Twin Edge OC</IZ-Projekat:has_a_name>
+        <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</IZ-Projekat:length>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -2715,7 +2762,23 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080"/>
+        <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_8pin_connectors>
+        <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8960</IZ-Projekat:GPU_CUDA_Cores>
+        <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
+        <IZ-Projekat:GPU_DirectX_Version>12 ultimate</IZ-Projekat:GPU_DirectX_Version>
+        <IZ-Projekat:GPU_HDMI_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_HDMI_connectors>
+        <IZ-Projekat:GPU_Memory_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19000</IZ-Projekat:GPU_Memory_clock>
+        <IZ-Projekat:GPU_Memory_size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</IZ-Projekat:GPU_Memory_size>
+        <IZ-Projekat:GPU_Memory_type>GDDR6</IZ-Projekat:GPU_Memory_type>
+        <IZ-Projekat:GPU_VGA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_VGA_connectors>
+        <IZ-Projekat:GPU_core_boost_clock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1755</IZ-Projekat:GPU_core_boost_clock>
+        <IZ-Projekat:GPU_memory_bus rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">384</IZ-Projekat:GPU_memory_bus>
+        <IZ-Projekat:GPU_recommended_system_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">750</IZ-Projekat:GPU_recommended_system_power>
+        <IZ-Projekat:GPU_width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</IZ-Projekat:GPU_width>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">799.99</IZ-Projekat:costs>
+        <IZ-Projekat:has_a_name>ZOTAC GAMING GeForce RTX 3080 AMP Holo LHR 12GB</IZ-Projekat:has_a_name>
+        <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</IZ-Projekat:length>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -2724,8 +2787,6 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3584</IZ-Projekat:GPU_CUDA_Cores>

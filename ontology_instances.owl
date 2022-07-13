@@ -182,17 +182,68 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E
 :Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E rdf:type owl:NamedIndividual ,
-                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card> .
+                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card> ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 0 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 384 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 0 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 5010 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 2 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR5" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 706 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 64 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 300 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 7 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#costs> "100.0"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "ASUS GeForce GT 730 2GB GDDR5" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#length> 17 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 200 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO
 :Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO rdf:type owl:NamedIndividual ,
-                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060> .
+                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060> ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 1920 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 2 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 14000 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 6 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 1365 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 192 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 500 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 13 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#costs> "302.98"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "ASUS Dual GeForce RTX 2060 EVO 6GB GDDR6" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#length> 24 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 200 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO
 :Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO rdf:type owl:NamedIndividual ,
-                                                                           <https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060> .
+                                                                           <https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060> ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 2176 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 2 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 14000 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 12 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 1680 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 192 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 500 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 13 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#costs> "379.99"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "ASUS Dual GeForce RTX 2060 EVO OC Edition 12GB GDDR6" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#length> 24 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 200 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_PRIME_H670-PLUS_D4
@@ -499,81 +550,81 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_16_GB
 :Corsair_Vengeance_16_GB rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 9 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "11.25"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1600 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "83.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Vengeance 16 GB (2 x 8 GB) DDR3-1600 CL9 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 9 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "11.25"^^xsd:double ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1600 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#costs> "83.0"^^xsd:double ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Vengeance 16 GB (2 x 8 GB) DDR3-1600 CL9 Memory" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_32_GB
 :Corsair_Vengeance_32_GB rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 36 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "12.857"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 6500 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR5" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "220.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Vengeance 32 GB (2 x 16 GB) DDR5-5600 CL36 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.25 .
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 36 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "12.857"^^xsd:double ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 6500 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR5" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#costs> "220.0"^^xsd:double ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Vengeance 32 GB (2 x 16 GB) DDR5-5600 CL36 Memory" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.25 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_LPX_16_GB
 :Corsair_Vengeance_LPX_16_GB rdf:type owl:NamedIndividual ,
                                       <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "10"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "58.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Vengeance LPX 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "10.0"^^xsd:double ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#costs> "58.0"^^xsd:double ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Vengeance LPX 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_RGB_Pro_16_GB
 :Corsair_Vengeance_RGB_Pro_16_GB rdf:type owl:NamedIndividual ,
                                           <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "1.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "70.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Vengeance RGB Pro 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "1.0"^^xsd:double ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#costs> "70.0"^^xsd:double ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Vengeance RGB Pro 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory" ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_Vengeance_RGB_Pro_32_GB
 :Corsair_Vengeance_RGB_Pro_32_GB rdf:type owl:NamedIndividual ,
                                           <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "10.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 4 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "153.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Vengeance RGB Pro 32 GB (4 x 8 GB) DDR4-3200 CL16 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "10.0"^^xsd:double ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 4 ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#costs> "153.0"^^xsd:double ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Corsair Vengeance RGB Pro 32 GB (4 x 8 GB) DDR4-3200 CL16 Memory" ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Corsair" ;
+                                 <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Creative_Labs_70SB157000000
@@ -629,33 +680,33 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Crucial_CT2K16G4SFRA32A_32_GB
 :Crucial_CT2K16G4SFRA32A_32_GB rdf:type owl:NamedIndividual ,
                                         <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 22 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.75"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "260-pin SODIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "100.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Crucial CT2K16G4SFRA32A 32 GB (2 x 16 GB) DDR4-3200 CL22 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Crucial" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.3 .
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 22 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.75"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "260-pin SODIMM" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#costs> "100.0"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Crucial CT2K16G4SFRA32A 32 GB (2 x 16 GB) DDR4-3200 CL22 Memory" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Crucial" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.3 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Crucial_CT2K32G48C40U5_64_GB
 :Crucial_CT2K32G48C40U5_64_GB rdf:type owl:NamedIndividual ,
                                        <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 40 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "16.667"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 4800 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 32 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR5" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "280.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Crucial CT2K32G48C40U5 64 GB (2 x 32 GB) DDR5-4800 CL40 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Crucial" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.1 .
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 40 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "16.667"^^xsd:double ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 4800 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 32 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR5" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#costs> "280.0"^^xsd:double ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Crucial CT2K32G48C40U5 64 GB (2 x 32 GB) DDR5-4800 CL40 Memory" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Crucial" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.1 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PHD380M
@@ -739,97 +790,97 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_Series_16_GB
 :G.Skill_Ripjaws_Series_16_GB rdf:type owl:NamedIndividual ,
                                        <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.333"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "260-pin SODIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 2400 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "51.99"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Ripjaws 16 GB (1 x 16 GB) DDR4-2400 CL16 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.2 .
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.333"^^xsd:double ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "260-pin SODIMM" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 2400 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#costs> "51.99"^^xsd:double ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Ripjaws 16 GB (1 x 16 GB) DDR4-2400 CL16 Memory" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.2 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_Series_8_GB
 :G.Skill_Ripjaws_Series_8_GB rdf:type owl:NamedIndividual ,
                                       <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 9 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "11.25"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1600 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 4 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "40.85"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Ripjaws 8 GB (2 x 4 GB) DDR3-1600 CL9 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 9 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "11.25"^^xsd:double ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1600 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 4 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#costs> "40.85"^^xsd:double ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Ripjaws 8 GB (2 x 4 GB) DDR3-1600 CL9 Memory" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_V_16_GB
 :G.Skill_Ripjaws_V_16_GB rdf:type owl:NamedIndividual ,
                                   <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "10.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "54.99"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Ripjaws V 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "10.0"^^xsd:double ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#costs> "54.99"^^xsd:double ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Ripjaws V 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
+                         <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_V_Series_32_GB
 :G.Skill_Ripjaws_V_Series_32_GB rdf:type owl:NamedIndividual ,
                                          <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "10.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "94.99"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Ripjaws V 32 GB (2 x 16 GB) DDR4-3200 CL16 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "10.0"^^xsd:double ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#costs> "94.99"^^xsd:double ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Ripjaws V 32 GB (2 x 16 GB) DDR4-3200 CL16 Memory" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_X_Series_16_GB
 :G.Skill_Ripjaws_X_Series_16_GB rdf:type owl:NamedIndividual ,
                                          <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 10 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "12.5"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "58.99"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Ripjaws X 16 GB (2 x 8 GB) DDR3-1600 CL10 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 10 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "12.5"^^xsd:double ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#costs> "58.99"^^xsd:double ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Ripjaws X 16 GB (2 x 8 GB) DDR3-1600 CL10 Memory" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
+                                <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB
 :G.Skill_Trident_Z5_RGB_32_GB rdf:type owl:NamedIndividual ,
                                        <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "8.889"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3600 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "159.99"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Trident Z RGB 32 GB (2 x 16 GB) DDR4-3600 CL16 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 16 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "8.889"^^xsd:double ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3600 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#costs> "159.99"^^xsd:double ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "G.Skill Trident Z RGB 32 GB (2 x 16 GB) DDR4-3600 CL16 Memory" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "G.Skill" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Geil_SSD_2.5inch_SATA3_256GB_GZ25Z3-256GP
@@ -1169,49 +1220,49 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_FURY_Beast_32_GB
 :Kingston_FURY_Beast_32_GB rdf:type owl:NamedIndividual ,
                                     <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 40 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "15.385"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5200 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR5" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "184.00"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Kingston FURY Beast 32 GB (2 x 16 GB) DDR5-5200 CL40 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Kingston" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.25 .
+                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 40 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "15.385"^^xsd:double ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 5200 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR5" ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#costs> "184.0"^^xsd:double ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Kingston FURY Beast 32 GB (2 x 16 GB) DDR5-5200 CL40 Memory" ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Kingston" ;
+                           <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.25 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_HyperX_Impact_32_GB
 :Kingston_HyperX_Impact_32_GB rdf:type owl:NamedIndividual ,
                                        <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 15 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "11.253"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 2666 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "186.00"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Kingston HyperX Impact 32 GB (2 x 16 GB) DDR4-2666 CL15 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Kingston" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.2 .
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 15 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "11.253"^^xsd:double ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 2666 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#costs> "186.0"^^xsd:double ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Kingston HyperX Impact 32 GB (2 x 16 GB) DDR4-2666 CL15 Memory" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Kingston" ;
+                              <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.2 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_ValueRAM_4_GB
 :Kingston_ValueRAM_4_GB rdf:type owl:NamedIndividual ,
                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 22 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.75"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 4 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "38.32"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Kingston ValueRAM 4 GB (1 x 4 GB) DDR4-3200 CL22 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Kingston" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.2 .
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 22 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.75"^^xsd:double ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "288-pin DIMM" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 3200 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 4 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#costs> "38.32"^^xsd:double ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Kingston ValueRAM 4 GB (1 x 4 GB) DDR4-3200 CL22 Memory" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Kingston" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.2 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#LG_BH16NS55.AUAR10B
@@ -1565,33 +1616,33 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_Signature_1_GB
 :Patriot_Signature_1_GB rdf:type owl:NamedIndividual ,
                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 6 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "15.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 800 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 1 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "10.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Patriot Signature 1 GB (1 x 1 GB) DDR2-800 CL6 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Patriot" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.8 .
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 6 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "15.0"^^xsd:double ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 800 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 1 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#costs> "10.0"^^xsd:double ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Patriot Signature 1 GB (1 x 1 GB) DDR2-800 CL6 Memory" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Patriot" ;
+                        <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.8 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_Viper_3_16_GB
 :Patriot_Viper_3_16_GB rdf:type owl:NamedIndividual ,
                                 <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 10 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "10.718"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1866 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "46.99"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Patriot Viper 3 16 GB (2 x 8 GB) DDR3-1866 CL10 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Patriot" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
+                       <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 10 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "10.718"^^xsd:double ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1866 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#costs> "46.99"^^xsd:double ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Patriot Viper 3 16 GB (2 x 8 GB) DDR3-1866 CL10 Memory" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Patriot" ;
+                       <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer1
@@ -1848,33 +1899,33 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CH9_4_GB
 :Samsung_M471B5273DH0-CH9_4_GB rdf:type owl:NamedIndividual ,
                                         <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 9 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.503"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "204-pin SODIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1333 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 4 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "15.98"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Samsung M471B5273DH0-CH9 4 GB (1 x 4 GB) DDR3-1333 CL9 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Samsung" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 9 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.503"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "204-pin SODIMM" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1333 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 4 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#costs> "15.98"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Samsung M471B5273DH0-CH9 4 GB (1 x 4 GB) DDR3-1333 CL9 Memory" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Samsung" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_M471B5273DH0-CK0_4_GB
 :Samsung_M471B5273DH0-CK0_4_GB rdf:type owl:NamedIndividual ,
                                         <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 11 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.75"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "204-pin SODIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1600 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 4 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "15.98"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Samsung M471B5273DH0-CK0 4 GB (1 x 4 GB) DDR3-1600 CL11 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Samsung" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 11 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.75"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "204-pin SODIMM" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1600 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 4 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#costs> "15.98"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Samsung M471B5273DH0-CK0 4 GB (1 x 4 GB) DDR3-1600 CL11 Memory" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Samsung" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Samsung_Smart_Monitor_M5_LS27AM500NRXEN_27inch
@@ -1940,33 +1991,33 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silicon_Power_SU016GLSTU160N22AH_16_GB
 :Silicon_Power_SU016GLSTU160N22AH_16_GB rdf:type owl:NamedIndividual ,
                                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 11 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.75"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "204-pin SODIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1600 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "360.0"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Silicon Power SU016GLSTU160N22AH 16 GB (2 x 8 GB) DDR3-1600 CL11 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Silicon Power" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 11 ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.75"^^xsd:double ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "204-pin SODIMM" ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1600 ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#costs> "360.0"^^xsd:double ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Silicon Power SU016GLSTU160N22AH 16 GB (2 x 8 GB) DDR3-1600 CL11 Memory" ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Silicon Power" ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.35 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silicon_Power_SU032GBSFU266B22AB_32_GB
 :Silicon_Power_SU032GBSFU266B22AB_32_GB rdf:type owl:NamedIndividual ,
-                                                <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 19 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "14.254"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "260-pin SODIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 2666 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "84.97"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Silicon Power SU032GBSFU266B22AB 32 GB (2 x 16 GB) DDR4-2666 CL19 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Silicon Power" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.2 .
+                                                 <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 19 ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "14.254"^^xsd:double ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "260-pin SODIMM" ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 2666 ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 16 ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR4" ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#costs> "84.97"^^xsd:double ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Silicon Power SU032GBSFU266B22AB 32 GB (2 x 16 GB) DDR4-2666 CL19 Memory" ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Silicon Power" ;
+                                        <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.2 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Silverstone_TOB04
@@ -1987,17 +2038,17 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Team_Elite_16_GB
 :Team_Elite_16_GB rdf:type owl:NamedIndividual ,
                            <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 11 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.75"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1600 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "37.99"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "TEAMGROUP Elite 16 GB (2 x 8 GB) DDR3-1600 CL11 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "TEAMGROUP" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
+                  <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 11 ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.75"^^xsd:double ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1600 ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 8 ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 2 ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#costs> "37.99"^^xsd:double ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "TEAMGROUP Elite 16 GB (2 x 8 GB) DDR3-1600 CL11 Memory" ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "TEAMGROUP" ;
+                  <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Thermaltake_Smart
@@ -2055,12 +2106,46 @@
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M
 :Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M rdf:type owl:NamedIndividual ,
-                                                                                  <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti> .
+                                                                                  <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti> ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 2560 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 3 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 14000 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 8 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 1807 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 128 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 450 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 12 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#costs> "370.0"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "ZOTAC GAMING GeForce RTX 3050 Twin Edge OC" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#length> 22 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 200 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB
 :Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB rdf:type owl:NamedIndividual ,
-                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080> .
+                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080> ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_8pin_connectors> 2 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_CUDA_Cores> 8960 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DP_connectors> 3 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_DirectX_Version> "12 ultimate" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_HDMI_connectors> 1 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_clock> 19000 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_size> 12 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_Memory_type> "GDDR6" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_VGA_connectors> 0 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_core_boost_clock> 1755 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_memory_bus> 384 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_recommended_system_power> 750 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#GPU_width> 13 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#costs> "799.99"^^xsd:double ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "ZOTAC GAMING GeForce RTX 3080 AMP Holo LHR 12GB" ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#length> 32 ;
+                               <https://github.com/MilanPodunavac/IZ-Projekat#thermal_design_power> 200 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP
@@ -2262,17 +2347,17 @@
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB> rdf:type owl:NamedIndividual ,
                                                                                                                                  <https://github.com/MilanPodunavac/IZ-Projekat#Random_access_memory> ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 9 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.503"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1333 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 4 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#costs> "21.26"^^xsd:double ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Kingston KVR1333D3N9/4G 4 GB (1 x 4 GB) DDR3-1333 CL9 Memory" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Kingston" ;
-                                      <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_cas_latency> 9 ;
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_first_word_latency> "13.503"^^xsd:double ;
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_form_factor> "240-pin DIMM" ;
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_maximum_frequency> 1333 ;
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_capacity> 4 ;
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_modules_number> 1 ;
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#RAM_type> "DDR3" ;
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#costs> "21.26"^^xsd:double ;
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Kingston KVR1333D3N9/4G 4 GB (1 x 4 GB) DDR3-1333 CL9 Memory" ;
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#is_manufactured_by> "Kingston" ;
+                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#voltage> 1.5 .
 
 
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PHILIPS_Monitor_21.5inch_223V5LHSB2_00,_LED
