@@ -26,16 +26,17 @@ const ChooseComponents = ({useCase}) => {
         setIsPending(true);
         if(useCase==='compatibility'){
             const dto = {
-                "motherboard": motherboard,
-                "psu": psu,
-                "cpu": cpu,
-                "gpu": gpu,
-                "ram": ram,
-                "storage": storage
+                //"motherboard": motherboard,
+                //"psu": psu,
+                "cpuName": cpu,
+                "gpuName": gpu,
+                "ramName": ram,
+                "diskName": storage
             };
             setIsPending(true);
-            axios.post(axios.defaults.baseURL + 'api/compatibility', dto).then(res => {
-                setResults(res.data.results);
+            axios.post(axios.defaults.baseURL + 'api/Fuzzy', dto).then(res => {
+                setResults(res.data);
+                console.log(Object.keys(res.data));
                 setIsPending(false);
             }).catch((err) => { 
                 console.log(err);
@@ -131,8 +132,8 @@ const ChooseComponents = ({useCase}) => {
                     {isPending && <label>Waiting for results...</label>}
                 </div>
             </form>
-            {useCase==='compatibility' && <CompatibilityTable results={results}/>}
-            {useCase==='similarity' && <SimilarityTable results={results}/>}
+            {useCase==='compatibility' && results && <CompatibilityTable results={results}/>}
+            {useCase==='similarity' && results && <SimilarityTable results={results}/>}
         </div>
     );
 }
