@@ -180,6 +180,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ARESGAME_AGV">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:PCie_8-pin_connectors>
@@ -190,6 +191,7 @@
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</IZ-Projekat:length>
         <IZ-Projekat:wattage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:wattage>
         <PCie_6:pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</PCie_6:pin_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">350.0</IZ-Projekat:costs>
     </owl:NamedIndividual>
     
 
@@ -239,6 +241,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Apevia_ITX-AP250W">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.0</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -500,6 +503,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Athena_Power_AP-MFATX35">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">68.75</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -576,6 +580,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#CoolMax_CM-300">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.0</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -638,6 +643,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterWatt">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">69.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -657,6 +663,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_CXM">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">104.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -694,6 +701,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_HX_Platinum">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">254.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -985,6 +993,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PHD380M">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.5</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -1003,6 +1012,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PSDA320M">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.68</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -1021,6 +1031,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_BQ">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">44.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:PCie_8-pin_connectors>
@@ -1055,6 +1066,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP300-60LG">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">69.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -1239,6 +1251,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_P-B">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">66.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -1370,6 +1383,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HEC_HEC200SA-2FX">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.32</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -1875,6 +1889,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logisys_PS350MA">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -2151,6 +2166,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#NZXT_C">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">115.96</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:PCie_8-pin_connectors>
@@ -2840,6 +2856,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SeaSonic_FOCUS_Gold">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">119.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:PCie_8-pin_connectors>
@@ -2955,6 +2972,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Thermaltake_Smart">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -3132,6 +3150,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2018)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">144.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:PCie_8-pin_connectors>
@@ -3150,6 +3169,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2021)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">159.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -3207,6 +3227,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_GD_(2019)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
@@ -3225,6 +3246,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP220-60LE(80)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
