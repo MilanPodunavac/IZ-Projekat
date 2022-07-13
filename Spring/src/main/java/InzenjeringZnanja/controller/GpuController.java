@@ -25,6 +25,7 @@ public class GpuController {
     public GpuDto getOne(@PathVariable(value="name") String name){
         return gpuService.Get(name);
     }
+
     @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public List<GpuDto> GetRecommended(@RequestBody GpuCompatibleDto dto){
         String sparqlQuery = SparqlConstants.Prefix + "SELECT ?gpuName ?gpuPrice WHERE{\n" +

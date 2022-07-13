@@ -23,7 +23,7 @@ const GpuTable = ({ results }) => {
                                 <td>{result.name}</td>
                                 <td>{result.manufacturer}</td>
                                 <td>{result.memoryType}</td>
-                                <td>{result.memorySize}</td>
+                                <td>{result.memoryCapacity}</td>
                                 <td>{result.memoryBus}</td>
                                 <td>{result.price}</td>
                             </tr>

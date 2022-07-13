@@ -1,13 +1,12 @@
 package InzenjeringZnanja.service;
 
-import InzenjeringZnanja.dto.GpuDto;
 import InzenjeringZnanja.dto.MemoryDiscDto;
 import InzenjeringZnanja.global.SparqlConstants;
 import org.apache.jena.query.*;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MemoryDickService {
+public class MemoryDiskService {
     public MemoryDiscDto Get(String name){
         String selectString = SparqlConstants.Prefix +
                 "SELECT  ?name ?cost ?is_type_of ?capacity ?memory_format ?disc_rotation_speed ?connection ?is_manufactured_by \n" +

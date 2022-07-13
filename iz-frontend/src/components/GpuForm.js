@@ -16,11 +16,12 @@ const GpuForm = () => {
         e.preventDefault();
         setIsPending(true);
         const dto = {
-            "motherboard": motherboard,
-            "psu": psu
+            //"motherboard": motherboard,
+            "psuName": psu
         };
-        axios.post(axios.defaults.baseURL + 'api/gpu', dto).then(res => {
-            setResults(res.data.results);
+        axios.post(axios.defaults.baseURL + 'api/Gpu', dto).then(res => {
+            console.log(res.data)
+            setResults(res.data);
             setIsPending(false);
         }).catch((err) => { 
             console.log(err);
@@ -36,7 +37,7 @@ const GpuForm = () => {
         <>
             <hr />
             <form style={{ maxWidth: "50%", margin: "auto" }}>
-                <div className="mb-3">
+                {/*<div className="mb-3">
                     <label className="form-label">Choose motherboard:</label>
                     <ComponentSelectBox
                         setSelectedValue={motherboardSelector}
@@ -44,7 +45,7 @@ const GpuForm = () => {
                         message={""}
                         propertyName={'componentShortDtoList'}
                         singleSelect={true} />
-                </div>
+    </div>*/}
                 <div className="mb-3">
                     <label className="form-label">Choose power supply unit:</label>
                     <ComponentSelectBox

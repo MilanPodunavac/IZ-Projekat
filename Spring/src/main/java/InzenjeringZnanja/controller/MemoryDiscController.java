@@ -2,7 +2,7 @@ package InzenjeringZnanja.controller;
 
 import InzenjeringZnanja.dto.ComponentNameDto;
 import InzenjeringZnanja.dto.MemoryDiscDto;
-import InzenjeringZnanja.service.MemoryDickService;
+import InzenjeringZnanja.service.MemoryDiskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 public class MemoryDiscController {
 
     @Autowired
-    private MemoryDickService memoryDickService;
+    private MemoryDiskService memoryDickService;
 
     @PostMapping(value = "getByName", produces = MediaType.APPLICATION_JSON_VALUE)
     public MemoryDiscDto getOne(@RequestBody ComponentNameDto componentNameDto){
