@@ -20,17 +20,28 @@ const ShowSingleComponent = () => {
     }
 
     useEffect(() => {
-        axios.get(axios.defaults.baseURL + 'api/' + localStorage.getItem('type') + '/' + localStorage.getItem('name')).then(res => {
-            setResults(res.data);
-            setKeys(Object.keys(res.data));
-        }).catch(err => {
-            console.log(err);
-        })
-    },[])
+        if (localStorage.getItem('type') !== 'MemoryDisc') {
+            axios.get(axios.defaults.baseURL + 'api/' + localStorage.getItem('type') + '/' + localStorage.getItem('name')).then(res => {
+                setResults(res.data);
+                setKeys(Object.keys(res.data));
+            }).catch(err => {
+                console.log(err);
+            })
+        }else{
+            axios.post(axios.defaults.baseURL + 'api/' + localStorage.getItem('type') + '/getByName',{
+                'name' : localStorage.getItem('name')
+            }).then(res => {
+                setResults(res.data);
+                setKeys(Object.keys(res.data));
+            }).catch(err => {
+                console.log(err);
+            })
+        }
+    }, [])
 
     return (
         <div style={{ maxWidth: "50%", margin: "auto" }}>
-            { localStorage.getItem('name').length==0 && <h1>Nothing to display!</h1>}
+            {localStorage.getItem('name').length == 0 && <h1>Nothing to display!</h1>}
             {
                 results &&
                 <h1>{localStorage.getItem('name')}</h1>

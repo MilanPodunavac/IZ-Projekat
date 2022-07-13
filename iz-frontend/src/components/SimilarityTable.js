@@ -1,4 +1,14 @@
+import { useNavigate } from 'react-router-dom';
+
 const SimilarityTable = ({ results }) => {
+
+    const history = useNavigate();
+
+    function lookComponent(name,type){
+        localStorage.setItem('name',name);
+        localStorage.setItem('type',type);
+        history('/component');
+    }
 
     return (
         <>
@@ -20,12 +30,12 @@ const SimilarityTable = ({ results }) => {
                         {results && (results.map((result, index) => (
                             <tr key={index}>
                                 <th scope="row">{index + 1}</th>
-                                <td>{result.motherboard.name}</td>
-                                <td>{result.cpu.name}</td>
-                                <td>{result.gpu.name}</td>
-                                <td>{result.ram.name}</td>
+                                <td><a href="#" onClick={() => lookComponent(result.motherboard.name,'Motherboard')}>{result.motherboard.name}</a></td>
+                                <td><a href="#" onClick={() => lookComponent(result.cpu.name,'Cpu')}>{result.cpu.name}</a></td>
+                                <td><a href="#" onClick={() => lookComponent(result.gpu.name, 'Gpu')}>{result.gpu.name}</a></td>
+                                <td><a href="#" onClick={() => lookComponent(result.ram.name, 'Ram')}>{result.ram.name}</a></td>
                                 {/*<td>{result.psu.name}</td>*/}
-                                <td>{result.disk.name}</td>
+                                <td><a href="#" onClick={() => lookComponent(result.disk.name, 'MemoryDisc')}>{result.disk.name}</a></td>
                             </tr>
                         )))}
                     </tbody>
