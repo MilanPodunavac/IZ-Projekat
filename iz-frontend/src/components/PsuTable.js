@@ -9,9 +9,9 @@ const PsuTable = ({ results }) => {
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Name</th>
-                            <th scope="col">Manufacturer</th>
+                            {/*<th scope="col">Manufacturer</th>*/}
                             <th scope="col">Wattage</th>
-                            <th scope="col">Efficiency</th>
+                            {/*<th scope="col">Efficiency</th>*/}
                             <th scope="col">Price</th>
                         </tr>
                     </thead>
@@ -20,9 +20,9 @@ const PsuTable = ({ results }) => {
                             <tr key={index}>
                                 <th scope="row">{index + 1}</th>
                                 <td>{result.name}</td>
-                                <td>{result.manufacturer}</td>
+                                {/*<td>{result.manufacturer}</td>*/}
                                 <td>{result.wattage}</td>
-                                <td>{result.efficiency}</td>
+                                {/*<td>{result.efficiency}</td>*/}
                                 <td>{result.price}</td>
                             </tr>
                         )))}

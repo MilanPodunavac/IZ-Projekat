@@ -33,7 +33,7 @@ const MotherboardTable = ({ results }) => {
                                 <td>{result.chipset}</td>
                                 <td>{result.format}</td>
                                 <td>{result.dimmSlots}</td>
-                                <td>{result.maximumRam}</td>
+                                <td>{result.maxRam}</td>
                                 <td>{result.ramType}</td>
                                 <td>{result.socket}</td>
                                 <td>{result.pciex16}</td>
@@ -41,7 +41,7 @@ const MotherboardTable = ({ results }) => {
                                 <td>{result.pciex4}</td>
                                 <td>{result.pciex1}</td>
                                 <td>{result.sataConnections}</td>
-                                <td>{result.price}</td>
+                                <td>{result.cost}</td>
                             </tr>
                         )))}
                     </tbody>

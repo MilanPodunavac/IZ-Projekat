@@ -8,4 +8,5 @@ import lombok.Setter;
 public class PsuDto {
     private String name;
     private int wattage;
+    private float price;
 }
