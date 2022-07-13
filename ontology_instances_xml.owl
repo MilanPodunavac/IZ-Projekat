@@ -2279,7 +2279,7 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Ripjaws_Series_16_GB"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RX_570_Gaming_8g"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570_Gaming_X"/>
-        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 2</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
@@ -2293,7 +2293,7 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_ValueRAM_4_GB"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_B450_TOMAHAWK_MAX_II"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
-        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_6TB_Seagate_Exos_E_7E8_-_ST6000NM029A"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 3</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
@@ -2307,7 +2307,7 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i9-10900K"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_KVR1333D3N9/4G_4_GB"/>
-        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HDD_3,5inch_SATA3_5400_4TB_WD_RED_WD40EFAX"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 4</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
@@ -2321,7 +2321,7 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ASUS_PRIME_A320M-K"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_GT_730_GT730-SL-2GD5-BRK-E"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
-        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Geil_SSD_2.5inch_SATA3_256GB_GZ25Z3-256GP"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 5</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
@@ -2335,7 +2335,7 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i5-6400"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_FURY_Beast_32_GB"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle"/>
-        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Patriot_SSD_VPN100-256GM28H"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 6</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
@@ -2349,7 +2349,7 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
-        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V500BW"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_NVMe_M.2_250GB_Samsung_980_PRO-MZ-V8P250BW"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 7</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
@@ -2363,7 +2363,7 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_B560M_H_rev.1.x"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-8700"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Kingston_HyperX_Impact_32_GB"/>
-        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_1TB_Western_Digital_5300_MB/s_/_7000_MB/s_WDS100T1X0E"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_250GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V250BW"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 8</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
@@ -2377,7 +2377,7 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Intel_Processor_i7-6700K"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_MAG_B560_TOMAHAWK_Wi-Fi"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M"/>
-        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_2900_MB/s_/_1300_MB/s_MZ-V8V500BW"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_NVMe_1TB_Patriot_Viper_4700MBS/4200MBS_VP4100-1TBM28H"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 9</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     

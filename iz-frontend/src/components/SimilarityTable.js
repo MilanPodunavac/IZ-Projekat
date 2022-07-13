@@ -12,7 +12,7 @@ const SimilarityTable = ({ results }) => {
                             <th scope="col">CPU</th>
                             <th scope="col">GPU</th>
                             <th scope="col">RAM</th>
-                            <th scope="col">Power supply unit</th>
+                            {/*<th scope="col">Power supply unit</th>*/}
                             <th scope="col">Storage</th>
                         </tr>
                     </thead>
@@ -20,12 +20,12 @@ const SimilarityTable = ({ results }) => {
                         {results && (results.map((result, index) => (
                             <tr key={index}>
                                 <th scope="row">{index + 1}</th>
-                                <td>{result.motherboard}</td>
-                                <td>{result.cpu}</td>
-                                <td>{result.gpu}</td>
-                                <td>{result.ram}</td>
-                                <td>{result.psu}</td>
-                                <td>{result.storage}</td>
+                                <td>{result.motherboard.name}</td>
+                                <td>{result.cpu.name}</td>
+                                <td>{result.gpu.name}</td>
+                                <td>{result.ram.name}</td>
+                                {/*<td>{result.psu.name}</td>*/}
+                                <td>{result.disk.name}</td>
                             </tr>
                         )))}
                     </tbody>

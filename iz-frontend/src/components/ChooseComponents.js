@@ -4,7 +4,7 @@ import ComponentSelectBox from "./ComponentSelectBox";
 import SimilarityTable from "./SimilarityTable";
 import CompatibilityTable from "./CompatibilityTable";
 
-const ChooseComponents = ({useCase}) => {
+const ChooseComponents = ({ useCase }) => {
     const [isPending, setIsPending] = useState(false);
     const [results, setResults] = useState();
     const [motherboard, setMotherboard] = useState();
@@ -24,7 +24,7 @@ const ChooseComponents = ({useCase}) => {
     const onSubmit = async (e) => {
         e.preventDefault();
         setIsPending(true);
-        if(useCase==='compatibility'){
+        if (useCase === 'compatibility') {
             const dto = {
                 //"motherboard": motherboard,
                 //"psu": psu,
@@ -38,24 +38,24 @@ const ChooseComponents = ({useCase}) => {
                 setResults(res.data);
                 console.log(Object.keys(res.data));
                 setIsPending(false);
-            }).catch((err) => { 
+            }).catch((err) => {
                 console.log(err);
                 setIsPending(false);
             });
-        }else{
+        } else {
             const dto = {
-                "motherboard": motherboard,
-                "psu": psu,
-                "cpu": cpu,
-                "gpu": gpu,
-                "ram": ram,
-                "storage": storage
+                "mbName": motherboard,
+                //"psu": psu,
+                "cpuName": cpu,
+                "gpuName": gpu,
+                "ramName": ram,
+                "diskName": storage
             };
             setIsPending(true);
-            axios.post(axios.defaults.baseURL + 'api/similarity', dto).then(res => {
-                setResults(res.data.results);
+            axios.post(axios.defaults.baseURL + 'api/CaseBasedReasoning', dto).then(res => {
+                setResults(res.data);
                 setIsPending(false);
-            }).catch((err) => { 
+            }).catch((err) => {
                 console.log(err);
                 setIsPending(false);
             });
@@ -78,7 +78,7 @@ const ChooseComponents = ({useCase}) => {
                         propertyName={'componentShortDtoList'}
                         singleSelect={true} />
                 </div>
-                <div className="mb-3">
+                {/*<div className="mb-3">
                     <label className="form-label">Choose power supply unit:</label>
                     <ComponentSelectBox
                         setSelectedValue={psuSelector}
@@ -86,7 +86,7 @@ const ChooseComponents = ({useCase}) => {
                         message={""}
                         propertyName={'componentShortDtoList'}
                         singleSelect={true} />
-                </div>
+    </div>*/}
                 <div className="mb-3">
                     <label className="form-label">Choose CPU:</label>
                     <ComponentSelectBox
@@ -132,8 +132,8 @@ const ChooseComponents = ({useCase}) => {
                     {isPending && <label>Waiting for results...</label>}
                 </div>
             </form>
-            {useCase==='compatibility' && results && <CompatibilityTable results={results}/>}
-            {useCase==='similarity' && results && <SimilarityTable results={results}/>}
+            {useCase === 'compatibility' && results && <CompatibilityTable results={results} />}
+            {useCase === 'similarity' && results && <SimilarityTable results={results} />}
         </div>
     );
 }
