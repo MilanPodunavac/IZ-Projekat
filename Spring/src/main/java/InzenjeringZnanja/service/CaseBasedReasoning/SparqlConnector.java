@@ -115,9 +115,9 @@ public class SparqlConnector implements Connector {
             }
             RandomAccessMemory ram = new RandomAccessMemory();
             ram.setName((solution.getLiteral("ramName") != null) ? solution.getLiteral("ramName").getString() : "NoName");
-            ram.setCapacity(Integer.parseInt((solution.getLiteral("RamCapacity") != null) ? solution.getLiteral("RamCapacity").getString() : "32"));
             ram.setFrequency(Integer.parseInt((solution.getLiteral("RamFreq") != null) ? solution.getLiteral("RamFreq").getString() : "3200"));
             ram.setNumberOfModules(Integer.parseInt((solution.getLiteral("RamModules") != null) ? solution.getLiteral("RamModules").getString() : "2"));
+            ram.setCapacity(Integer.parseInt((solution.getLiteral("RamCapacity") != null) ? solution.getLiteral("RamCapacity").getString() : "16") * ram.getNumberOfModules());
             Motherboard mb = new Motherboard();
             mb.setName((solution.getLiteral("mbName") != null) ? solution.getLiteral("mbName").getString() : "NoName");
             mb.setChipset((solution.getLiteral("mbChipset") != null) ? solution.getLiteral("mbChipset").getString() : "X570");
