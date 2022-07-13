@@ -1429,6 +1429,12 @@ kilograms for computer casing [kg]""" .
              rdfs:comment "Unit of measurement - megabytes per second [MB/s]" .
 
 
+###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#RAM_form_factor
+:RAM_form_factor rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Random_access_memory ;
+                 rdfs:range xsd:string .
+
+
 ###  https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors
 <https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes.owl#PCie_6+2-pin_connectors> rdf:type owl:DatatypeProperty ;
                                                                                                                  rdfs:domain :Power_supply_unit ;
@@ -1634,11 +1640,6 @@ kilograms for computer casing [kg]""" .
 
 ###  https://github.com/MilanPodunavac/IZ-Projekat#Form_factor
 :Form_factor rdf:type owl:Class ;
-             owl:equivalentClass [ rdf:type owl:Class ;
-                                   owl:unionOf ( :DIMM
-                                                 :SO-DIMM
-                                               )
-                                 ] ;
              rdfs:subClassOf :Random_access_memory .
 
 
