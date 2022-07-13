@@ -51,7 +51,7 @@
         <IZ-Projekat:has_a_name>AMD Processor A6-9500E</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -67,7 +67,7 @@
         <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -83,7 +83,7 @@
         <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -99,7 +99,7 @@
         <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -115,7 +115,7 @@
         <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -131,7 +131,7 @@
         <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -147,7 +147,7 @@
         <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">105.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -163,7 +163,7 @@
         <IZ-Projekat:is_manufactured_by>AMD</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">105.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1396,7 +1396,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1412,7 +1412,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1428,7 +1428,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1444,7 +1444,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1460,7 +1460,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1476,7 +1476,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1492,7 +1492,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1508,7 +1508,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1524,7 +1524,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1540,7 +1540,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1556,7 +1556,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1572,7 +1572,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">160.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1587,7 +1587,7 @@
         <IZ-Projekat:has_a_name>Intel Processor i7-6700K</IZ-Projekat:has_a_name>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1603,7 +1603,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1619,7 +1619,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">170.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1635,7 +1635,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1651,7 +1651,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -1667,7 +1667,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#double">290.0</IZ-Projekat:thermal_design_power>
+        <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
 
@@ -2252,6 +2252,132 @@
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
         <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
         <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 1</IZ-Projekat:has_a_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer10 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer10">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 10</IZ-Projekat:has_a_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer2 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer2">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 2</IZ-Projekat:has_a_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer3 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer3">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 3</IZ-Projekat:has_a_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer4 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer4">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 4</IZ-Projekat:has_a_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer5 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer5">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 5</IZ-Projekat:has_a_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer6 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer6">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 6</IZ-Projekat:has_a_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer7 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer7">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 7</IZ-Projekat:has_a_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer8 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer8">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 8</IZ-Projekat:has_a_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer9 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#PersonalComputer9">
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Desktop_system"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#AMD_Processor_Ryzen_7_AM4_5800X"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#G.Skill_Trident_Z5_RGB_32_GB"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_X570S_AORUS_MASTER_rev1.0"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio"/>
+        <IZ-Projekat:contains rdf:resource="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_M.2_500GB_Samsung_970_EVO_PLUS_V-NAND_NVMe_3500/3200_MB/s_MZ-V7S5"/>
+        <IZ-Projekat:has_a_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal computer 9</IZ-Projekat:has_a_name>
     </owl:NamedIndividual>
     
 
