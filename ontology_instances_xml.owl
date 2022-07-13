@@ -283,7 +283,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-6G-EVO">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_DP_connectors>
@@ -308,7 +308,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_Graphics_Card_nVidia_GeForce_RTX_2060_DUAL-RTX2060-O12G-EVO">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_2060"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2176</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_DP_connectors>
@@ -384,7 +384,8 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_RTX_3060_Ti_dual_mini_oc -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_RTX_3060_Ti_dual_mini_oc">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4864</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_DP_connectors>
@@ -1150,6 +1151,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>Geil SSD 2.5inch SATA3 256GB GZ25Z3-256GP</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">520</IZ-Projekat:read_speed>
@@ -1204,7 +1206,8 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RTX_3060_Ti_Gaming_OC -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RTX_3060_Ti_Gaming_OC">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4864</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_DP_connectors>
@@ -1229,7 +1232,8 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RX_570_Gaming_8g -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RX_570_Gaming_8g">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_570"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
         <IZ-Projekat:GPU_DirectX_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</IZ-Projekat:GPU_DirectX_Version>
@@ -1306,6 +1310,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:capacity>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7200</IZ-Projekat:disc_rotation_speed>
+        <IZ-Projekat:has_a_name>HDD Toshiba Enterprise Capacity MG06ACA-MG06ACA600EY</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>HDD</IZ-Projekat:is_type_of>
     </owl:NamedIndividual>
     
@@ -2048,7 +2053,8 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Palit_GeForce_RTX_3060_Dual -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Palit_GeForce_RTX_3060_Dual">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3584</IZ-Projekat:GPU_CUDA_Cores>
@@ -2086,6 +2092,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>Patriot SSD VPN100-256GM28H</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</IZ-Projekat:read_speed>
         <IZ-Projekat:write_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</IZ-Projekat:write_speed>
@@ -2190,7 +2197,8 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2215,7 +2223,8 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2240,7 +2249,8 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_DP_connectors>
@@ -2267,7 +2277,8 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeon_RX_570_XFX -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeon_RX_570_XFX">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_570"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
         <IZ-Projekat:GPU_DirectX_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</IZ-Projekat:GPU_DirectX_Version>
@@ -2399,6 +2410,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD NVMe M.2 1TB Samsung 980 PRO-MZ-V8P1T0BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000</IZ-Projekat:read_speed>
         <IZ-Projekat:write_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</IZ-Projekat:write_speed>
@@ -2412,6 +2424,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD NVMe M.2 250GB Samsung 980 PRO-MZ-V8P250BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6400</IZ-Projekat:read_speed>
         <IZ-Projekat:write_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2700</IZ-Projekat:write_speed>
@@ -2425,6 +2438,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD NVMe M.2 500GB Samsung 980 PRO-MZ-V8P500BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6900</IZ-Projekat:read_speed>
         <IZ-Projekat:write_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</IZ-Projekat:write_speed>
@@ -2520,7 +2534,8 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2736,7 +2751,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2560</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2761,7 +2776,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8960</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2786,7 +2801,8 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3584</IZ-Projekat:GPU_CUDA_Cores>
@@ -2950,6 +2966,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:capacity>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7200</IZ-Projekat:disc_rotation_speed>
+        <IZ-Projekat:has_a_name>HDD 3,5inch 6TB Seagate Exos E 7E8-ST6000NM029A</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>HDD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.5</IZ-Projekat:memory_format>
     </owl:NamedIndividual>
@@ -2963,6 +2980,7 @@
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5400</IZ-Projekat:disc_rotation_speed>
+        <IZ-Projekat:has_a_name>HDD 3,5inch SATA3 5400 4TB WD RED WD40EFAX</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>HDD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.5</IZ-Projekat:memory_format>
     </owl:NamedIndividual>
@@ -2976,6 +2994,7 @@
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3072</IZ-Projekat:capacity>
         <IZ-Projekat:connection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SATA3</IZ-Projekat:connection>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5400</IZ-Projekat:disc_rotation_speed>
+        <IZ-Projekat:has_a_name>HDD 3,5inch SATA 3TB Western Digital Purple Surveillance WD30PURZ</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HDD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.5</IZ-Projekat:memory_format>
     </owl:NamedIndividual>
@@ -2989,6 +3008,7 @@
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
         <IZ-Projekat:disc_rotation_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7200</IZ-Projekat:disc_rotation_speed>
+        <IZ-Projekat:has_a_name>HDD 3,5inch SATA 6TB Toshiba Enterprise Capacity MG06ACA-MG06ACA6</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>HDD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.5</IZ-Projekat:memory_format>
     </owl:NamedIndividual>
@@ -3080,6 +3100,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD 2,5inch SATA3 1TB Samsung MZ-77E1T0B</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">560</IZ-Projekat:read_speed>
@@ -3093,6 +3114,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SSD_2,5inch_500GB_Samsung_870_EVO_530_MB/s/560_MB/s_-_MZ-77E500B">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
+        <IZ-Projekat:has_a_name>SSD 2,5inch 500GB Samsung 870 EVO 530 MB/s/560 MB/s -MZ-77E500B</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">560</IZ-Projekat:read_speed>
@@ -3107,6 +3129,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2048</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD 2,5inch SATA3 2TB Samsung 870 EVO MZ-77E2T0B/EU</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">560</IZ-Projekat:read_speed>
@@ -3121,6 +3144,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD M.2 1TB Western Digital 5300 MB/s / 7000 MB/s WDS100T1X0E</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000</IZ-Projekat:read_speed>
         <IZ-Projekat:write_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5300</IZ-Projekat:write_speed>
@@ -3134,6 +3158,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD M.2 250GB Samsung 2900 MB/s / 1300 MB/s MZ-V8V250BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2900</IZ-Projekat:read_speed>
         <IZ-Projekat:write_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1300</IZ-Projekat:write_speed>
@@ -3147,6 +3172,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD M.2 500GB Samsung 2900 MB/s / 1300 MB/s MZ-V8V500BW</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2900</IZ-Projekat:read_speed>
         <IZ-Projekat:write_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1300</IZ-Projekat:write_speed>
@@ -3160,6 +3186,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD M.2 500GB Samsung 970 EVO PLUS V-NAND NVMe 3500/3200 MB/s MZ-V7S5</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3500</IZ-Projekat:read_speed>
         <IZ-Projekat:write_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3200</IZ-Projekat:write_speed>
@@ -3173,6 +3200,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024</IZ-Projekat:capacity>
         <IZ-Projekat:connection>NVMA M.2</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD M.2 NVMe 1TB Patriot Viper 4700MBS/4200MBS VP4100-1TBM28H</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4700</IZ-Projekat:read_speed>
         <IZ-Projekat:write_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4200</IZ-Projekat:write_speed>
@@ -3186,6 +3214,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD SATA3 240GB AData 520/450 MB/s, HDD02649</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">520</IZ-Projekat:read_speed>
         <IZ-Projekat:write_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</IZ-Projekat:write_speed>
@@ -3199,6 +3228,7 @@
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive"/>
         <IZ-Projekat:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512</IZ-Projekat:capacity>
         <IZ-Projekat:connection>SATA3</IZ-Projekat:connection>
+        <IZ-Projekat:has_a_name>SSD SATA 512GB KC600 Kingston SKC600/512G</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>SSD</IZ-Projekat:is_type_of>
         <IZ-Projekat:memory_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5</IZ-Projekat:memory_format>
         <IZ-Projekat:read_speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">550</IZ-Projekat:read_speed>

@@ -890,6 +890,7 @@
                                            <https://github.com/MilanPodunavac/IZ-Projekat#connection> "SATA3" ;
                                            <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                            <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "2.5"^^xsd:string ;
+                                           <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Geil SSD 2.5inch SATA3 256GB GZ25Z3-256GP" ;
                                            <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 520 ;
                                            <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 470 .
 
@@ -1024,6 +1025,7 @@
 :HDD_Toshiba_Enterprise_Capacity_MG06ACA-MG06ACA600EY rdf:type owl:NamedIndividual ,
                                                                <https://github.com/MilanPodunavac/IZ-Projekat#Memory_drive> ;
                                                       <https://github.com/MilanPodunavac/IZ-Projekat#capacity> 6144 ;
+                                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "HDD Toshiba Enterprise Capacity MG06ACA-MG06ACA600EY" ;
                                                       <https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed> 7200 ;
                                                       <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "HDD" .
 
@@ -1609,6 +1611,7 @@
                              <https://github.com/MilanPodunavac/IZ-Projekat#capacity> 256 ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#connection> "NVMA M.2" ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
+                             <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "Patriot SSD VPN100-256GM28H" ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 3000 ;
                              <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 1000 .
 
@@ -1851,6 +1854,7 @@
                                               <https://github.com/MilanPodunavac/IZ-Projekat#connection> "NVMA M.2" ;
                                               <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                               <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 7000 ;
+                                              <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD NVMe M.2 1TB Samsung 980 PRO-MZ-V8P1T0BW" ;
                                               <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 5000 .
 
 
@@ -1860,6 +1864,7 @@
                                                 <https://github.com/MilanPodunavac/IZ-Projekat#capacity> 250 ;
                                                 <https://github.com/MilanPodunavac/IZ-Projekat#connection> "NVMA M.2" ;
                                                 <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
+                                                <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD NVMe M.2 250GB Samsung 980 PRO-MZ-V8P250BW" ;
                                                 <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 6400 ;
                                                 <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 2700 .
 
@@ -1871,6 +1876,7 @@
                                                 <https://github.com/MilanPodunavac/IZ-Projekat#connection> "NVMA M.2" ;
                                                 <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                 <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 6900 ;
+                                                <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD NVMe M.2 500GB Samsung 980 PRO-MZ-V8P500BW" ;
                                                 <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 5000 .
 
 
@@ -2283,6 +2289,7 @@
                                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#capacity> 6144 ;
                                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed> 7200 ;
                                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "HDD" ;
+                                                                                                                                             <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "HDD 3,5inch 6TB Seagate Exos E 7E8-ST6000NM029A" ;
                                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "3.5"^^xsd:string .
 
 
@@ -2293,6 +2300,7 @@
                                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#connection> "SATA3" ;
                                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed> 5400 ;
                                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "HDD" ;
+                                                                                                                                      <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "HDD 3,5inch SATA3 5400 4TB WD RED WD40EFAX" ;
                                                                                                                                       <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "3.5"^^xsd:string .
 
 
@@ -2302,6 +2310,7 @@
                                                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#capacity> 3072 ;
                                                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#connection> "SATA3"^^xsd:string ;
                                                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed> 5400 ;
+                                                                                                                                                             <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "HDD 3,5inch SATA 3TB Western Digital Purple Surveillance WD30PURZ" ;
                                                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "HDD"^^xsd:string ;
                                                                                                                                                              <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "3.5"^^xsd:string .
 
@@ -2312,6 +2321,7 @@
                                                                                                                                                                <https://github.com/MilanPodunavac/IZ-Projekat#capacity> 6144 ;
                                                                                                                                                                <https://github.com/MilanPodunavac/IZ-Projekat#connection> "SATA3" ;
                                                                                                                                                                <https://github.com/MilanPodunavac/IZ-Projekat#disc_rotation_speed> 7200 ;
+                                                                                                                                                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "HDD 3,5inch SATA 6TB Toshiba Enterprise Capacity MG06ACA-MG06ACA6" ;
                                                                                                                                                                <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "HDD" ;
                                                                                                                                                                <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "3.5"^^xsd:string .
 
@@ -2382,6 +2392,7 @@
                                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "2.5"^^xsd:string ;
                                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 560 ;
+                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD 2,5inch SATA3 1TB Samsung MZ-77E1T0B" ;
                                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 530 .
 
 
@@ -2392,6 +2403,7 @@
                                                                                                                                                             <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                                                                                                                             <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "2.5"^^xsd:string ;
                                                                                                                                                             <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 560 ;
+                                                                                                                                                            <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD 2,5inch 500GB Samsung 870 EVO 530 MB/s/560 MB/s -MZ-77E500B" ;
                                                                                                                                                             <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 530 .
 
 
@@ -2403,6 +2415,7 @@
                                                                                                                                                <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                                                                                                                <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "2.5"^^xsd:string ;
                                                                                                                                                <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 560 ;
+                                                                                                                                               <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD 2,5inch SATA3 2TB Samsung 870 EVO MZ-77E2T0B/EU" ;
                                                                                                                                                <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 530 .
 
 
@@ -2413,6 +2426,7 @@
                                                                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#connection> "NVMA M.2" ;
                                                                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 7000 ;
+                                                                                                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD M.2 1TB Western Digital 5300 MB/s / 7000 MB/s WDS100T1X0E" ;
                                                                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 5300 .
 
 
@@ -2423,6 +2437,7 @@
                                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#connection> "NVMA M.2" ;
                                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 2900 ;
+                                                                                                                                                   <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD M.2 250GB Samsung 2900 MB/s / 1300 MB/s MZ-V8V250BW" ;
                                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 1300 .
 
 
@@ -2433,6 +2448,7 @@
                                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#connection> "NVMA M.2" ;
                                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 2900 ;
+                                                                                                                                                   <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD M.2 500GB Samsung 2900 MB/s / 1300 MB/s MZ-V8V500BW" ;
                                                                                                                                                    <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 1300 .
 
 
@@ -2443,6 +2459,7 @@
                                                                                                                                                                  <https://github.com/MilanPodunavac/IZ-Projekat#connection> "NVMA M.2" ;
                                                                                                                                                                  <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                                                                                                                                  <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 3500 ;
+                                                                                                                                                                 <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD M.2 500GB Samsung 970 EVO PLUS V-NAND NVMe 3500/3200 MB/s MZ-V7S5" ;
                                                                                                                                                                  <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 3200 .
 
 
@@ -2453,6 +2470,7 @@
                                                                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#connection> "NVMA M.2" ;
                                                                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 4700 ;
+                                                                                                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD M.2 NVMe 1TB Patriot Viper 4700MBS/4200MBS VP4100-1TBM28H" ;
                                                                                                                                                          <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 4200 .
 
 
@@ -2463,6 +2481,7 @@
                                                                                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#connection> "SATA3" ;
                                                                                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                                                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 520 ;
+                                                                                                                                        <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD SATA3 240GB AData 520/450 MB/s, HDD02649" ;
                                                                                                                                         <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 450 .
 
 
@@ -2474,6 +2493,7 @@
                                                                                                                                      <https://github.com/MilanPodunavac/IZ-Projekat#is_type_of> "SSD" ;
                                                                                                                                      <https://github.com/MilanPodunavac/IZ-Projekat#memory_format> "2.5"^^xsd:string ;
                                                                                                                                      <https://github.com/MilanPodunavac/IZ-Projekat#read_speed> 550 ;
+                                                                                                                                     <https://github.com/MilanPodunavac/IZ-Projekat#has_a_name> "SSD SATA 512GB KC600 Kingston SKC600/512G" ;
                                                                                                                                      <https://github.com/MilanPodunavac/IZ-Projekat#write_speed> 520 .
 
 

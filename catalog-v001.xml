@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1657716917300" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="Spring/apache-jena-4.4.0/src-examples/jena-examples/src/main/resources/data/pizza.owl.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917300" name="http://www.eswc2006.org/technologies/ontology" uri="Spring/apache-jena-4.4.0/src-examples/data/eswc-2006-09-21.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917300" name="http://www.xfront.com/owl/ontologies/camera/" uri="Spring/apache-jena-4.4.0/src-examples/data/camera.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917300" name="https://github.com/MilanPodunavac/IZ-Projekat" uri="ontology_classes_xml.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917300" name="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl" uri="ontology_instances_xml.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917300" name="urn:x-hp-jena:test1" uri="Spring/apache-jena-4.4.0/src-examples/data/test1.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917300" name="urn:x-hp-jena:test2" uri="Spring/apache-jena-4.4.0/src-examples/data/test2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812382" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="Spring/apache-jena-4.4.0/src-examples/jena-examples/src/main/resources/data/pizza.owl.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812382" name="http://www.eswc2006.org/technologies/ontology" uri="Spring/apache-jena-4.4.0/src-examples/data/eswc-2006-09-21.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812382" name="http://www.xfront.com/owl/ontologies/camera/" uri="Spring/apache-jena-4.4.0/src-examples/data/camera.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812382" name="https://github.com/MilanPodunavac/IZ-Projekat" uri="ontology_classes_xml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812382" name="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl" uri="ontology_instances_xml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812382" name="urn:x-hp-jena:test1" uri="Spring/apache-jena-4.4.0/src-examples/data/test1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812382" name="urn:x-hp-jena:test2" uri="Spring/apache-jena-4.4.0/src-examples/data/test2.owl"/>
     </group>
     <uri id="Imports Wizard Entry" name="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_classes_xml.owl" uri="ontology_classes_xml.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1657716917601" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="Spring/apache-jena-4.4.0/src-examples/jena-examples/src/main/resources/data/pizza.owl.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917601" name="http://www.eswc2006.org/technologies/ontology" uri="Spring/apache-jena-4.4.0/src-examples/data/eswc-2006-09-21.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917601" name="http://www.xfront.com/owl/ontologies/camera/" uri="Spring/apache-jena-4.4.0/src-examples/data/camera.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917601" name="https://github.com/MilanPodunavac/IZ-Projekat" uri="ontology_classes_xml.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917601" name="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl" uri="ontology_instances_xml.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917601" name="urn:x-hp-jena:test1" uri="Spring/apache-jena-4.4.0/src-examples/data/test1.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1657716917601" name="urn:x-hp-jena:test2" uri="Spring/apache-jena-4.4.0/src-examples/data/test2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812707" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="Spring/apache-jena-4.4.0/src-examples/jena-examples/src/main/resources/data/pizza.owl.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812707" name="http://www.eswc2006.org/technologies/ontology" uri="Spring/apache-jena-4.4.0/src-examples/data/eswc-2006-09-21.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812707" name="http://www.xfront.com/owl/ontologies/camera/" uri="Spring/apache-jena-4.4.0/src-examples/data/camera.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812707" name="https://github.com/MilanPodunavac/IZ-Projekat" uri="ontology_classes_xml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812707" name="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl" uri="ontology_instances_xml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812707" name="urn:x-hp-jena:test1" uri="Spring/apache-jena-4.4.0/src-examples/data/test1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1657719812707" name="urn:x-hp-jena:test2" uri="Spring/apache-jena-4.4.0/src-examples/data/test2.owl"/>
     </group>
 </catalog>
