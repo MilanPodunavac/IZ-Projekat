@@ -1566,7 +1566,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1151</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
