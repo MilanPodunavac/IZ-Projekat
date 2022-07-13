@@ -17,7 +17,12 @@ const MotherboardForm = () => {
     const onSubmit = async (e) => {
         e.preventDefault();
         setIsPending(true);
-        axios.get(axios.defaults.baseURL + 'api/Motherboard/Compatible/'+ cpu + '/'+ cooler + '/' + ram).then(res => {
+        const dto = {
+            processorName : cpu,
+            coolingSystemName : cooler,
+            ramName : ram
+        }
+        axios.post(axios.defaults.baseURL + 'api/Motherboard/Compatible',dto).then(res => {
             setResults(res.data);
             console.log(res.data)
             setIsPending(false);
