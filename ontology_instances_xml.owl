@@ -562,6 +562,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Chieftec_Cooler_AF-0625S">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+        <IZ-Projekat:has_a_name>Chieftec Cooler AF-0625S</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>Air</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</IZ-Projekat:max_rotation_frequency>
         <IZ-Projekat:noise_estimate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</IZ-Projekat:noise_estimate>
@@ -593,10 +594,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_A30_PWM_RH-A30-25PK-R1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+        <IZ-Projekat:has_a_name>Cooler Master A30 PWM RH-A30-25PK-R1</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>Air</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</IZ-Projekat:max_rotation_frequency>
         <IZ-Projekat:noise_estimate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</IZ-Projekat:noise_estimate>
         <IZ-Projekat:number_of_fans rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:number_of_fans>
+        <IZ-Projekat:socket>LGA1700</IZ-Projekat:socket>
     </owl:NamedIndividual>
     
 
@@ -605,11 +608,13 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterAir_MA624_-_MAM-D6PS-314PK-R1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+        <IZ-Projekat:has_a_name>Cooler Master MasterAir MA624 - MAM-D6PS-314PK-R1</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>Air</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</IZ-Projekat:max_rotation_frequency>
         <IZ-Projekat:min_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</IZ-Projekat:min_rotation_frequency>
         <IZ-Projekat:noise_estimate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</IZ-Projekat:noise_estimate>
         <IZ-Projekat:number_of_fans rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:number_of_fans>
+        <IZ-Projekat:socket>AM4</IZ-Projekat:socket>
     </owl:NamedIndividual>
     
 
@@ -618,11 +623,13 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterLiquid_ML240_ILLUSION_RGB_MLX-D24M-A18P2-R1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+        <IZ-Projekat:has_a_name>Cooler Master MasterLiquid ML240 ILLUSION RGB MLX-D24M-A18P2-R1</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>Water</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</IZ-Projekat:max_rotation_frequency>
         <IZ-Projekat:min_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</IZ-Projekat:min_rotation_frequency>
         <IZ-Projekat:noise_estimate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</IZ-Projekat:noise_estimate>
         <IZ-Projekat:number_of_fans rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_fans>
+        <IZ-Projekat:socket>AM4</IZ-Projekat:socket>
     </owl:NamedIndividual>
     
 
@@ -639,6 +646,7 @@
         <IZ-Projekat:has_a_name>Cooler Master MasterWatt 550w 80+ Bronze</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</IZ-Projekat:length>
+        <IZ-Projekat:socket>AM4</IZ-Projekat:socket>
         <IZ-Projekat:wattage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">550</IZ-Projekat:wattage>
         <PCie_6:pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</PCie_6:pin_connectors>
     </owl:NamedIndividual>
@@ -2058,10 +2066,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#MSI_Water_Cooling_MAG_CORELIQUID_280R">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+        <IZ-Projekat:has_a_name>MSI Water Cooling MAG CORELIQUID 280R</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>Water</IZ-Projekat:is_type_of>
         <IZ-Projekat:min_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</IZ-Projekat:min_rotation_frequency>
         <IZ-Projekat:noise_estimate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</IZ-Projekat:noise_estimate>
         <IZ-Projekat:number_of_fans rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_fans>
+        <IZ-Projekat:socket>AM4</IZ-Projekat:socket>
     </owl:NamedIndividual>
     
 
