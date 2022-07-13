@@ -16,13 +16,14 @@ const PsuForm = () => {
         e.preventDefault();
         setIsPending(true);
         const dto = {
-            "cpu": cpu,
-            "gpu": gpu
+            //"cpu": cpu,
+            "gpuName": gpu
         };
-        axios.post(axios.defaults.baseURL + 'api/psu', dto).then(res => {
-            setResults(res.data.results);
+        axios.post(axios.defaults.baseURL + 'api/Psu', dto).then(res => {
+            console.log(res.data);
+            setResults(res.data);
             setIsPending(false);
-        }).catch((err) => { 
+        }).catch((err) => {
             console.log(err);
             setIsPending(false);
         });
@@ -36,7 +37,7 @@ const PsuForm = () => {
         <>
             <hr />
             <form style={{ maxWidth: "50%", margin: "auto" }}>
-                <div className="mb-3">
+                {/*<div className="mb-3">
                     <label className="form-label">Choose CPU:</label>
                     <ComponentSelectBox
                         setSelectedValue={cpuSelector}
@@ -44,7 +45,7 @@ const PsuForm = () => {
                         message={""}
                         propertyName={'componentShortDtoList'}
                         singleSelect={true} />
-                </div>
+    </div>*/}
                 <div className="mb-3">
                     <label className="form-label">Choose GPU:</label>
                     <ComponentSelectBox
@@ -64,7 +65,7 @@ const PsuForm = () => {
                 </div>
             </form>
             {
-                results && <PsuTable results={results}/>
+                results && <PsuTable results={results} />
             }
         </>
     );
