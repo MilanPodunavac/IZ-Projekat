@@ -60,4 +60,9 @@ public class CommonController {
     public AllComponentsByTypeDto GetAllMemoryDrives(){
         return new AllComponentsByTypeDto(commonService.GetAllByString("memory_drive"));
     }
+
+    @GetMapping(value = "allCoolers",produces = MediaType.APPLICATION_JSON_VALUE)
+    public AllComponentsByTypeDto GetAllCoolers(){
+        return new AllComponentsByTypeDto(commonService.GetAllByString("cooling_system"));
+    }
 }
