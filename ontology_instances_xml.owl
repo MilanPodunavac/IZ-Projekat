@@ -393,8 +393,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_RTX_3060_Ti_dual_mini_oc -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Asus_RTX_3060_Ti_dual_mini_oc">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4864</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_DP_connectors>
@@ -1215,8 +1214,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RTX_3060_Ti_Gaming_OC -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RTX_3060_Ti_Gaming_OC">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060_Ti"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4864</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_DP_connectors>
@@ -1241,8 +1239,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RX_570_Gaming_8g -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_RX_570_Gaming_8g">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_570"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
         <IZ-Projekat:GPU_DirectX_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</IZ-Projekat:GPU_DirectX_Version>
@@ -2080,8 +2077,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Palit_GeForce_RTX_3060_Dual -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Palit_GeForce_RTX_3060_Dual">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3584</IZ-Projekat:GPU_CUDA_Cores>
@@ -2224,8 +2220,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ROG_STRIX_RTX_3070_Ti">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2250,8 +2245,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#RTX_3070_Ti_Gaming_X_Trio">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3070_Ti"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6144</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2276,8 +2270,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeo_RX_6700XT_Eagle">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_DP_connectors>
@@ -2304,8 +2297,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeon_RX_570_XFX -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Radeon_RX_570_XFX">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_570"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
         <IZ-Projekat:GPU_DirectX_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</IZ-Projekat:GPU_DirectX_Version>
@@ -2561,8 +2553,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Sapphire_Radeon_Pulse_RX_6700_XT">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#AMD-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RX_6700_XT"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2778,7 +2769,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_GAMING_GeForce_RTX_3050_Twin_Edge_OC_ZT-A30500H-10M">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3050_Ti"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2560</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2803,7 +2794,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_Graphics_Card_Gaming_GeForce_RTX_3080_AMP_Holo_LHR_12_GB">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3080"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8960</IZ-Projekat:GPU_CUDA_Cores>
         <IZ-Projekat:GPU_DP_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:GPU_DP_connectors>
@@ -2828,8 +2819,7 @@
     <!-- https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Zotac_RTX_3060_AMP">
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#NVIDIA-GPU"/>
-        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#RTX_3060"/>
+        <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Graphics_card"/>
         <IZ-Projekat:GPU_6pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:GPU_6pin_connectors>
         <IZ-Projekat:GPU_8pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:GPU_8pin_connectors>
         <IZ-Projekat:GPU_CUDA_Cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3584</IZ-Projekat:GPU_CUDA_Cores>
