@@ -180,18 +180,17 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#ARESGAME_AGV">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Gold</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">350.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>ARESGAME AGV 500w 80+ Gold</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</IZ-Projekat:length>
         <IZ-Projekat:wattage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</IZ-Projekat:wattage>
         <PCie_6:pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</PCie_6:pin_connectors>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">350.0</IZ-Projekat:costs>
     </owl:NamedIndividual>
     
 
@@ -241,12 +240,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Apevia_ITX-AP250W">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.0</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Gold</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Apevia ITX-AP250W 250w</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</IZ-Projekat:length>
@@ -503,12 +502,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Athena_Power_AP-MFATX35">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">68.75</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Bronze</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">68.75</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Athena Power AP-MFATX35 350w</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</IZ-Projekat:length>
@@ -566,6 +565,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Chieftec_Cooler_AF-0625S">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Chieftec Cooler AF-0625S</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>Air</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</IZ-Projekat:max_rotation_frequency>
@@ -580,12 +580,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#CoolMax_CM-300">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.0</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Gold</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>CoolMax CM-300 300w</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</IZ-Projekat:length>
@@ -599,6 +599,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_A30_PWM_RH-A30-25PK-R1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Cooler Master A30 PWM RH-A30-25PK-R1</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>Air</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</IZ-Projekat:max_rotation_frequency>
@@ -613,6 +614,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterAir_MA624_-_MAM-D6PS-314PK-R1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">101.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Cooler Master MasterAir MA624 - MAM-D6PS-314PK-R1</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>Air</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</IZ-Projekat:max_rotation_frequency>
@@ -628,6 +630,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterLiquid_ML240_ILLUSION_RGB_MLX-D24M-A18P2-R1">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Cooling_system"/>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">159.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Cooler Master MasterLiquid ML240 ILLUSION RGB MLX-D24M-A18P2-R1</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_type_of>Water</IZ-Projekat:is_type_of>
         <IZ-Projekat:max_rotation_frequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</IZ-Projekat:max_rotation_frequency>
@@ -643,12 +646,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Cooler_Master_MasterWatt">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">69.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Bronze</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">69.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Cooler Master MasterWatt 550w 80+ Bronze</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</IZ-Projekat:length>
@@ -663,12 +666,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_CXM">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">104.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Bronze</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">104.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Corsair CXM 750w 80+ Bronze</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</IZ-Projekat:length>
@@ -701,12 +704,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_HX_Platinum">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">254.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Platinum</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">254.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Corsair HX Platinum 1000w 80+ Platinum</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</IZ-Projekat:length>
@@ -993,12 +996,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PHD380M">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.5</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>&lt;77%</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.5</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Diablotek PHD380M 380w</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</IZ-Projekat:length>
@@ -1012,12 +1015,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Diablotek_PSDA320M">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.68</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency></IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.68</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Diablotek PSDA320M 320w</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</IZ-Projekat:length>
@@ -1031,12 +1034,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_BQ">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">44.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Gold</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">44.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>EVGA_BQ 600w 80+ Gold</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</IZ-Projekat:length>
@@ -1066,12 +1069,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP300-60LG">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">69.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Bronze</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">69.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>FSP Group FSP300-60LG 300w 80+ Bronze</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</IZ-Projekat:length>
@@ -1251,12 +1254,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Gigabyte_P-B">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">66.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Bronze</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">66.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Gigabyte P-B 650w 80+ Bronze</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</IZ-Projekat:length>
@@ -1383,12 +1386,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#HEC_HEC200SA-2FX">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.32</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency></IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.32</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>HEC HEC200SA-2FX 200w</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</IZ-Projekat:length>
@@ -1889,12 +1892,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Logisys_PS350MA">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency></IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Logisys PS350MA 350W</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</IZ-Projekat:length>
@@ -2166,12 +2169,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#NZXT_C">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">115.96</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Gold</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">115.96</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>NZXT C 850w 80+ Gold</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</IZ-Projekat:length>
@@ -2856,12 +2859,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#SeaSonic_FOCUS_Gold">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">119.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Gold</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">119.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>SeaSonic FOCUS 650w 80+ Gold</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</IZ-Projekat:length>
@@ -2972,12 +2975,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Thermaltake_Smart">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Thermaltake Smart 430w 80+</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</IZ-Projekat:length>
@@ -3150,12 +3153,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2018)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">144.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Gold</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">144.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Corsair RMx (2018) 850w 80+ Gold</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</IZ-Projekat:length>
@@ -3169,12 +3172,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#Corsair_RMx_(2021)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">159.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Gold</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">159.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>Corsair Rmx (2021) 1000w 80+ Gold</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</IZ-Projekat:length>
@@ -3227,12 +3230,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#EVGA_GD_(2019)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.99</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+ Gold</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.99</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>EVGA GD (2019) 500w 80+ Gold</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</IZ-Projekat:length>
@@ -3246,12 +3249,12 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/MilanPodunavac/IZ-Projekat/main/ontology_instances.owl#FSP_Group_FSP220-60LE(80)">
         <rdf:type rdf:resource="https://github.com/MilanPodunavac/IZ-Projekat#Power_supply_unit"/>
-        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</IZ-Projekat:costs>
         <IZ-Projekat:Molex_4-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:Molex_4-pin_connectors>
         <IZ-Projekat:PCie_6-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_6-pin_connectors>
         <IZ-Projekat:PCie_8-pin_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:PCie_8-pin_connectors>
         <IZ-Projekat:PSU_efficiency>80+</IZ-Projekat:PSU_efficiency>
         <IZ-Projekat:SATA_connectors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IZ-Projekat:SATA_connectors>
+        <IZ-Projekat:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</IZ-Projekat:costs>
         <IZ-Projekat:has_a_name>FSP Group FSP220-60LE(80) 220w 80+</IZ-Projekat:has_a_name>
         <IZ-Projekat:is_fanless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IZ-Projekat:is_fanless>
         <IZ-Projekat:length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</IZ-Projekat:length>
