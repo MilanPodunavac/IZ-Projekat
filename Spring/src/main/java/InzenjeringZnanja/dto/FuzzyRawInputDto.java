@@ -6,7 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class FuzzyRawInputDto {
-    private int price;
+    private float price;
     private int cpuCores;
     private int ramSize;
     private int vramSize;
