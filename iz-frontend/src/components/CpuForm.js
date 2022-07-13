@@ -16,13 +16,14 @@ const CpuForm = () => {
         e.preventDefault();
         setIsPending(true);
         const dto = {
-            "motherboard": motherboard,
-            "psu": psu
+            "mbName": motherboard,
+            //"psu": psu
         };
-        axios.post(axios.defaults.baseURL + 'api/cpu', dto).then(res => {
-            setResults(res.data.results);
+        axios.post(axios.defaults.baseURL + 'api/Cpu', dto).then(res => {
+            setResults(res.data);
+            console.log(res.data);
             setIsPending(false);
-        }).catch((err) => { 
+        }).catch((err) => {
             console.log(err);
             setIsPending(false);
         });
@@ -45,15 +46,17 @@ const CpuForm = () => {
                         propertyName={'componentShortDtoList'}
                         singleSelect={true} />
                 </div>
-                <div className="mb-3">
-                    <label className="form-label">Choose power supply unit:</label>
-                    <ComponentSelectBox
-                        setSelectedValue={psuSelector}
-                        path={"api/common/allPsu"}
-                        message={""}
-                        propertyName={'componentShortDtoList'}
-                        singleSelect={true} />
-                </div>
+                {
+                    /*<div className="mb-3">
+                        <label className="form-label">Choose power supply unit:</label>
+                        <ComponentSelectBox
+                            setSelectedValue={psuSelector}
+                            path={"api/common/allPsu"}
+                            message={""}
+                            propertyName={'componentShortDtoList'}
+                            singleSelect={true} />
+        </div>*/
+                }
                 <div className="mb-3">
                     {!isPending &&
                         <span className="right">
@@ -64,7 +67,7 @@ const CpuForm = () => {
                 </div>
             </form>
             {
-                results && <CpuTable results={results}/>
+                results && <CpuTable results={results} />
             }
         </>
     );
