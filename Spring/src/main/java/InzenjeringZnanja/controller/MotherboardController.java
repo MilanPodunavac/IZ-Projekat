@@ -30,7 +30,7 @@ public class MotherboardController {
     @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<MotherboardShortDTO> GetAll(){
         String selectString = SparqlConstants.Prefix +
-                "SELECT  ?iri ?name \n" +
+                "SELECT  ?name ?cost \n" +
                 "WHERE {\n" +
                 "  ?motherboard rdf:type iz:Motherboard .\n" +
                 "  OPTIONAL {?motherboard iz:has_a_name ?name .}\n" +
@@ -45,7 +45,7 @@ public class MotherboardController {
             QuerySolution solution = results.nextSolution();
             MotherboardShortDTO dto = new MotherboardShortDTO();
             dto.name = (solution.getLiteral("name") != null) ? solution.getLiteral("name").getString() : "";
-            dto.iri = (solution.getLiteral("iri") != null) ? solution.getLiteral("iri").getString() : "";
+            dto.cost = (solution.getLiteral("cost") != null) ? solution.getLiteral("cost").getDouble() : 0.0;
             dtos.add(dto);
         }
         return dtos;
@@ -107,24 +107,14 @@ public class MotherboardController {
         return dto;
     }
 
-    @GetMapping(value = "Compatible/{processorIri}/{coolingSystemIri}/{caseIri}/{soundCardIri}/{ramIri}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<MotherboardDTO> GetCompatibleMotherboards(@PathVariable(value="processorIri") String processorIri,
-                                                          @PathVariable(value="coolingSystemIri") String coolingSystemIri,
-                                                          @PathVariable(value="caseIri") String caseIri,
-                                                          @PathVariable(value="soundCardIri") String soundCardIri,
-                                                          @PathVariable(value="ramIri") String ramIri){
+    @GetMapping(value = "Compatible/{processorName}/{coolingSystemName}/{ramName}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<MotherboardDTO> GetCompatibleMotherboards(@PathVariable(value="processorName") String processorName,
+                                                          @PathVariable(value="coolingSystemName") String coolingSystemName,
+                                                          @PathVariable(value="ramName") String ramName){
         String selectString = SparqlConstants.Prefix +
                 "SELECT *\n" +
                 "WHERE {\n" +
                 "?motherboard rdf:type iz:Motherboard .\n" +
-                "?motherboard iz:socket ?socket .\n" +
-                "ontology_instances:" + processorIri + " iz:socket ?socket .\n" +
-                "ontology_instances:" + coolingSystemIri + " iz:socket ?socket .\n" +
-                "ontology_instances:" + caseIri + " iz:Computer_casing_supported_motherboard_formats ?format ." +
-                "ontology_instances:" + soundCardIri + " iz:chipset ?chipset ." +
-                "ontology_instances:" + ramIri + " iz:RAM_type ?ramType ." +
-                "ontology_instances:" + ramIri + " iz:RAM_type ?neededRamFrequency ." +
-                "FILTER (?neededRamFrequency <=  ?ramMaxFrequency) ." +
                 "  OPTIONAL {?motherboard iz:has_a_name ?name ;}\n" +
                 "  OPTIONAL {?motherboard iz:costs ?cost .}\n" +
                 "  OPTIONAL {?motherboard iz:is_introduced ?timeOfIntroduction .}\n" +
@@ -143,6 +133,14 @@ public class MotherboardController {
                 "  OPTIONAL {?motherboard iz:RAM_maximum_frequency ?ramMaxFrequency .}\n" +
                 "  OPTIONAL {?motherboard iz:RAM_type ?ramType .}\n" +
                 "  OPTIONAL {?motherboard iz:socket ?socket .}\n" +
+                "?cpu iz:has_a_name \"" + processorName + "\" ." +
+                "?cpu iz:socket ?socket ." +
+                "?cooler iz:has_a_name \"" + coolingSystemName + "\" ." +
+                "?cooler iz:socket ?socket ." +
+                "?ram iz:has_a_name \"" + ramName + "\" ." +
+                "?ram iz:RAM_type ?ramType ." +
+                "?ram iz:RAM_maximum_frequency  ?neededRamFrequency ." +
+                "FILTER (?neededRamFrequency <=  ?ramMaxFrequency) ." +
                 "}";
 
         Query query = QueryFactory.create(selectString);
