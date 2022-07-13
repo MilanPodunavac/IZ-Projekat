@@ -19,7 +19,7 @@ public class CpuService {
 
     public CpuDto Get(String name){
         String selectString = SparqlConstants.Prefix +
-                "SELECT  ?name ?cost ?can_multithread ?base_frequency ?number_of_cores ?thermal_design_power ?register_type ?L1_cache ?L2_cache ?L3_cache ?maximumRAM ?number_of_transistors ?process_microns ?RAM_maximum_frequency ?socket ?turbo_frequency ?voltage \n" +
+                "SELECT  ?name ?cost ?can_multithread ?base_frequency ?number_of_cores ?thermal_design_power ?register_type ?L1_cache ?L2_cache ?L3_cache ?maximumRAM ?number_of_transistors ?process_microns ?RAM_maximum_frequency ?socket ?turbo_frequency ?voltage ?is_manufactured_by \n" +
                 "WHERE {\n" +
                 "?cpu rdf:type iz:Processor .\n" +
                 "?cpu iz:has_a_name \"" + name + "\".\n" +
@@ -41,6 +41,7 @@ public class CpuService {
                 "  OPTIONAL {?cpu iz:socket ?socket .}\n" +
                 "  OPTIONAL {?cpu iz:turbo_frequency ?turbo_frequency .}\n" +
                 "  OPTIONAL {?cpu iz:voltage ?voltage .}\n" +
+                "  OPTIONAL {?cpu iz:is_manufactured_by ?is_manufactured_by .}\n" +
                 "}";
 
         Query query = QueryFactory.create(selectString);
@@ -66,6 +67,7 @@ public class CpuService {
             cpu.setSocket((solution.getLiteral("socket") != null) ? solution.getLiteral("socket").getString() : null);
             cpu.setTurboFrequency((solution.getLiteral("turbo_frequency") != null) ? solution.getLiteral("turbo_frequency").getFloat() : -1);
             cpu.setVoltage((solution.getLiteral("voltage") != null) ? solution.getLiteral("voltage").getFloat() : -1);
+            cpu.setManufacturer((solution.getLiteral("is_manufactured_by") != null) ? solution.getLiteral("is_manufactured_by").getString() : null);
         }
         return cpu;
     }
