@@ -1405,7 +1405,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1422,7 +1422,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1439,7 +1439,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1456,7 +1456,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1473,7 +1473,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1490,7 +1490,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1507,7 +1507,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1524,7 +1524,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1541,7 +1541,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1575,7 +1575,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1592,7 +1592,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1609,7 +1609,7 @@
         <IZ-Projekat:is_manufactured_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1626,7 +1626,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1643,7 +1643,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1660,7 +1660,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1677,7 +1677,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
@@ -1694,7 +1694,7 @@
         <IZ-Projekat:is_manufactured_by>Intel</IZ-Projekat:is_manufactured_by>
         <IZ-Projekat:number_of_cores rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</IZ-Projekat:number_of_cores>
         <IZ-Projekat:register_type rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</IZ-Projekat:register_type>
-        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1151</IZ-Projekat:socket>
+        <IZ-Projekat:socket rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LGA1700</IZ-Projekat:socket>
         <IZ-Projekat:thermal_design_power rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</IZ-Projekat:thermal_design_power>
     </owl:NamedIndividual>
     
