@@ -1,5 +1,6 @@
 package InzenjeringZnanja.controller;
 
+import InzenjeringZnanja.dto.CpuDto;
 import InzenjeringZnanja.model.CentralProcessingUnit;
 import InzenjeringZnanja.service.CpuService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +16,7 @@ public class CpuController {
     private CpuService cpuService;
 
     @GetMapping(value = "{name}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public CentralProcessingUnit getOne(@PathVariable(value="name") String name){
+    public CpuDto getOne(@PathVariable(value="name") String name){
         return cpuService.Get(name);
     }
 

@@ -18,27 +18,6 @@ public class CentralProcessingUnit implements CaseComponent {
     private float frequency;
     private int cores;
     private int thermalDesignPower;
-    private boolean can_multiThread;
-    private String l1Cache;
-    private String l2Cache;
-    private String l3Cache;
-    private int maximumRam;
-    private int numberOfTransistors;
-    private int processMicrons;
-    private int ramMaximumFrequency;
-    private String registerType;
-    private String socket;
-    private float turboFrequency;
-    private float voltage;
-    private float price;
-
-    public CentralProcessingUnit(String name, String manufacturer, int cores, int frequency, int thermalDesignPower) {
-        this.name = name;
-        this.manufacturer = manufacturer;
-        this.cores = cores;
-        this.frequency = frequency;
-        this.thermalDesignPower = thermalDesignPower;
-    }
 
     @JsonIgnore
     @Override

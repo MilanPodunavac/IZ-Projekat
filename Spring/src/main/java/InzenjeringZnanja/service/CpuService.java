@@ -1,9 +1,7 @@
 package InzenjeringZnanja.service;
 
-import InzenjeringZnanja.dto.ComponentShortDto;
 import InzenjeringZnanja.dto.CpuDto;
 import InzenjeringZnanja.dtos.MotherboardDTO;
-import InzenjeringZnanja.dtos.MotherboardShortDTO;
 import InzenjeringZnanja.global.SparqlConstants;
 import InzenjeringZnanja.model.CentralProcessingUnit;
 import org.apache.jena.query.*;
@@ -19,7 +17,7 @@ import java.util.List;
 @Service
 public class CpuService {
 
-    public CentralProcessingUnit Get(String name){
+    public CpuDto Get(String name){
         String selectString = SparqlConstants.Prefix +
                 "SELECT  ?name ?cost ?can_multithread ?base_frequency ?number_of_cores ?thermal_design_power ?register_type ?L1_cache ?L2_cache ?L3_cache ?maximumRAM ?number_of_transistors ?process_microns ?RAM_maximum_frequency ?socket ?turbo_frequency ?voltage \n" +
                 "WHERE {\n" +
@@ -48,7 +46,7 @@ public class CpuService {
         Query query = QueryFactory.create(selectString);
         QueryExecution qexec = QueryExecutionFactory.sparqlService(SparqlConstants.SELECT_URL, query);
         ResultSet results = qexec.execSelect();
-        CentralProcessingUnit cpu = new CentralProcessingUnit();
+        CpuDto cpu = new CpuDto();
         if (results.hasNext()) {
             QuerySolution solution = results.nextSolution();
             cpu.setName((solution.getLiteral("name") != null) ? solution.getLiteral("name").getString() : null);
