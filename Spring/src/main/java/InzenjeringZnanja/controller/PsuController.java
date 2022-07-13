@@ -19,7 +19,7 @@ public class PsuController {
 
     @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public List<PsuDto> GetRecommended(@RequestBody PsuCompatibleDto dto){
-        String sparqlQuery = SparqlConstants.Prefix + "SELECT ?psuName ?psuPower WHERE{\n" +
+        String sparqlQuery = SparqlConstants.Prefix + "SELECT ?psuName ?psuPower ?psuPrice WHERE{\n" +
                 "?gpu rdf:type iz:Graphics_card.\n" +
                 "    ?gpu iz:has_a_name \"" + dto.getGpuName() + "\".\n" +
                 "\t?gpu iz:GPU_recommended_system_power ?gpuRecomm.\n" +
@@ -28,6 +28,7 @@ public class PsuController {
                 "    FILTER(?gpuRecomm <= ?psuPower).\n" +
                 "    FILTER(?gpuRecomm + 100 >= ?psuPower).\n" +
                 "    ?psu iz:has_a_name ?psuName.   \n" +
+                "    ?psu iz:costs ?psuPrice.   \n" +
                 "}";
         Query query = QueryFactory.create(sparqlQuery);
         QueryExecution qexec = QueryExecutionFactory.sparqlService(SparqlConstants.SELECT_URL, query);
@@ -38,6 +39,7 @@ public class PsuController {
             PsuDto retValDto = new PsuDto();
             retValDto.setName((solution.getLiteral("psuName") != null) ? solution.getLiteral("psuName").getString() : "No name psu");
             retValDto.setWattage(Integer.parseInt((solution.getLiteral("psuPower") != null) ? solution.getLiteral("psuPower").getString() : "750"));
+            retValDto.setPrice(Float.parseFloat((solution.getLiteral("psuPrice") != null) ? solution.getLiteral("psuPrice").getString() : "100"));
             retVal.add(retValDto);
         }
         return retVal;
