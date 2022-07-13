@@ -34,7 +34,7 @@ const CompatibilityTable = ({ results }) => {
                             <tr key={index}>
                                 <th scope="row">{index + 1}</th>
                                 <td>{getName(key)}</td>
-                                <td>{results[key]} %</td>
+                                <td>{results[key]}</td>
                             </tr>
                         )))}
                     </tbody>

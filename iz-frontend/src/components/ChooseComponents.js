@@ -69,15 +69,17 @@ const ChooseComponents = ({ useCase }) => {
     return (
         <div className="container align-content: center display: flex align-items: center mt-5">
             <form style={{ maxWidth: "50%", margin: "auto" }}>
-                <div className="mb-3">
-                    <label className="form-label">Choose motherboard:</label>
-                    <ComponentSelectBox
-                        setSelectedValue={motherboardSelector}
-                        path={"api/common/allMotherboards"}
-                        message={""}
-                        propertyName={'componentShortDtoList'}
-                        singleSelect={true} />
-                </div>
+                {useCase !== 'compatibility' &&
+                    <div className="mb-3">
+                        <label className="form-label">Choose motherboard:</label>
+                        <ComponentSelectBox
+                            setSelectedValue={motherboardSelector}
+                            path={"api/common/allMotherboards"}
+                            message={""}
+                            propertyName={'componentShortDtoList'}
+                            singleSelect={true} />
+                    </div>
+                }
                 {/*<div className="mb-3">
                     <label className="form-label">Choose power supply unit:</label>
                     <ComponentSelectBox
